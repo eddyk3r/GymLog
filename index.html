@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GymLog - mockup</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="app-header">
+    <h1>GymLog</h1>
+    <p>Jurnalul tău de antrenamente, organizat pe exerciții și intensitate.</p>
+    <p class="app-count">3 exerciții, dintre care 2 de făcut</p>
+  </header>
+
+  <main class="container">
+    <section class="panel">
+      <h2>Adaugă exercițiu</h2>
+      <form class="item-form">
+        <label>Exercițiu
+          <input type="text" name="exercitiu" placeholder="Ex: Bench press" />
+        </label>
+        <label>Intensitate
+          <select name="intensitate">
+            <option value="usoara">Ușoară</option>
+            <option value="medie" selected>Medie</option>
+            <option value="intensa">Intensă</option>
+          </select>
+        </label>
+        <button type="submit">Adaugă</button>
+      </form>
+    </section>
+
+    <section class="panel">
+      <h2>Exercițiile mele</h2>
+      <!-- Când lista e goală: <p class="empty">Nu există niciun exercițiu.</p> -->
+      <ul class="item-list">
+        <li class="item-card">
+          <div>
+            <h3>Bench press</h3>
+            <span class="badge badge-medie">Intensitate medie</span>
+          </div>
+          <span class="status">De făcut</span>
+        </li>
+        <li class="item-card done">
+          <div>
+            <h3>Pull-ups</h3>
+            <span class="badge badge-intensa">Intensitate intensă</span>
+          </div>
+          <span class="status">Făcut</span>
+        </li>
+        <li class="item-card">
+          <div>
+            <h3>Squats</h3>
+            <span class="badge badge-usoara">Intensitate ușoară</span>
+          </div>
+          <span class="status">De făcut</span>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="app-footer">Proiect Tehnologii Web</footer>
+</body>
+</html>
