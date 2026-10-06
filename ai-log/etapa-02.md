@@ -4,7 +4,7 @@
 - Claude (Anthropic), chat interface: reading the stage document, step-by-step guidance, first drafts of `exercitii.js` and of the Stage 2 part of README.md, explanations of the console output.
 
 ## Conversations
-- <https://claude.ai/share/ADAUGA-LINKUL-CONVERSATIEI> (Stage 2: data logic, 110 exercises, console tests, README)
+- [<https://claude.ai/share/ADAUGA-LINKUL-CONVERSATIEI> (Stage 2: data logic, 110 exercises, console tests, README)](https://claude.ai/share/fe1de4b5-2036-4ab7-b5c9-ac8729ddb5e0)
 
 ## Key requests
 ### 1. Steps of the stage and first version of the JavaScript file
