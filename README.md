@@ -1,30 +1,37 @@
 # GymLog
 
-A simple workout log for people who train regularly. It lists exercises, tags their intensity and lets you mark them as done.
+A workout log built step by step for the Tehnologii Web course (Politehnica București, 2026-2027).
+Each exercise has a name, an intensity (light, medium, intense) and a done / to do state.
 
-## Data model
-| Field     | Type         | Notes                                |
-| --------- | ------------ | ------------------------------------ |
-| name      | text         | required, max 100 chars              |
-| done      | boolean      | toggled from the list, default false |
-| intensity | fixed values | light, medium, intense               |
-| category  | relation     | Strength, Cardio, Mobility           |
-| user      | relation     | the owner of the item (from week 11) |
+## Stage 1: static mockup
+Plain HTML and CSS page (`index.html`, `style.css`) showing the header, the add form
+and the list of exercises. No JavaScript.
 
-Sample data used across all stages:
-1. Squats, to do, medium
-2. 5 km run, done, intense
-3. Stretching, to do, light
+## Stage 2: data logic
+Plain JavaScript, no DOM. `exercitii.js` holds the array and the functions
+that read and change it. Results are printed in the browser console (F12).
 
-## How to run
-Open `index.html` in a browser. No build step, no server.
+Data model: `{ id, exercitiu, facut, intensitate }`, where `intensitate` is one of
+`usoara, medie, intensa`.
+
+| Operation | Function | Method used |
+|-----------|----------|-------------|
+| Read: list exercises | `listeazaExercitii(lista)` | `map` |
+| Read: count to do | `numaraDeFacut(lista)` | `filter` |
+| Read: search by name | `cautaDupaNume(lista, text)` | `filter`, `includes` |
+| Create (with validation) | `adaugaExercitiu(lista, exercitiu, intensitate)` | spread, `nextId` (`reduce`) |
+| Update: toggle done | `comutaFacut(lista, id)` | `map`, spread |
+| Delete | `stergeExercitiu(lista, id)` | `filter` |
+
+No function changes the array it receives; each one returns a new list.
+Adding rejects an empty name and an unknown intensity, with a message in the console.
+
+How to run: open `index.html` in a browser, press F12 and read the Console tab.
 
 ## AI usage
-| Tool | Used for |
-| ---- | -------- |
-| Claude | choosing the theme, guidance on the stage steps |
-Details per stage: see the ai-log/ folder.
+AI was used as a learning and coding assistant. See `ai-log/` for the log of each stage.
 
 ## Status
 - [x] Stage 1: static mockup
-- [ ] Stage 2: data logic in JavaScript
+- [x] Stage 2: data logic in JavaScript
+- [ ] Stage 3: Vite and React project
