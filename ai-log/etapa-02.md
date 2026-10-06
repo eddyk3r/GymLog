@@ -17,12 +17,7 @@
 - Got: 110 exercises in 11 groups (chest, back, shoulders, biceps, triceps, forearms, abs, quadriceps, hamstrings, glutes, calves), each with an intensity.
 - Changed or rejected: the muscle group became a new field `grupa`, so the search covers it and the validation checks it against `GRUPE`, as the stage document says for extra fields. The page in `index.html` stays with its three static cards.
 
-### 3. Toggling done / to do and the "Add" button
-- Asked: to toggle an exercise by clicking "De făcut" / "Făcut", and why nothing changes in the page after pressing "Adaugă".
-- Got: the explanation that Stage 2 must not use `document` or events and must not change the page, so these two things belong to Stages 4 and 5 (React). The adding is checked in the console.
-- Changed or rejected: I did not put any click handling in `index.html` or in `exercitii.js`. A separate demo page was made for the toggle, but it is not part of this submission and it is not in the README.
-
-### 4. README and checks
+### 3. README and checks
 - Asked: the README updated for Stage 2, then without the demo page.
 - Got: a Stage 2 section with the data model, a table of the functions (map, filter, reduce, spread) and the status list.
 - Changed or rejected: I removed the mention of the demo page. I checked the console output myself (screenshot) against the stage checklist.
@@ -32,4 +27,3 @@
 - `nextId` uses `reduce` (maximum id plus one), because `lista.length + 1` creates duplicate ids after a delete.
 - A function that returns a new list (`[...lista, nou]`, `{ ...e, facut: !e.facut }`) leaves the original unchanged; the console line "Originalul a rămas cu: 110 exerciții" shows this.
 - The console only shows what the file prints when the page loads. The form in the page is not connected to the code in this stage, so adding an exercise there changes nothing.
-- What did not work: the first version did not use the field names from my page, and I expected the "Adaugă" button and the status label to work in the page, which is only possible in later stages.
