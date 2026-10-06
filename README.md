@@ -1,7 +1,7 @@
 # GymLog
 
 A workout log built step by step for the Tehnologii Web course (Politehnica București, 2026-2027).
-Each exercise has a name, an intensity (light, medium, intense) and a done / to do state.
+Each exercise has a name, a muscle group, an intensity (light, medium, intense) and a done / to do state.
 
 ## Stage 1: static mockup
 Plain HTML and CSS page (`index.html`, `style.css`) showing the header, the add form
@@ -11,20 +11,22 @@ and the list of exercises. No JavaScript.
 Plain JavaScript, no DOM. `exercitii.js` holds the array and the functions
 that read and change it. Results are printed in the browser console (F12).
 
-Data model: `{ id, exercitiu, facut, intensitate }`, where `intensitate` is one of
-`usoara, medie, intensa`.
+Data: 110 exercises, 10 for each muscle group. Data model:
+`{ id, exercitiu, grupa, intensitate, facut }`, where
+`grupa` is one of `piept, spate, umeri, biceps, triceps, antebrate, abdomen, cvadricepsi, ischiogambieri, fesieri, gambe`
+and `intensitate` is one of `usoara, medie, intensa`.
 
 | Operation | Function | Method used |
 |-----------|----------|-------------|
 | Read: list exercises | `listeazaExercitii(lista)` | `map` |
 | Read: count to do | `numaraDeFacut(lista)` | `filter` |
-| Read: search by name | `cautaDupaNume(lista, text)` | `filter`, `includes` |
-| Create (with validation) | `adaugaExercitiu(lista, exercitiu, intensitate)` | spread, `nextId` (`reduce`) |
+| Read: search by name or muscle group | `cautaExercitii(lista, text)` | `filter`, `includes` |
+| Create (with validation) | `adaugaExercitiu(lista, exercitiu, grupa, intensitate)` | spread, `nextId` (`reduce`) |
 | Update: toggle done | `comutaFacut(lista, id)` | `map`, spread |
 | Delete | `stergeExercitiu(lista, id)` | `filter` |
 
 No function changes the array it receives; each one returns a new list.
-Adding rejects an empty name and an unknown intensity, with a message in the console.
+Adding rejects an empty name, an unknown muscle group and an unknown intensity, with a message in the console.
 
 How to run: open `index.html` in a browser, press F12 and read the Console tab.
 
