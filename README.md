@@ -58,7 +58,7 @@ AI was used as a learning and coding assistant. See `ai-log/` for the log of eac
 | ID | Requirement | Where (permalink) | How to check |
 |----|-------------|-------------------|--------------|
 | S3-R1 | npm run dev starts without errors | [frontend/package.json](https://github.com/eddyk3r/GymLog/blob/main/frontend/package.json) | npm install, npm run dev |
-| S3-R2 | app name and counter computed from data | [frontend/src/App.jsx#L135-L147](https://github.com/eddyk3r/GymLog/blob/fe6289af2dd7aeca955c0c4f61854b5070bfec60/frontend/src/App.jsx#L135-L147) | edit data, save |
+| S3-R2 | app name and counter computed from data | [frontend/src/App.jsx#L135-L154](https://github.com/eddyk3r/GymLog/blob/fe6289af2dd7aeca955c0c4f61854b5070bfec60/frontend/src/App.jsx#L135-L154) | edit data, save |
 | S3-R3 | data from README, not from the example | [frontend/src/App.jsx#L1-L133](https://github.com/eddyk3r/GymLog/blob/fe6289af2dd7aeca955c0c4f61854b5070bfec60/frontend/src/App.jsx#L1-L133) | compare with README |
 | S3-R4 | stage 1 styles reused | [frontend/src/App.css](https://github.com/eddyk3r/GymLog/blob/main/frontend/src/App.css) | look at the page |
 | S3-R5 | node_modules ignored, build passes | [frontend/.gitignore](https://github.com/eddyk3r/GymLog/blob/main/frontend/.gitignore) | npm run build |
