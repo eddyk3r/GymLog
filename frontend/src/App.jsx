@@ -137,6 +137,13 @@ export default function App() {
 
   return (
     <>
+      <div className="ticker" aria-hidden="true">
+        <div className="ticker-track">
+          <span>Piept · Spate · Umeri · Biceps · Triceps · Antebrațe · Abdomen · Cvadricepși · Ischiogambieri · Fesieri · Gambe ·</span>
+          <span>Piept · Spate · Umeri · Biceps · Triceps · Antebrațe · Abdomen · Cvadricepși · Ischiogambieri · Fesieri · Gambe ·</span>
+        </div>
+      </div>
+
       <header className="app-header">
         <span className="kicker" aria-hidden="true">Train · Log · Repeat</span>
         <h1>Gym<span>Log</span></h1>
