@@ -1,3 +1,5 @@
+   import ExercitiuList from "./components/ExercitiuList.jsx";
+
 const exercitii = [
   // piept
   { id: 1, exercitiu: "Bench press", grupa: "piept", intensitate: "medie", facut: false },
@@ -154,12 +156,11 @@ export default function App() {
       </header>
 
       <main className="container">
-        <section className="panel">
-          <h2>Exercițiile mele</h2>
-          {/* Temporar: date brute; componentele apar în Etapa 4 */}
-          <pre>{JSON.stringify(exercitii, null, 2)}</pre>
-        </section>
-      </main>
+  <section className="panel">
+    <h2>Exercițiile mele</h2>
+    <ExercitiuList exercitii={exercitii} />
+  </section>
+</main>
     </>
   );
 }

@@ -135,6 +135,7 @@ body {
   margin: 32px auto 24px;
   padding: 0 16px;
   display: grid;
+  /* Etapa 3: doar panoul cu date; a doua coloană revine în Etapa 7 */
   grid-template-columns: 1fr;
   gap: 28px;
   align-items: start;
@@ -441,6 +442,34 @@ button:active {
 @keyframes lift {
   from { transform: translateY(0); }
   to { transform: translateY(-8px); }
+}
+
+/* Extra animations (CSS only) */
+@keyframes puls-contor {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(255, 77, 0, 0.55); }
+  50% { box-shadow: 0 0 0 10px rgba(255, 77, 0, 0); }
+}
+@keyframes stralucire {
+  0%, 100% { filter: drop-shadow(0 0 0 rgba(255, 77, 0, 0)); }
+  50% { filter: drop-shadow(0 0 14px rgba(255, 77, 0, 0.7)); }
+}
+/* halo pulsing around the counter */
+.app-header .app-count {
+  animation: puls-contor 2.4s ease-out 1s infinite;
+}
+/* glow on "LOG" in the title */
+.app-header h1 span {
+  animation: stralucire 3s ease-in-out 1s infinite;
+}
+
+.item-card .grupa {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 /* Dark theme: only the variables change */
