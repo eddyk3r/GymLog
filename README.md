@@ -96,5 +96,5 @@ AI was used as a learning and coding assistant. See `ai-log/` for the log of eac
 | S4-R4 | message for empty list | [ExercitiuList.jsx#L4-L6](https://github.com/eddyk3r/GymLog/blob/main/frontend/src/components/ExercitiuList.jsx#L4-L6) | the journal starts empty (or set the array to []) |
 | S4-R5 | state changes the card look | [ExercitiuCard.jsx#L5](https://github.com/eddyk3r/GymLog/blob/main/frontend/src/components/ExercitiuCard.jsx#L5) | press the To do / Done button on a card in "My exercises" |
 | S4-R6 | README Stage 4 section + AI log | [README.md](https://github.com/eddyk3r/GymLog/blob/main/README.md), [ai-log/etapa-04.md](https://github.com/eddyk3r/GymLog/blob/main/ai-log/etapa-04.md) | read |
-| S4-R7 | commit "Stage 4" pushed | [commit](https://github.com/eddyk3r/GymLog/commit/0d52aa535e72088e84a88e68c06748a588c01214) | commit history |
+| S4-R7 | commit "Stage 4" pushed | [commit](https://github.com/eddyk3r/GymLog/commit/0c0993ab26c7046ac11a7ca07938dfba3a2c3671) | commit history |
 | S4-P1 | personalization: muscle group picker, search and journal | [CatalogExercitii.jsx](https://github.com/eddyk3r/GymLog/blob/main/frontend/src/components/CatalogExercitii.jsx), [App.jsx](https://github.com/eddyk3r/GymLog/blob/main/frontend/src/App.jsx) | press a group, search, press + Add |
