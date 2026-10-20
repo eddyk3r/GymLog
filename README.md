@@ -46,12 +46,23 @@ npm run dev
 Then open the address printed in the terminal (http://localhost:5173).
 
 ## Stage 4: components
-The list is rendered from the data, through two components:
-- `ExercitiuList` receives the whole array and renders one card per item
+The list is rendered from the data, through components:
+- `ExercitiuList` receives an array and renders one card per item (`map`, `key={exercitiu.id}`)
 - `ExercitiuCard` receives a single item through props and displays it
+- `CatalogExercitii` shows the muscle group buttons, a search field and the list of exercises to pick from
 
 The list shows a message when there are no exercises, and each card changes
-its look when the exercise is done (`facut`).
+its look when the exercise is done (`facut`). The labels shown on screen
+(`ETICHETE_GRUPE`, `ETICHETE_INTENSITATE`) are kept in `src/etichete.js`,
+separate from the values in the data.
+
+### Personalization
+- **Pick by muscle group:** pressing a group lists its 10 exercises in a scrolling list. A search field filters them by name, inside the chosen group, or in all 110 exercises when no group is chosen.
+- **Workout journal:** `+ Add` puts an exercise in "My exercises", which starts empty. An exercise that is already in the journal shows a disabled "Added" button.
+- **In the journal** each card has a done / to do button and a delete button. The counter in the header is computed from the journal (total exercises and how many are still to do).
+- **Gym look:** scrolling ticker with the muscle groups, animated header, hazard stripes, numbered cards, intensity badges and a counter that pulses.
+
+The journal is kept in the state of `App` (`useState`) and is emptied when the page is reloaded.
 
 ## AI usage
 AI was used as a learning and coding assistant. See `ai-log/` for the log of each stage.
@@ -80,9 +91,10 @@ AI was used as a learning and coding assistant. See `ai-log/` for the log of eac
 | ID | Requirement | Where (permalink) | How to check |
 |----|-------------|-------------------|--------------|
 | S4-R1 | 2+ components in src/components/ | [frontend/src/components/](https://github.com/eddyk3r/GymLog/tree/main/frontend/src/components) | open folder |
-| S4-R2 | card receives data through props | [ExercitiuCard.jsx](https://github.com/eddyk3r/GymLog/blob/main/frontend/src/components/ExercitiuCard.jsx#L17-L30) | read |
-| S4-R3 | map + key={id}, no console warnings | [ExercitiuList.jsx](https://github.com/eddyk3r/GymLog/blob/main/frontend/src/components/ExercitiuList.jsx#L8-L14) | F12, Console |
-| S4-R4 | message for empty list | [ExercitiuList.jsx](https://github.com/eddyk3r/GymLog/blob/main/frontend/src/components/ExercitiuList.jsx#L4-L6) | set array to [] |
-| S4-R5 | state changes the card look | [ExercitiuCard.jsx](https://github.com/eddyk3r/GymLog/blob/main/frontend/src/components/ExercitiuCard.jsx#L19) | toggle a done flag |
+| S4-R2 | card receives data through props | [ExercitiuCard.jsx#L3-L33](https://github.com/eddyk3r/GymLog/blob/main/frontend/src/components/ExercitiuCard.jsx#L3-L33) | read |
+| S4-R3 | map + key={id}, no console warnings | [ExercitiuList.jsx#L10-L17](https://github.com/eddyk3r/GymLog/blob/main/frontend/src/components/ExercitiuList.jsx#L10-L17) | F12, Console |
+| S4-R4 | message for empty list | [ExercitiuList.jsx#L4-L6](https://github.com/eddyk3r/GymLog/blob/main/frontend/src/components/ExercitiuList.jsx#L4-L6) | the journal starts empty (or set the array to []) |
+| S4-R5 | state changes the card look | [ExercitiuCard.jsx#L5](https://github.com/eddyk3r/GymLog/blob/main/frontend/src/components/ExercitiuCard.jsx#L5) | press the To do / Done button on a card in "My exercises" |
 | S4-R6 | README Stage 4 section + AI log | [README.md](https://github.com/eddyk3r/GymLog/blob/main/README.md), [ai-log/etapa-04.md](https://github.com/eddyk3r/GymLog/blob/main/ai-log/etapa-04.md) | read |
 | S4-R7 | commit "Stage 4" pushed | [commit](https://github.com/eddyk3r/GymLog/commit/0d52aa535e72088e84a88e68c06748a588c01214) | commit history |
+| S4-P1 | personalization: muscle group picker, search and journal | [CatalogExercitii.jsx](https://github.com/eddyk3r/GymLog/blob/main/frontend/src/components/CatalogExercitii.jsx), [App.jsx](https://github.com/eddyk3r/GymLog/blob/main/frontend/src/App.jsx) | press a group, search, press + Add |

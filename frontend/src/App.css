@@ -135,8 +135,7 @@ body {
   margin: 32px auto 24px;
   padding: 0 16px;
   display: grid;
-  /* Etapa 3: doar panoul cu date; a doua coloană revine în Etapa 7 */
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 28px;
   align-items: start;
 }
@@ -316,6 +315,16 @@ button:active {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+/* muscle group shown under the title */
+.item-card .grupa {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
 
 /* Status label */
 .status {
@@ -385,7 +394,7 @@ button:active {
   line-height: 1;
 }
 
-/* Empty-list message (shown from Stage 4) */
+/* Empty-list message */
 .empty { color: var(--muted); text-align: center; }
 
 .app-footer {
@@ -462,15 +471,61 @@ button:active {
   animation: stralucire 3s ease-in-out 1s infinite;
 }
 
-.item-card .grupa {
-  display: block;
-  margin-bottom: 6px;
-  color: var(--muted);
-  font-size: 0.78rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+/* Exercise picker: categories, search, mini buttons */
+.chip-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 14px;
 }
+.chip {
+  padding: 6px 12px;
+  font-size: 0.95rem;
+  letter-spacing: 0.08em;
+  background: var(--card);
+  color: var(--text);
+  box-shadow: 2px 2px 0 var(--shadow);
+}
+.chip.active,
+.chip.active:hover {
+  background: var(--accent);
+  color: var(--on-accent);
+}
+.mini {
+  padding: 6px 12px;
+  font-size: 0.9rem;
+  letter-spacing: 0.06em;
+  white-space: nowrap;
+  box-shadow: 2px 2px 0 var(--shadow);
+}
+.mini:disabled,
+.mini:disabled:hover {
+  background: var(--border);
+  color: var(--muted);
+  border-color: var(--border);
+  cursor: default;
+  transform: none;
+  box-shadow: none;
+}
+.card-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.panel > input { width: 100%; }
+.panel .empty { margin: 14px 0; }
+.catalog-list {
+  max-height: 440px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-top: 14px;
+  padding: 2px 12px 8px 2px;
+  scrollbar-color: var(--accent) var(--card);
+}
+/* cards keep their full height; the list scrolls instead of squeezing them */
+.item-list > .item-card { flex-shrink: 0; }
+/* the intensity badge stays on one line */
+.badge { white-space: nowrap; }
 
 /* Dark theme: only the variables change */
 @media (prefers-color-scheme: dark) {

@@ -1,20 +1,6 @@
-// Un singur exercițiu din listă, primit prin props.
-const ETICHETE_INTENSITATE = { usoara: "ușoară", medie: "medie", intensa: "intensă" };
-const ETICHETE_GRUPE = {
-  piept: "Piept",
-  spate: "Spate",
-  umeri: "Umeri",
-  biceps: "Biceps",
-  triceps: "Triceps",
-  antebrate: "Antebrațe",
-  abdomen: "Abdomen",
-  cvadricepsi: "Cvadricepși",
-  ischiogambieri: "Ischiogambieri",
-  fesieri: "Fesieri",
-  gambe: "Gambe",
-};
+import { ETICHETE_GRUPE, ETICHETE_INTENSITATE } from "../etichete.js";
 
-export default function ExercitiuCard({ exercitiu }) {
+export default function ExercitiuCard({ exercitiu, onComuta, onSterge }) {
   return (
     <li className={exercitiu.facut ? "item-card done" : "item-card"}>
       <div>
@@ -24,7 +10,24 @@ export default function ExercitiuCard({ exercitiu }) {
           Intensitate {ETICHETE_INTENSITATE[exercitiu.intensitate]}
         </span>
       </div>
-      <span className="status">{exercitiu.facut ? "Făcut" : "De făcut"}</span>
+
+      {onComuta ? (
+        <div className="card-actions">
+          <button type="button" className="mini" onClick={() => onComuta(exercitiu.id)}>
+            {exercitiu.facut ? "Făcut" : "De făcut"}
+          </button>
+          <button
+            type="button"
+            className="mini"
+            aria-label={`Șterge ${exercitiu.exercitiu}`}
+            onClick={() => onSterge(exercitiu.id)}
+          >
+            ✕
+          </button>
+        </div>
+      ) : (
+        <span className="status">{exercitiu.facut ? "Făcut" : "De făcut"}</span>
+      )}
     </li>
   );
 }

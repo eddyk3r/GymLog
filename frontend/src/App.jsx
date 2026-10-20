@@ -1,4 +1,6 @@
-   import ExercitiuList from "./components/ExercitiuList.jsx";
+import { useState } from "react";
+import ExercitiuList from "./components/ExercitiuList.jsx";
+import CatalogExercitii from "./components/CatalogExercitii.jsx";
 
 const exercitii = [
   // piept
@@ -135,7 +137,17 @@ const exercitii = [
 ];
 
 export default function App() {
-  const deFacut = exercitii.filter((e) => !e.facut).length;
+  const [jurnal, setJurnal] = useState([]);
+
+  const deFacut = jurnal.filter((e) => !e.facut).length;
+
+  const adauga = (exercitiu) => {
+    if (jurnal.some((e) => e.id === exercitiu.id)) return;
+    setJurnal([...jurnal, { ...exercitiu, facut: false }]);
+  };
+  const comuta = (id) =>
+    setJurnal(jurnal.map((e) => (e.id === id ? { ...e, facut: !e.facut } : e)));
+  const sterge = (id) => setJurnal(jurnal.filter((e) => e.id !== id));
 
   return (
     <>
@@ -151,16 +163,27 @@ export default function App() {
         <h1>Gym<span>Log</span></h1>
         <p>Jurnalul tău de antrenamente, organizat pe exerciții și intensitate.</p>
         <p className="app-count">
-          {exercitii.length} exerciții, dintre care {deFacut} de făcut
+          {jurnal.length} exerciții, dintre care {deFacut} de făcut
         </p>
       </header>
 
       <main className="container">
-  <section className="panel">
-    <h2>Exercițiile mele</h2>
-    <ExercitiuList exercitii={exercitii} />
-  </section>
-</main>
+        <section className="panel">
+          <h2>Adaugă exercițiu</h2>
+          <CatalogExercitii
+            exercitii={exercitii}
+            adaugate={jurnal.map((e) => e.id)}
+            onAdauga={adauga}
+          />
+        </section>
+
+        <section className="panel">
+          <h2>Exercițiile mele</h2>
+          <ExercitiuList exercitii={jurnal} onComuta={comuta} onSterge={sterge} />
+        </section>
+      </main>
+
+      <footer className="app-footer">Proiect Tehnologii Web</footer>
     </>
   );
 }
