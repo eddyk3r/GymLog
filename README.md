@@ -124,4 +124,4 @@ AI was used as a learning and coding assistant. See `ai-log/` for the log of eac
 | S5-R5 | immutable updates (no push, splice, assignment) | [App.jsx#L151-L168](https://github.com/eddyk3r/GymLog/blob/main/frontend/src/App.jsx#L151-L168) | read |
 | S5-R6 | light / dark toggle: state + data-theme on html | [App.jsx#L170-L175](https://github.com/eddyk3r/GymLog/blob/main/frontend/src/App.jsx#L170-L175), [App.jsx#L190-L196](https://github.com/eddyk3r/GymLog/blob/main/frontend/src/App.jsx#L190-L196), [App.css#L530-L560](https://github.com/eddyk3r/GymLog/blob/main/frontend/src/App.css#L530-L560) | click the button, both system themes |
 | S5-R7 | no console warnings; README + AI log | [README.md](https://github.com/eddyk3r/GymLog/blob/main/README.md), [ai-log/etapa-05.md](https://github.com/eddyk3r/GymLog/blob/main/ai-log/etapa-05.md) | F12, Console |
-| S5-R8 | commit "Stage 5" pushed | [commits](https://github.com/eddyk3r/GymLog/commits/main) | commit history |
+| S5-R8 | commit "Stage 5" pushed | [commits](https://github.com/eddyk3r/GymLog/commit/ab742fd327f7e9e9d8718bc985a354f4517f66a1) | commit history |
