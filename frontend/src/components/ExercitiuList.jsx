@@ -1,6 +1,7 @@
 import ExercitiuCard from "./ExercitiuCard.jsx";
 
-export default function ExercitiuList({ exercitii, onComuta, onSterge }) {
+// Primește lista și funcțiile și le transmite fiecărui card.
+export default function ExercitiuList({ exercitii, onToggle, onDelete }) {
   if (exercitii.length === 0) {
     return <p className="empty">Nu există niciun exercițiu.</p>;
   }
@@ -11,8 +12,8 @@ export default function ExercitiuList({ exercitii, onComuta, onSterge }) {
         <ExercitiuCard
           key={exercitiu.id}
           exercitiu={exercitiu}
-          onComuta={onComuta}
-          onSterge={onSterge}
+          onToggle={onToggle}
+          onDelete={onDelete}
         />
       ))}
     </ul>

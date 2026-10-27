@@ -136,18 +136,46 @@ const exercitii = [
   { id: 110, exercitiu: "Farmer's walk on toes", grupa: "gambe", intensitate: "medie", facut: false },
 ];
 
+// Tema de pornire: cea a sistemului de operare
+function temaInitiala() {
+  return window.matchMedia("(prefers-color-scheme: dark)").matches
+    ? "dark"
+    : "light";
+}
+
 export default function App() {
   const [jurnal, setJurnal] = useState([]);
+  const [tema, setTema] = useState(temaInitiala);
 
+  // Adăugare imutabilă: listă nouă; nu se adaugă de două ori același exercițiu
+  function handleAdauga(exercitiu) {
+    setJurnal((prev) =>
+      prev.some((e) => e.id === exercitiu.id)
+        ? prev
+        : [...prev, { ...exercitiu, facut: false }]
+    );
+  }
+
+  // Actualizare imutabilă: listă nouă, obiect nou pentru elementul schimbat
+  function handleToggleFacut(id) {
+    setJurnal((prev) =>
+      prev.map((e) => (e.id === id ? { ...e, facut: !e.facut } : e))
+    );
+  }
+
+  function handleDelete(id) {
+    setJurnal((prev) => prev.filter((e) => e.id !== id));
+  }
+
+  // Comutarea temei: state-ul pentru buton, atributul data-theme pentru CSS
+  function handleTema() {
+    const noua = tema === "dark" ? "light" : "dark";
+    setTema(noua);
+    document.documentElement.dataset.theme = noua;
+  }
+
+  // Valoare derivată: se recalculează la fiecare randare
   const deFacut = jurnal.filter((e) => !e.facut).length;
-
-  const adauga = (exercitiu) => {
-    if (jurnal.some((e) => e.id === exercitiu.id)) return;
-    setJurnal([...jurnal, { ...exercitiu, facut: false }]);
-  };
-  const comuta = (id) =>
-    setJurnal(jurnal.map((e) => (e.id === id ? { ...e, facut: !e.facut } : e)));
-  const sterge = (id) => setJurnal(jurnal.filter((e) => e.id !== id));
 
   return (
     <>
@@ -159,6 +187,13 @@ export default function App() {
       </div>
 
       <header className="app-header">
+        <button
+          className="theme-toggle"
+          onClick={handleTema}
+          aria-pressed={tema === "dark"}
+        >
+          {tema === "dark" ? "Mod luminos" : "Mod întunecat"}
+        </button>
         <span className="kicker" aria-hidden="true">Train · Log · Repeat</span>
         <h1>Gym<span>Log</span></h1>
         <p>Jurnalul tău de antrenamente, organizat pe exerciții și intensitate.</p>
@@ -173,13 +208,17 @@ export default function App() {
           <CatalogExercitii
             exercitii={exercitii}
             adaugate={jurnal.map((e) => e.id)}
-            onAdauga={adauga}
+            onAdauga={handleAdauga}
           />
         </section>
 
         <section className="panel">
           <h2>Exercițiile mele</h2>
-          <ExercitiuList exercitii={jurnal} onComuta={comuta} onSterge={sterge} />
+          <ExercitiuList
+            exercitii={jurnal}
+            onToggle={handleToggleFacut}
+            onDelete={handleDelete}
+          />
         </section>
       </main>
 

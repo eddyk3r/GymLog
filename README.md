@@ -64,6 +64,19 @@ separate from the values in the data.
 
 The journal is kept in the state of `App` (`useState`) and is emptied when the page is reloaded.
 
+## Stage 5: local state and events
+The journal ("My exercises") lives in React state, in `App`. Checking and deleting work from the page,
+and the counter in the header follows automatically. A button in the header switches between light and dark mode.
+Changes are lost on refresh, which is what stage 6 and stage 10 fix.
+
+- **State in the parent:** `App` holds the journal with `useState` and changes it only through `handleAdauga`, `handleToggleFacut` and `handleDelete`. Every update uses the function form (`setJurnal((prev) => ...)`) and builds a new array (spread, `map`, `filter`); nothing is changed in place.
+- **Events through props:** `ExercitiuList` and `ExercitiuCard` receive `onToggle` and `onDelete` and call them with the exercise `id`; they never change the list themselves.
+- **Controlled checkbox:** each card in the journal has a checkbox (`checked` + `onChange`) inside a `<label>`, so a click anywhere on the title ticks it, and a delete button with an `aria-label` that includes the exercise name.
+- **Derived counter:** the number of exercises still to do is computed from the journal at every render (`jurnal.filter((e) => !e.facut).length`); it is not kept in state.
+- **Light / dark theme:** the theme is a state (`tema`), started from the system theme. The button writes `data-theme` on `<html>`, and `App.css` redefines the colour variables for `:root[data-theme="dark"]`. The system dark block uses `:root:not([data-theme="light"])`, so the button works in both directions, whatever the system theme is.
+
+The journal and the chosen theme are not saved: the page goes back to the system theme and an empty journal at reload.
+
 ## AI usage
 AI was used as a learning and coding assistant. See `ai-log/` for the log of each stage.
 
@@ -72,7 +85,8 @@ AI was used as a learning and coding assistant. See `ai-log/` for the log of eac
 - [x] Stage 2: data logic in JavaScript
 - [x] Stage 3: Vite and React project
 - [x] Stage 4: components rendered from data
-- [ ] Stage 5: local state and events
+- [x] Stage 5: local state and events
+- [ ] Stage 6: loading data from a mock API
 
 ## Stage 3 checklist
 
@@ -98,3 +112,16 @@ AI was used as a learning and coding assistant. See `ai-log/` for the log of eac
 | S4-R6 | README Stage 4 section + AI log | [README.md](https://github.com/eddyk3r/GymLog/blob/main/README.md), [ai-log/etapa-04.md](https://github.com/eddyk3r/GymLog/blob/main/ai-log/etapa-04.md) | read |
 | S4-R7 | commit "Stage 4" pushed | [commit](https://github.com/eddyk3r/GymLog/commit/0c0993ab26c7046ac11a7ca07938dfba3a2c3671) | commit history |
 | S4-P1 | personalization: muscle group picker, search and journal | [CatalogExercitii.jsx](https://github.com/eddyk3r/GymLog/blob/main/frontend/src/components/CatalogExercitii.jsx), [App.jsx](https://github.com/eddyk3r/GymLog/blob/main/frontend/src/App.jsx) | press a group, search, press + Add |
+
+## Stage 5 checklist
+
+| ID | Requirement | Where (permalink) | How to check |
+|----|-------------|-------------------|--------------|
+| S5-R1 | list kept in useState, in App | [App.jsx#L147](https://github.com/eddyk3r/GymLog/blob/main/frontend/src/App.jsx#L147) | read |
+| S5-R2 | toggling changes state and card look | [App.jsx#L160-L164](https://github.com/eddyk3r/GymLog/blob/main/frontend/src/App.jsx#L160-L164), [ExercitiuCard.jsx#L25-L33](https://github.com/eddyk3r/GymLog/blob/main/frontend/src/components/ExercitiuCard.jsx#L25-L33) | click a checkbox in "My exercises" |
+| S5-R3 | delete removes the item | [App.jsx#L166-L168](https://github.com/eddyk3r/GymLog/blob/main/frontend/src/App.jsx#L166-L168), [ExercitiuCard.jsx#L36-L43](https://github.com/eddyk3r/GymLog/blob/main/frontend/src/components/ExercitiuCard.jsx#L36-L43) | click ✕ on a card; after the last one the empty-list message appears |
+| S5-R4 | header counter derived, not in state | [App.jsx#L178](https://github.com/eddyk3r/GymLog/blob/main/frontend/src/App.jsx#L178) | toggle, watch header |
+| S5-R5 | immutable updates (no push, splice, assignment) | [App.jsx#L151-L168](https://github.com/eddyk3r/GymLog/blob/main/frontend/src/App.jsx#L151-L168) | read |
+| S5-R6 | light / dark toggle: state + data-theme on html | [App.jsx#L170-L175](https://github.com/eddyk3r/GymLog/blob/main/frontend/src/App.jsx#L170-L175), [App.jsx#L190-L196](https://github.com/eddyk3r/GymLog/blob/main/frontend/src/App.jsx#L190-L196), [App.css#L530-L560](https://github.com/eddyk3r/GymLog/blob/main/frontend/src/App.css#L530-L560) | click the button, both system themes |
+| S5-R7 | no console warnings; README + AI log | [README.md](https://github.com/eddyk3r/GymLog/blob/main/README.md), [ai-log/etapa-05.md](https://github.com/eddyk3r/GymLog/blob/main/ai-log/etapa-05.md) | F12, Console |
+| S5-R8 | commit "Stage 5" pushed | [commits](https://github.com/eddyk3r/GymLog/commits/main) | commit history |
