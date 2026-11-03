@@ -77,6 +77,29 @@ Changes are lost on refresh, which is what stage 6 and stage 10 fix.
 
 The journal and the chosen theme are not saved: the page goes back to the system theme and an empty journal at reload.
 
+## Stage 6: data from a mock API
+The exercise catalog is no longer written in the React code. It lives in `frontend/db.json`
+(110 exercises, same data model as before) and is served by json-server 0.17.4 at
+`http://localhost:3001/exercitii`. The app fetches it on load and shows a loading state,
+the catalog, or an error state.
+
+- **Mock API:** `npm run api` starts `json-server --watch db.json --port 3001`; the key `exercitii` in `db.json` becomes the route `/exercitii`.
+- **All requests in one file:** `src/api.js` is the only place with `fetch`. `fetchExercitii` checks `res.ok` and throws an error with the status when the server answers with an error code. The address comes from the environment variable `VITE_API_URL` (documented in `.env.example`), with `http://localhost:3001` as default.
+- **Loading in `App`:** the catalog starts as an empty list (`useState([])`), next to the states `loading` and `error`. A `useEffect` with `[]` loads the data once, after the first render, and is cleaned up with an `ignore` flag so that a late answer does not change the state of a component that is gone. In development React mounts the component twice, so the Network tab shows two requests to `/exercitii`; in production there is one.
+- **Three states on screen:** "Se încarcă exercițiile..." while waiting, the catalog (`CatalogExercitii`) when the data arrives, and an error message that also says what to do ("Rulează `npm run api`?") when the server does not answer. Styles: `.info`, `.error`, with the variables `--error-bg` and `--error-border` defined for both themes.
+
+The journal ("My exercises"), checking and deleting are still local and are lost on refresh; saving them on the server is stage 7.
+
+### How to run
+Two terminals, both in `frontend/`:
+```
+npm run api    # terminal 1, http://localhost:3001
+npm run dev    # terminal 2, http://localhost:5173
+```
+To see the loading state, start the API with a delay:
+`npx json-server --watch db.json --port 3001 --delay 4000`.
+To see the error state, stop `npm run api` (Ctrl + C) and reload the page.
+
 ## AI usage
 AI was used as a learning and coding assistant. See `ai-log/` for the log of each stage.
 
@@ -86,7 +109,8 @@ AI was used as a learning and coding assistant. See `ai-log/` for the log of eac
 - [x] Stage 3: Vite and React project
 - [x] Stage 4: components rendered from data
 - [x] Stage 5: local state and events
-- [ ] Stage 6: loading data from a mock API
+- [x] Stage 6: data from a mock API
+- [ ] Stage 7: form and validation
 
 ## Stage 3 checklist
 
@@ -124,4 +148,4 @@ AI was used as a learning and coding assistant. See `ai-log/` for the log of eac
 | S5-R5 | immutable updates (no push, splice, assignment) | [App.jsx#L151-L168](https://github.com/eddyk3r/GymLog/blob/main/frontend/src/App.jsx#L151-L168) | read |
 | S5-R6 | light / dark toggle: state + data-theme on html | [App.jsx#L170-L175](https://github.com/eddyk3r/GymLog/blob/main/frontend/src/App.jsx#L170-L175), [App.jsx#L190-L196](https://github.com/eddyk3r/GymLog/blob/main/frontend/src/App.jsx#L190-L196), [App.css#L530-L560](https://github.com/eddyk3r/GymLog/blob/main/frontend/src/App.css#L530-L560) | click the button, both system themes |
 | S5-R7 | no console warnings; README + AI log | [README.md](https://github.com/eddyk3r/GymLog/blob/main/README.md), [ai-log/etapa-05.md](https://github.com/eddyk3r/GymLog/blob/main/ai-log/etapa-05.md) | F12, Console |
-| S5-R8 | commit "Stage 5" pushed | [commits](https://github.com/eddyk3r/GymLog/commit/ab742fd327f7e9e9d8718bc985a354f4517f66a1) | commit history |
+| S5-R8 | commit "Stage 5" pushed | [commits](https://github.com/eddyk3r/GymLog/commits/main) | commit history |

@@ -25,6 +25,8 @@
   --grid: rgba(14, 14, 14, 0.05);   /* background grid lines */
   --shadow: #0e0e0e;                /* hard offset shadow of panels */
   --font-display: Impact, "Haettenschweiler", "Arial Narrow Bold", "Arial Black", sans-serif;
+  --error-bg: #fdf2f8;
+  --error-border: #fbcfe8;
 }
 
 body {
@@ -541,6 +543,8 @@ button:active {
     --btn-text: #0e0e0e;
     --grid: rgba(255, 255, 255, 0.04);
     --shadow: rgba(255, 77, 0, 0.5);
+    --error-bg: #3b1d2e;
+    --error-border: #6b2a4a;
   }
 }
 
@@ -557,6 +561,8 @@ button:active {
   --btn-text: #0e0e0e;
   --grid: rgba(255, 255, 255, 0.04);
   --shadow: rgba(255, 77, 0, 0.5);
+  --error-bg: #3b1d2e;
+  --error-border: #6b2a4a;
 }
 
 /* Stage 5: checkbox inside the card */
@@ -621,4 +627,14 @@ button:active {
   .item-card { flex-wrap: wrap; }
   .item-card::before { font-size: 1.6rem; }
   .app-header { padding-top: 60px; }
+}
+
+/* Etapa 6: stări de încărcare și de eroare */
+.info { color: var(--muted); }
+.error {
+  color: #be185d;
+  background: var(--error-bg);
+  border: 1px solid var(--error-border);
+  border-radius: 8px;
+  padding: 10px 12px;
 }
