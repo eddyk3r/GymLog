@@ -149,3 +149,15 @@ AI was used as a learning and coding assistant. See `ai-log/` for the log of eac
 | S5-R6 | light / dark toggle: state + data-theme on html | [App.jsx#L170-L175](https://github.com/eddyk3r/GymLog/blob/main/frontend/src/App.jsx#L170-L175), [App.jsx#L190-L196](https://github.com/eddyk3r/GymLog/blob/main/frontend/src/App.jsx#L190-L196), [App.css#L530-L560](https://github.com/eddyk3r/GymLog/blob/main/frontend/src/App.css#L530-L560) | click the button, both system themes |
 | S5-R7 | no console warnings; README + AI log | [README.md](https://github.com/eddyk3r/GymLog/blob/main/README.md), [ai-log/etapa-05.md](https://github.com/eddyk3r/GymLog/blob/main/ai-log/etapa-05.md) | F12, Console |
 | S5-R8 | commit "Stage 5" pushed | [commits](https://github.com/eddyk3r/GymLog/commits/main) | commit history |
+
+## Stage 6 checklist
+
+| ID | Requirement | Where (permalink) | How to check |
+|----|-------------|-------------------|--------------|
+| S6-R1 | npm run api starts, route shows JSON | [frontend/package.json](https://github.com/eddyk3r/GymLog/blob/main/frontend/package.json), [frontend/db.json](https://github.com/eddyk3r/GymLog/blob/main/frontend/db.json) | open localhost:3001/exercitii |
+| S6-R2 | data no longer in React code | [App.jsx#L15](https://github.com/eddyk3r/GymLog/blob/main/frontend/src/App.jsx#L15) (`useState([])`) | read |
+| S6-R3 | loading message while waiting | [App.jsx#L101](https://github.com/eddyk3r/GymLog/blob/main/frontend/src/App.jsx#L101) | start the API with --delay 4000 |
+| S6-R4 | error message when API is down | [App.jsx#L102-L106](https://github.com/eddyk3r/GymLog/blob/main/frontend/src/App.jsx#L102-L106) | stop npm run api, refresh |
+| S6-R5 | fetch only in api.js, URL from env | [api.js#L1-L10](https://github.com/eddyk3r/GymLog/blob/main/frontend/src/api.js#L1-L10), [.env.example](https://github.com/eddyk3r/GymLog/blob/main/frontend/.env.example) | search for fetch |
+| S6-R6 | README Stage 6 section + AI log | [README.md](https://github.com/eddyk3r/GymLog/blob/main/README.md), [ai-log/etapa-06.md](https://github.com/eddyk3r/GymLog/blob/main/ai-log/etapa-06.md) | read |
+| S6-R7 | commit "Stage 6" pushed | [commit](https://github.com/eddyk3r/GymLog/commit/f49cb351272e0c02bedff6cf877c93eedf6583fa) | commit history |
