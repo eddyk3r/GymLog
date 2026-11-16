@@ -1,6 +1,6 @@
 {
   "exercitii": [
-    {"id": 1, "exercitiu": "Bench press", "grupa": "piept", "intensitate": "medie", "facut": false},
+      {"id": 1, "exercitiu": "Bench press", "grupa": "piept", "intensitate": "medie", "facut": false},
     {"id": 2, "exercitiu": "Incline bench press", "grupa": "piept", "intensitate": "intensa", "facut": false},
     {"id": 3, "exercitiu": "Decline bench press", "grupa": "piept", "intensitate": "medie", "facut": false},
     {"id": 4, "exercitiu": "Dumbbell bench press", "grupa": "piept", "intensitate": "medie", "facut": false},
@@ -109,6 +109,6 @@
     {"id": 107, "exercitiu": "Jump rope", "grupa": "gambe", "intensitate": "usoara", "facut": false},
     {"id": 108, "exercitiu": "Tibialis raise", "grupa": "gambe", "intensitate": "usoara", "facut": false},
     {"id": 109, "exercitiu": "Calf press machine", "grupa": "gambe", "intensitate": "medie", "facut": false},
-    {"id": 110, "exercitiu": "Farmer's walk on toes", "grupa": "gambe", "intensitate": "medie", "facut": false}
+       {"id": 110, "exercitiu": "Farmer's walk on toes", "grupa": "gambe", "intensitate": "medie", "facut": false}
   ]
 }

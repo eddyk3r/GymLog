@@ -1,7 +1,12 @@
 import { useEffect, useState } from "react";
 import ExercitiuList from "./components/ExercitiuList.jsx";
-import CatalogExercitii from "./components/CatalogExercitii.jsx";
-import { fetchExercitii } from "./api.js";
+import ExercitiuForm from "./components/ExercitiuForm.jsx";
+import {
+  createExercitiu,
+  deleteExercitiu,
+  fetchExercitii,
+  updateExercitiu,
+} from "./api.js";
 
 // Tema de pornire: cea a sistemului de operare
 function temaInitiala() {
@@ -11,12 +16,9 @@ function temaInitiala() {
 }
 
 export default function App() {
-  // Catalogul vine de la API (db.json), deci pornește gol
   const [exercitii, setExercitii] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-
-  const [jurnal, setJurnal] = useState([]);
   const [tema, setTema] = useState(temaInitiala);
 
   // Rulează o singură dată, după prima randare
@@ -40,24 +42,30 @@ export default function App() {
     };
   }, []);
 
-  // Adăugare imutabilă: listă nouă; nu se adaugă de două ori același exercițiu
-  function handleAdauga(exercitiu) {
-    setJurnal((prev) =>
-      prev.some((e) => e.id === exercitiu.id)
-        ? prev
-        : [...prev, { ...exercitiu, facut: false }]
-    );
+  // Întâi serverul, apoi state-ul: pe ecran ajunge doar ce s-a salvat.
+  // Fără try: eroarea ajunge înapoi în formular, care o afișează lângă câmpuri.
+  async function handleAdd(exercitiu) {
+    const creat = await createExercitiu(exercitiu); // serverul întoarce elementul cu id
+    setExercitii((prev) => [...prev, creat]);
   }
 
-  // În Etapa 6 modificările rămân locale: se pierd la refresh (rezolvat în Etapa 7)
-  function handleToggleFacut(id) {
-    setJurnal((prev) =>
-      prev.map((e) => (e.id === id ? { ...e, facut: !e.facut } : e))
-    );
+  async function handleToggle(id) {
+    const ex = exercitii.find((e) => e.id === id);
+    try {
+      const actualizat = await updateExercitiu(id, { facut: !ex.facut });
+      setExercitii((prev) => prev.map((e) => (e.id === id ? actualizat : e)));
+    } catch (err) {
+      setError(err.message);
+    }
   }
 
-  function handleDelete(id) {
-    setJurnal((prev) => prev.filter((e) => e.id !== id));
+  async function handleDelete(id) {
+    try {
+      await deleteExercitiu(id);
+      setExercitii((prev) => prev.filter((e) => e.id !== id));
+    } catch (err) {
+      setError(err.message);
+    }
   }
 
   // Comutarea temei: state-ul pentru buton, atributul data-theme pentru CSS
@@ -68,7 +76,7 @@ export default function App() {
   }
 
   // Valoare derivată: se recalculează la fiecare randare
-  const deFacut = jurnal.filter((e) => !e.facut).length;
+  const deFacut = exercitii.filter((e) => !e.facut).length;
 
   return (
     <>
@@ -91,35 +99,35 @@ export default function App() {
         <h1>Gym<span>Log</span></h1>
         <p>Jurnalul tău de antrenamente, organizat pe exerciții și intensitate.</p>
         <p className="app-count">
-          {jurnal.length} exerciții, dintre care {deFacut} de făcut
+          {exercitii.length} exerciții, dintre care {deFacut} de făcut
         </p>
       </header>
 
       <main className="container">
         <section className="panel">
           <h2>Adaugă exercițiu</h2>
-          {loading && <p className="info">Se încarcă exercițiile...</p>}
-          {error && (
-            <p className="error">
-              Nu am putut încărca datele: {error}. Rulează <code>npm run api</code>?
-            </p>
-          )}
-          {!loading && !error && (
-            <CatalogExercitii
-              exercitii={exercitii}
-              adaugate={jurnal.map((e) => e.id)}
-              onAdauga={handleAdauga}
-            />
-          )}
+          <ExercitiuForm onAdd={handleAdd} />
         </section>
 
         <section className="panel">
           <h2>Exercițiile mele</h2>
-          <ExercitiuList
-            exercitii={jurnal}
-            onToggle={handleToggleFacut}
-            onDelete={handleDelete}
-          />
+          {loading && (
+            <p className="info" data-testid="loading">
+              Se încarcă exercițiile...
+            </p>
+          )}
+          {error && (
+            <p className="error" data-testid="error">
+              {error}
+            </p>
+          )}
+          {!loading && (
+            <ExercitiuList
+              exercitii={exercitii}
+              onToggle={handleToggle}
+              onDelete={handleDelete}
+            />
+          )}
         </section>
       </main>
 

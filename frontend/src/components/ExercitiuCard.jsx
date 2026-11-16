@@ -3,7 +3,7 @@ import { ETICHETE_GRUPE, ETICHETE_INTENSITATE } from "../etichete.js";
 export default function ExercitiuCard({ exercitiu, onToggle, onDelete }) {
   const detalii = (
     <div>
-      <h3>{exercitiu.exercitiu}</h3>
+      <h3 data-testid="item-title">{exercitiu.exercitiu}</h3>
       <span className="grupa">{ETICHETE_GRUPE[exercitiu.grupa]}</span>
       <span className={`badge badge-${exercitiu.intensitate}`}>
         Intensitate {ETICHETE_INTENSITATE[exercitiu.intensitate]}
@@ -22,12 +22,17 @@ export default function ExercitiuCard({ exercitiu, onToggle, onDelete }) {
   }
 
   return (
-    <li className={exercitiu.facut ? "item-card done" : "item-card"}>
+    <li
+      className={exercitiu.facut ? "item-card done" : "item-card"}
+      data-testid="item"
+      data-id={exercitiu.id}
+    >
       <label className="item-main">
         <input
           type="checkbox"
           checked={exercitiu.facut}
           onChange={() => onToggle(exercitiu.id)}
+          data-testid="item-toggle"
         />
         {detalii}
       </label>
@@ -38,6 +43,7 @@ export default function ExercitiuCard({ exercitiu, onToggle, onDelete }) {
           className="mini"
           aria-label={`Șterge ${exercitiu.exercitiu}`}
           onClick={() => onDelete(exercitiu.id)}
+          data-testid="item-delete"
         >
           ✕
         </button>

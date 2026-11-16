@@ -3,7 +3,11 @@ import ExercitiuCard from "./ExercitiuCard.jsx";
 // Primește lista și funcțiile și le transmite fiecărui card.
 export default function ExercitiuList({ exercitii, onToggle, onDelete }) {
   if (exercitii.length === 0) {
-    return <p className="empty">Nu există niciun exercițiu.</p>;
+    return (
+      <p className="empty" data-testid="empty">
+        Nu există niciun exercițiu.
+      </p>
+    );
   }
 
   return (
