@@ -1,14 +1,98 @@
 {
   "exercitii": [
-    {"exercitiu": "Incline Bench Press", "intensitate": "medie", "grupa": "piept", "facut": false, "catalogId": "incline-bench-press", "id": 1},
-    {"exercitiu": "Lever Seated Fly", "intensitate": "medie", "grupa": "piept", "facut": false, "catalogId": "lever-seated-fly", "id": 2},
-    {"exercitiu": "Seated Shoulder Press", "intensitate": "medie", "grupa": "umeri", "facut": false, "catalogId": "seated-shoulder-press", "id": 3},
-    {"exercitiu": "Lateral Raise", "intensitate": "medie", "grupa": "umeri", "facut": false, "catalogId": "lateral-raise", "id": 4},
-    {"exercitiu": "Lever Seated Reverse Fly", "intensitate": "medie", "grupa": "umeri", "facut": false, "catalogId": "lever-seated-reverse-fly", "id": 5},
-    {"exercitiu": "Triceps Pushdown", "intensitate": "medie", "grupa": "triceps", "facut": false, "catalogId": "triceps-pushdown", "id": 6},
-    {"exercitiu": "Overhead Triceps Extension", "intensitate": "medie", "grupa": "triceps", "facut": false, "catalogId": "overhead-triceps-extension", "id": 7}
+    {
+      "exercitiu": "Incline Bench Press",
+      "intensitate": "medie",
+      "grupa": "piept",
+      "facut": false,
+      "catalogId": "incline-bench-press",
+      "id": 1
+    },
+    {
+      "exercitiu": "Lever Seated Fly",
+      "intensitate": "medie",
+      "grupa": "piept",
+      "facut": false,
+      "catalogId": "lever-seated-fly",
+      "id": 2
+    },
+    {
+      "exercitiu": "Seated Shoulder Press",
+      "intensitate": "medie",
+      "grupa": "umeri",
+      "facut": false,
+      "catalogId": "seated-shoulder-press",
+      "id": 3
+    },
+    {
+      "exercitiu": "Lateral Raise",
+      "intensitate": "medie",
+      "grupa": "umeri",
+      "facut": false,
+      "catalogId": "lateral-raise",
+      "id": 4
+    },
+    {
+      "exercitiu": "Lever Seated Reverse Fly",
+      "intensitate": "medie",
+      "grupa": "umeri",
+      "facut": false,
+      "catalogId": "lever-seated-reverse-fly",
+      "id": 5
+    },
+    {
+      "exercitiu": "Triceps Pushdown",
+      "intensitate": "medie",
+      "grupa": "triceps",
+      "facut": false,
+      "catalogId": "triceps-pushdown",
+      "id": 6
+    },
+    {
+      "exercitiu": "Overhead Triceps Extension",
+      "intensitate": "medie",
+      "grupa": "triceps",
+      "facut": false,
+      "catalogId": "overhead-triceps-extension",
+      "id": 7
+    }
   ],
   "istoric": [
-    {"exercitiuId": 7, "catalogId": "hammer-curl", "exercitiu": "Hammer Curl", "grupa": "biceps", "serii": null, "data": "2026-11-21T11:04:13.469Z", "id": 108}
+    {
+      "exercitiuId": 7,
+      "catalogId": "hammer-curl",
+      "exercitiu": "Hammer Curl",
+      "grupa": "biceps",
+      "serii": null,
+      "data": "2026-11-21T11:04:13.469Z",
+      "id": 108
+    },
+    {
+      "exercitiuId": 1,
+      "catalogId": "incline-bench-press",
+      "exercitiu": "Incline Bench Press",
+      "grupa": "piept",
+      "serii": null,
+      "data": "2026-11-21T11:31:44.086Z",
+      "id": 109
+    },
+    {
+      "exercitiuId": 1,
+      "catalogId": "incline-bench-press",
+      "exercitiu": "Incline Bench Press",
+      "grupa": "piept",
+      "serii": null,
+      "data": "2026-11-21T11:31:45.546Z",
+      "id": 110
+    },
+    {
+      "exercitiuId": 1,
+      "catalogId": "incline-bench-press",
+      "exercitiu": "Incline Bench Press",
+      "grupa": "piept",
+      "serii": null,
+      "data": "2026-11-21T11:31:46.713Z",
+      "id": 111
+    }
   ]
 }

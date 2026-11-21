@@ -1,27 +1,195 @@
-.despre {
-  max-width: 720px;
-  margin: 32px auto;
+.pagina {
+  max-width: 900px;
+  margin: 0 auto 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
 }
+.pagina p { line-height: 1.65; }
+
+.eticheta {
+  margin: 0 0 12px;
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+}
+
+/* GYM + LOG */
+.cuvinte {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+.cuvant {
+  padding: 18px 20px;
+  border: 2px solid var(--text);
+  border-radius: 2px 18px 2px 18px;
+  background: var(--card);
+  box-shadow: 6px 6px 0 var(--shadow);
+  animation: rise 0.5s ease-out backwards;
+}
+.cuvant strong {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.cuvant span { color: var(--muted); font-weight: 600; }
+.cuvantAccent { animation-delay: 0.1s; }
+.cuvantAccent strong { color: var(--accent); }
+.impreuna {
+  margin: 18px auto 0;
+  max-width: 680px;
+  text-align: center;
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+/* listă cu bare portocalii */
 .lista {
-  padding-left: 0;
+  margin: 0 0 14px;
+  padding: 0;
   list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px 18px;
 }
 .lista li {
   position: relative;
-  padding-left: 26px;
-  margin-bottom: 8px;
+  padding-left: 24px;
+  font-weight: 700;
 }
 .lista li::before {
-  content: "▮";
+  content: "";
   position: absolute;
-  left: 4px;
-  color: var(--accent);
+  left: 2px;
+  top: 0.35em;
+  width: 10px;
+  height: 0.9em;
+  background: var(--accent);
+  transform: skewX(-20deg);
 }
-.stack {
-  display: inline-block;
-  padding: 6px 12px;
+
+/* funcțiile aplicației */
+.functii {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin: 6px 0 14px;
+}
+.functie {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 14px 16px;
+  border: 2px solid var(--border);
+  border-radius: 6px;
+  color: var(--text);
+  text-decoration: none;
+  transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
+}
+.functie:hover {
+  border-color: var(--text);
+  transform: translateY(-3px);
+  box-shadow: 4px 4px 0 var(--accent);
+}
+.functie strong { text-transform: uppercase; letter-spacing: 0.05em; }
+.functie > span:last-child { color: var(--muted); font-size: 0.9rem; }
+.icon { font-size: 1.8rem; line-height: 1.2; }
+.accent { margin: 0; font-weight: 800; color: var(--accent); }
+
+/* valorile */
+.titluSectiune {
+  margin: 0 0 16px;
+  text-align: center;
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.valori {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+.valoare {
+  padding: 18px 20px;
   border: 2px solid var(--text);
+  border-left: 8px solid var(--accent);
+  border-radius: 4px;
+  background: var(--card);
+  box-shadow: 5px 5px 0 var(--shadow);
+  animation: rise 0.5s ease-out backwards;
+}
+.valoare h3 {
+  margin: 4px 0 6px;
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.valoare p { margin: 0; color: var(--muted); }
+
+/* autorul */
+.stack {
+  margin: 0 0 12px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.stack li {
+  padding: 4px 10px;
+  border: 2px solid var(--text);
+  font-size: 0.8rem;
   font-weight: 800;
-  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+}
+
+/* finalul */
+.final {
+  position: relative;
+  padding: 34px 24px;
+  border: 2px solid var(--text);
+  background:
+    repeating-linear-gradient(115deg, rgba(255, 255, 255, 0.05) 0 2px, transparent 2px 22px),
+    var(--hero-bg);
+  color: var(--hero-text);
+  text-align: center;
+  box-shadow: 8px 8px 0 var(--accent);
+}
+.final p { margin: 0 0 6px; color: var(--hero-muted); }
+.final .finalMare {
+  margin: 8px 0 14px;
+  color: var(--hero-text);
+  font-family: var(--font-display);
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  line-height: 1.15;
   letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.final .semnatura {
+  margin-bottom: 18px;
+  color: var(--accent);
+  font-weight: 800;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+}
+
+@keyframes rise {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 700px) {
+  .cuvinte, .lista, .functii, .valori { grid-template-columns: 1fr; }
 }
