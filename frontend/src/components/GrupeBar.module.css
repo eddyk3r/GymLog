@@ -1,0 +1,94 @@
+/* Bara de grupe: pe ecrane late se împarte pe rânduri, pe telefon derulează orizontal */
+.bar {
+  list-style: none;
+  width: 100%;
+  margin: 0;
+  padding: 4px 4px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* .grupa e folosită atât pe <a>, cât și pe <button>: resetăm stilul global de buton */
+.grupa {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  width: 104px;
+  padding: 10px 4px 8px;
+  border: 2px solid var(--border);
+  border-radius: 6px;
+  background: var(--card);
+  color: var(--text);
+  font-family: inherit;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  box-shadow: none;
+  cursor: pointer;
+  transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s, background 0.2s;
+}
+.grupa::after { display: none; }
+.grupa:hover {
+  background: var(--accent-soft);
+  color: var(--text);
+  border-color: var(--accent);
+  transform: translateY(-3px);
+  box-shadow: 3px 3px 0 var(--accent);
+}
+.grupa:active { transform: translateY(0); box-shadow: none; }
+
+/* grupa aleasă: chenar negru și umbră portocalie, iconița rămâne lizibilă */
+.active,
+.active:hover {
+  background: var(--accent-soft);
+  border-color: var(--text);
+  color: var(--accent);
+  box-shadow: 4px 4px 0 var(--accent);
+  transform: translateY(-3px);
+}
+
+.icon {
+  width: 44px;
+  height: 44px;
+  fill: var(--accent);
+  transition: transform 0.25s;
+}
+.grupa:hover .icon { transform: scale(1.12) rotate(-3deg); }
+.icon:is(img) {
+  padding: 2px;
+  border-radius: 50%;
+  background: #fff;   /* iconițele au corpul gri: pe fundal deschis se văd și în tema întunecată */
+}
+
+.label { line-height: 1.2; text-align: center; }
+
+/* numărul de exerciții din grupă, ca o insignă în colț */
+.count {
+  position: absolute;
+  top: 4px;
+  right: 5px;
+  min-width: 20px;
+  padding: 0 5px;
+  border-radius: 999px;
+  background: var(--text);
+  color: var(--card);
+  font-size: 0.62rem;
+  line-height: 18px;
+}
+.active .count { background: var(--accent); color: var(--on-accent); }
+
+@media (max-width: 700px) {
+  .bar {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    overflow-x: auto;
+    scrollbar-color: var(--accent) transparent;
+  }
+  .grupa { width: 84px; flex: none; }
+}

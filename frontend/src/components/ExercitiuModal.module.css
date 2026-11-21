@@ -1,0 +1,82 @@
+.dialog {
+  width: min(720px, calc(100% - 24px));
+  max-height: calc(100% - 32px);
+  padding: 0;
+  border: 2px solid var(--text);
+  border-top: 6px solid var(--accent);
+  border-radius: 2px 22px 2px 22px;
+  background: var(--card);
+  color: var(--text);
+  box-shadow: 10px 10px 0 var(--accent);
+  overflow-y: auto;
+  scrollbar-color: var(--accent) var(--card);
+}
+.dialog[open] { animation: intra 0.28s cubic-bezier(0.2, 0.9, 0.3, 1.2); }
+.dialog::backdrop {
+  background: rgba(10, 10, 10, 0.6);
+  backdrop-filter: blur(3px);
+}
+
+.box { padding: 18px 22px 22px; }
+
+.head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+.head h2 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 1.7rem;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+/* săgeata de închidere */
+.close {
+  flex: none;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  font-family: inherit;
+  font-size: 1.3rem;
+  background: var(--card);
+  color: var(--text);
+  box-shadow: 2px 2px 0 var(--shadow);
+}
+
+.foot {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 2px dashed var(--border);
+}
+.intensitate {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.ok {
+  margin-right: auto;
+  align-self: center;
+  color: var(--usoara);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+@keyframes intra {
+  from { opacity: 0; transform: translateY(30px) scale(0.96); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}

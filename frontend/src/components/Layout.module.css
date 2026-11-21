@@ -1,0 +1,137 @@
+/* Banda de sus: grupele musculare care defilează (decorativ, doar CSS) */
+.ticker {
+  background: var(--accent);
+  color: var(--on-accent);
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  padding: 5px 0;
+}
+.track {
+  display: inline-flex;
+  width: max-content;
+  animation: scroll 36s linear infinite;
+}
+.ticker:hover .track { animation-play-state: paused; }
+.track span { padding-right: 2.2em; }
+
+/* Antetul comun: rămâne sus la derulare */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background:
+    repeating-linear-gradient(115deg, rgba(255, 255, 255, 0.05) 0 2px, transparent 2px 22px),
+    var(--hero-bg);
+  color: var(--hero-text);
+  border-bottom: 6px solid transparent;
+  border-image: repeating-linear-gradient(-45deg, var(--accent) 0 12px, #0e0e0e 12px 24px) 6;
+}
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 16px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.logo {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--hero-text);
+  text-decoration: none;
+  text-shadow: 3px 3px 0 var(--accent-dark);
+}
+.logo span { color: var(--accent); text-shadow: 3px 3px 0 #000; }
+
+.nav {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-right: auto;
+}
+.link {
+  position: relative;
+  padding: 6px 14px;
+  border-radius: 4px;
+  color: var(--hero-muted);
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: color 0.2s, background 0.2s;
+}
+.link:hover { color: var(--hero-text); background: rgba(255, 255, 255, 0.1); }
+.active,
+.active:hover {
+  background: var(--accent);
+  color: var(--on-accent);
+  box-shadow: 3px 3px 0 #000;
+}
+
+/* Butonul de temă, în dreapta antetului */
+.themeToggle {
+  padding: 6px 12px;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  background: transparent;
+  color: var(--hero-text);
+  font-size: 0.9rem;
+  letter-spacing: 0.08em;
+  box-shadow: none;
+}
+.themeToggle::after { display: none; }
+.themeToggle:hover,
+.themeToggle:active {
+  background: rgba(255, 255, 255, 0.15);
+  color: var(--hero-text);
+  transform: none;
+  box-shadow: none;
+}
+
+.main { min-height: 60vh; }
+
+.footer {
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 24px 16px 36px;
+}
+/* haltera desenată din gradiente, care urcă și coboară */
+.footer::before {
+  content: "";
+  display: block;
+  width: 140px;
+  height: 22px;
+  margin: 0 auto 14px;
+  background:
+    linear-gradient(var(--accent), var(--accent)) 0 50% / 8px 22px no-repeat,
+    linear-gradient(var(--text), var(--text)) 10px 50% / 8px 16px no-repeat,
+    linear-gradient(var(--muted), var(--muted)) 18px 50% / 104px 4px no-repeat,
+    linear-gradient(var(--text), var(--text)) 122px 50% / 8px 16px no-repeat,
+    linear-gradient(var(--accent), var(--accent)) 132px 50% / 8px 22px no-repeat;
+  animation: lift 1.6s ease-in-out infinite alternate;
+}
+
+@keyframes scroll { to { transform: translateX(-50%); } }
+@keyframes lift {
+  from { transform: translateY(0); }
+  to { transform: translateY(-8px); }
+}
+
+@media (max-width: 700px) {
+  .inner { gap: 10px; }
+  .logo { font-size: 1.6rem; }
+  .nav { order: 3; width: 100%; }
+  .themeToggle { margin-left: auto; }
+}

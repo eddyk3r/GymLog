@@ -1,0 +1,132 @@
+.card {
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+  padding: 12px 16px 12px 18px;
+  border: 2px solid var(--border);
+  border-radius: 4px;
+  counter-increment: ex;
+  transition: transform 0.25s, border-color 0.25s, background 0.25s, box-shadow 0.25s;
+  animation: rise 0.5s ease-out backwards;
+}
+.card:nth-child(1) { animation-delay: 0.1s; }
+.card:nth-child(2) { animation-delay: 0.18s; }
+.card:nth-child(3) { animation-delay: 0.26s; }
+.card:nth-child(n+4) { animation-delay: 0.34s; }
+
+/* bara de accent din stânga, care crește la hover */
+.card::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 5px;
+  height: 100%;
+  background: var(--accent);
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition: transform 0.25s;
+}
+/* numărul mare, conturat: 01, 02, 03... */
+.card::before {
+  content: counter(ex, decimal-leading-zero);
+  flex: none;
+  min-width: 2.2ch;
+  font-family: var(--font-display);
+  font-size: 2rem;
+  line-height: 1;
+  color: transparent;
+  -webkit-text-stroke: 1.5px var(--accent);
+  transition: color 0.25s;
+}
+.card:hover {
+  transform: translateX(6px);
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  box-shadow: 4px 4px 0 var(--accent);
+}
+.card:hover::after { transform: scaleY(1); }
+.card:hover::before { color: var(--accent); }
+
+.main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+.main input[type="checkbox"] {
+  flex: none;
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  padding: 0;
+  accent-color: var(--accent);
+  cursor: pointer;
+}
+
+/* imaginea din catalog sau iconița grupei */
+.thumb {
+  flex: none;
+  width: 58px;
+  height: 58px;
+  object-fit: contain;
+  border-radius: 4px;
+  border: 2px solid var(--border);
+  background: var(--media-bg);
+}
+.thumbIcon { padding: 6px; background: var(--accent-soft); }
+
+.title {
+  display: block;
+  margin-bottom: 4px;
+  color: var(--text);
+  font-size: 1.05rem;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.title:hover { color: var(--accent); text-decoration: underline; }
+
+.grupa {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+  color: var(--muted);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.video {
+  padding: 0 6px;
+  border: 1px solid var(--accent);
+  border-radius: 3px;
+  color: var(--accent);
+  font-size: 0.65rem;
+}
+
+/* exercițiu făcut */
+.done { border-color: var(--accent); }
+.done::after { transform: scaleY(1); }
+.done .title {
+  text-decoration: line-through;
+  color: var(--muted);
+}
+.done .thumb { opacity: 0.55; filter: grayscale(1); }
+
+@keyframes rise {
+  from { opacity: 0; transform: translateY(18px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 700px) {
+  .card::before { font-size: 1.5rem; }
+  .thumb { width: 46px; height: 46px; }
+}

@@ -1,4 +1,5 @@
 import ExercitiuCard from "./ExercitiuCard.jsx";
+import styles from "./ExercitiuList.module.css";
 
 // Primește lista și funcțiile și le transmite fiecărui card.
 export default function ExercitiuList({ exercitii, onToggle, onDelete }) {
@@ -11,7 +12,7 @@ export default function ExercitiuList({ exercitii, onToggle, onDelete }) {
   }
 
   return (
-    <ul className="item-list">
+    <ul className={styles.list}>
       {exercitii.map((exercitiu) => (
         <ExercitiuCard
           key={exercitiu.id}

@@ -18,6 +18,11 @@ export function fetchExercitii() {
   return request("/exercitii");
 }
 
+// Etapa 8: un singur exercițiu, pentru pagina de detaliu
+export function fetchExercitiu(id) {
+  return request(`/exercitii/${id}`);
+}
+
 export function createExercitiu(exercitiu) {
   return request("/exercitii", {
     method: "POST",

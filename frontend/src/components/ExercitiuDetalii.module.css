@@ -1,0 +1,113 @@
+.detalii {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+/* video-ul, cu fundal alb ca animațiile 3D să se vadă bine */
+.media {
+  position: relative;
+  border: 2px solid var(--text);
+  border-radius: 4px;
+  background: var(--media-bg);
+  overflow: hidden;
+  box-shadow: 5px 5px 0 var(--accent);
+}
+.video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+  background: var(--media-bg);
+}
+
+.info {
+  display: grid;
+  grid-template-columns: 130px 1fr;
+  gap: 20px;
+  align-items: start;
+}
+
+/* harta grupei: iconița mărită */
+.harta {
+  margin: 0;
+  padding: 10px;
+  border: 2px dashed var(--border);
+  border-radius: 6px;
+  background: #fff;
+  text-align: center;
+}
+.harta img { width: 100%; height: auto; display: block; }
+.harta figcaption {
+  margin-top: 4px;
+  color: #0e0e0e;
+  font-family: var(--font-display);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.subtitlu {
+  margin: 0 0 10px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid var(--border);
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.fields {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 8px 18px;
+  margin: 0;
+  font-size: 0.92rem;
+}
+.fields dt {
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding-top: 2px;
+}
+.fields dd { margin: 0; }
+
+.pasi ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: pas;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.pasi li {
+  position: relative;
+  padding-left: 42px;
+  counter-increment: pas;
+  font-size: 0.92rem;
+}
+.pasi li::before {
+  content: counter(pas);
+  position: absolute;
+  left: 0;
+  top: -2px;
+  width: 30px;
+  height: 30px;
+  display: grid;
+  place-items: center;
+  background: var(--accent);
+  color: var(--on-accent);
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  transform: skewX(-10deg);
+}
+
+@media (max-width: 560px) {
+  .info { grid-template-columns: 1fr; }
+  .harta { width: 130px; }
+  .fields { grid-template-columns: 1fr; gap: 2px; }
+  .fields dd { margin-bottom: 8px; }
+}

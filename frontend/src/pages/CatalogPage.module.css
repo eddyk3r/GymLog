@@ -1,0 +1,99 @@
+.top {
+  margin: 28px 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+/* căutarea, rotunjită */
+.search {
+  position: relative;
+  width: min(560px, 100%);
+}
+.search input {
+  width: 100%;
+  padding: 13px 18px 13px 46px;
+  border: 2px solid var(--text);
+  border-radius: 999px;
+  background: var(--card);
+  box-shadow: 4px 4px 0 var(--shadow);
+}
+.search input:focus { box-shadow: 4px 4px 0 var(--accent), 0 0 0 4px var(--accent-soft); }
+.lupa {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-52%);
+  color: var(--muted);
+  font-size: 1.5rem;
+  line-height: 1;
+  pointer-events: none;
+}
+
+.head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 4px 16px;
+  margin: 16px 0 14px;
+  border-bottom: 2px solid var(--text);
+}
+.head p { margin: 0 0 8px; font-size: 0.9rem; }
+.titlu {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0 0 6px;
+  font-family: var(--font-display);
+  font-size: 2.2rem;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.titlu span {
+  padding: 0 10px;
+  background: var(--accent);
+  color: var(--on-accent);
+  font-size: 1.2rem;
+  transform: skewX(-10deg);
+}
+
+/* grila de carduri */
+.grid {
+  list-style: none;
+  margin: 0 0 24px;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 18px;
+}
+
+/* confirmarea „Adăugat”, jos pe ecran */
+.toast {
+  position: fixed;
+  left: 50%;
+  bottom: 24px;
+  z-index: 30;
+  margin: 0;
+  padding: 12px 20px;
+  border: 2px solid var(--text);
+  border-radius: 4px;
+  background: var(--accent);
+  color: var(--on-accent);
+  font-weight: 800;
+  box-shadow: 4px 4px 0 #0e0e0e;
+  transform: translateX(-50%);
+  animation: urca 0.3s ease-out;
+}
+
+@keyframes urca {
+  from { opacity: 0; transform: translate(-50%, 20px); }
+  to { opacity: 1; transform: translate(-50%, 0); }
+}
+
+@media (max-width: 560px) {
+  .grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+  .titlu { font-size: 1.7rem; }
+}

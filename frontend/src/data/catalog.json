@@ -1,0 +1,3070 @@
+[
+{
+"id": "bench-press",
+"nume": "Bench Press",
+"grupa": "piept",
+"partiCorp": "Chest",
+"echipament": "Barbell",
+"img": "00251101",
+"video": "00251201-Barbell-Bench-Press_Chest-FIX2_.mp4",
+"principali": "Pectoralis Major Sternal Head",
+"secundari": "Deltoid Anterior, Pectoralis Major Clavicular Head, Triceps Brachii",
+"pasi": [
+"Grip the barbell with your hands slightly wider than shoulder-width apart, palms facing your feet, and lift it off the rack, holding it…",
+"Slowly lower the barbell down to your chest while keeping your elbows at a 90-degree angle.",
+"Once the barbell touches your chest, push it back up to the starting position while keeping your back flat on the bench."
+]
+},
+{
+"id": "triceps-pushdown",
+"nume": "Triceps Pushdown",
+"grupa": "triceps",
+"partiCorp": "Triceps, Upper Arms",
+"echipament": "Cable",
+"img": "02411101",
+"video": "02411201-Cable-Triceps-Pushdown-(V-bar-attachment)_Upper-Arms.mp4",
+"principali": "Triceps Brachii",
+"secundari": "",
+"pasi": [
+"Grasp the bar with your palms facing down, hands shoulder-width apart, and elbows close to your body.",
+"Pull the bar down until your arms are fully extended by your sides, this is your starting position.",
+"Slowly bend your elbows and raise the bar back to the starting position, keeping your elbows close to your body and your back straight."
+]
+},
+{
+"id": "incline-bench-press",
+"nume": "Incline Bench Press",
+"grupa": "piept",
+"partiCorp": "Chest",
+"echipament": "Dumbbell",
+"img": "03141101",
+"video": "03141201-Dumbbell-Incline-Bench-Press_Chest-FIX2_.mp4",
+"principali": "Pectoralis Major Clavicular Head",
+"secundari": "Deltoid Anterior, Triceps Brachii",
+"pasi": [
+"Grab the barbell with a grip that is slightly wider than shoulder-width apart, and remove it from the rack, holding it straight over…",
+"Slowly lower the barbell to your upper chest, ensuring that you keep your elbows at a 90-degree angle and your wrists straight.",
+"Once the barbell has touched your chest, push it back up to the starting position, fully extending your arms but not locking your elbows."
+]
+},
+{
+"id": "lever-leg-extension",
+"nume": "Lever Leg Extension",
+"grupa": "cvadricepsi",
+"partiCorp": "Quadriceps, Thighs",
+"echipament": "Leverage machine",
+"img": "05851101",
+"video": "05851201-Lever-Leg-Extension_Thighs.mp4",
+"principali": "Quadriceps",
+"secundari": "",
+"pasi": [
+"Sit down on the machine and grasp the handles on either side of the machine to stabilize your upper body.",
+"Slowly extend your legs, pushing against the pad, until they are fully straightened but not locked at the knee.",
+"Hold this position for a moment, feeling the tension in your quadriceps."
+]
+},
+{
+"id": "lateral-raise",
+"nume": "Lateral Raise",
+"grupa": "umeri",
+"partiCorp": "Shoulders",
+"echipament": "Dumbbell",
+"img": "03341101",
+"video": "03341201-Dumbbell-Lateral-Raise_shoulder-FIX_.mp4",
+"principali": "Deltoid Lateral",
+"secundari": "Deltoid Anterior, Serratus Anterior",
+"pasi": [
+"Keeping your torso stationary, lift the dumbbells to your side with a slight bend on the elbow and the hands slightly tilted forward as…",
+"Pause for a second at the top of the movement, then slowly lower the weights back down to the starting position.",
+"Repeat this movement for the desired number of repetitions."
+]
+},
+{
+"id": "full-squat",
+"nume": "Full Squat",
+"grupa": "cvadricepsi",
+"partiCorp": "Quadriceps, Thighs",
+"echipament": "Barbell",
+"img": "00431101",
+"video": "00431201-Barbell-Full-Squat_Thighs.mp4",
+"principali": "Gluteus Maximus, Quadriceps",
+"secundari": "Adductor Magnus, Soleus",
+"pasi": [
+"Begin the exercise by slowly lowering your body, as if you're sitting back into a chair, keeping your back straight and your knees over…",
+"Continue to lower yourself until your thighs are parallel or almost parallel to the floor, ensuring your knees do not go past your toes.",
+"Hold this position for a moment, keeping your core engaged and your body weight on your heels."
+]
+},
+{
+"id": "straight-back-seated-row",
+"nume": "Straight Back Seated Row",
+"grupa": "spate",
+"partiCorp": "Back",
+"echipament": "Cable",
+"img": "02391101",
+"video": "02391201-Cable-Straight-Back-Seated-Row_Back.mp4",
+"principali": "Infraspinatus, Latissimus Dorsi, Teres Major, Teres Minor, Trapezius Lower Fibers, Trapezius Middle Fibers",
+"secundari": "Brachialis, Brachioradialis, Deltoid Posterior, Pectoralis Major Sternal Head",
+"pasi": [
+"Grasp the handles with an overhand grip and sit upright, keeping your back straight and shoulders down.",
+"Pull the handles towards your torso while keeping your elbows close to your body and squeezing your shoulder blades together.",
+"Pause for a moment when the handles are close to your abdomen, then slowly extend your arms back to the starting position."
+]
+},
+{
+"id": "barbell-curl",
+"nume": "Barbell Curl",
+"grupa": "biceps",
+"partiCorp": "Biceps, Upper Arms",
+"echipament": "Barbell",
+"img": "00311101",
+"video": "00311201-Barbell-Curl_Upper-Arms_without-weight.mp4",
+"principali": "Biceps Brachii",
+"secundari": "Brachialis, Brachioradialis",
+"pasi": [
+"Keep your elbows close to your torso at all times, and maintain your upper arms stationary as you curl the weights while contracting…",
+"Continue to raise the barbell until your biceps are fully contracted and the bar is at shoulder level. Hold the contracted position for…",
+"Slowly begin to bring the barbell back to original position as your breathe in."
+]
+},
+{
+"id": "bent-over-row",
+"nume": "Bent Over Row",
+"grupa": "spate",
+"partiCorp": "Back",
+"echipament": "Barbell",
+"img": "00271101",
+"video": "00271201-Barbell-Bent-Over-Row_Back_.mp4",
+"principali": "Infraspinatus, Latissimus Dorsi, Teres Major, Teres Minor, Trapezius Middle Fibers, Trapezius Upper Fibers",
+"secundari": "Brachialis, Brachioradialis, Deltoid Posterior",
+"pasi": [
+"Bend over at the waist while keeping your back straight, until your torso is almost parallel to the floor.",
+"Hold the dumbbells at arm's length directly below your shoulders with your palms facing each other.",
+"Pull the dumbbells towards your chest by bending your elbows and squeezing your shoulder blades together."
+]
+},
+{
+"id": "one-arm-bent-over-row",
+"nume": "One Arm Bent-over Row",
+"grupa": "spate",
+"partiCorp": "Back",
+"echipament": "Dumbbell",
+"img": "02921101",
+"video": "02921201-Dumbbell-Bent-over-Row_Back-FIX_.mp4",
+"principali": "Infraspinatus, Latissimus Dorsi, Teres Major, Teres Minor, Trapezius Lower Fibers, Trapezius Middle Fibers",
+"secundari": "Brachialis, Brachioradialis, Deltoid Posterior, Pectoralis Major Sternal Head",
+"pasi": [
+"Place your opposite knee and hand on the bench for support, keeping your back flat and parallel to the floor.",
+"Let the arm holding the dumbbell hang down and a bit forward.",
+"Pull the dumbbell upward to the side of your torso, keeping your upper arm close to your side and keeping the torso stationary."
+]
+},
+{
+"id": "push-up",
+"nume": "Push-up",
+"grupa": "piept",
+"partiCorp": "Chest",
+"echipament": "Body weight",
+"img": "06621101",
+"video": "06621201-Push-up-m_Chest.mp4",
+"principali": "Pectoralis Major Sternal Head",
+"secundari": "Deltoid Anterior, Pectoralis Major Clavicular Head, Triceps Brachii",
+"pasi": [
+"Lower your body until your chest is close to the floor, keeping your back straight and your elbows close to your body.",
+"Push your body up, extending your arms fully but without locking your elbows, while maintaining your body in a straight line.",
+"Pause for a moment at the top of the push-up."
+]
+},
+{
+"id": "bar-lateral-pulldown",
+"nume": "Bar Lateral Pulldown",
+"grupa": "spate",
+"partiCorp": "Back",
+"echipament": "Cable",
+"img": "01501101",
+"video": "01501201-Cable-Bar-Lateral-Pulldown_Back.mp4",
+"principali": "Latissimus Dorsi",
+"secundari": "Brachialis, Brachioradialis, Deltoid Posterior, Infraspinatus, Teres Major, Teres Minor, Trapezius Lower Fibers, Trapezius Middle Fibers",
+"pasi": [
+"Sit down on the seat, ensuring your feet are flat on the ground and your knees are under the pad, then lean back slightly, keeping your…",
+"Pull the bar down towards your chest while keeping your elbows close to your body, squeezing your shoulder blades together at the…",
+"Hold the position for a moment and then slowly return the bar back up to the starting position, allowing your arms to fully extend and…"
+]
+},
+{
+"id": "dumbbell-bench-press",
+"nume": "Dumbbell Bench Press",
+"grupa": "piept",
+"partiCorp": "Chest",
+"echipament": "Dumbbell",
+"img": "02891101",
+"video": "02891201-Dumbbell-Bench-Press_Chest-FIX_.mp4",
+"principali": "Pectoralis Major Clavicular Head, Pectoralis Major Sternal Head",
+"secundari": "Deltoid Anterior, Triceps Brachii",
+"pasi": [
+"Slowly lay back on the bench, bringing the dumbbells to the sides of your chest with your elbows at a 90-degree angle.",
+"Push the dumbbells up using your chest muscles. Your arms should be fully extended above you, but don't lock your elbows.",
+"Slowly lower the dumbbells back to the starting position at the sides of your chest, keeping control of the weights at all times."
+]
+},
+{
+"id": "hammer-curl",
+"nume": "Hammer Curl",
+"grupa": "biceps",
+"partiCorp": "Biceps, Upper Arms",
+"echipament": "Dumbbell",
+"img": "03121101",
+"video": "03121201-Dumbbell-Hammer-Curl-(version-2)_Upper-Arms-FIX_.mp4",
+"principali": "Brachioradialis",
+"secundari": "Biceps Brachii, Brachialis",
+"pasi": [
+"Keep your upper arms stationary, exhale and curl the weights while contracting your biceps. Continue to raise the weights until your…",
+"Then, inhale and slowly begin to lower the dumbbells back to the starting position.",
+"Repeat the process for the recommended amount of repetitions."
+]
+},
+{
+"id": "alternate-biceps-curl",
+"nume": "Alternate Biceps Curl",
+"grupa": "biceps",
+"partiCorp": "Biceps, Upper Arms",
+"echipament": "Dumbbell",
+"img": "02851101",
+"video": "02851201-Dumbbell-Alternate-Biceps-Curl_Upper-Arms-FIX_.mp4",
+"principali": "Biceps Brachii",
+"secundari": "Brachialis, Brachioradialis",
+"pasi": [
+"Keep your elbows close to your torso, then slowly lift one dumbbell towards your shoulder, contracting your bicep as you do so, while…",
+"Hold the lifted position for a moment, then slowly lower the dumbbell back to the starting position.",
+"Repeat the same movement with the other arm, keeping the first arm stationary this time."
+]
+},
+{
+"id": "lever-seated-leg-curl",
+"nume": "Lever Seated Leg Curl",
+"grupa": "ischiogambieri",
+"partiCorp": "Hamstrings, Thighs",
+"echipament": "Leverage machine",
+"img": "05991101",
+"video": "05991201-Lever-Seated-Leg-Curl_Thighs.mp4",
+"principali": "Hamstrings",
+"secundari": "Gastrocnemius, Sartorius",
+"pasi": [
+"Sit on the machine with your back against the padded support and place your legs under the lever pad, the pad should be touching your…",
+"Grasp the side handles of the machine for support, this will be your starting position.",
+"Push the lever down using your hamstrings (muscles at the back of your thigh) while exhaling, ensuring your upper body remains…"
+]
+},
+{
+"id": "standing-calf-raise",
+"nume": "Standing Calf Raise",
+"grupa": "gambe",
+"partiCorp": "Calves",
+"echipament": "Dumbbell",
+"img": "04171101",
+"video": "04171201-Dumbbell-Standing-Calf-Raise_Calves.mp4",
+"principali": "Gastrocnemius",
+"secundari": "Soleus",
+"pasi": [
+"Slowly raise your heels off the ground, shifting your weight onto the balls of your feet while keeping your abdominal muscles pulled in…",
+"Hold the position for a moment, ensuring your calves are flexed and you're balanced on the balls of your feet.",
+"Gradually lower your heels back to the ground to return to the starting position."
+]
+},
+{
+"id": "dumbbell-incline-curl",
+"nume": "Dumbbell Incline Curl",
+"grupa": "biceps",
+"partiCorp": "Biceps, Upper Arms",
+"echipament": "Dumbbell",
+"img": "03171101",
+"video": "03171201-Dumbbell-Incline-Curl-II_Upper-Arms.mp4",
+"principali": "Brachialis",
+"secundari": "Biceps Brachii, Brachioradialis",
+"pasi": [
+"With your palms facing forward, curl the weights while contracting your biceps. Keep the upper arms stationary, only moving your forearms.",
+"Continue to raise the weights until your biceps are fully contracted and the dumbbells are at shoulder level. Hold the contracted…",
+"Slowly begin to lower the dumbbells back to the starting position in a controlled manner."
+]
+},
+{
+"id": "lever-seated-fly",
+"nume": "Lever Seated Fly",
+"grupa": "piept",
+"partiCorp": "Chest",
+"echipament": "Leverage machine",
+"img": "05961101",
+"video": "05961201-Lever-Seated-Fly_Chest-FIX_.mp4",
+"principali": "Pectoralis Major Sternal Head",
+"secundari": "Biceps Brachii, Pectoralis Major Clavicular Head, Serratus Anterior",
+"pasi": [
+"With a slight bend in your elbows, start to bring the handles together in front of you in a smooth and controlled motion, focusing on…",
+"Continue the motion until your hands meet in the middle, directly in front of your chest.",
+"Hold the position for a second, ensuring you are fully contracting your chest muscles."
+]
+},
+{
+"id": "cable-standing-fly",
+"nume": "Cable Standing Fly",
+"grupa": "piept",
+"partiCorp": "Chest",
+"echipament": "Cable",
+"img": "02271101",
+"video": "02271201-Cable-Standing-Fly_Chest.mp4",
+"principali": "Pectoralis Major Sternal Head",
+"secundari": "Deltoid Anterior, Pectoralis Major Clavicular Head",
+"pasi": [
+"Take a step forward from the machine, keeping your feet shoulder-width apart and slightly bend your knees for stability.",
+"Extend your arms out to the sides, keeping them slightly bent at the elbows, and keep your back straight and chest up.",
+"Slowly bring your hands together in front of you in a wide arc, squeezing your chest muscles as you do so."
+]
+},
+{
+"id": "seated-shoulder-press",
+"nume": "Seated Shoulder Press",
+"grupa": "umeri",
+"partiCorp": "Shoulders",
+"echipament": "Dumbbell",
+"img": "04051101",
+"video": "04051201-Dumbbell-Seated-Shoulder-Press_Shoulders-FIX_.mp4",
+"principali": "Deltoid Anterior",
+"secundari": "Deltoid Lateral, Pectoralis Major Clavicular Head, Serratus Anterior, Triceps Brachii",
+"pasi": [
+"Keeping your back pressed firmly against the bench and your feet flat on the floor, push the dumbbells upward until your arms are fully…",
+"Hold this position for a moment, making sure to keep your core engaged and your shoulders down to avoid straining your neck.",
+"Slowly lower the dumbbells back to the starting position at shoulder level, ensuring that you control the movement rather than letting…"
+]
+},
+{
+"id": "lever-seated-shoulder-press",
+"nume": "Lever Seated Shoulder Press",
+"grupa": "umeri",
+"partiCorp": "Shoulders",
+"echipament": "Leverage machine",
+"img": "14541101",
+"video": "14541201-Lever-Seated-Shoulder-Press_Shoulders_.mp4",
+"principali": "Deltoid Anterior",
+"secundari": "Deltoid Lateral, Pectoralis Major Clavicular Head, Serratus Anterior, Triceps Brachii",
+"pasi": [
+"Grasp the handles with your palms facing forward, ensuring your elbows are bent at a 90-degree angle.",
+"Exhale and push the handles upward until your arms are fully extended, but be careful not to lock your elbows.",
+"Inhale as you slowly lower the handles back to the starting position, keeping control of the movement."
+]
+},
+{
+"id": "biceps-curl",
+"nume": "Biceps Curl",
+"grupa": "biceps",
+"partiCorp": "Biceps, Upper Arms",
+"echipament": "Dumbbell",
+"img": "02941101",
+"video": "02941201-Dumbbell-Biceps-Curl_Upper-Arms.mp4",
+"principali": "Biceps Brachii",
+"secundari": "Brachialis, Brachioradialis",
+"pasi": [
+"Keeping your elbows close to your torso, slowly curl the weights while contracting your biceps, ensure that only your forearms are moving.",
+"Continue the movement until your biceps are fully contracted and the dumbbells are at shoulder level, hold the contracted position for…",
+"Gradually begin to bring the dumbbells back to the starting position in a controlled manner."
+]
+},
+{
+"id": "lever-lying-leg-curl",
+"nume": "Lever Lying Leg Curl",
+"grupa": "ischiogambieri",
+"partiCorp": "Hamstrings, Thighs",
+"echipament": "Leverage machine",
+"img": "05861101",
+"video": "05861201-Lever-Lying-Leg-Curl_Thighs.mp4",
+"principali": "Hamstrings",
+"secundari": "Gastrocnemius, Soleus",
+"pasi": [
+"Keep your torso flat on the bench as you fully extend your legs and grasp the side handles of the machine for stability.",
+"Exhale and slowly curl your legs up as far as possible without lifting your upper legs from the pad. Your back should remain straight…",
+"Hold the contracted position for a moment as you squeeze your hamstrings."
+]
+},
+{
+"id": "crunch-floor",
+"nume": "Crunch Floor",
+"grupa": "abdomen",
+"partiCorp": "Waist",
+"echipament": "Body weight",
+"img": "02741101",
+"video": "02741201-Crunch-Floor-(male)_waist.mp4",
+"principali": "Rectus Abdominis",
+"secundari": "Obliques",
+"pasi": [
+"Place your hands lightly behind your head or across your chest, ensuring not to pull your neck with your hands as you perform the exercise.",
+"Slowly curl your body up towards your knees, lifting your shoulder blades off the floor and contracting your abdominal muscles.",
+"Hold this position for a moment, feeling the tension in your abdominal muscles."
+]
+},
+{
+"id": "pull-up",
+"nume": "Pull-up",
+"grupa": "spate",
+"partiCorp": "Back",
+"echipament": "Body weight",
+"img": "06521101",
+"video": "06521201-Pull-up_Back-FIX_.mp4",
+"principali": "Latissimus Dorsi",
+"secundari": "Brachialis, Brachioradialis, Deltoid Posterior, Infraspinatus, Teres Major, Teres Minor, Trapezius Lower Fibers, Trapezius Middle Fibers",
+"pasi": [
+"Pull your body up by driving your elbows towards the floor, keep pulling until your chin is above the bar, while keeping your body…",
+"At the top of the movement, pause for a second, then slowly lower your body back down to the starting position, maintaining control…",
+"Ensure your arms are fully extended before starting the next repetition."
+]
+},
+{
+"id": "deadlift",
+"nume": "Deadlift",
+"grupa": "fesieri",
+"partiCorp": "Hips",
+"echipament": "Barbell",
+"img": "00321101",
+"video": "00321201-Barbell-Deadlift_Hips-FIX.mp4",
+"principali": "Gluteus Maximus",
+"secundari": "Adductor Magnus, Erector Spinae, Hamstrings, Quadriceps, Soleus",
+"pasi": [
+"Bend at your hips and knees to lower your body and grasp the barbell with your hands slightly wider than shoulder-width apart, palms…",
+"Keeping your back straight, push through your heels to lift the barbell off the ground, straightening your hips and knees…",
+"Hold this position for a moment, then slowly reverse the motion, bending at your hips and knees to lower the barbell back to the ground."
+]
+},
+{
+"id": "dip-on-floor-with-chair",
+"nume": "Dip on Floor with Chair",
+"grupa": "triceps",
+"partiCorp": "Triceps, Upper Arms",
+"echipament": "Body weight",
+"img": "34431101",
+"video": "34431201-Dip-on-Floor-with-Chair_Chest_.mp4",
+"principali": "Pectoralis Major Sternal Head, Triceps Brachii",
+"secundari": "Deltoid Anterior, Latissimus Dorsi, Levator Scapulae",
+"pasi": [
+"Bend your knees to sit down and place your hands on the edge of the chair, fingers pointing towards your body.",
+"Push off your hands and slide your bottom off the chair, lowering your body towards the floor by bending your elbows until they are at…",
+"Push your body back up using your arms until they are fully extended, ensuring your hips are close to the chair and your chest is lifted."
+]
+},
+{
+"id": "romanian-deadlift",
+"nume": "Romanian Deadlift",
+"grupa": "fesieri",
+"partiCorp": "Hips",
+"echipament": "Barbell",
+"img": "00851101",
+"video": "00851201-Barbell-Romanian-Deadlift_Hips_.mp4",
+"principali": "Erector Spinae, Gluteus Maximus",
+"secundari": "Adductor Magnus, Hamstrings, Quadriceps, Soleus",
+"pasi": [
+"Bend at your hips and knees, keeping your back straight, and lower the barbell towards the floor while keeping it close to your body.",
+"Push your hips back as far as you can, until you feel a stretch in your hamstrings.",
+"Pause for a moment, then reverse the movement by driving your hips forward and standing up straight, lifting the barbell back to the…"
+]
+},
+{
+"id": "barbell-lying-triceps-extension-skull-crusher",
+"nume": "Barbell Lying Triceps Extension Skull Crusher",
+"grupa": "triceps",
+"partiCorp": "Triceps, Upper Arms",
+"echipament": "Barbell",
+"img": "00601101",
+"video": "00601201-Barbell-Lying-Triceps-Extension-Skull-Crusher_Upper-Arms.mp4",
+"principali": "Triceps Brachii",
+"secundari": "Deltoid Anterior, Pectoralis Major Clavicular Head, Pectoralis Major Sternal Head",
+"pasi": [
+"Slowly lower the barbell towards your forehead, keeping your elbows stationary and bending only at the elbow.",
+"Stop just before the barbell touches your forehead, ensuring that your upper arms remain perpendicular to the floor.",
+"Contract your triceps to extend your elbows and return the barbell back to the starting position."
+]
+},
+{
+"id": "preacher-curl",
+"nume": "Preacher Curl",
+"grupa": "biceps",
+"partiCorp": "Biceps, Upper Arms",
+"echipament": "Barbell",
+"img": "00701101",
+"video": "00701201-Barbell-Preacher-Curl_Upper-Arms.mp4",
+"principali": "Brachialis",
+"secundari": "Biceps Brachii, Brachioradialis",
+"pasi": [
+"Pick up the barbell or dumbbells with an underhand grip, ensuring your hands are shoulder-width apart.",
+"Slowly curl the weight up, keeping your upper arms and elbows stationary on the pad, until your biceps are fully contracted and at…",
+"Hold the position for a second and squeeze your biceps at the top of the movement."
+]
+},
+{
+"id": "decline-push-up",
+"nume": "Decline Push-Up",
+"grupa": "piept",
+"partiCorp": "Chest",
+"echipament": "Body weight",
+"img": "02791101",
+"video": "02791201-Decline-Push-Up_Chest-FIX_.mp4",
+"principali": "Pectoralis Major Clavicular Head, Pectoralis Major Sternal Head",
+"secundari": "Deltoid Anterior, Triceps Brachii",
+"pasi": [
+"Walk your feet up onto the bench or step, keeping your body straight from your head to your heels, this will be your starting position.",
+"Lower your body towards the ground while keeping your elbows close to your body until your chest nearly touches the floor.",
+"Push your body up back to the starting position by fully extending your arms, while maintaining your body straight."
+]
+},
+{
+"id": "close-grip-push-up",
+"nume": "Close-grip Push-up",
+"grupa": "triceps",
+"partiCorp": "Triceps, Upper Arms",
+"echipament": "Body weight",
+"img": "02591101",
+"video": "02591201-Close-Grip-Push-up_Upper-Arms.mp4",
+"principali": "Triceps Brachii",
+"secundari": "Deltoid Anterior, Pectoralis Major Clavicular Head, Pectoralis Major Sternal Head",
+"pasi": [
+"Extend your legs behind you and balance on the balls of your feet, forming a straight line from your head to your heels.",
+"Lower your body towards the floor by bending your elbows, keeping your body straight and your elbows close to your sides.",
+"Push your body back up by extending your arms, keeping your body straight and your core engaged."
+]
+},
+{
+"id": "pulldown",
+"nume": "Pulldown",
+"grupa": "spate",
+"partiCorp": "Back",
+"echipament": "Cable",
+"img": "01981101",
+"video": "01981201-Cable-Pulldown_Back_.mp4",
+"principali": "Latissimus Dorsi",
+"secundari": "Brachialis, Brachioradialis, Deltoid Posterior, Infraspinatus, Teres Major, Teres Minor, Trapezius Lower Fibers, Trapezius Middle Fibers",
+"pasi": [
+"Sit down on the machine and grasp the bar with a wide grip, palms facing forward.",
+"Pull the bar down towards your upper chest while keeping your back straight and squeezing your shoulder blades together.",
+"Hold the position for a moment, then slowly return the bar back to the starting position, allowing your arms to fully extend."
+]
+},
+{
+"id": "chest-dip",
+"nume": "Chest Dip",
+"grupa": "piept",
+"partiCorp": "Chest",
+"echipament": "Body weight",
+"img": "02511101",
+"video": "02511201-Chest-Dip_Chest.mp4",
+"principali": "Pectoralis Major Sternal Head",
+"secundari": "Deltoid Anterior, Latissimus Dorsi, Levator Scapulae, Pectoralis Major Clavicular Head, Triceps Brachii",
+"pasi": [
+"Lean your body forward to put emphasis on the chest muscles and bend your knees, crossing your ankles behind you to maintain balance.",
+"Slowly lower your body by bending your elbows until you reach a point where your elbows are at a 90-degree angle and your chest is…",
+"Pause for a moment at the bottom of the movement, then push yourself back up to the starting position, extending your arms fully but…"
+]
+},
+{
+"id": "arnold-press",
+"nume": "Arnold Press",
+"grupa": "umeri",
+"partiCorp": "Shoulders",
+"echipament": "Dumbbell",
+"img": "02871101",
+"video": "02871201-Dumbbell-Arnold-Press-II_Shoulders.mp4",
+"principali": "Deltoid Anterior",
+"secundari": "Deltoid Lateral, Serratus Anterior, Triceps Brachii",
+"pasi": [
+"Raise the dumbbells to shoulder height, then rotate your palms so they are facing forward.",
+"Push the dumbbells upward until your arms are fully extended above your head.",
+"Slowly lower the dumbbells back to shoulder height while rotating your palms to face your body again."
+]
+},
+{
+"id": "sled-45-leg-press",
+"nume": "Sled 45° Leg Press",
+"grupa": "fesieri",
+"partiCorp": "Hips",
+"echipament": "Sled machine",
+"img": "07391101",
+"video": "07391201-Sled-45-degrees-Leg-Press_Hips-FIX_.mp4",
+"principali": "Gluteus Maximus, Quadriceps",
+"secundari": "Adductor Magnus, Soleus",
+"pasi": [
+"Place your feet hip-width apart on the platform in front of you, ensuring your toes are pointing slightly outwards.",
+"Bend your knees to bring the platform towards your chest, making sure to keep your feet flat against the platform at all times.",
+"Once your knees are bent at a 90° angle, push through your heels to extend your legs and push the platform away from you."
+]
+},
+{
+"id": "front-plank",
+"nume": "Front Plank",
+"grupa": "abdomen",
+"partiCorp": "Waist",
+"echipament": "Body weight",
+"img": "04651101",
+"video": "04651201-Front-Plank-(female)_Waist_.mp4",
+"principali": "Rectus Abdominis",
+"secundari": "Obliques, Quadriceps, Serratus Anterior, Tensor Fasciae Latae",
+"pasi": [
+"Push your body up onto your forearms and toes, making sure your elbows are directly under your shoulders and your forearms are facing…",
+"Keep your body in a straight line from your head to your feet, ensuring your back is flat and your hips are not dropping or rising.",
+"Engage your core muscles and hold this position for as long as you can, ideally aiming for 30 seconds to 1 minute."
+]
+},
+{
+"id": "hip-thrust",
+"nume": "Hip Thrust",
+"grupa": "fesieri",
+"partiCorp": "Hips",
+"echipament": "Barbell",
+"img": "10601101",
+"video": "10601201-Barbell-Hip-Thrust_Hips.mp4",
+"principali": "Gluteus Maximus",
+"secundari": "Hamstrings, Quadriceps",
+"pasi": [
+"Place a barbell or weight across your hips, holding it in place with your hands.",
+"Push through your heels to lift your hips towards the ceiling, ensuring that your body forms a straight line from your shoulders to…",
+"Hold this position for a moment, then slowly lower your hips back down to the starting position."
+]
+},
+{
+"id": "front-raise",
+"nume": "Front Raise",
+"grupa": "umeri",
+"partiCorp": "Shoulders",
+"echipament": "Dumbbell",
+"img": "03101101",
+"video": "03101201-Dumbbell-Front-Raise_Shoulders.mp4",
+"principali": "Deltoid Anterior",
+"secundari": "Deltoid Lateral, Pectoralis Major Clavicular Head, Serratus Anterior",
+"pasi": [
+"While maintaining the torso stationary (no swinging), lift the left dumbbell to the front of your body while slightly bending the elbow…",
+"Inhale after the second pause and slowly lower the dumbbell back down to the starting position.",
+"Now perform the same movement for the right hand while the left hand holds the dumbbell at the waist."
+]
+},
+{
+"id": "barbell-standing-military-press",
+"nume": "Barbell Standing Military Press",
+"grupa": "umeri",
+"partiCorp": "Shoulders",
+"echipament": "Barbell",
+"img": "11651101",
+"video": "11651201-Barbell-Standing-Military-Press-(without-rack)_Shoulders_without-weight.mp4",
+"principali": "Deltoid Anterior",
+"secundari": "Deltoid Lateral, Pectoralis Major Clavicular Head, Serratus Anterior, Triceps Brachii",
+"pasi": [
+"Position the barbell at your collarbone with your palms facing forward and elbows directly under the bar, this is your starting position.",
+"Push the barbell up and over your head by extending your arms fully, keep your body and wrists straight throughout the movement.",
+"Pause for a moment at the top of the movement, then slowly lower the barbell back down to the collarbone level."
+]
+},
+{
+"id": "dumbbell-one-arm-bent-over-row",
+"nume": "Dumbbell One Arm Bent-over Row",
+"grupa": "spate",
+"partiCorp": "Back",
+"echipament": "Dumbbell",
+"img": "02921101",
+"video": "02921201-Dumbbell-Bent-over-Row_Back-FIX_.mp4",
+"principali": "Infraspinatus, Latissimus Dorsi, Teres Major, Teres Minor, Trapezius Lower Fibers, Trapezius Middle Fibers",
+"secundari": "Brachialis, Brachioradialis, Deltoid Posterior, Pectoralis Major Sternal Head",
+"pasi": [
+"Bend your knees slightly and lean forward from your waist until your torso is almost parallel to the floor, making sure to keep your…",
+"Hold onto the bench with your free hand for support, and let the hand holding the dumbbell hang down from your shoulder.",
+"Pull the dumbbell up towards your waist, keeping your elbow close to your body and squeezing your shoulder blades together at the top…"
+]
+},
+{
+"id": "dumbbell-incline-bench-press",
+"nume": "Dumbbell Incline Bench Press",
+"grupa": "piept",
+"partiCorp": "Chest",
+"echipament": "Dumbbell",
+"img": "03141101",
+"video": "03141201-Dumbbell-Incline-Bench-Press_Chest-FIX2_.mp4",
+"principali": "Pectoralis Major Clavicular Head",
+"secundari": "Deltoid Anterior, Triceps Brachii",
+"pasi": [
+"Lay back onto the bench, keeping the dumbbells close to your chest and your feet firmly planted on the ground for balance.",
+"Push the dumbbells up above your chest, extending your arms fully but not locking your elbows.",
+"Slowly lower the dumbbells back down to your chest level, keeping your elbows at a 90-degree angle."
+]
+},
+{
+"id": "lever-chest-press",
+"nume": "Lever Chest Press",
+"grupa": "piept",
+"partiCorp": "Chest",
+"echipament": "Leverage machine",
+"img": "05761101",
+"video": "05761201-Lever-Chest-Press-(plate-loaded)_Chest-FIX_.mp4",
+"principali": "Pectoralis Major Sternal Head",
+"secundari": "Deltoid Anterior, Pectoralis Major Clavicular Head, Triceps Brachii",
+"pasi": [
+"Sit on the seat with your back flat against the pad and grasp the handles with an overhand grip, ensuring your hands are shoulder-width…",
+"Push the handles away from you, fully extending your arms but without locking your elbows, exhaling as you do so.",
+"Pause for a moment at the top of the movement and then slowly lower the handles back to the starting position, inhaling as you do this."
+]
+},
+{
+"id": "pike-push-up",
+"nume": "Pike Push up",
+"grupa": "piept",
+"partiCorp": "Chest",
+"echipament": "Body weight",
+"img": "33831101",
+"video": "33831201-Pike-Push-up-(on-Bench)-(VERSION-2)_Chest.mp4",
+"principali": "Pectoralis Major Clavicular Head, Pectoralis Major Sternal Head",
+"secundari": "Deltoid Anterior, Deltoid Lateral, Serratus Anterior, Triceps Brachii",
+"pasi": [
+"Lift your hips and push your body back into a downward dog yoga position, where your body forms an inverted \"V\" shape, with your head…",
+"Lower your upper body towards the ground by bending your elbows, keeping your head down and your hips high, until your head nearly…",
+"Push your body back up to the starting position, extending your elbows and using your shoulders and upper body strength."
+]
+},
+{
+"id": "low-seated-row",
+"nume": "Low Seated Row",
+"grupa": "spate",
+"partiCorp": "Back",
+"echipament": "Cable",
+"img": "01801101",
+"video": "01801201-Cable-Low-Seated-Row_Back.mp4",
+"principali": "Infraspinatus, Latissimus Dorsi, Teres Major, Teres Minor, Trapezius Lower Fibers, Trapezius Middle Fibers",
+"secundari": "Brachialis, Brachioradialis, Deltoid Posterior, Pectoralis Major Sternal Head",
+"pasi": [
+"Keep your back straight, chest out, and bend your knees slightly. This is your starting position.",
+"Pull the handles towards your abdomen, keeping your elbows close to your body and squeezing your shoulder blades together.",
+"Hold this position for a moment, feeling the contraction in your back muscles."
+]
+},
+{
+"id": "dumbbell-rear-delt-fly",
+"nume": "Dumbbell Rear Delt Fly",
+"grupa": "umeri",
+"partiCorp": "Shoulders",
+"echipament": "Dumbbell",
+"img": "24871101",
+"video": "24871201-Dumbbell-Rear-Delt-Fly-(female)_Shoulders.mp4",
+"principali": "Deltoid Posterior",
+"secundari": "Deltoid Lateral, Infraspinatus, Teres Minor, Trapezius Lower Fibers, Trapezius Middle Fibers",
+"pasi": [
+"Bend forward at the waist so your chest is leaning forward over your feet. Keep your back straight and let your arms hang straight…",
+"Keep a slight bend in your elbows and raise your arms out to the sides until they're at shoulder level, like you're spreading your…",
+"Pause for a moment at the top of the movement, then slowly lower the dumbbells back to the starting position."
+]
+},
+{
+"id": "fly",
+"nume": "Fly",
+"grupa": "piept",
+"partiCorp": "Chest",
+"echipament": "Dumbbell",
+"img": "03081101",
+"video": "03081201-Dumbbell-Fly_Chest-FIX2_.mp4",
+"principali": "Pectoralis Major Clavicular Head, Pectoralis Major Sternal Head",
+"secundari": "Biceps Brachii, Deltoid Anterior",
+"pasi": [
+"Hold the dumbbells directly above your chest, with your palms facing each other and elbows slightly bent.",
+"Slowly lower the dumbbells out to your sides in a wide arc, keeping the slight bend in your elbows, until you feel a stretch in your chest.",
+"From this position, use your chest muscles to lift the dumbbells back up to the starting position, following the same wide arc."
+]
+},
+{
+"id": "lever-seated-hip-abduction",
+"nume": "Lever Seated Hip Abduction",
+"grupa": "fesieri",
+"partiCorp": "Hips",
+"echipament": "Leverage machine",
+"img": "05971101",
+"video": "05971201-Lever-Seated-Hip-Abduction_Hips.mp4",
+"principali": "Gluteus Maximus, Gluteus Medius",
+"secundari": "Tensor Fasciae Latae",
+"pasi": [
+"Adjust the leg pads so they are snug against your legs, just above the knees. Make sure the lever is at a comfortable starting position…",
+"Hold onto the handles of the machine for support, and then slowly push your legs outwards against the pads using your hip muscles.",
+"Once you have pushed your legs out as far as you can comfortably go, hold the position for a moment to maximize muscle engagement."
+]
+},
+{
+"id": "lateral-raise-with-towel",
+"nume": "Lateral Raise with Towel",
+"grupa": "umeri",
+"partiCorp": "Shoulders",
+"echipament": "Body weight",
+"img": "37411101",
+"video": "37411201-Lateral-Raise-with-Towel_Shoulders_.mp4",
+"principali": "Deltoid Lateral",
+"secundari": "Deltoid Anterior, Serratus Anterior",
+"pasi": [
+"Keep your arms straight and slowly lift the towel out to your sides until your arms are parallel to the floor, maintaining tension on…",
+"Pause for a moment at the top of the movement, making sure to keep your shoulders down and not hunch them up towards your ears.",
+"Slowly lower the towel back down to the starting position, keeping your arms straight and maintaining the tension on the towel."
+]
+},
+{
+"id": "overhead-triceps-extension",
+"nume": "Overhead Triceps Extension",
+"grupa": "triceps",
+"partiCorp": "Triceps, Upper Arms",
+"echipament": "Cable",
+"img": "01941101",
+"video": "01941201-Cable-Overhead-Triceps-Extension-(rope-attachment)_Upper-Arms.mp4",
+"principali": "Triceps Brachii",
+"secundari": "",
+"pasi": [
+"Keep your upper arms stationary and close to your head, with elbows in and perpendicular to the floor.",
+"Slowly lower the weight in a semicircular motion behind your head until your forearms touch your biceps. Ensure that only your forearms…",
+"Pause for a moment and then use your triceps to return the dumbbell back to the starting position."
+]
+},
+{
+"id": "shrug",
+"nume": "Shrug",
+"grupa": "spate",
+"partiCorp": "Back",
+"echipament": "Dumbbell",
+"img": "04061101",
+"video": "04061201-Dumbbell-Shrug_Back.mp4",
+"principali": "Trapezius Upper Fibers",
+"secundari": "Trapezius Middle Fibers",
+"pasi": [
+"Keep your arms fully extended and your eyes facing forward.",
+"Lift your shoulders up as high as possible as if you were trying to touch your ears, but keep your arms straight during the process.",
+"Hold that position for a second to maximize the contraction in the traps."
+]
+},
+{
+"id": "standing-triceps-extension",
+"nume": "Standing Triceps Extension",
+"grupa": "triceps",
+"partiCorp": "Triceps, Upper Arms",
+"echipament": "Dumbbell",
+"img": "04301101",
+"video": "04301201-Dumbbell-Standing-Triceps-Extension_Upper-Arms.mp4",
+"principali": "Triceps Brachii",
+"secundari": "",
+"pasi": [
+"Raise the dumbbell above your head until both arms are fully extended, keeping your elbows close to your head and perpendicular to the…",
+"Slowly lower the dumbbell behind your head while keeping your upper arms still, only bending your elbows.",
+"Pause for a moment when your forearms touch your biceps."
+]
+},
+{
+"id": "lever-pec-deck-fly",
+"nume": "Lever Pec Deck Fly",
+"grupa": "piept",
+"partiCorp": "Chest",
+"echipament": "Leverage machine",
+"img": "10301101",
+"video": "10301201-Lever-Pec-Deck-Fly_Chest_.mp4",
+"principali": "Biceps Brachii",
+"secundari": "Brachialis, Brachioradialis",
+"pasi": [
+"Sit on the pec deck machine with your back firmly against the pad and place your forearms on the padded levers, ensuring that your…",
+"Push the levers together slowly, focusing on squeezing your chest muscles, until your hands meet in front of your chest.",
+"Hold this position for a second to maximize the contraction of the chest muscles."
+]
+},
+{
+"id": "lever-seated-calf-raise",
+"nume": "Lever Seated Calf Raise",
+"grupa": "gambe",
+"partiCorp": "Calves",
+"echipament": "Leverage machine",
+"img": "05941101",
+"video": "05941201-Lever-Seated-Calf-Raise-(plate-loaded).mp4",
+"principali": "Soleus",
+"secundari": "Gastrocnemius",
+"pasi": [
+"Place your hands on top of the lever pad in order to prevent it from slipping forward. This is your starting position.",
+"Begin the exercise by raising your heels as you breathe out, extending your ankles as high as possible and flexing your calf muscles.…",
+"Slowly lower your heels by bending at the ankles until your calves are fully stretched, while you inhale."
+]
+},
+{
+"id": "incline-fly",
+"nume": "Incline Fly",
+"grupa": "piept",
+"partiCorp": "Chest",
+"echipament": "Dumbbell",
+"img": "03191101",
+"video": "03191201-Dumbbell-Incline-Fly_Chest-FIX2_.mp4",
+"principali": "Pectoralis Major Clavicular Head",
+"secundari": "Biceps Brachii, Deltoid Anterior",
+"pasi": [
+"Lie back on the bench, keeping the dumbbells close to your chest and your palms facing each other.",
+"Slowly raise the dumbbells above your chest by extending your arms, keeping a slight bend in your elbows to prevent strain.",
+"Pause for a moment at the top, then gradually lower the dumbbells back down to the starting position in a controlled manner."
+]
+},
+{
+"id": "lever-standing-calf-raise",
+"nume": "Lever Standing Calf Raise",
+"grupa": "gambe",
+"partiCorp": "Calves",
+"echipament": "Leverage machine",
+"img": "06051101",
+"video": "06051201-Lever-Standing-Calf-Raise_Calves.mp4",
+"principali": "Gastrocnemius",
+"secundari": "Soleus",
+"pasi": [
+"Position your toes forward and ensure your heels are extending off the platform with the balls of your feet securing your balance.",
+"Push the lever up by extending your hips and knees until your torso is standing erect. The knees should be kept with a slight bend;…",
+"Raise your heels as you exhale by extending your ankles as high as possible while maintaining your balance and keeping your knees with…"
+]
+},
+{
+"id": "cable-wide-grip-lat-pulldown",
+"nume": "Cable Wide-Grip Lat Pulldown",
+"grupa": "spate",
+"partiCorp": "Back",
+"echipament": "Cable",
+"img": "22911101",
+"video": "22911201-Cable-Wide-Grip-Lat-Pulldown-(female)_Back.mp4",
+"principali": "Latissimus Dorsi",
+"secundari": "Biceps Brachii, Brachialis, Brachioradialis, Deltoid Posterior, Infraspinatus, Levator Scapulae, Teres Major, Teres Minor",
+"pasi": [
+"Grasp the bar with a wide grip, palms facing forward, and your hands wider than shoulder-width apart.",
+"Lean slightly back, keeping your back straight, and pull the bar down towards your upper chest, squeezing your shoulder blades together…",
+"Pause for a moment in this position, maintaining the squeeze in your back muscles."
+]
+},
+{
+"id": "cable-standing-one-arm-tricep-pushdown",
+"nume": "Cable Standing One Arm Tricep Pushdown",
+"grupa": "triceps",
+"partiCorp": "Triceps, Upper Arms",
+"echipament": "Cable",
+"img": "12271101",
+"video": "12271201-Cable-Standing-One-Arm-Tricep-Pushdown-(Overhand-G.mp4",
+"principali": "Triceps Brachii",
+"secundari": "",
+"pasi": [
+"With your feet shoulder-width apart, grab the handle of the cable with one hand, palm facing down.",
+"Keep your elbow close to your body and bend your arm at the elbow to create a 90-degree angle, this is your starting position.",
+"Slowly straighten your arm, pushing the handle down towards the floor until your arm is fully extended, while keeping your elbow stationary."
+]
+},
+{
+"id": "wide-hand-push-up",
+"nume": "Wide Hand Push up",
+"grupa": "piept",
+"partiCorp": "Chest",
+"echipament": "Body weight",
+"img": "13111101",
+"video": "13111201-Wide-Hand-Push-up_Chest.mp4",
+"principali": "Pectoralis Major Sternal Head",
+"secundari": "Deltoid Anterior, Pectoralis Major Clavicular Head, Triceps Brachii",
+"pasi": [
+"Keep your body straight and rigid, from your head to your heels, engaging your core.",
+"Lower your body towards the ground, bending your elbows out to the sides until your chest nearly touches the floor.",
+"Pause for a moment at the bottom of the movement, ensuring your elbows are at a 90-degree angle."
+]
+},
+{
+"id": "ez-barbell-curl",
+"nume": "EZ Barbell Curl",
+"grupa": "biceps",
+"partiCorp": "Biceps, Upper Arms",
+"echipament": "EZ Barbell",
+"img": "04471101",
+"video": "04471201-EZ-Barbell-Curl_Upper-Arms.mp4",
+"principali": "Biceps Brachii",
+"secundari": "Brachialis, Brachioradialis",
+"pasi": [
+"Exhale and use your biceps to lift the bar until your biceps are fully contracted and the bar is at shoulder level. Keep your elbows…",
+"Hold the contracted position for a moment as you squeeze your biceps.",
+"Inhale and slowly begin to lower the bar back to the starting position."
+]
+},
+{
+"id": "lever-seated-reverse-fly",
+"nume": "Lever Seated Reverse Fly",
+"grupa": "umeri",
+"partiCorp": "Shoulders",
+"echipament": "Leverage machine",
+"img": "06021101",
+"video": "06021201-Lever-Seated-Reverse-Fly_Shoulders.mp4",
+"principali": "Deltoid Posterior",
+"secundari": "Deltoid Lateral, Infraspinatus, Teres Minor, Trapezius Lower Fibers, Trapezius Middle Fibers",
+"pasi": [
+"Grab the handles of the lever machine with your arms fully extended in front of you, palms facing inwards.",
+"Lean forward slightly from your waist, keeping your back straight and your eyes focused ahead.",
+"Slowly pull the handles out to your sides, squeezing your shoulder blades together, until your arms are parallel to the floor."
+]
+},
+{
+"id": "russian-twist",
+"nume": "Russian Twist",
+"grupa": "abdomen",
+"partiCorp": "Waist",
+"echipament": "Body weight",
+"img": "06871101",
+"video": "06871201-Russian-Twist_waist.mp4",
+"principali": "Obliques",
+"secundari": "Iliopsoas",
+"pasi": [
+"Hold your hands in front of you and pull your abs to your spine, then slightly lean back until you feel your abs engaged in a balanced…",
+"Twist your torso to the right, then to the left to complete one rep, moving your hands from one side to the other.",
+"Keep your back straight and avoid moving your hips as you twist."
+]
+},
+{
+"id": "concentration-curl",
+"nume": "Concentration Curl",
+"grupa": "biceps",
+"partiCorp": "Biceps, Upper Arms",
+"echipament": "Dumbbell",
+"img": "02971101",
+"video": "02971201-Dumbbell-Concentration-Curl_Upper-Arms-FIX_.mp4",
+"principali": "Brachialis",
+"secundari": "Biceps Brachii, Brachioradialis",
+"pasi": [
+"Rest your right elbow on the inside of your right thigh, making sure your arm is fully extended and the palm of your hand is facing forward.",
+"Slowly curl the dumbbell up towards your chest, keeping your upper arm and elbow stationary on your thigh, only moving your forearm.",
+"Pause for a moment at the top of the curl, contracting your bicep muscle."
+]
+},
+{
+"id": "dumbbell-incline-biceps-curl",
+"nume": "Dumbbell Incline Biceps Curl",
+"grupa": "biceps",
+"partiCorp": "Biceps, Upper Arms",
+"echipament": "Dumbbell",
+"img": "03151101",
+"video": "03151201-Dumbbell-Incline-Biceps-Curl_Upper-Arms.mp4",
+"principali": "Biceps Brachii",
+"secundari": "Brachialis, Brachioradialis",
+"pasi": [
+"Hold a dumbbell in each hand with your arms fully extended and palms facing forward.",
+"Slowly curl the weights while keeping the upper arms stationary, continue to curl the weights until your biceps are fully contracted…",
+"Hold the contracted position for a brief moment as you squeeze your biceps."
+]
+},
+{
+"id": "cable-low-fly",
+"nume": "Cable Low Fly",
+"grupa": "piept",
+"partiCorp": "Chest",
+"echipament": "Cable",
+"img": "01791101",
+"video": "01791201-Cable-Low-Fly_Chest-FIX2_.mp4",
+"principali": "Pectoralis Major Clavicular Head",
+"secundari": "Biceps Brachii, Deltoid Anterior",
+"pasi": [
+"Stand in the middle of the cable machine, grab a handle in each hand, and step forward to create tension on the cables, keeping your…",
+"Bend slightly at your knees and lean forward a bit at your waist, keeping your back straight.",
+"With your elbows slightly bent, lift your arms out to the sides and up until they are at chest level, forming a wide arc, and squeeze…"
+]
+},
+{
+"id": "high-pulley-overhead-tricep-extension",
+"nume": "High Pulley Overhead Tricep Extension",
+"grupa": "triceps",
+"partiCorp": "Triceps, Upper Arms",
+"echipament": "Cable",
+"img": "17221101",
+"video": "17221201-Cable-High-Pulley-Overhead-Tricep-Extension_Upper-Arms.mp4",
+"principali": "",
+"secundari": "",
+"pasi": [
+"Step forward from the weight stack, and lean your torso forward at a slight angle while keeping your back straight and feet hip-width…",
+"Extend your arms straight out in front of you at chest level, with your palms facing each other, this will be your starting position.",
+"Keeping your elbows stationary and using your triceps, pull the rope down until your arms are fully extended, pause for a moment at…"
+]
+},
+{
+"id": "pullover",
+"nume": "Pullover",
+"grupa": "piept",
+"partiCorp": "Chest",
+"echipament": "Dumbbell",
+"img": "03751101",
+"video": "03751201-Dumbbell-Pullover_Chest.mp4",
+"principali": "Pectoralis Major Sternal Head",
+"secundari": "Deltoid Posterior, Latissimus Dorsi, Teres Major, Triceps Brachii",
+"pasi": [
+"Hold a dumbbell with both hands above your chest, your arms should be fully extended and your palms should be facing up.",
+"Slowly lower the dumbbell back over your head while keeping your arms straight, until they are about parallel with the floor.",
+"Hold this position for a moment to feel the stretch in your chest and lats."
+]
+},
+{
+"id": "lever-preacher-curl",
+"nume": "Lever Preacher Curl",
+"grupa": "biceps",
+"partiCorp": "Biceps, Upper Arms",
+"echipament": "Leverage machine",
+"img": "05921101",
+"video": "05921201-Lever-Preacher-Curl_Upper-Arms-FIX_.mp4",
+"principali": "Brachialis",
+"secundari": "Biceps Brachii, Brachioradialis",
+"pasi": [
+"Grasp the lever handles with an underhand grip (palms facing up) and ensure your arms are fully extended.",
+"Slowly curl the handles up towards your shoulders, while keeping your upper arms and elbows stationary on the pad. This will be your…",
+"Gradually lower the handles back to the initial position, feeling the stretch in your biceps."
+]
+},
+{
+"id": "dumbbell-bulgarian-split-squat",
+"nume": "Dumbbell Bulgarian Split Squat",
+"grupa": "cvadricepsi",
+"partiCorp": "Quadriceps, Thighs",
+"echipament": "Dumbbell",
+"img": "22901101",
+"video": "22901201-Dumbbell-Bulgarian-Split-Squat-(female)_Thighs.mp4",
+"principali": "Gluteus Maximus, Quadriceps",
+"secundari": "Adductor Magnus, Soleus",
+"pasi": [
+"Extend one leg behind you and place the top of your foot on the bench.",
+"Lower your body by bending the knee of your front leg until your thigh is parallel to the ground, keeping your torso upright and your…",
+"Push back up to the starting position using the heel of your front foot, ensuring that your front knee is in line with your foot and…"
+]
+},
+{
+"id": "dumbbell-stiff-leg-deadlift",
+"nume": "Dumbbell Stiff Leg Deadlift",
+"grupa": "fesieri",
+"partiCorp": "Hips",
+"echipament": "Dumbbell",
+"img": "04321101",
+"video": "04321201-Dumbbell-Stiff-Leg-Deadlift_Waist.mp4",
+"principali": "Erector Spinae, Gluteus Maximus",
+"secundari": "Hamstrings",
+"pasi": [
+"Keeping your back straight and your head up, lower your torso by bending at the hips until it's nearly parallel with the floor.",
+"As you lower your torso, keep the dumbbells as close as possible to your body and allow them to lower towards your feet.",
+"Pause for a moment at the bottom of the movement, then reverse the motion by extending through your hips until you're standing upright…"
+]
+},
+{
+"id": "lever-narrow-grip-seated-row",
+"nume": "Lever Narrow Grip Seated Row",
+"grupa": "spate",
+"partiCorp": "Back",
+"echipament": "Leverage machine",
+"img": "05881101",
+"video": "05881201-Lever-Neutral-Grip-Seated-Row-(plate-loaded)_Back_.mp4",
+"principali": "Infraspinatus, Latissimus Dorsi, Teres Major, Teres Minor, Trapezius Lower Fibers, Trapezius Middle Fibers",
+"secundari": "Brachialis, Brachioradialis, Deltoid Posterior, Pectoralis Major Sternal Head",
+"pasi": [
+"Grip the handlebars with a narrow grip, keeping your palms facing each other, and sit up straight with your back pressed against the pad.",
+"Slowly pull the handles towards your abdomen, squeezing your shoulder blades together and keeping your elbows close to your body.",
+"Hold this position for a moment, making sure to breathe out as you perform the movement."
+]
+},
+{
+"id": "hyperextension",
+"nume": "Hyperextension",
+"grupa": "abdomen",
+"partiCorp": "Waist",
+"echipament": "Body weight",
+"img": "04891101",
+"video": "04891201-Hyperextension_Waist.mp4",
+"principali": "Erector Spinae",
+"secundari": "Gluteus Maximus, Hamstrings",
+"pasi": [
+"Align your upper thighs or hips with the larger pad, allowing your torso to bend forward from the waist and hang down.",
+"Keeping your back straight, cross your arms over your chest or place your hands behind your head.",
+"Slowly lift your torso until your body is in a straight line, using your lower back muscles to perform the movement."
+]
+},
+{
+"id": "sliding-floor-bridge-curl-on-towel",
+"nume": "Sliding Floor Bridge Curl on Towel",
+"grupa": "ischiogambieri",
+"partiCorp": "Hamstrings, Thighs",
+"echipament": "Body weight",
+"img": "34981101",
+"video": "34981201-Sliding-Floor-Bridge-Curl-on-Towel_Thighs.mp4",
+"principali": "Gluteus Maximus, Hamstrings, Rectus Abdominis",
+"secundari": "",
+"pasi": [
+"Push your hips upward into a bridge position, keeping your upper back and shoulders on the ground, and your hands by your sides.",
+"Slowly slide your feet away from your body using the towel, extending your legs fully while keeping your hips elevated.",
+"After fully extending your legs, slowly pull your feet back towards your body, using your hamstrings and glutes to pull while…"
+]
+},
+{
+"id": "cable-pushdown",
+"nume": "Cable Pushdown",
+"grupa": "triceps",
+"partiCorp": "Triceps, Upper Arms",
+"echipament": "Cable",
+"img": "02001101",
+"video": "02001201-Cable-Pushdown-(with-rope-attachment)_Upper-Arms.mp4",
+"principali": "Triceps Brachii",
+"secundari": "",
+"pasi": [
+"Position your elbows close to your body, keeping your upper arms stationary throughout the exercise.",
+"Inhale, then as you exhale, push the cable bar down by extending your arms and contracting your triceps, until your arms are fully…",
+"Pause and squeeze your triceps at the bottom of the movement for a second."
+]
+},
+{
+"id": "upright-row",
+"nume": "Upright Row",
+"grupa": "umeri",
+"partiCorp": "Shoulders",
+"echipament": "Barbell",
+"img": "01201101",
+"video": "01201201-Barbell-Upright-Row_shoulder.mp4",
+"principali": "Deltoid Lateral",
+"secundari": "Biceps Brachii, Brachialis, Brachioradialis, Deltoid Anterior, Infraspinatus, Serratus Anterior, Teres Minor, Trapezius Lower Fibers, Trapezius Middle Fibers",
+"pasi": [
+"Keep your back straight and pull the weight up to your chest, keeping the weight close to your body and leading with your elbows.",
+"At the top of the movement, your elbows should be higher than your wrists and the weight should be just below your chin.",
+"Hold this position for a moment, then slowly lower the weight back down to the starting position."
+]
+},
+{
+"id": "lever-seated-leg-press",
+"nume": "Lever Seated Leg Press",
+"grupa": "cvadricepsi",
+"partiCorp": "Quadriceps, Thighs",
+"echipament": "Leverage machine",
+"img": "22671101",
+"video": "22671201-Lever-Seated-Leg-Press_Thighs.mp4",
+"principali": "Gluteus Maximus, Quadriceps",
+"secundari": "Adductor Magnus, Soleus",
+"pasi": [
+"Adjust the seat and footplate so that your legs form a 90-degree angle at the knees and your feet are shoulder-width apart.",
+"Grasp the handles on either side of the seat for stability, then push the footplate away from you using your heels and forearms,…",
+"Slowly return the footplate to the starting position by bending your knees and controlling the weight as it moves back towards you."
+]
+},
+{
+"id": "revers-wrist-curl",
+"nume": "Revers Wrist Curl",
+"grupa": "antebrate",
+"partiCorp": "Forearms",
+"echipament": "Barbell",
+"img": "00791101",
+"video": "00791201-Barbell-Revers-Wrist-Curl-II_Forearms.mp4",
+"principali": "Wrist Extensors",
+"secundari": "",
+"pasi": [
+"Hold a dumbbell in your hand, ensuring your wrist is hanging over the edge of your knee.",
+"Slowly lower the weight as far as possible, bending at the wrist and keeping the rest of your arm still.",
+"Then, lift the weight as high as you can, again bending only at the wrist."
+]
+},
+{
+"id": "chin-up",
+"nume": "Chin-Up",
+"grupa": "spate",
+"partiCorp": "Back",
+"echipament": "Body weight",
+"img": "13261101",
+"video": "13261201-Chin-Up_Back-FIX_.mp4",
+"principali": "Latissimus Dorsi",
+"secundari": "Brachialis, Brachioradialis, Deltoid Posterior, Pectoralis Major Sternal Head, Teres Major, Trapezius Lower Fibers, Trapezius Middle Fibers",
+"pasi": [
+"Pull your body upwards towards the bar, keeping your elbows close to your body and your core engaged.",
+"Continue to pull yourself up until your chin is above the bar, making sure to keep your body straight and not to swing.",
+"Hold the position for a second, then slowly lower yourself back down until your arms are fully extended."
+]
+},
+{
+"id": "run-on-treadmill",
+"nume": "Run on Treadmill",
+"grupa": "cardio",
+"partiCorp": "Cardio",
+"echipament": "Leverage machine",
+"img": "21971101",
+"video": "21971201-Run-on-Treadmill-(female)_Cardio.mp4",
+"principali": ", Adductor Longus, Adductor Magnus, Gastrocnemius, Gluteus Maximus, Hamstrings, Iliopsoas, Obliques, Pectineous, Quadriceps, Sartorius, Soleus, Tensor Fasciae Latae",
+"secundari": "",
+"pasi": [
+"Press the start button and the treadmill will begin at a slow pace, stand on the side rails while it starts moving and then step on the…",
+"Gradually increase the speed to a comfortable jogging or running pace, ensuring your movements are smooth and controlled.",
+"Maintain your posture, keeping your back straight, your arms at your sides, and looking straight ahead while you run."
+]
+},
+{
+"id": "close-grip-bench-press",
+"nume": "Close-Grip Bench Press",
+"grupa": "triceps",
+"partiCorp": "Triceps, Upper Arms",
+"echipament": "Barbell",
+"img": "00301101",
+"video": "00301201-Barbell-Close-Grip-Bench-Press_Upper-Arms.mp4",
+"principali": "Triceps Brachii",
+"secundari": "Deltoid Anterior, Pectoralis Major Clavicular Head, Pectoralis Major Sternal Head",
+"pasi": [
+"Slowly lower the barbell towards your chest while keeping your elbows tucked in close to your body, ensuring your forearms remain vertical.",
+"Once the barbell is just above your chest, pause for a moment.",
+"Push the barbell back up to the starting position, focusing on using your triceps to push the weight up while keeping your elbows close…"
+]
+},
+{
+"id": "single-leg-squat",
+"nume": "Single Leg Squat",
+"grupa": "cvadricepsi",
+"partiCorp": "Quadriceps, Thighs",
+"echipament": "Body weight",
+"img": "17591101",
+"video": "17591201-Single-Leg-Squat-(pistol)-male_Thighs.mp4",
+"principali": "Gluteus Maximus, Quadriceps",
+"secundari": "Adductor Magnus, Soleus",
+"pasi": [
+"Extend your arms in front of you to help maintain balance, and shift your weight onto the standing leg.",
+"Slowly lower your body by bending your standing leg at the knee, keeping your back straight and your knee over your foot.",
+"Go as low as you can while maintaining balance, ideally until your thigh is parallel with the ground, and keep the other leg extended…"
+]
+},
+{
+"id": "bench-seated-press",
+"nume": "Bench Seated Press",
+"grupa": "umeri",
+"partiCorp": "Shoulders",
+"echipament": "Dumbbell",
+"img": "02901101",
+"video": "02901201-Dumbbell-Bench-Seated-Press_Shoulders-FIX_.mp4",
+"principali": "Deltoid Anterior",
+"secundari": "Deltoid Lateral, Pectoralis Major Clavicular Head, Serratus Anterior",
+"pasi": [
+"Hold a dumbbell in each hand at shoulder level, with your palms facing forward and elbows bent at a 90-degree angle.",
+"Exhale as you press the dumbbells upward until your arms are fully extended, but make sure not to lock your elbows.",
+"Hold this position for a second, then slowly lower the dumbbells back to the starting position while inhaling."
+]
+},
+{
+"id": "one-arm-row",
+"nume": "One Arm Row",
+"grupa": "spate",
+"partiCorp": "Back",
+"echipament": "Dumbbell",
+"img": "12361101",
+"video": "12361201-Dumbbell-One-Arm-Row-(rack-support)_Back.mp4",
+"principali": "Infraspinatus, Latissimus Dorsi, Teres Major, Teres Minor, Trapezius Lower Fibers, Trapezius Middle Fibers",
+"secundari": "Brachialis, Brachioradialis, Deltoid Posterior, Pectoralis Major Sternal Head",
+"pasi": [
+"Keep your back straight and parallel to the floor, allowing your right arm to hang down and fully extend.",
+"Pull the dumbbell straight up to the side of your chest, keeping your upper arm close to your side and keeping the torso still.",
+"Hold for a moment at the top of the movement, squeezing your back muscles."
+]
+},
+{
+"id": "sled-45-degrees-leg-press",
+"nume": "Sled 45 degrees Leg Press",
+"grupa": "cvadricepsi",
+"partiCorp": "Quadriceps, Thighs",
+"echipament": "Sled machine",
+"img": "22241101",
+"video": "22241201-Sled-45-degrees-Leg-Press-(female)_Thighs_.mp4",
+"principali": "Gluteus Maximus, Quadriceps",
+"secundari": "Adductor Magnus, Soleus",
+"pasi": [
+"With your hands holding the handles, push the platform away using your heels and forefoot, fully extending your legs but being careful…",
+"Slowly lower the platform by bending your knees and hips until your thighs are approximately at a 90-degree angle with your shins.",
+"Push the platform back up to the starting position, focusing on using your quadriceps, hamstrings, and glutes to drive the movement."
+]
+},
+{
+"id": "cross-body-hammer-curl",
+"nume": "Cross Body Hammer Curl",
+"grupa": "biceps",
+"partiCorp": "Biceps, Upper Arms",
+"echipament": "Dumbbell",
+"img": "16571101",
+"video": "16571201-Dumbbell-Cross-Body-Hammer-Curl-(Version-2)_Upper-Arms-FIX.mp4",
+"principali": "",
+"secundari": "",
+"pasi": [
+"While keeping your upper arm stationary, curl the right hand dumbbell across your body towards your left shoulder as you breathe out.…",
+"Hold the contracted position for a second as you squeeze the biceps.",
+"Slowly begin to bring the dumbbell back to the starting position as your breathe in."
+]
+},
+{
+"id": "calf-raise-from-deficit-with-chair-supported",
+"nume": "Calf Raise from Deficit with Chair Supported",
+"grupa": "gambe",
+"partiCorp": "Calves",
+"echipament": "Body weight",
+"img": "33901101",
+"video": "33901201-Calf-Raise-from-Deficit-with-Chair-Supported_Calves.mp4",
+"principali": "Gastrocnemius",
+"secundari": "Soleus",
+"pasi": [
+"Hold onto the back of the chair with both hands for balance, ensuring your back is straight and your core is engaged.",
+"Slowly lift your heels as high as you can, pushing up onto the balls of your feet and contracting your calf muscles.",
+"Hold this position for a few seconds to feel the tension in your calves."
+]
+},
+{
+"id": "band-face-pull",
+"nume": "Band face pull",
+"grupa": "umeri",
+"partiCorp": "Shoulders",
+"echipament": "Band",
+"img": "08961101",
+"video": "08961201-Band-face-pull_Shoulders.mp4",
+"principali": "Deltoid Posterior",
+"secundari": "Brachialis, Brachioradialis, Deltoid Lateral, Infraspinatus, Teres Minor, Trapezius Lower Fibers, Trapezius Middle Fibers",
+"pasi": [
+"Stand or sit upright with your feet shoulder-width apart, grab the ends of the band with each hand, and step back until there's tension…",
+"Start with your arms fully extended in front of you at shoulder height, palms facing down.",
+"Pull the band towards your face, while simultaneously separating your hands and squeezing your shoulder blades together, until your…"
+]
+},
+{
+"id": "dumbbell-seated-shoulder-press",
+"nume": "Dumbbell Seated Shoulder Press",
+"grupa": "umeri",
+"partiCorp": "Shoulders",
+"echipament": "Dumbbell",
+"img": "04051101",
+"video": "04051201-Dumbbell-Seated-Shoulder-Press_Shoulders-FIX_.mp4",
+"principali": "Deltoid Anterior",
+"secundari": "Deltoid Lateral, Pectoralis Major Clavicular Head, Serratus Anterior, Triceps Brachii",
+"pasi": [
+"Keep your feet firmly planted on the ground and your back pressed against the bench for stability.",
+"Slowly press the dumbbells upwards until your arms are fully extended, but don't lock your elbows at the top of the movement.",
+"Pause for a moment at the top, then slowly lower the dumbbells back down to shoulder level."
+]
+},
+{
+"id": "single-leg-bodyweight-deadlift-with-arm-and-leg-extended",
+"nume": "Single Leg Bodyweight Deadlift with Arm and Leg Extended",
+"grupa": "fesieri",
+"partiCorp": "Hips",
+"echipament": "Body weight",
+"img": "29201101",
+"video": "29201201-Single-Leg-Bodyweight-Deadlift-with-Arm-and-Leg-Extended-(female)_Hips_.mp4",
+"principali": "",
+"secundari": "",
+"pasi": [
+"Shift your weight onto your right foot, then slowly lift your left leg behind you while extending your right arm in front of you,…",
+"Keep your back straight and your right knee slightly bent, as you hinge at the hips to lower your torso towards the ground, maintaining…",
+"Pause for a moment when your body forms a \"T\" shape, then slowly return to the starting position, keeping your movements controlled and…"
+]
+},
+{
+"id": "front-plank-toe-tap",
+"nume": "Front Plank Toe Tap",
+"grupa": "abdomen",
+"partiCorp": "Waist",
+"echipament": "Body weight",
+"img": "38141101",
+"video": "38141201-Front-Plank-Toe-Tap-(male)_Hips.mp4",
+"principali": "",
+"secundari": "",
+"pasi": [
+"Keep your core engaged and your back flat.",
+"Then, slowly lift your right foot off the ground and move it out to the side, tapping the toe on the floor.",
+"Bring your right foot back to the starting position and repeat the same movement with your left foot."
+]
+},
+{
+"id": "zottman-curl",
+"nume": "Zottman Curl",
+"grupa": "biceps",
+"partiCorp": "Biceps, Upper Arms",
+"echipament": "Dumbbell",
+"img": "04391101",
+"video": "04391201-Dumbbell-Zottman-Curl_Upper-Arms-FIX_.mp4",
+"principali": "Biceps Brachii",
+"secundari": "Brachialis, Brachioradialis",
+"pasi": [
+"Curl the weights while contracting your biceps, keeping your elbows close to your body.",
+"Once the dumbbells reach shoulder height, rotate your wrists so that your palms are facing downwards.",
+"Lower the weights back down in this position, keeping your elbows stationary."
+]
+},
+{
+"id": "lunge",
+"nume": "Lunge",
+"grupa": "cvadricepsi",
+"partiCorp": "Quadriceps, Thighs",
+"echipament": "Barbell",
+"img": "00541101",
+"video": "00541201-Barbell-Lunge_Thighs.mp4",
+"principali": "Gluteus Maximus, Quadriceps",
+"secundari": "Adductor Magnus, Soleus",
+"pasi": [
+"Take a big step forward with your right foot while keeping your left foot in place.",
+"Slowly lower your body until your front knee is bent at a 90-degree angle, ensuring your knee is directly above your ankle.",
+"Keep your weight in your heels as you push back up to the starting position."
+]
+},
+{
+"id": "lever-total-abdominal-crunch",
+"nume": "Lever Total Abdominal Crunch",
+"grupa": "abdomen",
+"partiCorp": "Waist",
+"echipament": "Leverage machine",
+"img": "18571101",
+"video": "18571201-Lever-Total-Abdominal-Crunch_Waist.mp4",
+"principali": "Rectus Abdominis",
+"secundari": "Obliques",
+"pasi": [
+"Keep your back straight and engage your core as you prepare to perform the exercise.",
+"Exhale as you push down on the handles, bringing your elbows to your knees in a crunching motion, ensuring your abs are doing the work…",
+"Hold the crunch position for a second, focusing on the contraction in your abs."
+]
+},
+{
+"id": "lever-seated-row",
+"nume": "Lever Seated Row",
+"grupa": "spate",
+"partiCorp": "Back",
+"echipament": "Leverage machine",
+"img": "13501101",
+"video": "13501201-Lever-Seated-Row_Back.mp4",
+"principali": "Infraspinatus, Latissimus Dorsi, Teres Major, Teres Minor, Trapezius Lower Fibers, Trapezius Middle Fibers",
+"secundari": "Brachialis, Brachioradialis, Deltoid Posterior, Pectoralis Major Sternal Head",
+"pasi": [
+"Grasp the handles of the lever seated row machine with both hands and sit upright, ensuring your back is straight and your chest is lifted.",
+"Pull the handles towards your torso while keeping your elbows close to your body and squeezing your shoulder blades together.",
+"Hold this position for a second to maximize the contraction in your back muscles."
+]
+},
+{
+"id": "kickback",
+"nume": "Kickback",
+"grupa": "triceps",
+"partiCorp": "Triceps, Upper Arms",
+"echipament": "Dumbbell",
+"img": "03331101",
+"video": "03331201-Dumbbell-Kickback_Upper-Arms.mp4",
+"principali": "Triceps Brachii",
+"secundari": "",
+"pasi": [
+"Bend forward slightly at the waist and bend your right elbow to a 90-degree angle, keeping your palm facing in and your upper arm close…",
+"Push the dumbbell back by extending your elbow and allow it to slowly return after a short pause.",
+"Keep your upper arm still throughout the movement and focus on using your triceps to push the weight, not your forearm and wrist."
+]
+},
+{
+"id": "bridge-mountain-climber",
+"nume": "Bridge - Mountain Climber",
+"grupa": "abdomen",
+"partiCorp": "Waist",
+"echipament": "Body weight",
+"img": "01411101",
+"video": "01411201-Bridge---Mountain-Climber-(Cross-Body)-(female)_Waist.mp4",
+"principali": "Obliques",
+"secundari": ", Adductor Longus, Deltoid Anterior, Iliopsoas, Pectineous, Quadriceps, Rectus Abdominis, Tensor Fasciae Latae",
+"pasi": [
+"Push through your heels and lift your hips off the ground while keeping your back straight, this is your starting position.",
+"Now, bring one knee up towards your chest, similar to a running motion, then return it to the starting position.",
+"Repeat this movement with the other knee, this completes one rep of the Mountain Climber."
+]
+},
+{
+"id": "dumbbell-alternate-biceps-curl",
+"nume": "Dumbbell Alternate Biceps Curl",
+"grupa": "biceps",
+"partiCorp": "Biceps, Upper Arms",
+"echipament": "Dumbbell",
+"img": "02851101",
+"video": "02851201-Dumbbell-Alternate-Biceps-Curl_Upper-Arms-FIX_.mp4",
+"principali": "Biceps Brachii",
+"secundari": "Brachialis, Brachioradialis",
+"pasi": [
+"While holding the upper arm stationary, curl the right weight as you rotate the palm of the hands until they are facing forward.…",
+"Slowly begin to bring the dumbbell back to the original position as your breathe in.",
+"Repeat the movement with the left hand. This completes one repetition."
+]
+},
+{
+"id": "cable-standing-rear-delt-row",
+"nume": "Cable Standing Rear Delt Row",
+"grupa": "umeri",
+"partiCorp": "Shoulders",
+"echipament": "Cable",
+"img": "02331101",
+"video": "02331201-Cable-Standing-Rear-Delt-Row-(with-rope)_Shoulder_.mp4",
+"principali": "Deltoid Posterior",
+"secundari": "Brachialis, Brachioradialis, Deltoid Lateral, Infraspinatus, Teres Minor, Trapezius Lower Fibers, Trapezius Middle Fibers",
+"pasi": [
+"Grasp the bar with an overhand grip, hands shoulder-width apart, and step back a few feet to create tension on the cable.",
+"Keep your feet shoulder-width apart, bend your knees slightly, and lean forward from your hips, keeping your back straight.",
+"Pull the bar towards your chest, keeping your elbows high and parallel to the floor, and squeezing your shoulder blades together."
+]
+},
+{
+"id": "one-arm-lateral-raise",
+"nume": "One Arm Lateral Raise",
+"grupa": "umeri",
+"partiCorp": "Shoulders",
+"echipament": "Cable",
+"img": "01921101",
+"video": "01921201-Cable-One-Arm-Lateral-Raise_Shoulders.mp4",
+"principali": "Deltoid Lateral",
+"secundari": "Deltoid Anterior, Serratus Anterior",
+"pasi": [
+"Keep your torso stationary and your elbow slightly bent, then lift the dumbbell to your side until your arm is parallel with the ground.",
+"Ensure your palm is facing the ground during the lifting motion and that you're lifting the weight with your shoulder muscles, not your arm.",
+"Hold this position for a second, then slowly lower the dumbbell back to the starting position."
+]
+},
+{
+"id": "seated-calf-raise",
+"nume": "Seated Calf Raise",
+"grupa": "gambe",
+"partiCorp": "Calves",
+"echipament": "Barbell",
+"img": "00881101",
+"video": "00881201-Barbell-Seated-Calf-Raise_Calves.mp4",
+"principali": "Gastrocnemius",
+"secundari": "Soleus",
+"pasi": [
+"Place your toes on the lower portion of the platform with your heels extending off, and adjust the pads so they fit snugly against your…",
+"Slowly raise your heels by pushing up on the balls of both feet, making sure to exhale as you perform this movement.",
+"Hold the contracted position briefly at the top before slowly lowering your heels back to the original position, inhaling as you do so."
+]
+},
+{
+"id": "single-leg-split-squat",
+"nume": "Single Leg Split Squat",
+"grupa": "cvadricepsi",
+"partiCorp": "Quadriceps, Thighs",
+"echipament": "Dumbbell",
+"img": "04101101",
+"video": "04101201-Dumbbell-Single-Leg-Split-Squat_Thighs_.mp4",
+"principali": "Gluteus Maximus, Quadriceps",
+"secundari": "Adductor Magnus, Soleus",
+"pasi": [
+"Extend one leg backward and place the top of your foot on the bench, keeping your other foot firmly planted on the ground in front of you.",
+"Lower your body by bending your front knee until your thigh is parallel to the ground, ensuring your knee doesn't go beyond your toes.",
+"Push back up to the starting position, using your front leg to drive the movement and keeping your core engaged throughout."
+]
+},
+{
+"id": "seated-bench-extension",
+"nume": "Seated Bench Extension",
+"grupa": "triceps",
+"partiCorp": "Triceps, Upper Arms",
+"echipament": "Dumbbell",
+"img": "03891101",
+"video": "03891201-Dumbbell-Seated-Bench-Extension_Upper-Arms_.mp4",
+"principali": "Triceps Brachii",
+"secundari": "",
+"pasi": [
+"Hold the dumbbells at shoulder height with your palms facing forward, and your elbows bent at a 90-degree angle.",
+"Slowly extend your arms straight up towards the ceiling, making sure to keep your elbows stationary and close to your head.",
+"Hold this position for a moment, feeling the tension in your triceps."
+]
+},
+{
+"id": "captains-chair-straight-leg-raise",
+"nume": "Captains Chair Straight Leg Raise",
+"grupa": "abdomen",
+"partiCorp": "Waist",
+"echipament": "Body weight",
+"img": "29631101",
+"video": "29631201-Captains-Chair-Straight-Leg-Raise_Waist.mp4",
+"principali": "Iliopsoas, Rectus Abdominis",
+"secundari": "Obliques, Quadriceps, Sartorius",
+"pasi": [
+"Ensure your legs are hanging straight down and your feet are not touching the ground.",
+"Inhale deeply and as you exhale, slowly lift your legs straight out in front of you until they are parallel with the floor, keeping…",
+"Hold this position for a few seconds, engaging your core muscles."
+]
+},
+{
+"id": "45-degree-hyperextension",
+"nume": "45 degree hyperextension",
+"grupa": "spate",
+"partiCorp": "Back",
+"echipament": "Body weight",
+"img": "08771101",
+"video": "08771201-45-degree-hyperextension-(arms-in-front-of-chest)_Back.mp4",
+"principali": "Erector Spinae, Gluteus Maximus",
+"secundari": "Hamstrings",
+"pasi": [
+"Keep your body straight and bend at your waist while keeping your back flat, continue to lower your torso until you feel a mild stretch…",
+"Begin to raise your torso by extending through the hips with your back still kept straight, continue this movement until your body is…",
+"Hold this position for a few seconds, focusing on squeezing your glutes and hamstrings at the top of the movement."
+]
+},
+{
+"id": "rear-lunge",
+"nume": "Rear Lunge",
+"grupa": "cvadricepsi",
+"partiCorp": "Quadriceps, Thighs",
+"echipament": "Dumbbell",
+"img": "03811101",
+"video": "03811201-Dumbbell-Rear-Lunge_Thighs.mp4",
+"principali": "Gluteus Maximus, Quadriceps",
+"secundari": "Adductor Magnus, Soleus",
+"pasi": [
+"Take a step back with your right foot, lowering your body into a lunge position. Your left knee should be directly above your left…",
+"Make sure your right heel is lifted and the toes are pressed into the floor.",
+"Push through your left foot to rise back up to the starting position, bringing your right foot forward to meet the left."
+]
+},
+{
+"id": "lever-lying-t-bar-row",
+"nume": "Lever Lying T-bar Row",
+"grupa": "spate",
+"partiCorp": "Back",
+"echipament": "Leverage machine",
+"img": "11941101",
+"video": "11941201-Lever-Lying-T-bar-Row_Back.mp4",
+"principali": "Infraspinatus, Latissimus Dorsi, Teres Major, Teres Minor, Trapezius Lower Fibers, Trapezius Middle Fibers",
+"secundari": "Biceps Brachii, Brachialis, Brachioradialis, Deltoid Posterior, Pectoralis Major Sternal Head, Triceps Brachii",
+"pasi": [
+"Grasp the handles of the lever with an overhand grip, your hands should be wider than shoulder-width apart.",
+"Pull the lever up towards your chest while keeping your elbows close to your body and squeeze your shoulder blades together at the top…",
+"Hold for a moment at the top of the movement, then slowly lower the lever back to the starting position, ensuring to maintain control…"
+]
+},
+{
+"id": "incline-rear-lateral-raise",
+"nume": "Incline Rear Lateral Raise",
+"grupa": "umeri",
+"partiCorp": "Shoulders",
+"echipament": "Dumbbell",
+"img": "03261101",
+"video": "03261201-Dumbbell-Incline-Rear-Lateral-Raise_Shoulders.mp4",
+"principali": "Deltoid Lateral, Deltoid Posterior",
+"secundari": "Deltoid Anterior, Trapezius Lower Fibers, Trapezius Middle Fibers",
+"pasi": [
+"Lie face down on the bench, allowing your arms to hang straight down from your shoulders, palms facing each other.",
+"Keeping a slight bend in your elbows, raise the dumbbells out to the sides and up until they're level with your shoulders.",
+"Pause at the top of the movement, then slowly lower the dumbbells back to the starting position."
+]
+},
+{
+"id": "lying-single-extension",
+"nume": "Lying Single Extension",
+"grupa": "triceps",
+"partiCorp": "Triceps, Upper Arms",
+"echipament": "Dumbbell",
+"img": "17351101",
+"video": "17351201-Dumbbell-Lying-Single-Extension_Upper-Arms.mp4",
+"principali": "",
+"secundari": "",
+"pasi": [
+"Bend your right knee and bring it towards your chest, grasping your shin with both hands.",
+"Gently pull the knee closer to your chest, extending your left leg out straight on the floor.",
+"Hold this position for a few seconds, feeling the stretch in your lower back and hip."
+]
+},
+{
+"id": "wrist-curl",
+"nume": "Wrist Curl",
+"grupa": "antebrate",
+"partiCorp": "Forearms",
+"echipament": "Barbell",
+"img": "01251101",
+"video": "01251201-Barbell-Wrist-Curl-(VERSION-2)_Forearms-FIX_.mp4",
+"principali": "Wrist Flexors",
+"secundari": "",
+"pasi": [
+"Place your forearms on your thighs with your wrists hanging over your knees, ensuring that your arms are stable.",
+"Slowly curl the dumbbells towards your biceps, contracting your forearm muscles as you lift.",
+"Hold the top position for a second, then slowly lower the dumbbells back down to the starting position."
+]
+},
+{
+"id": "cable-triceps-pushdown",
+"nume": "Cable Triceps Pushdown",
+"grupa": "triceps",
+"partiCorp": "Triceps, Upper Arms",
+"echipament": "Cable",
+"img": "02411101",
+"video": "02411201-Cable-Triceps-Pushdown-(V-bar-attachment)_Upper-Arms.mp4",
+"principali": "Triceps Brachii",
+"secundari": "",
+"pasi": [
+"Grasp the bar with your palms facing down, hands shoulder-width apart, and position your feet shoulder-width apart as well.",
+"Keep your elbows close to your body and bend them to create a 90-degree angle, this is your starting position.",
+"Push the bar down by extending your elbows and contracting your triceps at the bottom of the movement."
+]
+},
+{
+"id": "one-arm-wrist-curl",
+"nume": "One arm Wrist Curl",
+"grupa": "antebrate",
+"partiCorp": "Forearms",
+"echipament": "Dumbbell",
+"img": "03641101",
+"video": "03641201-Dumbbell-One-arm-Wrist-Curl_Forearm.mp4",
+"principali": "Wrist Flexors",
+"secundari": "",
+"pasi": [
+"Rest your elbow on your thigh with your wrist just over your knee, allowing your hand to hang off the edge.",
+"Slowly lower the dumbbell as far as possible, bending your wrist and allowing it to fully extend.",
+"Curl the dumbbell back up towards the ceiling, flexing your wrist and using your forearm muscles to lift the weight."
+]
+},
+{
+"id": "bench-squat",
+"nume": "Bench Squat",
+"grupa": "cvadricepsi",
+"partiCorp": "Quadriceps, Thighs",
+"echipament": "Dumbbell",
+"img": "02911101",
+"video": "02911201-Dumbbell-Bench-Squat_Thighs.mp4",
+"principali": "Gluteus Maximus, Quadriceps",
+"secundari": "Adductor Magnus, Soleus",
+"pasi": [
+"Slowly lower your body towards the bench by bending your knees and pushing your hips back, as if you were about to sit down.",
+"When your buttocks touch the bench, pause for a moment, ensuring that your knees are in line with your feet and not extending past your…",
+"Push through your heels to stand back up straight, keeping your core engaged and your back straight throughout the movement."
+]
+},
+{
+"id": "reverse-grip-straight-back-seated-high-row",
+"nume": "Reverse-grip Straight Back Seated High Row",
+"grupa": "spate",
+"partiCorp": "Back",
+"echipament": "Cable",
+"img": "02081101",
+"video": "02081201-Cable-Reverse-grip-Straight-Back-Seated-High-Row_Back.mp4",
+"principali": "Infraspinatus, Latissimus Dorsi, Teres Major, Teres Minor, Trapezius Lower Fibers, Trapezius Middle Fibers",
+"secundari": "Brachialis, Brachioradialis, Deltoid Posterior",
+"pasi": [
+"Grasp the handles with a reverse grip (palms facing you), making sure your arms are fully extended and your shoulders are relaxed.",
+"Pull the handles towards your abdomen, keeping your elbows close to your body and squeezing your shoulder blades together at the end of…",
+"Hold the contraction for a second at the peak of the movement, then slowly return the handles to the starting position, fully extending…"
+]
+},
+{
+"id": "side-plank",
+"nume": "Side Plank",
+"grupa": "abdomen",
+"partiCorp": "Waist",
+"echipament": "Body weight",
+"img": "07151101",
+"video": "07151201-Side-Plank-(male)_Waist-FIX_.mp4",
+"principali": "Obliques",
+"secundari": "",
+"pasi": [
+"Prop your body up on your elbow, ensuring your elbow is directly under your shoulder.",
+"Tighten your core muscles and then raise your hips until your body is in a straight line from head to feet.",
+"Hold this position for as long as you can, maintaining a tight core and keeping your hips lifted."
+]
+},
+{
+"id": "cable-kneeling-crunch",
+"nume": "Cable Kneeling Crunch",
+"grupa": "abdomen",
+"partiCorp": "Waist",
+"echipament": "Cable",
+"img": "01751101",
+"video": "01751201-Cable-Kneeling-Crunch_Waist-FIX_.mp4",
+"principali": "Rectus Abdominis",
+"secundari": "Obliques",
+"pasi": [
+"Kneel down on the floor in front of the machine, grasping the rope with both hands and positioning your hands at the sides of your head.",
+"Keep your hips stationary, bend your waist and contract your abs to pull the arms down until your elbows are just past your knees.",
+"Hold this position for a moment, feeling the contraction in your abdominal muscles."
+]
+},
+{
+"id": "dumbbell-lateral-raise",
+"nume": "Dumbbell Lateral Raise",
+"grupa": "umeri",
+"partiCorp": "Shoulders",
+"echipament": "Dumbbell",
+"img": "03341101",
+"video": "03341201-Dumbbell-Lateral-Raise_shoulder-FIX_.mp4",
+"principali": "Deltoid Lateral",
+"secundari": "Deltoid Anterior, Serratus Anterior",
+"pasi": [
+"Keep your torso stationary and lift the dumbbells to your side with a slight bend on your elbow and your hands slightly tilted forward…",
+"Continue to lift the weights until your arms are parallel to the floor, then pause for a moment at the top of the movement.",
+"Slowly lower the dumbbells back down to the starting position."
+]
+},
+{
+"id": "sled-hack-squat",
+"nume": "Sled Hack Squat",
+"grupa": "fesieri",
+"partiCorp": "Hips",
+"echipament": "Sled machine",
+"img": "07431101",
+"video": "07431201-Sled-Hack-Squat_Hips.mp4",
+"principali": "Gluteus Maximus, Quadriceps",
+"secundari": "Adductor Magnus, Soleus",
+"pasi": [
+"Place your feet shoulder-width apart on the platform, keeping your toes pointed slightly outward.",
+"Slowly bend your knees and lower your body down as far as you can without compromising your posture, ensuring that your knees do not go…",
+"Push through your heels to straighten your legs and return to the starting position, making sure not to lock your knees at the top of…"
+]
+},
+{
+"id": "triceps-press",
+"nume": "Triceps Press",
+"grupa": "triceps",
+"partiCorp": "Triceps, Upper Arms",
+"echipament": "Body weight",
+"img": "11911101",
+"video": "11911201-Triceps-Press-(Head-Below-Bench)_Upper-Arms.mp4",
+"principali": "Triceps Brachii",
+"secundari": "Pectoralis Major Sternal Head",
+"pasi": [
+"Bend your elbows to lower the dumbbell behind your head, keeping your upper arms stationary and close to your head.",
+"Make sure your elbows are at about a 90-degree angle at the bottom of the movement.",
+"Push the dumbbell back up to the starting position using your triceps to lift the weight."
+]
+},
+{
+"id": "smith-incline-bench-press",
+"nume": "Smith Incline Bench Press",
+"grupa": "piept",
+"partiCorp": "Chest",
+"echipament": "Smith machine",
+"img": "07571101",
+"video": "07571201-Smith-Incline-Bench-Press_Chest-FIX_.mp4",
+"principali": "Pectoralis Major Clavicular Head",
+"secundari": "Deltoid Anterior, Triceps Brachii",
+"pasi": [
+"Lie back on the incline bench with your feet flat on the ground, grab the bar with a wider than shoulder-width grip, and unhook the bar…",
+"Lower the bar to your chest level in a controlled manner, keeping your elbows at a 90-degree angle.",
+"Press the bar back up to the starting position, fully extending your arms but not locking your elbows, while maintaining control of the…"
+]
+},
+{
+"id": "bulgarian-split-squat",
+"nume": "Bulgarian Split Squat",
+"grupa": "cvadricepsi",
+"partiCorp": "Quadriceps, Thighs",
+"echipament": "Body weight",
+"img": "35331101",
+"video": "35331201-Bulgarian-Split-Squat_Thighs.mp4",
+"principali": "Gluteus Maximus, Quadriceps",
+"secundari": "Adductor Magnus, Soleus",
+"pasi": [
+"Keep your chest up and your core engaged as you lower your body down into a lunge position, bending both knees to about a 90-degree…",
+"Push through your right heel to lift your body back up to the starting position, keeping your left foot on the bench or box.",
+"Repeat this movement for the desired number of repetitions, then switch legs and perform the same steps."
+]
+},
+{
+"id": "reverse-curl",
+"nume": "Reverse Curl",
+"grupa": "antebrate",
+"partiCorp": "Forearms",
+"echipament": "Barbell",
+"img": "00801101",
+"video": "00801201-Barbell-Reverse-Curl_Forearm.mp4",
+"principali": "Brachioradialis",
+"secundari": "Biceps Brachii, Brachialis",
+"pasi": [
+"While keeping your elbows close to your torso, curl the weights while contracting your biceps as you breathe out. Only the forearms…",
+"Continue the movement until your biceps are fully contracted and the barbell is at shoulder level. Hold the contracted position for a…",
+"Slowly begin to bring the barbell back to the starting position as you breathe in."
+]
+},
+{
+"id": "squat",
+"nume": "Squat",
+"grupa": "cvadricepsi",
+"partiCorp": "Quadriceps, Thighs",
+"echipament": "Body weight",
+"img": "11971101",
+"video": "11971201-Bodyweight-Squat-(male)_Thighs-SIDE-POV_.mp4",
+"principali": "Gluteus Maximus, Quadriceps",
+"secundari": "Adductor Magnus, Soleus",
+"pasi": [
+"Slowly bend your knees and lower your body as if you're about to sit on a chair, keeping your chest upright and your knees over your toes.",
+"Continue lowering yourself until your thighs are parallel or almost parallel to the floor, this is the squat position.",
+"Pause for a moment in the squat position, then push through your heels to rise back up to the starting position."
+]
+},
+{
+"id": "curl",
+"nume": "Curl",
+"grupa": "biceps",
+"partiCorp": "Biceps, Upper Arms",
+"echipament": "Cable",
+"img": "08681101",
+"video": "08681201-Cable-Curl-(male)_Upper-Arms-FIX_.mp4",
+"principali": "Biceps Brachii",
+"secundari": "Brachialis, Brachioradialis",
+"pasi": [
+"While keeping your upper arms stationary, curl the weights while contracting your biceps as you breathe out, only the forearms should move.",
+"Continue the movement until your biceps are fully contracted and the dumbbells are at shoulder level, hold the contracted position for…",
+"Slowly begin to bring the dumbbells back to starting position as your breathe in."
+]
+},
+{
+"id": "leg-raise-hip-lift",
+"nume": "Leg Raise Hip Lift",
+"grupa": "abdomen",
+"partiCorp": "Waist",
+"echipament": "Body weight",
+"img": "18521101",
+"video": "18521201-Leg-Raise-Hip-Lift_Waist.mp4",
+"principali": "Iliopsoas, Rectus Abdominis",
+"secundari": ", Adductor Longus, Adductor Magnus, Obliques, Pectineous, Quadriceps, Sartorius, Tensor Fasciae Latae",
+"pasi": [
+"Slowly raise your legs to a 90-degree angle, keeping them straight and together.",
+"Once your legs reach the 90-degree angle, lift your hips off the floor while keeping your legs vertical.",
+"Hold this position for a few seconds, then slowly lower your hips back to the floor."
+]
+},
+{
+"id": "lever-kneeling-leg-curl",
+"nume": "Lever Kneeling Leg Curl",
+"grupa": "ischiogambieri",
+"partiCorp": "Hamstrings, Thighs",
+"echipament": "Leverage machine",
+"img": "05821101",
+"video": "05821201-Lever-Kneeling-Leg-Curl-(plate-loaded)_Thighs.mp4",
+"principali": "Hamstrings",
+"secundari": "Gastrocnemius, Soleus",
+"pasi": [
+"Kneel on the pad with your body facing down and hook your feet under the lever pad, ensuring your legs are fully stretched.",
+"Begin the exercise by curling your legs upwards, towards your glutes, while keeping the rest of your body stationary.",
+"Hold the peak position for a second, squeezing your hamstrings at the top of the movement."
+]
+},
+{
+"id": "straight-leg-deadlift",
+"nume": "Straight Leg Deadlift",
+"grupa": "ischiogambieri",
+"partiCorp": "Hamstrings, Thighs",
+"echipament": "Barbell",
+"img": "01161101",
+"video": "01161201-Barbell-Straight-Leg-Deadlift_Thighs.mp4",
+"principali": "Erector Spinae, Hamstrings",
+"secundari": "Adductor Magnus, Gluteus Maximus",
+"pasi": [
+"Keeping your knees slightly bent, bend at your hip, lowering your torso until it's almost parallel to the floor while keeping the…",
+"Pause for a moment in this position, ensuring that your back is straight and not rounded.",
+"Push your body back to the starting position, thrusting your hips forward and squeezing your glutes at the top of the movement."
+]
+},
+{
+"id": "walking-lunge",
+"nume": "Walking Lunge",
+"grupa": "cvadricepsi",
+"partiCorp": "Quadriceps, Thighs",
+"echipament": "Body weight",
+"img": "14601101",
+"video": "14601201-Walking-Lunge-Male_Hips-FIX_.mp4",
+"principali": "Gluteus Maximus, Quadriceps",
+"secundari": "Adductor Magnus, Soleus",
+"pasi": [
+"Take a step forward with your right foot, lowering your body into a lunge position. Your right knee should be directly above your right…",
+"Push off with your right foot, bringing your left foot forward to step into the next lunge. This completes one rep.",
+"Repeat this motion, alternating legs as you move forward across the room."
+]
+},
+{
+"id": "kettlebell-russian-twist",
+"nume": "Kettlebell Russian Twist",
+"grupa": "abdomen",
+"partiCorp": "Waist",
+"echipament": "Kettlebell",
+"img": "43931101",
+"video": "43931201-Kettlebell-Russian-Twist_Waist-FIX_.mp4",
+"principali": "",
+"secundari": "",
+"pasi": [
+"Lean back slightly so your torso and thighs form a V shape, engaging your core to maintain balance.",
+"Twist your torso to the right, bringing the kettlebell to your right side, keeping your arms straight.",
+"Then, twist your torso to the left, bringing the kettlebell to your left side, again keeping your arms straight."
+]
+},
+{
+"id": "bycicle-twisting-crunch",
+"nume": "Bycicle Twisting Crunch",
+"grupa": "abdomen",
+"partiCorp": "Waist",
+"echipament": "Body weight",
+"img": "01471101",
+"video": "01471201-Bycicle-Twisting-Crunch_Waist-FIX_.mp4",
+"principali": "Obliques, Rectus Abdominis",
+"secundari": "Gluteus Maximus, Iliopsoas, Quadriceps",
+"pasi": [
+"Lift both your legs and bend them at the knees, then bring one knee towards your chest while keeping the other leg straightened out,…",
+"As you bring your knee towards your chest, twist your torso so that the opposite elbow comes towards the raised knee, performing a crunch.",
+"Lower your raised knee and elbow while simultaneously lifting and twisting the opposite set, mimicking a pedaling motion."
+]
+},
+{
+"id": "smith-calf-raise",
+"nume": "Smith Calf Raise",
+"grupa": "gambe",
+"partiCorp": "Calves",
+"echipament": "Smith machine",
+"img": "11641101",
+"video": "11641201-Smith-Calf-Raise-(version-2)_Calves.mp4",
+"principali": "Gastrocnemius",
+"secundari": "Soleus",
+"pasi": [
+"With your core engaged, push upwards through your toes to raise your body upwards, making sure the movement is controlled and your body…",
+"Once you've reached the top of the movement, where your calves are fully contracted and the balls of your feet are supporting your…",
+"Slowly lower your body back down, allowing your heels to drop below the level of the platform or step to stretch your calf muscles."
+]
+},
+{
+"id": "lever-seated-squat-calf-raise-on-leg-press-machine",
+"nume": "Lever Seated Squat Calf Raise on Leg Press Machine",
+"grupa": "gambe",
+"partiCorp": "Calves",
+"echipament": "Leverage machine",
+"img": "13851101",
+"video": "13851201-Lever-Seated-Squat-Calf-Raise-on-Leg-Press-Machine_Calves.mp4",
+"principali": "Gastrocnemius, Quadriceps",
+"secundari": "Gluteus Maximus, Hamstrings, Soleus",
+"pasi": []
+},
+{
+"id": "one-arm-revers-wrist-curl",
+"nume": "One arm Revers Wrist Curl",
+"grupa": "antebrate",
+"partiCorp": "Forearms",
+"echipament": "Dumbbell",
+"img": "03581101",
+"video": "03581201-Dumbbell-One-arm-Revers-Wrist-Curl_Forearms.mp4",
+"principali": "Wrist Extensors",
+"secundari": "",
+"pasi": [
+"Place your left forearm on your left thigh, with your wrist and the dumbbell hanging over the edge of your knee, palm facing down.",
+"Slowly curl the dumbbell up by flexing your wrist, keeping your forearm pressed against your thigh for stability.",
+"Once your wrist is fully flexed, hold the position for a moment to maximize the contraction in the forearm muscles."
+]
+},
+{
+"id": "dumbbell-reverse-spider-curl",
+"nume": "Dumbbell Reverse Spider Curl",
+"grupa": "biceps",
+"partiCorp": "Biceps, Upper Arms",
+"echipament": "Dumbbell",
+"img": "16751101",
+"video": "16751201-Dumbbell-Reverse-Spider-Curl_Upper-Arms_.mp4",
+"principali": "",
+"secundari": "",
+"pasi": [
+"Keep your elbows close to your torso, and ensure your palms are facing upwards.",
+"Slowly curl the weights while keeping the upper arms stationary, continue to lift the weights until your biceps are fully contracted…",
+"Hold the contracted position for a brief moment as you squeeze your biceps."
+]
+},
+{
+"id": "cable-donkey-kickback",
+"nume": "Cable Donkey Kickback",
+"grupa": "fesieri",
+"partiCorp": "Hips",
+"echipament": "Cable",
+"img": "44211101",
+"video": "44211201-Cable-Donkey-Kickback-(female)_Hips.mp4",
+"principali": "Gluteus Maximus",
+"secundari": "Hamstrings",
+"pasi": [
+"Stand facing the cable machine with your feet hip-width apart, hold onto the machine for support and slightly bend your knees.",
+"Keep your core engaged and kick your right leg back and up, keeping your knee straight, until your foot is higher than your hip.",
+"Hold this position for a second, making sure to squeeze your glutes at the top of the movement."
+]
+},
+{
+"id": "ez-barbell-spider-curl",
+"nume": "EZ Barbell Spider Curl",
+"grupa": "biceps",
+"partiCorp": "Biceps, Upper Arms",
+"echipament": "EZ Barbell",
+"img": "16281101",
+"video": "16281201-EZ-Barbell-Spider-Curl_Upper-Arms.mp4",
+"principali": "Biceps Brachii",
+"secundari": "Brachialis, Brachioradialis",
+"pasi": [
+"Stand behind the preacher bench and lean over it, ensuring that your armpits are snugly resting at the top of the bench and your arms…",
+"Grab the EZ barbell with an underhand grip (palms facing upward) and make sure your hands are shoulder-width apart.",
+"Curl the barbell upwards towards your chest while keeping your elbows stationary, pause at the top for a moment to squeeze your biceps."
+]
+},
+{
+"id": "burpee",
+"nume": "Burpee",
+"grupa": "cardio",
+"partiCorp": "Cardio",
+"echipament": "Body weight",
+"img": "11601101",
+"video": "11601201-Burpee_Cardio-FIX_.mp4",
+"principali": "",
+"secundari": "",
+"pasi": [
+"Quickly drop into a squat position and place your hands on the floor in front of you.",
+"Kick or step your feet back into a plank position, while keeping your arms extended.",
+"Immediately return your feet to the squat position."
+]
+},
+{
+"id": "dumbbell-walking-lunges",
+"nume": "Dumbbell Walking Lunges",
+"grupa": "cvadricepsi",
+"partiCorp": "Quadriceps, Thighs",
+"echipament": "Dumbbell",
+"img": "15571101",
+"video": "15571201-Dumbbell-Walking-Lunges_Thighs_.mp4",
+"principali": "Gluteus Maximus, Quadriceps",
+"secundari": "Adductor Magnus, Soleus",
+"pasi": [
+"Step forward with your right foot, bending at the knee and hip, until your right knee is at a 90-degree angle and your left knee is…",
+"Push off with your right foot, bringing your left foot forward into the next lunge position, bending at the knee and hip as before.",
+"Repeat this walking lunge motion, alternating legs for each step, for the desired number of reps or distance."
+]
+},
+{
+"id": "weighted-stretch-lunge",
+"nume": "Weighted Stretch Lunge",
+"grupa": "cvadricepsi",
+"partiCorp": "Quadriceps, Hamstrings, Thighs",
+"echipament": "Weighted",
+"img": "36421101",
+"video": "36421201-Weighted-Stretch-Lunge_Thighs.mp4",
+"principali": "Gluteus Maximus, Hamstrings, Quadriceps",
+"secundari": "Adductor Magnus, Soleus",
+"pasi": [
+"Take a big step forward with your right foot, keeping your left foot in place.",
+"Lower your body into a lunge position, bending both knees to 90 degrees, while keeping your torso upright and your core engaged.",
+"As you lunge, extend your arms straight out in front of you at shoulder height, holding the dumbbells steady."
+]
+},
+{
+"id": "standing-leg-calf-raise",
+"nume": "Standing Leg Calf Raise",
+"grupa": "gambe",
+"partiCorp": "Calves",
+"echipament": "Barbell",
+"img": "01081101",
+"video": "01081201-Barbell-Standing-Leg-Calf-Raise_Calves.mp4",
+"principali": "Gastrocnemius",
+"secundari": "Soleus",
+"pasi": [
+"Slowly raise your heels off the ground, putting your weight onto the balls of both feet.",
+"Ensure your abdominal muscles are engaged and your back is straight as you rise to your tiptoes.",
+"Pause for a moment at the top of the movement, feeling the contraction in your calf muscles."
+]
+},
+{
+"id": "walking-on-treadmill",
+"nume": "Walking on Treadmill",
+"grupa": "cardio",
+"partiCorp": "Cardio",
+"echipament": "Leverage machine",
+"img": "22591101",
+"video": "22591201-Walking-on-Treadmill_Cardio.mp4",
+"principali": "Adductor Magnus, Gastrocnemius, Hamstrings, Quadriceps, Sartorius, Soleus",
+"secundari": "",
+"pasi": [
+"Select the \"Quick Start\" or \"Manual\" mode on the treadmill's control panel, then gradually increase the speed to a comfortable walking pace.",
+"Keep your back straight, your head up, and let your arms swing naturally at your sides as you walk.",
+"Pay attention to your steps, ensuring not to step too close to the front or back of the treadmill to avoid tripping or falling."
+]
+},
+{
+"id": "good-morning",
+"nume": "Good Morning",
+"grupa": "ischiogambieri",
+"partiCorp": "Hamstrings, Thighs",
+"echipament": "Barbell",
+"img": "00441101",
+"video": "00441201-Barbell-Good-Morning_Thighs.mp4",
+"principali": "Hamstrings",
+"secundari": "Adductor Magnus, Gluteus Maximus",
+"pasi": [
+"Keeping your back straight and your core engaged, bend at the waist, pushing your hips back and lowering your torso until it is nearly…",
+"Make sure your knees are slightly bent but stable, and your head is in a neutral position in line with your spine.",
+"Pause for a moment at the bottom of the movement, then slowly raise your torso back to the starting position, using your hamstrings and…"
+]
+},
+{
+"id": "bodyweight-standing-calf-raise",
+"nume": "Bodyweight Standing Calf Raise",
+"grupa": "gambe",
+"partiCorp": "Calves",
+"echipament": "Body weight",
+"img": "13731101",
+"video": "13731201-Bodyweight-Standing-Calf-Raise_Calves.mp4",
+"principali": "Gastrocnemius",
+"secundari": "Soleus",
+"pasi": [
+"Slowly raise your heels off the ground until you're standing on your tiptoes.",
+"Hold this position for a moment, ensuring that the contraction is felt in your calves.",
+"Gradually lower your heels back to the ground to complete one repetition."
+]
+},
+{
+"id": "walk-elliptical-cross-trainer",
+"nume": "Walk Elliptical Cross Trainer",
+"grupa": "cardio",
+"partiCorp": "Cardio",
+"echipament": "Leverage machine",
+"img": "36241101",
+"video": "36241201-Walk-Elliptical-Cross-Trainer-(female)_Cardio.mp4",
+"principali": "",
+"secundari": "",
+"pasi": [
+"Grab the handlebars and start moving your legs in a forward motion, as if you are walking or running, ensuring that your movements are…",
+"Engage your upper body by pushing and pulling the handlebars in sync with your leg movements, this will help to increase the intensity…",
+"Maintain a straight posture, keeping your core engaged and your back straight throughout the exercise."
+]
+},
+{
+"id": "sumo-deadlift",
+"nume": "Sumo Deadlift",
+"grupa": "fesieri",
+"partiCorp": "Hips",
+"echipament": "Barbell",
+"img": "01171101",
+"video": "01171201-Barbell-Sumo-Deadlift_Hips-FIX_.mp4",
+"principali": "Gluteus Maximus, Quadriceps",
+"secundari": "Adductor Magnus, Soleus, Tensor Fasciae Latae",
+"pasi": [
+"Bend your knees and hips to lower your body and grasp the barbell with an overhand grip, hands just beyond shoulder-width apart.",
+"Keeping your chest up and back straight, push through your heels to lift the barbell off the ground, straightening your legs and hips…",
+"Pause for a moment at the top, ensuring your shoulders are back and your core is tight."
+]
+},
+{
+"id": "dumbbell-romanian-deadlift",
+"nume": "Dumbbell Romanian Deadlift",
+"grupa": "fesieri",
+"partiCorp": "Hips",
+"echipament": "Dumbbell",
+"img": "22221101",
+"video": "22221201-Dumbbell-Romanian-Deadlift-(female)_Hips.mp4",
+"principali": "Erector Spinae, Gluteus Maximus",
+"secundari": "Hamstrings, Quadriceps, Soleus",
+"pasi": [
+"Keep your back straight, bend at your hips and knees, and lower your torso until it is almost parallel to the floor, letting the…",
+"Make sure to keep the dumbbells close to your body during the movement and your core engaged.",
+"Push your hips forward and straighten your knees to return to the starting position, keeping the dumbbells close to your body as you rise."
+]
+},
+{
+"id": "flutter-kicks",
+"nume": "Flutter Kicks",
+"grupa": "fesieri",
+"partiCorp": "Hips",
+"echipament": "Body weight",
+"img": "12441101",
+"video": "12441201-Flutter-Kicks-(version-3)_Hips.mp4",
+"principali": "Iliopsoas",
+"secundari": ", Adductor Longus, Pectineous, Quadriceps, Sartorius, Tensor Fasciae Latae",
+"pasi": [
+"Lift your legs off the ground about 6 inches, keeping them straight and parallel to each other.",
+"Begin to move one leg up while the other moves down, alternating them in a 'fluttering' motion.",
+"Keep your abdominal muscles engaged throughout the exercise and try to keep your lower back flat on the ground."
+]
+},
+{
+"id": "step-up",
+"nume": "Step-up",
+"grupa": "fesieri",
+"partiCorp": "Hips",
+"echipament": "Dumbbell",
+"img": "04311101",
+"video": "04311201-Dumbbell-Step-up_Hips_.mp4",
+"principali": "Gluteus Maximus, Quadriceps",
+"secundari": "Adductor Magnus, Gastrocnemius, Soleus",
+"pasi": [
+"Step up onto the bench with your right foot, pressing through your right heel as you lift your left foot to meet your right so you are…",
+"Maintain your balance, keep your body upright and ensure your core is engaged.",
+"Slowly lower your left foot back down to the ground, followed by your right foot, returning to your original standing position."
+]
+},
+{
+"id": "walking-on-incline-treadmill",
+"nume": "Walking on Incline Treadmill",
+"grupa": "cardio",
+"partiCorp": "Cardio",
+"echipament": "Leverage machine",
+"img": "36661101",
+"video": "36661201-Walking-on-Incline-Treadmill_Cardio_.mp4",
+"principali": "",
+"secundari": "",
+"pasi": [
+"Set the incline level on the treadmill to a level that is challenging but manageable for you. A good starting point for beginners is an…",
+"Press the start button on the treadmill and begin walking at a slow pace to warm up, gradually increasing your speed as your body…",
+"Maintain a proper posture while walking, keeping your back straight and your gaze forward, and avoid leaning into the incline."
+]
+},
+{
+"id": "stationary-bike-run",
+"nume": "Stationary Bike Run",
+"grupa": "cardio",
+"partiCorp": "Cardio",
+"echipament": "Leverage machine",
+"img": "22791101",
+"video": "22791201-Stationary-Bike-Run-(version-4)_Cardio.mp4",
+"principali": "",
+"secundari": "",
+"pasi": [
+"Once you're seated, place your feet onto the pedals and hold onto the handles of the bike, maintaining a relaxed grip.",
+"Set your desired resistance level on the bike's monitor, starting with a lower level if you're a beginner and gradually increasing the…",
+"Begin pedaling at a steady pace, keeping your back straight and your abs engaged, ensuring that you are breathing normally."
+]
+},
+{
+"id": "cable-hammer-curl",
+"nume": "Cable Hammer Curl",
+"grupa": "antebrate",
+"partiCorp": "Forearms",
+"echipament": "Cable",
+"img": "01651101",
+"video": "01651201-Cable-Hammer-Curl-(with-rope)-(male)_Forearms_.mp4",
+"principali": "Brachioradialis",
+"secundari": "Biceps Brachii, Brachialis",
+"pasi": [
+"Grab the rope with both hands, palms facing each other, and stand up straight with your elbows close to your body; this is your…",
+"Slowly curl your hands towards your shoulders, keeping your palms facing each other and ensuring that only your forearms are moving,…",
+"Hold the contracted position for a second as you squeeze your biceps."
+]
+},
+{
+"id": "kettlebell-swing",
+"nume": "Kettlebell Swing",
+"grupa": "ischiogambieri",
+"partiCorp": "Hamstrings, Thighs",
+"echipament": "Kettlebell",
+"img": "05491101",
+"video": "05491201-Kettlebell-Swing.mp4",
+"principali": "Deltoid Anterior, Gluteus Maximus, Hamstrings",
+"secundari": "Adductor Magnus, Deltoid Lateral, Pectoralis Major Clavicular Head, Quadriceps, Serratus Anterior, Soleus",
+"pasi": [
+"Bend at your hips and knees, grasp the kettlebell with both hands, keeping your arms straight and your back flat.",
+"Swing the kettlebell between your legs by pushing your hips back while keeping your chest up.",
+"Quickly stand up and thrust your hips forward, using this momentum to swing the kettlebell up to chest height."
+]
+},
+{
+"id": "lever-seated-leg-extension",
+"nume": "Lever Seated Leg Extension",
+"grupa": "cvadricepsi",
+"partiCorp": "Quadriceps, Thighs",
+"echipament": "Leverage machine",
+"img": "33861101",
+"video": "33861201-Lever-Seated-Leg-Extension-(VERSION-2)_Thighs.mp4",
+"principali": "Quadriceps",
+"secundari": "",
+"pasi": [
+"Adjust the pad and the backrest so that your knees are at a 90-degree angle, ensuring your back is flat against the backrest and your…",
+"Grasp the handles on either side of the machine for stability, then slowly extend your legs until they are straight out in front of…",
+"Hold this position for a moment, feeling the tension in your quadriceps."
+]
+},
+{
+"id": "lying-leg-raise-and-hold",
+"nume": "Lying Leg Raise and Hold",
+"grupa": "fesieri",
+"partiCorp": "Hips",
+"echipament": "Body weight",
+"img": "12451101",
+"video": "12451201-Lying-Leg-Raise-and-Hold_Hips.mp4",
+"principali": "Iliopsoas",
+"secundari": "Quadriceps, Rectus Abdominis",
+"pasi": [
+"Slowly lift your legs off the ground, keeping them straight and together, until they form a 90-degree angle with your body.",
+"Hold this position for a few seconds, keeping your core engaged and your lower back pressed into the floor to avoid straining.",
+"Lower your legs back down in a controlled manner, making sure not to let your feet touch the ground."
+]
+},
+{
+"id": "sled-45-calf-press",
+"nume": "Sled 45° Calf Press",
+"grupa": "gambe",
+"partiCorp": "Calves",
+"echipament": "Sled machine",
+"img": "07381101",
+"video": "07381201-Sled-45-Calf-Press_Calves-FIX_.mp4",
+"principali": "Gastrocnemius",
+"secundari": "Soleus",
+"pasi": [
+"Adjust the safety bars and select the appropriate weight you wish to lift, ensuring your legs are at a 90-degree angle and your toes…",
+"Push the platform away using your heels and the balls of your feet, extending your legs fully but without locking your knees.",
+"Slowly lower the weight back to the starting position, allowing your calves to stretch under the load."
+]
+},
+{
+"id": "hip-thrusts",
+"nume": "Hip Thrusts",
+"grupa": "fesieri",
+"partiCorp": "Hips",
+"echipament": "Body weight",
+"img": "20721101",
+"video": "20721201-Hip-Thrusts_Hips_.mp4",
+"principali": "Gluteus Maximus",
+"secundari": "Hamstrings, Quadriceps",
+"pasi": [
+"Roll the bar so that it is directly above your hips, and lean back against the bench so that your shoulder blades are near the top of it.",
+"Begin the movement by driving through your feet, extending your hips vertically through the bar, and ensure your weight is supported by…",
+"Extend as far as possible, then reverse the motion to return to the starting position."
+]
+},
+{
+"id": "sissy-squat",
+"nume": "Sissy Squat",
+"grupa": "cvadricepsi",
+"partiCorp": "Quadriceps, Thighs",
+"echipament": "Body weight",
+"img": "14891101",
+"video": "14891201-Sissy-Squat-Bodyweight_Thighs_.mp4",
+"principali": "Quadriceps",
+"secundari": "",
+"pasi": [
+"Begin the movement by pushing your hips back and bending your knees, while simultaneously rising onto the balls of your feet. Keep your…",
+"Lower your body as far as you can, ideally until your thighs are parallel to the floor, while keeping your heels off the ground. Your…",
+"Hold the bottom position for a second, then push through the balls of your feet to rise back up to the starting position, keeping your…"
+]
+},
+{
+"id": "revers-grip-biceps-curl",
+"nume": "Revers grip Biceps Curl",
+"grupa": "antebrate",
+"partiCorp": "Forearms",
+"echipament": "Dumbbell",
+"img": "03821101",
+"video": "03821201-Dumbbell-Revers-grip-Biceps-Curl_Forearms.mp4",
+"principali": "Brachioradialis",
+"secundari": "Biceps Brachii, Brachialis",
+"pasi": [
+"Now, while holding your upper arm stationary, exhale and curl the weights while contracting your biceps. Continue to raise the weights…",
+"Hold the contracted position for a brief moment as you squeeze your biceps.",
+"Then inhale and slowly begin to lower the dumbbells back to the starting position."
+]
+},
+{
+"id": "jumping-jack",
+"nume": "Jumping Jack",
+"grupa": "cardio",
+"partiCorp": "Cardio",
+"echipament": "Body weight",
+"img": "05161101",
+"video": "05161201-Jumping-Jack-(female)_Cardio.mp4",
+"principali": "",
+"secundari": "",
+"pasi": [
+"In one swift motion, jump your feet out to the sides and raise your arms above your head.",
+"Quickly reverse the movement, jumping back to your starting position with your feet together and arms at your sides.",
+"Repeat this action continuously for a set amount of time or repetitions."
+]
+},
+{
+"id": "rowing",
+"nume": "Rowing",
+"grupa": "cardio",
+"partiCorp": "Cardio",
+"echipament": "Leverage machine",
+"img": "11611101",
+"video": "11611201-Rowing-(with-rowing-machine)_Cardio.mp4",
+"principali": "",
+"secundari": "",
+"pasi": [
+"Grasp the handlebars with an overhand grip, keeping your arms fully extended and your back straight.",
+"Initiate the rowing motion by pushing back with your legs first, then lean back slightly and pull the handlebars towards your chest,…",
+"Return to the starting position by extending your arms, leaning forward from the hips and bending your knees to slide the seat forward."
+]
+},
+{
+"id": "dumbbell-lying-hamstring-curl",
+"nume": "Dumbbell Lying Hamstring Curl",
+"grupa": "ischiogambieri",
+"partiCorp": "Hamstrings, Thighs",
+"echipament": "Dumbbell",
+"img": "42921301",
+"video": "42921201-Dumbbell-Lying-Hamstring-Curl_Thighs.mp4",
+"principali": "",
+"secundari": "",
+"pasi": [
+"Hold a dumbbell between your feet, ensuring it is secure so it doesn't slip out during the exercise.",
+"Slowly curl your legs up towards your buttocks, keeping your hips pressed into the bench and only moving your knees.",
+"Pause at the top of the movement, squeezing your hamstrings, then slowly lower the dumbbell back to the starting position."
+]
+},
+{
+"id": "sled-calf-press-on-leg-press",
+"nume": "Sled Calf Press On Leg Press",
+"grupa": "gambe",
+"partiCorp": "Calves",
+"echipament": "Sled machine",
+"img": "13911101",
+"video": "13911201-Sled-Calf-Press-On-Leg-Press_Calves.mp4",
+"principali": "Gastrocnemius",
+"secundari": "Soleus",
+"pasi": [
+"Position yourself in the leg press machine with your back and head resting comfortably against the padded support, and place the balls…",
+"Push through the balls of your feet to extend your legs and lift the weight, making sure your heels are raised as high as you can, this…",
+"Slowly lower your heels below the level of the platform to feel a stretch in your calves."
+]
+},
+{
+"id": "mountain-climber",
+"nume": "Mountain Climber",
+"grupa": "cardio",
+"partiCorp": "Cardio",
+"echipament": "Body weight",
+"img": "06301101",
+"video": "06301201-Mountain-Climber_Cardio.mp4",
+"principali": "",
+"secundari": "",
+"pasi": [
+"Lift your right foot off the ground and draw your right knee towards your chest, keeping your toes off the ground.",
+"Return your right foot back to the starting position.",
+"Now, repeat the same movement with your left foot, bringing your left knee towards your chest and then returning it back to the…"
+]
+},
+{
+"id": "lying-neck-flexion",
+"nume": "Lying Neck Flexion",
+"grupa": "gat",
+"partiCorp": "Neck",
+"echipament": "Weighted",
+"img": "10431101",
+"video": "10431201-Weighted-Lying-Neck-Flexion_neck.mp4",
+"principali": "Sternocleidomastoid",
+"secundari": "Levator Scapulae, Splenius",
+"pasi": [
+"Place your hands gently on either side of your head for support, but ensure you're not using them to assist in the movement.",
+"Keeping your neck in alignment with your spine, slowly lower your head back as far as is comfortable.",
+"Then, using the muscles at the front of your neck, slowly lift your head to bring your chin towards your chest."
+]
+},
+{
+"id": "jump-rope",
+"nume": "Jump Rope",
+"grupa": "cardio",
+"partiCorp": "Cardio",
+"echipament": "Rope",
+"img": "05111101",
+"video": "05111201-Jump-Rope-(female)_Cardio-FIX_.mp4",
+"principali": "",
+"secundari": "",
+"pasi": [
+"Start by holding the handles of the jump rope at waist height, with your elbows close to your body and your wrists slightly above your…",
+"Begin to swing the rope over your head, using your wrists and forearms to generate the motion rather than your entire arms.",
+"As the rope approaches your feet, jump off the ground using both feet at the same time, just high enough to allow the rope to pass…"
+]
+},
+{
+"id": "over-bench-wrist-curl",
+"nume": "Over Bench Wrist Curl",
+"grupa": "antebrate",
+"partiCorp": "Forearms",
+"echipament": "Dumbbell",
+"img": "03691101",
+"video": "03691201-Dumbbell-Over-Bench-Wrist-Curl_Forearms.mp4",
+"principali": "Wrist Extensors",
+"secundari": "",
+"pasi": [
+"Position your forearms on your thighs with your wrists hanging over the edge of your knees.",
+"Slowly lower the weights as far as possible, flexing your wrists to allow the dumbbells to roll out of your palms down to your fingers.",
+"Curl your wrists upward, lifting the weights as high as possible while keeping your forearms pressed against your thighs."
+]
+},
+{
+"id": "dumbbell-single-leg-calf-raise",
+"nume": "Dumbbell Single Leg Calf Raise",
+"grupa": "gambe",
+"partiCorp": "Calves",
+"echipament": "Dumbbell",
+"img": "04091101",
+"video": "04091201-Dumbbell-Single-Leg-Calf-Raise_Calves.mp4",
+"principali": "Gastrocnemius",
+"secundari": "Soleus",
+"pasi": [
+"Lift your left foot off the ground so you're balancing on your right foot.",
+"Slowly raise your right heel off the ground as high as possible, keeping your core tight and your right knee slightly bent.",
+"Pause at the top of the movement, then slowly lower your heel back down to the ground."
+]
+},
+{
+"id": "dumbbell-standing-calf-raise",
+"nume": "Dumbbell Standing Calf Raise",
+"grupa": "gambe",
+"partiCorp": "Calves",
+"echipament": "Dumbbell",
+"img": "04171101",
+"video": "04171201-Dumbbell-Standing-Calf-Raise_Calves.mp4",
+"principali": "Gastrocnemius",
+"secundari": "Soleus",
+"pasi": [
+"Place your feet shoulder-width apart and position your toes straight ahead or slightly outwards.",
+"Slowly raise your heels off the floor by pushing down through the balls of both feet while exhaling, ensuring your abdominal muscles…",
+"Pause for a moment when your calves are fully contracted and you're balancing on the balls of your feet."
+]
+},
+{
+"id": "elliptical-machine-walk",
+"nume": "Elliptical Machine Walk",
+"grupa": "cardio",
+"partiCorp": "Cardio",
+"echipament": "Leverage machine",
+"img": "22631101",
+"video": "22631201-Elliptical-Machine-Walk-(female)_Cardio.mp4",
+"principali": "",
+"secundari": "",
+"pasi": [
+"Set your desired workout settings on the machine's console, such as time, resistance level, and incline, if available.",
+"Begin the exercise by pushing the pedals in a smooth, gliding motion, making sure to keep your back straight and your core engaged.",
+"As you move your legs, also push and pull the handles with your arms, alternating as you would when naturally walking or running."
+]
+},
+{
+"id": "lying-femoral",
+"nume": "Lying Femoral",
+"grupa": "ischiogambieri",
+"partiCorp": "Hamstrings, Thighs",
+"echipament": "Dumbbell",
+"img": "03391101",
+"video": "03391201-Dumbbell-Lying-Femoral_Thighs.mp4",
+"principali": "Hamstrings",
+"secundari": "Gastrocnemius, Soleus",
+"pasi": [
+"Bend your knees and place your feet flat on the floor, hip-width apart.",
+"Slowly lift one leg and extend it straight up towards the ceiling, keeping your other foot flat on the floor.",
+"With control, slowly lower your extended leg back down towards the floor without touching it."
+]
+},
+{
+"id": "dumbbell-seated-calf-raise",
+"nume": "Dumbbell Seated Calf Raise",
+"grupa": "gambe",
+"partiCorp": "Calves",
+"echipament": "Dumbbell",
+"img": "13791101",
+"video": "13791201-Dumbbell-Seated-Calf-Raise_Calves.mp4",
+"principali": "Gastrocnemius",
+"secundari": "Soleus",
+"pasi": [
+"Keep your back straight and hold the dumbbells firmly to ensure they don't slip off your knees.",
+"Slowly raise your heels off the floor by pushing down on the balls of both feet, making sure to keep the dumbbells steady.",
+"Pause for a moment when your calves are as high as they can go, then slowly lower your heels back to the starting position."
+]
+},
+{
+"id": "lever-rotary-calf",
+"nume": "Lever Rotary Calf",
+"grupa": "gambe",
+"partiCorp": "Calves",
+"echipament": "Leverage machine",
+"img": "23151101",
+"video": "23151201-Lever-Rotary-Calf_Calves.mp4",
+"principali": "Gastrocnemius",
+"secundari": "Soleus",
+"pasi": [
+"Hold onto the handles of the machine for stability, and push off the platform using your toes and the balls of your feet, ensuring your…",
+"Extend your calves and push your body upwards until you're standing on your tiptoes, keeping your core tight and your back straight.",
+"Hold this position for a few seconds to maximize muscle contraction in the calves."
+]
+},
+{
+"id": "barbell-standing-back-wrist-curl",
+"nume": "Barbell Standing Back Wrist Curl",
+"grupa": "antebrate",
+"partiCorp": "Forearms",
+"echipament": "Barbell",
+"img": "01041101",
+"video": "01041201-Barbell-Standing-Back-Wrist-Curl_Forearms.mp4",
+"principali": "Wrist Flexors",
+"secundari": "",
+"pasi": [
+"Keep your feet hip-width apart, your back straight, and your elbows close to your body.",
+"Slowly curl your wrists upward, lifting the barbell by flexing your wrists while keeping the rest of your arm stationary.",
+"Hold the position at the top of the movement for a second, making sure to squeeze your forearm muscles."
+]
+},
+{
+"id": "run",
+"nume": "Run",
+"grupa": "cardio",
+"partiCorp": "Cardio",
+"echipament": "Body weight",
+"img": "21961101",
+"video": "21961201-Run-(female)_Cardio.mp4",
+"principali": ", Adductor Longus, Adductor Magnus, Gastrocnemius, Gluteus Maximus, Hamstrings, Iliopsoas, Obliques, Pectineous, Quadriceps, Sartorius, Soleus",
+"secundari": "",
+"pasi": [
+"Choose a comfortable pace to start your run, it should be a pace that allows you to speak full sentences without gasping for breath.",
+"Maintain a good posture during your run, keep your back straight, your shoulders relaxed, and your gaze forward.",
+"As you run, land softly on your heel and roll forward to push off on your toes, this is the most efficient and safe running technique."
+]
+},
+{
+"id": "side-neck-stretch",
+"nume": "Side Neck Stretch",
+"grupa": "gat",
+"partiCorp": "Neck",
+"echipament": "Body weight",
+"img": "07131101",
+"video": "07131201-Side-Neck-Stretch_Neck_.mp4",
+"principali": "Sternocleidomastoid",
+"secundari": "Levator Scapulae, Trapezius Upper Fibers",
+"pasi": [
+"Slowly tilt your head to the right, aiming to bring your ear as close to your shoulder as possible, but be sure not to lift your…",
+"Hold this position for about 15 to 30 seconds, feeling a gentle stretch along the left side of your neck.",
+"Slowly lift your head back to the upright position, then repeat the process, this time tilting your head to the left and holding for…"
+]
+},
+{
+"id": "dumbbell-one-arm-revers-wrist-curl",
+"nume": "Dumbbell One arm Revers Wrist Curl",
+"grupa": "antebrate",
+"partiCorp": "Forearms",
+"echipament": "Dumbbell",
+"img": "03581101",
+"video": "03581201-Dumbbell-One-arm-Revers-Wrist-Curl_Forearms.mp4",
+"principali": "Wrist Extensors",
+"secundari": "",
+"pasi": [
+"Rest your forearm on your thigh, letting the dumbbell hang over the edge of your knee.",
+"Slowly raise the dumbbell as high as possible, bending at the wrist and keeping the rest of your arm still.",
+"Pause at the top of the movement for a moment, then slowly lower the weight back down to the starting position."
+]
+},
+{
+"id": "one-leg-floor-calf-raise",
+"nume": "One Leg Floor Calf Raise",
+"grupa": "gambe",
+"partiCorp": "Calves",
+"echipament": "Body weight",
+"img": "13871101",
+"video": "13871201-One-Leg-Floor-Calf-Raise_Calves.mp4",
+"principali": "Gastrocnemius",
+"secundari": "Soleus",
+"pasi": [
+"Shift your weight onto one foot and lift the other foot off the ground, balancing yourself.",
+"Slowly rise up onto the toes of your standing foot, lifting your heel as high as possible to engage your calf muscle.",
+"Hold this position for a moment, ensuring your core is engaged and your body is balanced."
+]
+},
+{
+"id": "over-bench-revers-wrist-curl",
+"nume": "Over Bench Revers Wrist Curl",
+"grupa": "antebrate",
+"partiCorp": "Forearms",
+"echipament": "Dumbbell",
+"img": "03681101",
+"video": "03681201-Dumbbell-Over-Bench-Revers-Wrist-Curl_Forearms_.mp4",
+"principali": "Wrist Flexors",
+"secundari": "",
+"pasi": [
+"Rest your forearms on your thighs, allowing your wrists to hang over the edge of your knees.",
+"Slowly lower the barbell as far as possible, keeping the movement controlled and your hands firm.",
+"Then, curl the barbell upwards using your wrists as far as you can, keeping the rest of your arm stationary."
+]
+},
+{
+"id": "ez-barbell-reverse-grip-curl",
+"nume": "EZ Barbell Reverse Grip Curl",
+"grupa": "antebrate",
+"partiCorp": "Forearms",
+"echipament": "EZ Barbell",
+"img": "04511101",
+"video": "04511201-EZ-Barbell-Reverse-Grip-Curl_Forearms.mp4",
+"principali": "Brachioradialis",
+"secundari": "Biceps Brachii, Brachialis",
+"pasi": [
+"As you keep the elbows close to the torso, curl the weights while contracting the biceps as you breathe out; only the forearms should move.",
+"Continue the movement until your biceps are fully contracted and the bar is at shoulder level.",
+"Hold the contracted position for a moment as you squeeze the biceps."
+]
+},
+{
+"id": "dumbbell-cross-body-hammer-curl",
+"nume": "Dumbbell Cross Body Hammer Curl",
+"grupa": "antebrate",
+"partiCorp": "Forearms",
+"echipament": "Dumbbell",
+"img": "02981101",
+"video": "02981201-Dumbbell-Cross-Body-Hammer-Curl_Forearms.mp4",
+"principali": "Brachioradialis",
+"secundari": "Biceps Brachii, Brachialis",
+"pasi": [
+"While keeping your palms facing your torso, lift the right dumbbell to the front of your shoulder in a semi-circular motion until your…",
+"Hold the contracted position for a second as you squeeze the biceps.",
+"Lower the dumbbell back down slowly to the starting position as you simultaneously lift the left dumbbell."
+]
+},
+{
+"id": "high-knee-skips",
+"nume": "High Knee Skips",
+"grupa": "cardio",
+"partiCorp": "Cardio",
+"echipament": "Body weight",
+"img": "04771101",
+"video": "04771201-High-Knee-Skips-(female)_Cardio.mp4",
+"principali": "",
+"secundari": "",
+"pasi": [
+"Lift your right knee as high as possible and simultaneously swing your left arm forward as if you were running.",
+"Jump off your left foot, propelling yourself forward, while your right knee is still in the air.",
+"Land softly on your left foot and immediately repeat the motion, this time lifting your left knee and swinging your right arm."
+]
+},
+{
+"id": "barbell-straight-leg-deadlift",
+"nume": "Barbell Straight Leg Deadlift",
+"grupa": "ischiogambieri",
+"partiCorp": "Hamstrings, Thighs",
+"echipament": "Barbell",
+"img": "01161101",
+"video": "01161201-Barbell-Straight-Leg-Deadlift_Thighs.mp4",
+"principali": "Erector Spinae, Hamstrings",
+"secundari": "Adductor Magnus, Gluteus Maximus",
+"pasi": [
+"Keeping your legs straight or slightly bent, slowly bend at your hips and lower the barbell towards the ground, keeping it as close to…",
+"Lower the barbell until you feel a stretch in your hamstrings, but make sure to keep your back straight and not rounded.",
+"Pause for a moment, then slowly raise your body and the barbell back to the starting position, pushing your hips forward and squeezing…"
+]
+},
+{
+"id": "forward-flexion-neck-stretch",
+"nume": "Forward Flexion Neck Stretch",
+"grupa": "gat",
+"partiCorp": "Neck",
+"echipament": "Body weight",
+"img": "18361101",
+"video": "18361201-Forward-Flexion-Neck-Stretch_Neck_.mp4",
+"principali": "",
+"secundari": "",
+"pasi": [
+"Slowly lower your chin towards your chest, keeping your shoulders and back still, until you feel a gentle stretch at the back of your neck.",
+"Hold this position for about 20 to 30 seconds, breathing deeply and relaxing into the stretch.",
+"Slowly lift your head back up to the starting position."
+]
+},
+{
+"id": "dumbbell-swing",
+"nume": "Dumbbell Swing",
+"grupa": "ischiogambieri",
+"partiCorp": "Hamstrings, Thighs",
+"echipament": "Dumbbell",
+"img": "33681101",
+"video": "33681201-Dumbbell-Swing_Hips.mp4",
+"principali": "Deltoid Anterior, Gluteus Maximus, Hamstrings",
+"secundari": "Adductor Magnus, Deltoid Lateral, Pectoralis Major Clavicular Head, Quadriceps, Serratus Anterior, Soleus",
+"pasi": [
+"Lower your body into a squat position, keeping your back straight, and swing the dumbbell between your legs.",
+"Push through your heels to stand back up, using the momentum to swing the dumbbell up to chest height.",
+"Allow the weight to fall back down, using that momentum to guide you back into the squat position."
+]
+},
+{
+"id": "lever-seated-one-leg-curl",
+"nume": "Lever Seated One Leg Curl",
+"grupa": "ischiogambieri",
+"partiCorp": "Hamstrings, Thighs",
+"echipament": "Leverage machine",
+"img": "15861101",
+"video": "15861201-Lever-Seated-One-Leg-Curl_Thighs_.mp4",
+"principali": "Hamstrings",
+"secundari": "Gastrocnemius, Sartorius, Soleus",
+"pasi": [
+"Position one leg under the lever pad, with the pad resting just above your ankle; the other leg should be placed beside the machine.",
+"Hold onto the side handles of the machine for support, keeping your torso flat against the backrest.",
+"Slowly curl your leg up as far as possible, ensuring that the rest of your body remains stationary during this movement."
+]
+},
+{
+"id": "seated-single-leg-hamstring-stretch",
+"nume": "Seated Single Leg Hamstring Stretch",
+"grupa": "ischiogambieri",
+"partiCorp": "Hamstrings, Thighs",
+"echipament": "Body weight",
+"img": "06921101",
+"video": "06921201-Seated-Single-Leg-Hamstring-Stretch_Thighs-(female).mp4",
+"principali": "Hamstrings",
+"secundari": "",
+"pasi": [
+"Keep your back straight and slowly lean forward from your hips towards the foot of your extended leg, aiming to grasp it with your hand.",
+"Hold the stretch for about 20 to 30 seconds, making sure to breathe deeply and relax into the stretch.",
+"Release the stretch and sit up straight again."
+]
+},
+{
+"id": "neck-side-stretch",
+"nume": "Neck Side Stretch",
+"grupa": "gat",
+"partiCorp": "Neck",
+"echipament": "Body weight",
+"img": "14031101",
+"video": "14031201-Neck-Side-Stretch_Neck.mp4",
+"principali": "Levator Scapulae",
+"secundari": "",
+"pasi": [
+"Slowly tilt your head towards your right shoulder, aiming to touch it with your ear, but stop when you feel a stretch on the left side…",
+"Hold this position for about 15 to 30 seconds, breathing deeply and relaxing into the stretch.",
+"Slowly lift your head back to the center, and then repeat the process on the left side, tilting your head towards your left shoulder."
+]
+},
+{
+"id": "seated-neck-extension",
+"nume": "Seated Neck Extension",
+"grupa": "gat",
+"partiCorp": "Neck",
+"echipament": "Weighted",
+"img": "08481101",
+"video": "08481201-Weighted-Seated-Neck-Extension-(with-head-harness)_Neck.mp4",
+"principali": "Splenius",
+"secundari": "Levator Scapulae, Sternocleidomastoid, Trapezius Upper Fibers",
+"pasi": [
+"Slowly tilt your head back until you're looking at the ceiling, making sure to keep your spine straight and your shoulders relaxed.",
+"Hold this position for a few seconds, feeling the stretch in the front part of your neck.",
+"Slowly return your head to the neutral position, looking straight ahead."
+]
+},
+{
+"id": "dumbbell-lying-femoral",
+"nume": "Dumbbell Lying Femoral",
+"grupa": "ischiogambieri",
+"partiCorp": "Hamstrings, Thighs",
+"echipament": "Dumbbell",
+"img": "03391101",
+"video": "03391201-Dumbbell-Lying-Femoral_Thighs.mp4",
+"principali": "Hamstrings",
+"secundari": "Gastrocnemius, Soleus",
+"pasi": [
+"Bend your knees and bring them towards your chest, keeping your feet together and your lower back pressed against the bench.",
+"Slowly lower the dumbbells towards your thighs, keeping your arms straight and your palms facing inward.",
+"Once the dumbbells reach your thighs, pause for a moment, then lift them back up to the starting position using your hip and thigh muscles."
+]
+},
+{
+"id": "leg-curl",
+"nume": "Leg Curl",
+"grupa": "ischiogambieri",
+"partiCorp": "Hamstrings, Thighs",
+"echipament": "Stability ball",
+"img": "05691101",
+"video": "05691201-Leg-Curl-(on-stability-ball)_Thighs.mp4",
+"principali": "Hamstrings",
+"secundari": "Gastrocnemius, Sartorius, Soleus",
+"pasi": [
+"Keep your torso flat on the bench as you secure your legs under the lever.",
+"Curl your legs up as far as possible without lifting the upper legs from the pad, ensuring that you exhale during this movement.",
+"Once you hit the fully contracted position, hold it for a second as you squeeze your hamstrings."
+]
+},
+{
+"id": "barbell-good-morning",
+"nume": "Barbell Good Morning",
+"grupa": "ischiogambieri",
+"partiCorp": "Hamstrings, Thighs",
+"echipament": "Barbell",
+"img": "00441101",
+"video": "00441201-Barbell-Good-Morning_Thighs.mp4",
+"principali": "Hamstrings",
+"secundari": "Adductor Magnus, Gluteus Maximus",
+"pasi": [
+"Slowly bend at the waist while keeping your back straight, your head up, and your knees slightly bent.",
+"Continue bending forward as far as you can without compromising your form, or until your torso is parallel to the floor.",
+"Hold this position for a moment, then slowly return to the starting position by extending through your hips and waist."
+]
+},
+{
+"id": "lever-lying-single-leg-curl",
+"nume": "Lever Lying Single Leg Curl",
+"grupa": "ischiogambieri",
+"partiCorp": "Hamstrings, Thighs",
+"echipament": "Leverage machine",
+"img": "15901101",
+"video": "15901201-Lever-Lying-Single-Leg-Curl_Thighs_.mp4",
+"principali": "Hamstrings",
+"secundari": "Gastrocnemius, Sartorius, Soleus",
+"pasi": [
+"Carefully position one leg under the lever pad and the other leg should be bent and rested on the side.",
+"Keep your torso flat on the bench as you securely grip the side handles of the machine.",
+"Curl your working leg up as far as possible without lifting the upper leg from the pad, ensuring the tension is on your hamstring muscle."
+]
+}
+]

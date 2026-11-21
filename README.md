@@ -127,6 +127,30 @@ To see the disabled button while saving, start the API with a delay:
 `npx json-server --watch db.json --port 3001 --delay 3000`.
 To see a failed save, stop `npm run api` (Ctrl + C), type a name and press the button: the error appears and the text stays in the field.
 
+## Stage 8: routing and detail page
+The app is split into pages with React Router (no page reloads), and the styles moved next to
+their components, in CSS Modules. The journal no longer starts with every exercise in it: the
+exercises live in a catalog, grouped by muscle, and are added to the journal one by one.
+
+- **Routes:** `/` the journal (list + manual form), `/exercitii/:id` the detail page of one journal entry (the resource from `tw.json`), `/catalog` all the exercises, `/despre` the about page and `*` the 404 page. `App.jsx` only holds the route map; `Layout.jsx` draws the ticker, the header with `NavLink` links (Jurnal, Exerciții, Despre), the theme button and the footer once, and the pages appear in its `<Outlet />`.
+- **Detail page:** `useParams()` reads the id and `fetchExercitiu(id)` (new in `api.js`) asks the server for exactly that entry; the effect depends on `[id]`. It shows the group, intensity, status, source and id, a button to mark it done, and, for exercises from the catalog, the tutorial video and the exercise details. A missing id (`/exercitii/999`) shows an error message and a way back, not an empty screen.
+- **Catalog page:** 192 exercises (13 muscle groups, including neck and cardio), each with a picture. The muscle group bar on top filters the list; a second click on the same group, or "Toate", shows everything again. There is also a search box. A click on an exercise opens a pop-up (`<dialog>`) with the video, the exercise details (body part, equipment, primary and secondary muscles), the steps and an "Add to journal" button with the intensity. "+ Adaugă" on a card adds it directly. The filters and the open exercise are kept in the address (`/catalog?grupa=piept&ex=bench-press`), so Back / Forward work and a link opens the same view.
+- **Journal page:** a bar with the muscle groups (with the number of exercises in each) links to the catalog filtered on that group. The manual form from stage 7 stays, for exercises that are not in the catalog. The counter moved from the header into the list panel, with a progress bar. Cards show the exercise picture (or the muscle group icon for manual entries) and the title is now a link to the detail page.
+- **Catalog data:** `src/data/catalog.json` (+ `catalog.js` with the helpers) is fixed reference data, so it stays in the frontend; only the journal is on the server. An entry added from the catalog keeps the link through `catalogId`. Pictures and videos are loaded from lyfta.app (used only for this university project); the muscle group icons are in `public/muscles/`.
+- **CSS Modules:** `App.css` became `index.css` and keeps only the shared parts: colour variables (both themes), `body`, inputs and buttons, `.panel`, `.wrap`, `.btn`, `.mini`, `.back`, `.info`, `.empty`, `.error` and the badges. Every component and page has its own `.module.css`. `index.css` is imported before `App` in `main.jsx`, so a module rule wins over a global one with the same specificity.
+- **Shared values:** `src/constants.js` replaces `etichete.js` and the local lists from the form: muscle groups, intensities, their labels and the Romanian names for equipment and body parts.
+- **Hooks for automatic checking:** the stage 7 attributes stay; added `nav`, `item-link` (instead of `item-title`), `detail`, `detail-title` and `not-found`, plus `loading` / `error` on the detail page.
+- **Cleanup:** `CatalogExercitii.jsx` (unused since stage 7) and `etichete.js` were removed. `db.json` now starts with 8 journal entries instead of the 110 exercises.
+
+### How to run
+Two terminals, both in `frontend/`:
+```
+npm install    # once, adds react-router-dom
+npm run api    # terminal 1, http://localhost:3001
+npm run dev    # terminal 2, http://localhost:5173
+```
+Try `/exercitii/1`, `/exercitii/999`, `/catalog?grupa=spate` and an invented address like `/ceva`.
+
 ## AI usage
 AI was used as a learning and coding assistant. See `ai-log/` for the log of each stage.
 
@@ -138,7 +162,8 @@ AI was used as a learning and coding assistant. See `ai-log/` for the log of eac
 - [x] Stage 5: local state and events
 - [x] Stage 6: data from a mock API
 - [x] Stage 7: form and validation
-- [ ] Stage 8: routing and detail page
+- [x] Stage 8: routing and detail page
+- [ ] Stage 9: own backend with Express
 
 ## Stage 3 checklist
 

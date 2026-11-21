@@ -1,0 +1,27 @@
+.despre {
+  max-width: 720px;
+  margin: 32px auto;
+}
+.lista {
+  padding-left: 0;
+  list-style: none;
+}
+.lista li {
+  position: relative;
+  padding-left: 26px;
+  margin-bottom: 8px;
+}
+.lista li::before {
+  content: "▮";
+  position: absolute;
+  left: 4px;
+  color: var(--accent);
+}
+.stack {
+  display: inline-block;
+  padding: 6px 12px;
+  border: 2px solid var(--text);
+  font-weight: 800;
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
+}

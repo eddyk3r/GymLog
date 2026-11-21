@@ -1,29 +1,11 @@
 import { useState } from "react";
-
-// ADAPT: valorile trebuie să fie exact cele din db.json (la fel scrise, cu aceleași diacritice sau fără).
-const INTENSITATI = [
-  { value: "usoara", label: "Ușoară" },
-  { value: "medie", label: "Medie" },
-  { value: "intensa", label: "Intensă" },
-];
-
-const GRUPE = [
-  { value: "piept", label: "Piept" },
-  { value: "spate", label: "Spate" },
-  { value: "umeri", label: "Umeri" },
-  { value: "biceps", label: "Biceps" },
-  { value: "triceps", label: "Triceps" },
-  { value: "antebrate", label: "Antebrațe" },
-  { value: "abdomen", label: "Abdomen" },
-  { value: "cvadricepsi", label: "Cvadricepși" },
-  { value: "ischiogambieri", label: "Ischiogambieri" },
-  { value: "fesieri", label: "Fesieri" },
-  { value: "gambe", label: "Gambe" },
-];
+import { GRUPE, INTENSITATI } from "../constants.js";
+import styles from "./ExercitiuForm.module.css";
 
 const EXERCITIU_MAX = 60;
 
-// Formular controlat: state-ul React este sursa de adevăr pentru câmpuri
+// Formular controlat: state-ul React este sursa de adevăr pentru câmpuri.
+// Etapa 8: adăugarea manuală rămâne, pentru exercițiile care nu sunt în catalog.
 export default function ExercitiuForm({ onAdd }) {
   const [exercitiu, setExercitiu] = useState("");
   const [intensitate, setIntensitate] = useState("medie");
@@ -70,10 +52,10 @@ export default function ExercitiuForm({ onAdd }) {
 
   return (
     <form
-     className="item-form"
-    onSubmit={handleSubmit}
-    noValidate
-     data-testid="form"
+      className={styles.form}
+      onSubmit={handleSubmit}
+      noValidate
+      data-testid="form"
     >
       <label>
         Exercițiu

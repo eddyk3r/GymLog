@@ -1,0 +1,293 @@
+/* Stiluri globale: variabile, elemente de bază, clase comune.
+   Stilurile de componentă stau în fișiere *.module.css, lângă componente. */
+* { box-sizing: border-box; }
+
+/* Variabilele de culoare: fiecare culoare este definită o singură dată, aici */
+:root {
+  --bg: #efede9;            /* fundalul paginii */
+  --card: #ffffff;          /* fundalul panourilor */
+  --text: #0e0e0e;
+  --muted: #6d6862;
+  --border: #dedad4;
+  --accent: #ff4d00;        /* portocaliu de semnalizare */
+  --accent-dark: #d63f00;
+  --accent-soft: #ffe9df;
+  --white: #ffffff;
+  --hero-bg: #0e0e0e;       /* fundalul antetului */
+  --hero-text: #ffffff;
+  --hero-muted: #d6d2cc;
+  --btn-bg: #0e0e0e;        /* butoane */
+  --btn-text: #ffffff;
+  --on-accent: #0e0e0e;     /* text pe culoarea de accent */
+  --media-bg: #ffffff;      /* fundalul imaginilor și al video-urilor */
+  /* câte o culoare pentru fiecare intensitate */
+  --usoara: #15803d;
+  --medie: #b45309;
+  --intensa: #b91c1c;
+  /* aspectul de sală */
+  --grid: rgba(14, 14, 14, 0.05);   /* liniile grilei din fundal */
+  --shadow: #0e0e0e;                /* umbra decalată a panourilor */
+  --font-display: Impact, "Haettenschweiler", "Arial Narrow Bold", "Arial Black", sans-serif;
+  --error-bg: #fdf2f8;
+  --error-border: #fbcfe8;
+}
+
+/* Tema întunecată a sistemului, dacă utilizatorul nu a ales explicit tema luminoasă */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0b0b0b;
+    --card: #161616;
+    --text: #f2efea;
+    --muted: #a09a93;
+    --border: #2b2926;
+    --accent-soft: #2a1a12;
+    --hero-bg: #000000;
+    --btn-bg: #f2efea;
+    --btn-text: #0e0e0e;
+    --grid: rgba(255, 255, 255, 0.04);
+    --shadow: rgba(255, 77, 0, 0.5);
+    --error-bg: #3b1d2e;
+    --error-border: #6b2a4a;
+  }
+}
+
+/* Tema aleasă din buton are prioritate față de cea a sistemului */
+:root[data-theme="dark"] {
+  --bg: #0b0b0b;
+  --card: #161616;
+  --text: #f2efea;
+  --muted: #a09a93;
+  --border: #2b2926;
+  --accent-soft: #2a1a12;
+  --hero-bg: #000000;
+  --btn-bg: #f2efea;
+  --btn-text: #0e0e0e;
+  --grid: rgba(255, 255, 255, 0.04);
+  --shadow: rgba(255, 77, 0, 0.5);
+  --error-bg: #3b1d2e;
+  --error-border: #6b2a4a;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background-color: var(--bg);
+  background-image:
+    linear-gradient(var(--grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+  background-size: 34px 34px;
+  color: var(--text);
+  line-height: 1.5;
+}
+
+a { color: var(--accent); }
+
+/* Conținutul paginilor, centrat */
+.wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* Panourile */
+.panel {
+  background: var(--card);
+  border: 2px solid var(--text);
+  border-top: 6px solid var(--accent);
+  border-radius: 2px 22px 2px 22px;
+  padding: 22px;
+  box-shadow: 7px 7px 0 var(--shadow);
+  animation: rise 0.6s ease-out backwards;
+}
+.panel h2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 18px;
+  font-family: var(--font-display);
+  font-size: 1.45rem;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.panel h2::before {
+  content: "";
+  flex: none;
+  width: 12px;
+  height: 1.1em;
+  background: var(--accent);
+  transform: skewX(-20deg);
+}
+
+/* Câmpuri */
+input,
+select {
+  padding: 11px 12px;
+  border: 2px solid var(--border);
+  border-radius: 4px;
+  background: var(--bg);
+  color: var(--text);
+  font: inherit;
+  font-weight: 500;
+  letter-spacing: normal;
+  text-transform: none;
+  transition: border-color 0.2s, box-shadow 0.2s, background 0.2s;
+}
+input:hover,
+select:hover { border-color: var(--muted); }
+input:focus,
+select:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 4px var(--accent-soft);
+  outline: none;
+}
+
+/* Butoane */
+button,
+.btn {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  padding: 12px 16px;
+  border: 2px solid var(--text);
+  border-radius: 4px;
+  background: var(--accent);
+  color: var(--on-accent);
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 4px 4px 0 var(--shadow);
+  transition: transform 0.15s, box-shadow 0.15s, background 0.2s, color 0.2s;
+}
+button::after,
+.btn::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -80%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(100deg, transparent, rgba(255, 255, 255, 0.55), transparent);
+  transform: skewX(-20deg);
+}
+button:hover,
+.btn:hover {
+  background: var(--btn-bg);
+  color: var(--btn-text);
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0 var(--accent);
+}
+button:hover::after,
+.btn:hover::after { animation: shine 0.7s ease-out; }
+button:active,
+.btn:active {
+  transform: translate(3px, 3px);
+  box-shadow: 1px 1px 0 var(--shadow);
+}
+button:disabled,
+button:disabled:hover {
+  opacity: 0.6;
+  cursor: not-allowed;
+  background: var(--accent);
+  color: var(--on-accent);
+  transform: none;
+  box-shadow: 4px 4px 0 var(--shadow);
+}
+
+/* Buton mic (adaugă, șterge) */
+.mini {
+  padding: 6px 12px;
+  font-size: 0.9rem;
+  letter-spacing: 0.06em;
+  white-space: nowrap;
+  box-shadow: 2px 2px 0 var(--shadow);
+}
+.mini:disabled,
+.mini:disabled:hover {
+  opacity: 1;
+  background: var(--border);
+  color: var(--muted);
+  border-color: var(--border);
+  cursor: default;
+  transform: none;
+  box-shadow: none;
+}
+
+/* Link cu săgeată, folosit pentru „Înapoi” */
+.back {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 14px;
+  color: var(--text);
+  font-weight: 800;
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.back::before { content: "←"; color: var(--accent); font-size: 1.1rem; }
+.back:hover { color: var(--accent); }
+
+/* Mesaje */
+.info { color: var(--muted); }
+.empty { color: var(--muted); text-align: center; }
+.error {
+  color: #be185d;
+  background: var(--error-bg);
+  border: 1px solid var(--error-border);
+  border-radius: 8px;
+  padding: 10px 12px;
+}
+
+/* Etichetele de intensitate: numărul de bare arată intensitatea */
+.badge {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 3px;
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: var(--white);
+}
+.badge::before { margin-right: 6px; letter-spacing: 1px; }
+.badge-usoara { background: var(--usoara); }
+.badge-usoara::before { content: "▮▯▯"; }
+.badge-medie { background: var(--medie); }
+.badge-medie::before { content: "▮▮▯"; }
+.badge-intensa {
+  background: var(--intensa);
+  animation: glow 1.8s ease-in-out infinite;
+}
+.badge-intensa::before { content: "▮▮▮"; }
+
+/* Focus vizibil la tastatură */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* Animațiile folosite de clasele globale */
+@keyframes rise {
+  from { opacity: 0; transform: translateY(18px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes shine { to { left: 130%; } }
+@keyframes glow {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(185, 28, 28, 0.7); }
+  50% { box-shadow: 0 0 0 7px rgba(185, 28, 28, 0); }
+}
+
+/* Cine preferă mai puțină mișcare: fără animații */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}

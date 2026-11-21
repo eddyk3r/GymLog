@@ -1,0 +1,19 @@
+.form,
+.form label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.form { gap: 16px; }
+.form label {
+  font-weight: 800;
+  font-size: 0.78rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+/* câmpul greșit are bordură roșie */
+.form input[aria-invalid="true"] { border-color: var(--intensa); }
+
+/* mesajul de eroare nu se lipește de câmpuri */
+.form :global(.error) { margin: 0; }
