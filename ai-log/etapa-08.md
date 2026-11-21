@@ -25,7 +25,14 @@ Claude (Anthropic), with access to my project folder.
 - The README Stage 8 section, the checklist table and this log.
 
 ## What I checked and changed myself
-- (de completat: ce ai verificat tu în browser, ce ai schimbat)
+- Opened the app and saw the old version at first, because I had started the server from a different copy of the project; after running it from `C:\Users\edibi\GymLog\frontend` the new version appeared.
+- Asked for the journal cards to be checked by clicking anywhere on the card instead of the checkbox, and checked the new behaviour in the browser.
+- Noticed that the exercise details were in Romanian but the steps in English, and asked for a RO / EN switch that translates the whole site.
+- Asked for three extra pages (workout mode, body map, stats), each on its own page.
+- Saw that stats and the body map started with made-up history and asked for it to be removed, so only what I add myself is counted.
+- Asked for a more professional footer with my name (© 2026 Birceanu Eduard-Valentin).
+- Asked for a custom rest time in workout mode.
+- Changed a link in the README myself.
 - Ran `npm install`, `npm run api` and `npm run dev` in `frontend/`.
 - Clicked a title in the list and checked that the address became `/exercitii/1`, then pressed Back.
 - Refreshed `/exercitii/1`, opened `/exercitii/999` and `/ceva`.
