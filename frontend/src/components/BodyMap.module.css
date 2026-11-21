@@ -1,0 +1,47 @@
+.corp {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.figura { margin: 0; text-align: center; }
+.figura svg {
+  width: 100%;
+  max-height: 520px;
+  overflow: visible;
+  /* umbra decalată, ca la panouri */
+  filter: drop-shadow(5px 5px 0 var(--accent-soft));
+}
+.figura figcaption {
+  margin-top: 6px;
+  font-family: var(--font-display);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.baza {
+  fill: var(--border);
+  stroke: var(--text);
+  stroke-width: 1.5;
+  stroke-linejoin: round;
+}
+
+.muschi {
+  stroke: var(--text);
+  stroke-width: 1.5;
+  stroke-linejoin: round;
+  cursor: pointer;
+  transition: fill 0.4s, stroke-width 0.15s, filter 0.15s;
+  animation: apare 0.6s ease-out backwards;
+}
+.muschi:hover,
+.muschi:focus-visible,
+.activ {
+  stroke: var(--accent-dark);
+  stroke-width: 3;
+  filter: brightness(1.1) drop-shadow(0 0 4px rgba(255, 77, 0, 0.8));
+  outline: none;
+}
+
+@keyframes apare {
+  from { opacity: 0; }
+}

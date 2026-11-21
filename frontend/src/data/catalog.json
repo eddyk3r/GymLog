@@ -13,6 +13,12 @@
 "Grip the barbell with your hands slightly wider than shoulder-width apart, palms facing your feet, and lift it off the rack, holding it…",
 "Slowly lower the barbell down to your chest while keeping your elbows at a 90-degree angle.",
 "Once the barbell touches your chest, push it back up to the starting position while keeping your back flat on the bench."
+],
+"numeRo": "Împins la piept cu bara",
+"pasiRo": [
+"Prinde bara cu mâinile puțin mai depărtate decât lățimea umerilor, cu palmele spre picioare, și scoate-o de pe suport, ținând-o deasupra pieptului.",
+"Coboară încet bara spre piept, cu coatele la un unghi de 90 de grade.",
+"Când bara atinge pieptul, împinge-o înapoi în poziția de start, cu spatele lipit de bancă."
 ]
 },
 {
@@ -29,6 +35,12 @@
 "Grasp the bar with your palms facing down, hands shoulder-width apart, and elbows close to your body.",
 "Pull the bar down until your arms are fully extended by your sides, this is your starting position.",
 "Slowly bend your elbows and raise the bar back to the starting position, keeping your elbows close to your body and your back straight."
+],
+"numeRo": "Extensii triceps la scripete",
+"pasiRo": [
+"Prinde bara cu palmele în jos, cu mâinile la lățimea umerilor și coatele lipite de corp.",
+"Trage bara în jos până când brațele sunt complet întinse pe lângă corp; aceasta este poziția de start.",
+"Îndoaie încet coatele și ridică bara înapoi, cu coatele lipite de corp și spatele drept."
 ]
 },
 {
@@ -45,6 +57,12 @@
 "Grab the barbell with a grip that is slightly wider than shoulder-width apart, and remove it from the rack, holding it straight over…",
 "Slowly lower the barbell to your upper chest, ensuring that you keep your elbows at a 90-degree angle and your wrists straight.",
 "Once the barbell has touched your chest, push it back up to the starting position, fully extending your arms but not locking your elbows."
+],
+"numeRo": "Împins înclinat",
+"pasiRo": [
+"Prinde bara puțin mai larg decât lățimea umerilor și scoate-o de pe suport, ținând-o drept deasupra pieptului.",
+"Coboară încet bara spre partea de sus a pieptului, cu coatele la 90 de grade și încheieturile drepte.",
+"Când bara a atins pieptul, împinge-o înapoi în poziția de start, întinzând brațele fără să blochezi coatele."
 ]
 },
 {
@@ -61,6 +79,12 @@
 "Sit down on the machine and grasp the handles on either side of the machine to stabilize your upper body.",
 "Slowly extend your legs, pushing against the pad, until they are fully straightened but not locked at the knee.",
 "Hold this position for a moment, feeling the tension in your quadriceps."
+],
+"numeRo": "Extensii picioare la aparat",
+"pasiRo": [
+"Așază-te pe aparat și prinde mânerele de pe lateral ca să îți stabilizezi partea de sus a corpului.",
+"Întinde încet picioarele, împingând în pernă, până când sunt drepte, fără să blochezi genunchii.",
+"Menține poziția o clipă, simțind tensiunea în cvadricepși."
 ]
 },
 {
@@ -77,6 +101,12 @@
 "Keeping your torso stationary, lift the dumbbells to your side with a slight bend on the elbow and the hands slightly tilted forward as…",
 "Pause for a second at the top of the movement, then slowly lower the weights back down to the starting position.",
 "Repeat this movement for the desired number of repetitions."
+],
+"numeRo": "Ridicări laterale",
+"pasiRo": [
+"Cu trunchiul nemișcat, ridică ganterele lateral, cu coatele ușor îndoite și mâinile puțin înclinate înainte, până la nivelul umerilor.",
+"Fă o pauză de o secundă sus, apoi coboară încet greutățile în poziția de start.",
+"Repetă mișcarea de numărul dorit de ori."
 ]
 },
 {
@@ -93,6 +123,12 @@
 "Begin the exercise by slowly lowering your body, as if you're sitting back into a chair, keeping your back straight and your knees over…",
 "Continue to lower yourself until your thighs are parallel or almost parallel to the floor, ensuring your knees do not go past your toes.",
 "Hold this position for a moment, keeping your core engaged and your body weight on your heels."
+],
+"numeRo": "Genuflexiune completă",
+"pasiRo": [
+"Începe prin a coborî încet corpul, ca și cum te-ai așeza pe un scaun, cu spatele drept și genunchii deasupra degetelor.",
+"Coboară până când coapsele sunt paralele sau aproape paralele cu podeaua, fără ca genunchii să treacă de vârfurile picioarelor.",
+"Menține poziția o clipă, cu abdomenul încordat și greutatea pe călcâie."
 ]
 },
 {
@@ -109,6 +145,12 @@
 "Grasp the handles with an overhand grip and sit upright, keeping your back straight and shoulders down.",
 "Pull the handles towards your torso while keeping your elbows close to your body and squeezing your shoulder blades together.",
 "Pause for a moment when the handles are close to your abdomen, then slowly extend your arms back to the starting position."
+],
+"numeRo": "Ramat la scripete, cu spatele drept",
+"pasiRo": [
+"Prinde mânerele cu priză pronată și stai drept, cu spatele drept și umerii coborâți.",
+"Trage mânerele spre trunchi, cu coatele lipite de corp, strângând omoplații.",
+"Fă o pauză când mânerele ajung lângă abdomen, apoi întinde încet brațele înapoi în poziția de start."
 ]
 },
 {
@@ -125,6 +167,12 @@
 "Keep your elbows close to your torso at all times, and maintain your upper arms stationary as you curl the weights while contracting…",
 "Continue to raise the barbell until your biceps are fully contracted and the bar is at shoulder level. Hold the contracted position for…",
 "Slowly begin to bring the barbell back to original position as your breathe in."
+],
+"numeRo": "Flexii biceps cu bara",
+"pasiRo": [
+"Ține coatele lipite de trunchi tot timpul și brațele nemișcate în timp ce ridici bara contractând bicepșii.",
+"Continuă să ridici bara până când bicepșii sunt complet contractați și bara ajunge la nivelul umerilor. Menține contracția o clipă.",
+"Coboară încet bara înapoi în poziția inițială în timp ce inspiri."
 ]
 },
 {
@@ -141,6 +189,12 @@
 "Bend over at the waist while keeping your back straight, until your torso is almost parallel to the floor.",
 "Hold the dumbbells at arm's length directly below your shoulders with your palms facing each other.",
 "Pull the dumbbells towards your chest by bending your elbows and squeezing your shoulder blades together."
+],
+"numeRo": "Ramat aplecat",
+"pasiRo": [
+"Apleacă-te din talie cu spatele drept până când trunchiul este aproape paralel cu podeaua.",
+"Ține greutățile cu brațele întinse, direct sub umeri, cu palmele față în față.",
+"Trage greutățile spre piept îndoind coatele și strângând omoplații."
 ]
 },
 {
@@ -157,6 +211,12 @@
 "Place your opposite knee and hand on the bench for support, keeping your back flat and parallel to the floor.",
 "Let the arm holding the dumbbell hang down and a bit forward.",
 "Pull the dumbbell upward to the side of your torso, keeping your upper arm close to your side and keeping the torso stationary."
+],
+"numeRo": "Ramat cu o mână, aplecat",
+"pasiRo": [
+"Sprijină genunchiul și mâna opusă pe bancă, cu spatele drept și paralel cu podeaua.",
+"Lasă brațul cu ganteră să atârne în jos, puțin înainte.",
+"Trage gantera în sus, pe lângă trunchi, cu brațul aproape de corp și trunchiul nemișcat."
 ]
 },
 {
@@ -173,6 +233,12 @@
 "Lower your body until your chest is close to the floor, keeping your back straight and your elbows close to your body.",
 "Push your body up, extending your arms fully but without locking your elbows, while maintaining your body in a straight line.",
 "Pause for a moment at the top of the push-up."
+],
+"numeRo": "Flotări",
+"pasiRo": [
+"Coboară corpul până când pieptul e aproape de podea, cu spatele drept și coatele aproape de corp.",
+"Împinge corpul în sus, întinzând brațele fără să blochezi coatele, cu corpul în linie dreaptă.",
+"Fă o pauză scurtă în partea de sus a flotării."
 ]
 },
 {
@@ -189,6 +255,12 @@
 "Sit down on the seat, ensuring your feet are flat on the ground and your knees are under the pad, then lean back slightly, keeping your…",
 "Pull the bar down towards your chest while keeping your elbows close to your body, squeezing your shoulder blades together at the…",
 "Hold the position for a moment and then slowly return the bar back up to the starting position, allowing your arms to fully extend and…"
+],
+"numeRo": "Tracțiuni la helcometru, priză largă",
+"pasiRo": [
+"Așază-te pe scaun cu tălpile pe podea și genunchii sub pernă, apoi lasă-te puțin pe spate, cu spatele drept.",
+"Trage bara spre piept cu coatele aproape de corp, strângând omoplații în partea de jos.",
+"Menține o clipă, apoi ridică încet bara înapoi, lăsând brațele să se întindă complet."
 ]
 },
 {
@@ -205,6 +277,12 @@
 "Slowly lay back on the bench, bringing the dumbbells to the sides of your chest with your elbows at a 90-degree angle.",
 "Push the dumbbells up using your chest muscles. Your arms should be fully extended above you, but don't lock your elbows.",
 "Slowly lower the dumbbells back to the starting position at the sides of your chest, keeping control of the weights at all times."
+],
+"numeRo": "Împins la piept cu gantere",
+"pasiRo": [
+"Întinde-te încet pe bancă, aducând ganterele pe lângă piept, cu coatele la 90 de grade.",
+"Împinge ganterele în sus folosind mușchii pieptului. Brațele trebuie să fie întinse deasupra ta, fără să blochezi coatele.",
+"Coboară încet ganterele înapoi pe lângă piept, controlând greutatea tot timpul."
 ]
 },
 {
@@ -221,6 +299,12 @@
 "Keep your upper arms stationary, exhale and curl the weights while contracting your biceps. Continue to raise the weights until your…",
 "Then, inhale and slowly begin to lower the dumbbells back to the starting position.",
 "Repeat the process for the recommended amount of repetitions."
+],
+"numeRo": "Flexii ciocan",
+"pasiRo": [
+"Ține brațele nemișcate, expiră și ridică greutățile contractând bicepșii, până când ganterele ajung la nivelul umerilor.",
+"Apoi inspiră și coboară încet ganterele în poziția de start.",
+"Repetă de numărul recomandat de ori."
 ]
 },
 {
@@ -237,6 +321,12 @@
 "Keep your elbows close to your torso, then slowly lift one dumbbell towards your shoulder, contracting your bicep as you do so, while…",
 "Hold the lifted position for a moment, then slowly lower the dumbbell back to the starting position.",
 "Repeat the same movement with the other arm, keeping the first arm stationary this time."
+],
+"numeRo": "Flexii biceps alternative",
+"pasiRo": [
+"Ține coatele lângă trunchi și ridică încet o ganteră spre umăr, contractând bicepsul, în timp ce celălalt braț rămâne nemișcat.",
+"Menține o clipă sus, apoi coboară încet gantera în poziția de start.",
+"Repetă aceeași mișcare cu celălalt braț, de data aceasta ținându-l pe primul nemișcat."
 ]
 },
 {
@@ -253,6 +343,12 @@
 "Sit on the machine with your back against the padded support and place your legs under the lever pad, the pad should be touching your…",
 "Grasp the side handles of the machine for support, this will be your starting position.",
 "Push the lever down using your hamstrings (muscles at the back of your thigh) while exhaling, ensuring your upper body remains…"
+],
+"numeRo": "Flexii picioare la aparat, șezând",
+"pasiRo": [
+"Așază-te pe aparat cu spatele pe spătar și picioarele sub pernă; perna trebuie să atingă gambele, chiar deasupra călcâielor.",
+"Prinde mânerele laterale pentru sprijin; aceasta este poziția de start.",
+"Împinge pârghia în jos cu ischiogambierii (mușchii din spatele coapsei) în timp ce expiri, cu partea de sus a corpului nemișcată."
 ]
 },
 {
@@ -269,6 +365,12 @@
 "Slowly raise your heels off the ground, shifting your weight onto the balls of your feet while keeping your abdominal muscles pulled in…",
 "Hold the position for a moment, ensuring your calves are flexed and you're balanced on the balls of your feet.",
 "Gradually lower your heels back to the ground to return to the starting position."
+],
+"numeRo": "Ridicări pe vârfuri, în picioare",
+"pasiRo": [
+"Ridică încet călcâiele de pe sol, mutând greutatea pe pingele picioarelor, cu abdomenul încordat.",
+"Menține poziția o clipă, cu gambele contractate și echilibrul pe pingele picioarelor.",
+"Coboară treptat călcâiele pe sol, revenind în poziția de start."
 ]
 },
 {
@@ -285,6 +387,12 @@
 "With your palms facing forward, curl the weights while contracting your biceps. Keep the upper arms stationary, only moving your forearms.",
 "Continue to raise the weights until your biceps are fully contracted and the dumbbells are at shoulder level. Hold the contracted…",
 "Slowly begin to lower the dumbbells back to the starting position in a controlled manner."
+],
+"numeRo": "Flexii biceps pe bancă înclinată",
+"pasiRo": [
+"Cu palmele înainte, ridică greutățile contractând bicepșii. Ține brațele nemișcate, mișcând doar antebrațele.",
+"Continuă până când bicepșii sunt complet contractați și ganterele ajung la nivelul umerilor. Menține contracția o clipă.",
+"Coboară încet ganterele în poziția de start, controlat."
 ]
 },
 {
@@ -301,6 +409,12 @@
 "With a slight bend in your elbows, start to bring the handles together in front of you in a smooth and controlled motion, focusing on…",
 "Continue the motion until your hands meet in the middle, directly in front of your chest.",
 "Hold the position for a second, ensuring you are fully contracting your chest muscles."
+],
+"numeRo": "Fluturări la aparat, șezând",
+"pasiRo": [
+"Cu coatele ușor îndoite, adu mânerele unul spre celălalt în fața ta, într-o mișcare lină și controlată, concentrându-te pe piept.",
+"Continuă mișcarea până când mâinile se întâlnesc la mijloc, direct în fața pieptului.",
+"Menține o secundă, contractând complet mușchii pieptului."
 ]
 },
 {
@@ -317,6 +431,12 @@
 "Take a step forward from the machine, keeping your feet shoulder-width apart and slightly bend your knees for stability.",
 "Extend your arms out to the sides, keeping them slightly bent at the elbows, and keep your back straight and chest up.",
 "Slowly bring your hands together in front of you in a wide arc, squeezing your chest muscles as you do so."
+],
+"numeRo": "Fluturări la cablu, în picioare",
+"pasiRo": [
+"Fă un pas în față de aparat, cu picioarele la lățimea umerilor și genunchii ușor îndoiți pentru stabilitate.",
+"Întinde brațele lateral, ușor îndoite din coate, cu spatele drept și pieptul sus.",
+"Adu încet mâinile împreună în fața ta, într-un arc larg, strângând mușchii pieptului."
 ]
 },
 {
@@ -333,6 +453,12 @@
 "Keeping your back pressed firmly against the bench and your feet flat on the floor, push the dumbbells upward until your arms are fully…",
 "Hold this position for a moment, making sure to keep your core engaged and your shoulders down to avoid straining your neck.",
 "Slowly lower the dumbbells back to the starting position at shoulder level, ensuring that you control the movement rather than letting…"
+],
+"numeRo": "Presă umeri cu gantere, șezând",
+"pasiRo": [
+"Cu spatele lipit de bancă și tălpile pe podea, împinge ganterele în sus până când brațele sunt complet întinse.",
+"Menține o clipă, cu abdomenul încordat și umerii coborâți, ca să nu îți forțezi gâtul.",
+"Coboară încet ganterele la nivelul umerilor, controlând mișcarea în loc să le lași să cadă."
 ]
 },
 {
@@ -349,6 +475,12 @@
 "Grasp the handles with your palms facing forward, ensuring your elbows are bent at a 90-degree angle.",
 "Exhale and push the handles upward until your arms are fully extended, but be careful not to lock your elbows.",
 "Inhale as you slowly lower the handles back to the starting position, keeping control of the movement."
+],
+"numeRo": "Presă umeri la aparat",
+"pasiRo": [
+"Prinde mânerele cu palmele înainte, cu coatele îndoite la 90 de grade.",
+"Expiră și împinge mânerele în sus până când brațele sunt întinse, fără să blochezi coatele.",
+"Inspiră în timp ce cobori încet mânerele în poziția de start, controlând mișcarea."
 ]
 },
 {
@@ -365,6 +497,12 @@
 "Keeping your elbows close to your torso, slowly curl the weights while contracting your biceps, ensure that only your forearms are moving.",
 "Continue the movement until your biceps are fully contracted and the dumbbells are at shoulder level, hold the contracted position for…",
 "Gradually begin to bring the dumbbells back to the starting position in a controlled manner."
+],
+"numeRo": "Flexii biceps cu gantere",
+"pasiRo": [
+"Cu coatele lângă trunchi, ridică încet greutățile contractând bicepșii; doar antebrațele se mișcă.",
+"Continuă până când bicepșii sunt complet contractați și ganterele ajung la umeri; menține contracția o clipă.",
+"Coboară treptat ganterele în poziția de start, controlat."
 ]
 },
 {
@@ -381,6 +519,12 @@
 "Keep your torso flat on the bench as you fully extend your legs and grasp the side handles of the machine for stability.",
 "Exhale and slowly curl your legs up as far as possible without lifting your upper legs from the pad. Your back should remain straight…",
 "Hold the contracted position for a moment as you squeeze your hamstrings."
+],
+"numeRo": "Flexii picioare la aparat, culcat",
+"pasiRo": [
+"Ține trunchiul lipit de bancă, întinde complet picioarele și prinde mânerele laterale pentru stabilitate.",
+"Expiră și îndoaie încet picioarele cât de mult poți, fără să ridici coapsele de pe pernă. Spatele rămâne drept.",
+"Menține contracția o clipă, strângând ischiogambierii."
 ]
 },
 {
@@ -397,6 +541,12 @@
 "Place your hands lightly behind your head or across your chest, ensuring not to pull your neck with your hands as you perform the exercise.",
 "Slowly curl your body up towards your knees, lifting your shoulder blades off the floor and contracting your abdominal muscles.",
 "Hold this position for a moment, feeling the tension in your abdominal muscles."
+],
+"numeRo": "Abdomene pe sol",
+"pasiRo": [
+"Pune mâinile ușor la ceafă sau încrucișate pe piept, fără să tragi de gât în timpul exercițiului.",
+"Ridică încet trunchiul spre genunchi, desprinzând omoplații de podea și contractând abdomenul.",
+"Menține poziția o clipă, simțind tensiunea în abdomen."
 ]
 },
 {
@@ -413,6 +563,12 @@
 "Pull your body up by driving your elbows towards the floor, keep pulling until your chin is above the bar, while keeping your body…",
 "At the top of the movement, pause for a second, then slowly lower your body back down to the starting position, maintaining control…",
 "Ensure your arms are fully extended before starting the next repetition."
+],
+"numeRo": "Tracțiuni la bară",
+"pasiRo": [
+"Trage-te în sus împingând coatele spre podea, până când bărbia trece de bară, cu corpul drept.",
+"Sus, fă o pauză de o secundă, apoi coboară încet în poziția de start, controlând mișcarea.",
+"Întinde complet brațele înainte de următoarea repetare."
 ]
 },
 {
@@ -429,6 +585,12 @@
 "Bend at your hips and knees to lower your body and grasp the barbell with your hands slightly wider than shoulder-width apart, palms…",
 "Keeping your back straight, push through your heels to lift the barbell off the ground, straightening your hips and knees…",
 "Hold this position for a moment, then slowly reverse the motion, bending at your hips and knees to lower the barbell back to the ground."
+],
+"numeRo": "Îndreptări",
+"pasiRo": [
+"Îndoaie șoldurile și genunchii și prinde bara cu mâinile puțin mai larg decât umerii, cu palmele spre tine.",
+"Cu spatele drept, împinge prin călcâie și ridică bara de pe sol, îndreptând șoldurile și genunchii.",
+"Menține o clipă, apoi fă mișcarea inversă, îndoind șoldurile și genunchii, și coboară bara pe sol."
 ]
 },
 {
@@ -445,6 +607,12 @@
 "Bend your knees to sit down and place your hands on the edge of the chair, fingers pointing towards your body.",
 "Push off your hands and slide your bottom off the chair, lowering your body towards the floor by bending your elbows until they are at…",
 "Push your body back up using your arms until they are fully extended, ensuring your hips are close to the chair and your chest is lifted."
+],
+"numeRo": "Flotări pe scaun (dips)",
+"pasiRo": [
+"Îndoaie genunchii și pune mâinile pe marginea scaunului, cu degetele spre corp.",
+"Împinge în palme și alunecă de pe scaun, coborând corpul spre podea prin îndoirea coatelor până la 90 de grade.",
+"Împinge-te înapoi în sus cu brațele până se întind, cu șoldurile aproape de scaun și pieptul ridicat."
 ]
 },
 {
@@ -461,6 +629,12 @@
 "Bend at your hips and knees, keeping your back straight, and lower the barbell towards the floor while keeping it close to your body.",
 "Push your hips back as far as you can, until you feel a stretch in your hamstrings.",
 "Pause for a moment, then reverse the movement by driving your hips forward and standing up straight, lifting the barbell back to the…"
+],
+"numeRo": "Îndreptări românești",
+"pasiRo": [
+"Îndoaie șoldurile și ușor genunchii, cu spatele drept, și coboară bara spre podea, aproape de corp.",
+"Împinge șoldurile în spate cât poți, până simți întinderea în ischiogambieri.",
+"Fă o pauză, apoi inversează mișcarea împingând șoldurile înainte și ridică-te drept cu bara."
 ]
 },
 {
@@ -477,6 +651,12 @@
 "Slowly lower the barbell towards your forehead, keeping your elbows stationary and bending only at the elbow.",
 "Stop just before the barbell touches your forehead, ensuring that your upper arms remain perpendicular to the floor.",
 "Contract your triceps to extend your elbows and return the barbell back to the starting position."
+],
+"numeRo": "Extensii triceps culcat cu bara (skull crusher)",
+"pasiRo": [
+"Coboară încet bara spre frunte, cu coatele nemișcate, îndoind doar din cot.",
+"Oprește-te chiar înainte ca bara să atingă fruntea, cu brațele perpendiculare pe podea.",
+"Contractă tricepșii ca să întinzi coatele și readu bara în poziția de start."
 ]
 },
 {
@@ -493,6 +673,12 @@
 "Pick up the barbell or dumbbells with an underhand grip, ensuring your hands are shoulder-width apart.",
 "Slowly curl the weight up, keeping your upper arms and elbows stationary on the pad, until your biceps are fully contracted and at…",
 "Hold the position for a second and squeeze your biceps at the top of the movement."
+],
+"numeRo": "Flexii biceps la pupitru",
+"pasiRo": [
+"Prinde bara sau ganterele cu priză supinată, cu mâinile la lățimea umerilor.",
+"Ridică încet greutatea, cu brațele și coatele nemișcate pe pernă, până când bicepșii sunt complet contractați.",
+"Menține o secundă și strânge bicepșii în partea de sus."
 ]
 },
 {
@@ -509,6 +695,12 @@
 "Walk your feet up onto the bench or step, keeping your body straight from your head to your heels, this will be your starting position.",
 "Lower your body towards the ground while keeping your elbows close to your body until your chest nearly touches the floor.",
 "Push your body up back to the starting position by fully extending your arms, while maintaining your body straight."
+],
+"numeRo": "Flotări declinate",
+"pasiRo": [
+"Urcă picioarele pe bancă sau pe o treaptă, cu corpul drept din cap până în călcâie; aceasta este poziția de start.",
+"Coboară corpul spre sol cu coatele aproape de corp, până când pieptul aproape atinge podeaua.",
+"Împinge-te înapoi în poziția de start întinzând brațele, cu corpul drept."
 ]
 },
 {
@@ -525,6 +717,12 @@
 "Extend your legs behind you and balance on the balls of your feet, forming a straight line from your head to your heels.",
 "Lower your body towards the floor by bending your elbows, keeping your body straight and your elbows close to your sides.",
 "Push your body back up by extending your arms, keeping your body straight and your core engaged."
+],
+"numeRo": "Flotări cu priză îngustă",
+"pasiRo": [
+"Întinde picioarele în spate și sprijină-te pe vârfuri, formând o linie dreaptă din cap până în călcâie.",
+"Coboară corpul spre podea îndoind coatele, cu corpul drept și coatele lipite de corp.",
+"Împinge-te înapoi în sus întinzând brațele, cu corpul drept și abdomenul încordat."
 ]
 },
 {
@@ -541,6 +739,12 @@
 "Sit down on the machine and grasp the bar with a wide grip, palms facing forward.",
 "Pull the bar down towards your upper chest while keeping your back straight and squeezing your shoulder blades together.",
 "Hold the position for a moment, then slowly return the bar back to the starting position, allowing your arms to fully extend."
+],
+"numeRo": "Tracțiuni la helcometru",
+"pasiRo": [
+"Așază-te pe aparat și prinde bara cu priză largă, cu palmele înainte.",
+"Trage bara spre partea de sus a pieptului, cu spatele drept, strângând omoplații.",
+"Menține o clipă, apoi readu încet bara sus, lăsând brațele să se întindă complet."
 ]
 },
 {
@@ -557,6 +761,12 @@
 "Lean your body forward to put emphasis on the chest muscles and bend your knees, crossing your ankles behind you to maintain balance.",
 "Slowly lower your body by bending your elbows until you reach a point where your elbows are at a 90-degree angle and your chest is…",
 "Pause for a moment at the bottom of the movement, then push yourself back up to the starting position, extending your arms fully but…"
+],
+"numeRo": "Dips pentru piept",
+"pasiRo": [
+"Apleacă trunchiul înainte ca să accentuezi pieptul și îndoaie genunchii, încrucișând gleznele în spate pentru echilibru.",
+"Coboară încet corpul îndoind coatele până ajung la 90 de grade și simți întinderea în piept.",
+"Fă o pauză jos, apoi împinge-te înapoi sus, întinzând brațele fără să blochezi coatele."
 ]
 },
 {
@@ -573,6 +783,12 @@
 "Raise the dumbbells to shoulder height, then rotate your palms so they are facing forward.",
 "Push the dumbbells upward until your arms are fully extended above your head.",
 "Slowly lower the dumbbells back to shoulder height while rotating your palms to face your body again."
+],
+"numeRo": "Presă Arnold",
+"pasiRo": [
+"Ridică ganterele la nivelul umerilor, apoi rotește palmele astfel încât să fie orientate înainte.",
+"Împinge ganterele în sus până când brațele sunt complet întinse deasupra capului.",
+"Coboară încet ganterele la nivelul umerilor, rotind palmele din nou spre corp."
 ]
 },
 {
@@ -589,6 +805,12 @@
 "Place your feet hip-width apart on the platform in front of you, ensuring your toes are pointing slightly outwards.",
 "Bend your knees to bring the platform towards your chest, making sure to keep your feet flat against the platform at all times.",
 "Once your knees are bent at a 90° angle, push through your heels to extend your legs and push the platform away from you."
+],
+"numeRo": "Presă picioare la 45°",
+"pasiRo": [
+"Pune picioarele pe platformă la lățimea șoldurilor, cu vârfurile ușor orientate în afară.",
+"Îndoaie genunchii și adu platforma spre piept, cu tălpile lipite de platformă tot timpul.",
+"Când genunchii ajung la 90°, împinge prin călcâie ca să întinzi picioarele și să îndepărtezi platforma."
 ]
 },
 {
@@ -605,6 +827,12 @@
 "Push your body up onto your forearms and toes, making sure your elbows are directly under your shoulders and your forearms are facing…",
 "Keep your body in a straight line from your head to your feet, ensuring your back is flat and your hips are not dropping or rising.",
 "Engage your core muscles and hold this position for as long as you can, ideally aiming for 30 seconds to 1 minute."
+],
+"numeRo": "Planșă",
+"pasiRo": [
+"Ridică-te pe antebrațe și vârfuri, cu coatele direct sub umeri și antebrațele orientate înainte.",
+"Ține corpul în linie dreaptă din cap până în picioare, cu spatele drept și șoldurile nici căzute, nici ridicate.",
+"Încordează abdomenul și menține poziția cât poți, ideal între 30 de secunde și 1 minut."
 ]
 },
 {
@@ -621,6 +849,12 @@
 "Place a barbell or weight across your hips, holding it in place with your hands.",
 "Push through your heels to lift your hips towards the ceiling, ensuring that your body forms a straight line from your shoulders to…",
 "Hold this position for a moment, then slowly lower your hips back down to the starting position."
+],
+"numeRo": "Hip thrust",
+"pasiRo": [
+"Pune o bară sau o greutate peste șolduri, ținând-o pe loc cu mâinile.",
+"Împinge prin călcâie și ridică șoldurile spre tavan, până când corpul formează o linie dreaptă de la umeri la genunchi.",
+"Menține o clipă, apoi coboară încet șoldurile în poziția de start."
 ]
 },
 {
@@ -637,6 +871,12 @@
 "While maintaining the torso stationary (no swinging), lift the left dumbbell to the front of your body while slightly bending the elbow…",
 "Inhale after the second pause and slowly lower the dumbbell back down to the starting position.",
 "Now perform the same movement for the right hand while the left hand holds the dumbbell at the waist."
+],
+"numeRo": "Ridicări frontale",
+"pasiRo": [
+"Cu trunchiul nemișcat (fără balans), ridică gantera stângă în fața corpului, cu cotul ușor îndoit, până la nivelul umărului.",
+"Inspiră după a doua pauză și coboară încet gantera în poziția de start.",
+"Fă aceeași mișcare cu mâna dreaptă, în timp ce mâna stângă ține gantera la talie."
 ]
 },
 {
@@ -653,6 +893,12 @@
 "Position the barbell at your collarbone with your palms facing forward and elbows directly under the bar, this is your starting position.",
 "Push the barbell up and over your head by extending your arms fully, keep your body and wrists straight throughout the movement.",
 "Pause for a moment at the top of the movement, then slowly lower the barbell back down to the collarbone level."
+],
+"numeRo": "Presă militară cu bara, în picioare",
+"pasiRo": [
+"Așază bara la nivelul claviculei, cu palmele înainte și coatele direct sub bară; aceasta este poziția de start.",
+"Împinge bara deasupra capului întinzând complet brațele, cu corpul și încheieturile drepte.",
+"Fă o pauză sus, apoi coboară încet bara la nivelul claviculei."
 ]
 },
 {
@@ -669,6 +915,12 @@
 "Bend your knees slightly and lean forward from your waist until your torso is almost parallel to the floor, making sure to keep your…",
 "Hold onto the bench with your free hand for support, and let the hand holding the dumbbell hang down from your shoulder.",
 "Pull the dumbbell up towards your waist, keeping your elbow close to your body and squeezing your shoulder blades together at the top…"
+],
+"numeRo": "Ramat cu ganteră, o mână",
+"pasiRo": [
+"Îndoaie ușor genunchii și apleacă-te din talie până când trunchiul e aproape paralel cu podeaua, cu spatele drept.",
+"Sprijină-te de bancă cu mâna liberă și lasă mâna cu ganteră să atârne sub umăr.",
+"Trage gantera spre talie, cu cotul aproape de corp, strângând omoplații sus."
 ]
 },
 {
@@ -685,6 +937,12 @@
 "Lay back onto the bench, keeping the dumbbells close to your chest and your feet firmly planted on the ground for balance.",
 "Push the dumbbells up above your chest, extending your arms fully but not locking your elbows.",
 "Slowly lower the dumbbells back down to your chest level, keeping your elbows at a 90-degree angle."
+],
+"numeRo": "Împins înclinat cu gantere",
+"pasiRo": [
+"Întinde-te pe bancă, cu ganterele aproape de piept și tălpile ferm pe sol pentru echilibru.",
+"Împinge ganterele deasupra pieptului, întinzând brațele fără să blochezi coatele.",
+"Coboară încet ganterele la nivelul pieptului, cu coatele la 90 de grade."
 ]
 },
 {
@@ -701,6 +959,12 @@
 "Sit on the seat with your back flat against the pad and grasp the handles with an overhand grip, ensuring your hands are shoulder-width…",
 "Push the handles away from you, fully extending your arms but without locking your elbows, exhaling as you do so.",
 "Pause for a moment at the top of the movement and then slowly lower the handles back to the starting position, inhaling as you do this."
+],
+"numeRo": "Împins la piept la aparat",
+"pasiRo": [
+"Așază-te cu spatele lipit de spătar și prinde mânerele cu priză pronată, cu mâinile la lățimea umerilor.",
+"Împinge mânerele în față, întinzând brațele fără să blochezi coatele, în timp ce expiri.",
+"Fă o pauză, apoi readu încet mânerele în poziția de start, inspirând."
 ]
 },
 {
@@ -717,6 +981,12 @@
 "Lift your hips and push your body back into a downward dog yoga position, where your body forms an inverted \"V\" shape, with your head…",
 "Lower your upper body towards the ground by bending your elbows, keeping your head down and your hips high, until your head nearly…",
 "Push your body back up to the starting position, extending your elbows and using your shoulders and upper body strength."
+],
+"numeRo": "Flotări pike",
+"pasiRo": [
+"Ridică șoldurile și împinge corpul înapoi în poziția „câinele cu capul în jos”, astfel încât corpul să formeze un „V” întors.",
+"Coboară partea de sus a corpului îndoind coatele, cu capul în jos și șoldurile sus, până când capul aproape atinge solul.",
+"Împinge-te înapoi în poziția de start, întinzând coatele și folosind forța umerilor."
 ]
 },
 {
@@ -733,6 +1003,12 @@
 "Keep your back straight, chest out, and bend your knees slightly. This is your starting position.",
 "Pull the handles towards your abdomen, keeping your elbows close to your body and squeezing your shoulder blades together.",
 "Hold this position for a moment, feeling the contraction in your back muscles."
+],
+"numeRo": "Ramat la scripete jos",
+"pasiRo": [
+"Ține spatele drept, pieptul în față și genunchii ușor îndoiți; aceasta este poziția de start.",
+"Trage mânerele spre abdomen, cu coatele aproape de corp, strângând omoplații.",
+"Menține o clipă, simțind contracția în mușchii spatelui."
 ]
 },
 {
@@ -749,6 +1025,12 @@
 "Bend forward at the waist so your chest is leaning forward over your feet. Keep your back straight and let your arms hang straight…",
 "Keep a slight bend in your elbows and raise your arms out to the sides until they're at shoulder level, like you're spreading your…",
 "Pause for a moment at the top of the movement, then slowly lower the dumbbells back to the starting position."
+],
+"numeRo": "Fluturări inverse cu gantere",
+"pasiRo": [
+"Apleacă-te din talie astfel încât pieptul să fie deasupra picioarelor. Ține spatele drept și lasă brațele să atârne.",
+"Cu coatele ușor îndoite, ridică brațele lateral până la nivelul umerilor, ca și cum ți-ai deschide aripile.",
+"Fă o pauză sus, apoi coboară încet ganterele în poziția de start."
 ]
 },
 {
@@ -765,6 +1047,12 @@
 "Hold the dumbbells directly above your chest, with your palms facing each other and elbows slightly bent.",
 "Slowly lower the dumbbells out to your sides in a wide arc, keeping the slight bend in your elbows, until you feel a stretch in your chest.",
 "From this position, use your chest muscles to lift the dumbbells back up to the starting position, following the same wide arc."
+],
+"numeRo": "Fluturări cu gantere",
+"pasiRo": [
+"Ține ganterele direct deasupra pieptului, cu palmele față în față și coatele ușor îndoite.",
+"Coboară încet ganterele lateral, într-un arc larg, păstrând coatele ușor îndoite, până simți întinderea în piept.",
+"Din această poziție, folosește pieptul ca să ridici ganterele înapoi, pe același arc larg."
 ]
 },
 {
@@ -781,6 +1069,12 @@
 "Adjust the leg pads so they are snug against your legs, just above the knees. Make sure the lever is at a comfortable starting position…",
 "Hold onto the handles of the machine for support, and then slowly push your legs outwards against the pads using your hip muscles.",
 "Once you have pushed your legs out as far as you can comfortably go, hold the position for a moment to maximize muscle engagement."
+],
+"numeRo": "Abducții șold la aparat, șezând",
+"pasiRo": [
+"Reglează pernele astfel încât să stea fix pe picioare, chiar deasupra genunchilor, cu pârghia într-o poziție de start comodă.",
+"Ține-te de mânerele aparatului și împinge încet picioarele în afară, în perne, folosind mușchii șoldului.",
+"Când ai împins picioarele cât de mult poți comod, menține o clipă ca să lucreze mușchii la maximum."
 ]
 },
 {
@@ -797,6 +1091,12 @@
 "Keep your arms straight and slowly lift the towel out to your sides until your arms are parallel to the floor, maintaining tension on…",
 "Pause for a moment at the top of the movement, making sure to keep your shoulders down and not hunch them up towards your ears.",
 "Slowly lower the towel back down to the starting position, keeping your arms straight and maintaining the tension on the towel."
+],
+"numeRo": "Ridicări laterale cu prosop",
+"pasiRo": [
+"Cu brațele drepte, ridică încet prosopul lateral până când brațele sunt paralele cu podeaua, ținând prosopul întins.",
+"Fă o pauză sus, cu umerii coborâți, fără să îi ridici spre urechi.",
+"Coboară încet prosopul în poziția de start, cu brațele drepte și prosopul întins."
 ]
 },
 {
@@ -813,6 +1113,12 @@
 "Keep your upper arms stationary and close to your head, with elbows in and perpendicular to the floor.",
 "Slowly lower the weight in a semicircular motion behind your head until your forearms touch your biceps. Ensure that only your forearms…",
 "Pause for a moment and then use your triceps to return the dumbbell back to the starting position."
+],
+"numeRo": "Extensii triceps deasupra capului, la cablu",
+"pasiRo": [
+"Ține brațele nemișcate, aproape de cap, cu coatele strânse și perpendiculare pe podea.",
+"Coboară încet greutatea în semicerc în spatele capului, până când antebrațele ating bicepșii. Doar antebrațele se mișcă.",
+"Fă o pauză, apoi folosește tricepșii ca să readuci greutatea în poziția de start."
 ]
 },
 {
@@ -829,6 +1135,12 @@
 "Keep your arms fully extended and your eyes facing forward.",
 "Lift your shoulders up as high as possible as if you were trying to touch your ears, but keep your arms straight during the process.",
 "Hold that position for a second to maximize the contraction in the traps."
+],
+"numeRo": "Ridicări de umeri (shrug)",
+"pasiRo": [
+"Ține brațele complet întinse și privirea înainte.",
+"Ridică umerii cât de sus poți, ca și cum ai vrea să atingi urechile, cu brațele drepte.",
+"Menține o secundă ca să contracți la maximum trapezul."
 ]
 },
 {
@@ -845,6 +1157,12 @@
 "Raise the dumbbell above your head until both arms are fully extended, keeping your elbows close to your head and perpendicular to the…",
 "Slowly lower the dumbbell behind your head while keeping your upper arms still, only bending your elbows.",
 "Pause for a moment when your forearms touch your biceps."
+],
+"numeRo": "Extensii triceps cu ganteră, în picioare",
+"pasiRo": [
+"Ridică gantera deasupra capului până când ambele brațe sunt întinse, cu coatele aproape de cap și perpendiculare pe podea.",
+"Coboară încet gantera în spatele capului, cu brațele nemișcate, îndoind doar coatele.",
+"Fă o pauză când antebrațele ating bicepșii."
 ]
 },
 {
@@ -861,6 +1179,12 @@
 "Sit on the pec deck machine with your back firmly against the pad and place your forearms on the padded levers, ensuring that your…",
 "Push the levers together slowly, focusing on squeezing your chest muscles, until your hands meet in front of your chest.",
 "Hold this position for a second to maximize the contraction of the chest muscles."
+],
+"numeRo": "Fluturări la aparat (pec deck)",
+"pasiRo": [
+"Așază-te pe aparat cu spatele lipit de spătar și pune antebrațele pe pârghiile căptușite, cu coatele la nivelul umerilor.",
+"Apropie încet pârghiile, strângând mușchii pieptului, până când mâinile se întâlnesc în fața pieptului.",
+"Menține o secundă ca să contracți la maximum pieptul."
 ]
 },
 {
@@ -877,6 +1201,12 @@
 "Place your hands on top of the lever pad in order to prevent it from slipping forward. This is your starting position.",
 "Begin the exercise by raising your heels as you breathe out, extending your ankles as high as possible and flexing your calf muscles.…",
 "Slowly lower your heels by bending at the ankles until your calves are fully stretched, while you inhale."
+],
+"numeRo": "Ridicări pe vârfuri la aparat, șezând",
+"pasiRo": [
+"Pune mâinile pe perna pârghiei ca să nu alunece înainte; aceasta este poziția de start.",
+"Ridică pe vârfuri în timp ce expiri, întinzând gleznele cât de sus poți și contractând gambele.",
+"Coboară încet călcâiele, îndoind gleznele până când gambele sunt complet întinse, în timp ce inspiri."
 ]
 },
 {
@@ -893,6 +1223,12 @@
 "Lie back on the bench, keeping the dumbbells close to your chest and your palms facing each other.",
 "Slowly raise the dumbbells above your chest by extending your arms, keeping a slight bend in your elbows to prevent strain.",
 "Pause for a moment at the top, then gradually lower the dumbbells back down to the starting position in a controlled manner."
+],
+"numeRo": "Fluturări pe bancă înclinată",
+"pasiRo": [
+"Întinde-te pe bancă, cu ganterele aproape de piept și palmele față în față.",
+"Ridică încet ganterele deasupra pieptului, întinzând brațele, cu coatele ușor îndoite ca să nu le forțezi.",
+"Fă o pauză sus, apoi coboară treptat ganterele în poziția de start, controlat."
 ]
 },
 {
@@ -909,6 +1245,12 @@
 "Position your toes forward and ensure your heels are extending off the platform with the balls of your feet securing your balance.",
 "Push the lever up by extending your hips and knees until your torso is standing erect. The knees should be kept with a slight bend;…",
 "Raise your heels as you exhale by extending your ankles as high as possible while maintaining your balance and keeping your knees with…"
+],
+"numeRo": "Ridicări pe vârfuri la aparat, în picioare",
+"pasiRo": [
+"Pune vârfurile înainte, cu călcâiele în afara platformei și pingele picioarelor asigurând echilibrul.",
+"Împinge pârghia în sus îndreptând șoldurile și genunchii până stai drept. Genunchii rămân ușor îndoiți.",
+"Ridică pe vârfuri în timp ce expiri, întinzând gleznele cât de sus poți, păstrând echilibrul și genunchii ușor îndoiți."
 ]
 },
 {
@@ -925,6 +1267,12 @@
 "Grasp the bar with a wide grip, palms facing forward, and your hands wider than shoulder-width apart.",
 "Lean slightly back, keeping your back straight, and pull the bar down towards your upper chest, squeezing your shoulder blades together…",
 "Pause for a moment in this position, maintaining the squeeze in your back muscles."
+],
+"numeRo": "Tracțiuni la helcometru, priză largă",
+"pasiRo": [
+"Prinde bara cu priză largă, palmele înainte, mâinile mai depărtate decât umerii.",
+"Lasă-te puțin pe spate, cu spatele drept, și trage bara spre partea de sus a pieptului, strângând omoplații.",
+"Fă o pauză în această poziție, menținând contracția în mușchii spatelui."
 ]
 },
 {
@@ -941,6 +1289,12 @@
 "With your feet shoulder-width apart, grab the handle of the cable with one hand, palm facing down.",
 "Keep your elbow close to your body and bend your arm at the elbow to create a 90-degree angle, this is your starting position.",
 "Slowly straighten your arm, pushing the handle down towards the floor until your arm is fully extended, while keeping your elbow stationary."
+],
+"numeRo": "Extensii triceps la cablu, o mână",
+"pasiRo": [
+"Cu picioarele la lățimea umerilor, prinde mânerul cablului cu o mână, cu palma în jos.",
+"Ține cotul lângă corp și îndoaie brațul la 90 de grade; aceasta este poziția de start.",
+"Întinde încet brațul, împingând mânerul spre podea până se întinde complet, cu cotul nemișcat."
 ]
 },
 {
@@ -957,6 +1311,12 @@
 "Keep your body straight and rigid, from your head to your heels, engaging your core.",
 "Lower your body towards the ground, bending your elbows out to the sides until your chest nearly touches the floor.",
 "Pause for a moment at the bottom of the movement, ensuring your elbows are at a 90-degree angle."
+],
+"numeRo": "Flotări cu priză largă",
+"pasiRo": [
+"Ține corpul drept și rigid, din cap până în călcâie, cu abdomenul încordat.",
+"Coboară corpul spre sol, cu coatele îndoite în lateral, până când pieptul aproape atinge podeaua.",
+"Fă o pauză jos, cu coatele la 90 de grade."
 ]
 },
 {
@@ -973,6 +1333,12 @@
 "Exhale and use your biceps to lift the bar until your biceps are fully contracted and the bar is at shoulder level. Keep your elbows…",
 "Hold the contracted position for a moment as you squeeze your biceps.",
 "Inhale and slowly begin to lower the bar back to the starting position."
+],
+"numeRo": "Flexii biceps cu bara EZ",
+"pasiRo": [
+"Expiră și ridică bara cu bicepșii până când sunt complet contractați și bara ajunge la umeri. Ține coatele lângă corp.",
+"Menține contracția o clipă, strângând bicepșii.",
+"Inspiră și coboară încet bara în poziția de start."
 ]
 },
 {
@@ -989,6 +1355,12 @@
 "Grab the handles of the lever machine with your arms fully extended in front of you, palms facing inwards.",
 "Lean forward slightly from your waist, keeping your back straight and your eyes focused ahead.",
 "Slowly pull the handles out to your sides, squeezing your shoulder blades together, until your arms are parallel to the floor."
+],
+"numeRo": "Fluturări inverse la aparat",
+"pasiRo": [
+"Prinde mânerele aparatului cu brațele întinse în față și palmele spre interior.",
+"Apleacă-te puțin din talie, cu spatele drept și privirea înainte.",
+"Trage încet mânerele lateral, strângând omoplații, până când brațele sunt paralele cu podeaua."
 ]
 },
 {
@@ -1005,6 +1377,12 @@
 "Hold your hands in front of you and pull your abs to your spine, then slightly lean back until you feel your abs engaged in a balanced…",
 "Twist your torso to the right, then to the left to complete one rep, moving your hands from one side to the other.",
 "Keep your back straight and avoid moving your hips as you twist."
+],
+"numeRo": "Răsuciri rusești",
+"pasiRo": [
+"Ține mâinile în față, trage abdomenul spre coloană și lasă-te puțin pe spate până simți abdomenul lucrând, în echilibru.",
+"Răsucește trunchiul la dreapta, apoi la stânga, ca o repetare, mutând mâinile dintr-o parte în alta.",
+"Ține spatele drept și nu mișca șoldurile în timpul răsucirii."
 ]
 },
 {
@@ -1021,6 +1399,12 @@
 "Rest your right elbow on the inside of your right thigh, making sure your arm is fully extended and the palm of your hand is facing forward.",
 "Slowly curl the dumbbell up towards your chest, keeping your upper arm and elbow stationary on your thigh, only moving your forearm.",
 "Pause for a moment at the top of the curl, contracting your bicep muscle."
+],
+"numeRo": "Flexii biceps concentrate",
+"pasiRo": [
+"Sprijină cotul drept pe interiorul coapsei drepte, cu brațul întins și palma orientată înainte.",
+"Ridică încet gantera spre piept, cu brațul și cotul nemișcate pe coapsă, mișcând doar antebrațul.",
+"Fă o pauză sus, contractând bicepsul."
 ]
 },
 {
@@ -1037,6 +1421,12 @@
 "Hold a dumbbell in each hand with your arms fully extended and palms facing forward.",
 "Slowly curl the weights while keeping the upper arms stationary, continue to curl the weights until your biceps are fully contracted…",
 "Hold the contracted position for a brief moment as you squeeze your biceps."
+],
+"numeRo": "Flexii biceps cu gantere, pe bancă înclinată",
+"pasiRo": [
+"Ține câte o ganteră în fiecare mână, cu brațele întinse și palmele înainte.",
+"Ridică încet greutățile cu brațele nemișcate, până când bicepșii sunt complet contractați.",
+"Menține contracția un moment, strângând bicepșii."
 ]
 },
 {
@@ -1053,6 +1443,12 @@
 "Stand in the middle of the cable machine, grab a handle in each hand, and step forward to create tension on the cables, keeping your…",
 "Bend slightly at your knees and lean forward a bit at your waist, keeping your back straight.",
 "With your elbows slightly bent, lift your arms out to the sides and up until they are at chest level, forming a wide arc, and squeeze…"
+],
+"numeRo": "Fluturări la cablu, de jos",
+"pasiRo": [
+"Stai în mijlocul aparatului cu cabluri, prinde câte un mâner în fiecare mână și fă un pas în față ca să întinzi cablurile.",
+"Îndoaie ușor genunchii și apleacă-te puțin din talie, cu spatele drept.",
+"Cu coatele ușor îndoite, ridică brațele lateral și în sus până la nivelul pieptului, într-un arc larg, strângând pieptul."
 ]
 },
 {
@@ -1069,6 +1465,12 @@
 "Step forward from the weight stack, and lean your torso forward at a slight angle while keeping your back straight and feet hip-width…",
 "Extend your arms straight out in front of you at chest level, with your palms facing each other, this will be your starting position.",
 "Keeping your elbows stationary and using your triceps, pull the rope down until your arms are fully extended, pause for a moment at…"
+],
+"numeRo": "Extensii triceps deasupra capului, la scripete sus",
+"pasiRo": [
+"Fă un pas în față de stiva de greutăți și apleacă puțin trunchiul, cu spatele drept și picioarele la lățimea șoldurilor.",
+"Întinde brațele drept în față la nivelul pieptului, cu palmele față în față; aceasta este poziția de start.",
+"Cu coatele nemișcate, folosește tricepșii ca să tragi coarda până când brațele sunt complet întinse, apoi fă o pauză."
 ]
 },
 {
@@ -1085,6 +1487,12 @@
 "Hold a dumbbell with both hands above your chest, your arms should be fully extended and your palms should be facing up.",
 "Slowly lower the dumbbell back over your head while keeping your arms straight, until they are about parallel with the floor.",
 "Hold this position for a moment to feel the stretch in your chest and lats."
+],
+"numeRo": "Pullover cu ganteră",
+"pasiRo": [
+"Ține o ganteră cu ambele mâini deasupra pieptului, cu brațele întinse și palmele în sus.",
+"Coboară încet gantera peste cap, cu brațele drepte, până când sunt aproape paralele cu podeaua.",
+"Menține o clipă ca să simți întinderea în piept și dorsali."
 ]
 },
 {
@@ -1101,6 +1509,12 @@
 "Grasp the lever handles with an underhand grip (palms facing up) and ensure your arms are fully extended.",
 "Slowly curl the handles up towards your shoulders, while keeping your upper arms and elbows stationary on the pad. This will be your…",
 "Gradually lower the handles back to the initial position, feeling the stretch in your biceps."
+],
+"numeRo": "Flexii biceps la pupitru, la aparat",
+"pasiRo": [
+"Prinde mânerele cu priză supinată (palmele în sus), cu brațele complet întinse.",
+"Ridică încet mânerele spre umeri, cu brațele și coatele nemișcate pe pernă.",
+"Coboară treptat mânerele în poziția inițială, simțind întinderea în bicepși."
 ]
 },
 {
@@ -1117,6 +1531,12 @@
 "Extend one leg behind you and place the top of your foot on the bench.",
 "Lower your body by bending the knee of your front leg until your thigh is parallel to the ground, keeping your torso upright and your…",
 "Push back up to the starting position using the heel of your front foot, ensuring that your front knee is in line with your foot and…"
+],
+"numeRo": "Fandări bulgărești cu gantere",
+"pasiRo": [
+"Întinde un picior în spate și sprijină partea de sus a labei piciorului pe bancă.",
+"Coboară corpul îndoind genunchiul piciorului din față până când coapsa e paralelă cu solul, cu trunchiul drept.",
+"Împinge-te înapoi în poziția de start prin călcâiul piciorului din față, cu genunchiul în linie cu piciorul."
 ]
 },
 {
@@ -1133,6 +1553,12 @@
 "Keeping your back straight and your head up, lower your torso by bending at the hips until it's nearly parallel with the floor.",
 "As you lower your torso, keep the dumbbells as close as possible to your body and allow them to lower towards your feet.",
 "Pause for a moment at the bottom of the movement, then reverse the motion by extending through your hips until you're standing upright…"
+],
+"numeRo": "Îndreptări cu picioarele întinse, cu gantere",
+"pasiRo": [
+"Cu spatele drept și capul sus, coboară trunchiul îndoind din șolduri până e aproape paralel cu podeaua.",
+"În timp ce cobori, ține ganterele cât mai aproape de corp și lasă-le să coboare spre picioare.",
+"Fă o pauză jos, apoi inversează mișcarea împingând șoldurile înainte până stai drept."
 ]
 },
 {
@@ -1149,6 +1575,12 @@
 "Grip the handlebars with a narrow grip, keeping your palms facing each other, and sit up straight with your back pressed against the pad.",
 "Slowly pull the handles towards your abdomen, squeezing your shoulder blades together and keeping your elbows close to your body.",
 "Hold this position for a moment, making sure to breathe out as you perform the movement."
+],
+"numeRo": "Ramat la aparat, priză îngustă",
+"pasiRo": [
+"Prinde mânerele cu priză îngustă, palmele față în față, și stai drept cu pieptul lipit de pernă.",
+"Trage încet mânerele spre abdomen, strângând omoplații, cu coatele aproape de corp.",
+"Menține o clipă și expiră în timpul mișcării."
 ]
 },
 {
@@ -1165,6 +1597,12 @@
 "Align your upper thighs or hips with the larger pad, allowing your torso to bend forward from the waist and hang down.",
 "Keeping your back straight, cross your arms over your chest or place your hands behind your head.",
 "Slowly lift your torso until your body is in a straight line, using your lower back muscles to perform the movement."
+],
+"numeRo": "Hiperextensii",
+"pasiRo": [
+"Așază partea de sus a coapselor sau șoldurile pe perna mare, lăsând trunchiul să se aplece din talie și să atârne.",
+"Cu spatele drept, încrucișează brațele pe piept sau pune mâinile la ceafă.",
+"Ridică încet trunchiul până când corpul este în linie dreaptă, folosind mușchii lombari."
 ]
 },
 {
@@ -1181,6 +1619,12 @@
 "Push your hips upward into a bridge position, keeping your upper back and shoulders on the ground, and your hands by your sides.",
 "Slowly slide your feet away from your body using the towel, extending your legs fully while keeping your hips elevated.",
 "After fully extending your legs, slowly pull your feet back towards your body, using your hamstrings and glutes to pull while…"
+],
+"numeRo": "Flexii picioare din punte, cu prosop",
+"pasiRo": [
+"Ridică șoldurile în poziție de punte, cu partea de sus a spatelui și umerii pe sol și mâinile pe lângă corp.",
+"Alunecă încet picioarele departe de corp pe prosop, întinzându-le complet, cu șoldurile ridicate.",
+"După ce ai întins picioarele, trage-le încet înapoi spre corp folosind ischiogambierii și fesierii."
 ]
 },
 {
@@ -1197,6 +1641,12 @@
 "Position your elbows close to your body, keeping your upper arms stationary throughout the exercise.",
 "Inhale, then as you exhale, push the cable bar down by extending your arms and contracting your triceps, until your arms are fully…",
 "Pause and squeeze your triceps at the bottom of the movement for a second."
+],
+"numeRo": "Extensii triceps la cablu (pushdown)",
+"pasiRo": [
+"Ține coatele lângă corp și brațele nemișcate pe tot parcursul exercițiului.",
+"Inspiră, apoi, în timp ce expiri, împinge bara în jos întinzând brațele și contractând tricepșii, până se întind complet.",
+"Fă o pauză și strânge tricepșii jos timp de o secundă."
 ]
 },
 {
@@ -1213,6 +1663,12 @@
 "Keep your back straight and pull the weight up to your chest, keeping the weight close to your body and leading with your elbows.",
 "At the top of the movement, your elbows should be higher than your wrists and the weight should be just below your chin.",
 "Hold this position for a moment, then slowly lower the weight back down to the starting position."
+],
+"numeRo": "Ramat vertical",
+"pasiRo": [
+"Ține spatele drept și trage greutatea până la piept, aproape de corp, conducând mișcarea cu coatele.",
+"Sus, coatele trebuie să fie mai sus decât încheieturile, iar greutatea chiar sub bărbie.",
+"Menține o clipă, apoi coboară încet greutatea în poziția de start."
 ]
 },
 {
@@ -1229,6 +1685,12 @@
 "Adjust the seat and footplate so that your legs form a 90-degree angle at the knees and your feet are shoulder-width apart.",
 "Grasp the handles on either side of the seat for stability, then push the footplate away from you using your heels and forearms,…",
 "Slowly return the footplate to the starting position by bending your knees and controlling the weight as it moves back towards you."
+],
+"numeRo": "Presă picioare la aparat, șezând",
+"pasiRo": [
+"Reglează scaunul și platforma astfel încât genunchii să formeze 90 de grade, cu picioarele la lățimea umerilor.",
+"Prinde mânerele de pe lateral pentru stabilitate, apoi împinge platforma cu călcâiele, întinzând picioarele.",
+"Readu încet platforma în poziția de start îndoind genunchii, controlând greutatea."
 ]
 },
 {
@@ -1245,6 +1707,12 @@
 "Hold a dumbbell in your hand, ensuring your wrist is hanging over the edge of your knee.",
 "Slowly lower the weight as far as possible, bending at the wrist and keeping the rest of your arm still.",
 "Then, lift the weight as high as you can, again bending only at the wrist."
+],
+"numeRo": "Flexii inverse din încheietură",
+"pasiRo": [
+"Ține o ganteră în mână, cu încheietura atârnând peste marginea genunchiului.",
+"Coboară încet greutatea cât de mult poți, îndoind doar încheietura, cu restul brațului nemișcat.",
+"Apoi ridică greutatea cât de sus poți, tot doar din încheietură."
 ]
 },
 {
@@ -1261,6 +1729,12 @@
 "Pull your body upwards towards the bar, keeping your elbows close to your body and your core engaged.",
 "Continue to pull yourself up until your chin is above the bar, making sure to keep your body straight and not to swing.",
 "Hold the position for a second, then slowly lower yourself back down until your arms are fully extended."
+],
+"numeRo": "Tracțiuni cu priză supinată (chin-up)",
+"pasiRo": [
+"Trage-te în sus spre bară, cu coatele aproape de corp și abdomenul încordat.",
+"Continuă până când bărbia trece de bară, cu corpul drept, fără balans.",
+"Menține o secundă, apoi coboară încet până când brațele sunt complet întinse."
 ]
 },
 {
@@ -1277,6 +1751,12 @@
 "Press the start button and the treadmill will begin at a slow pace, stand on the side rails while it starts moving and then step on the…",
 "Gradually increase the speed to a comfortable jogging or running pace, ensuring your movements are smooth and controlled.",
 "Maintain your posture, keeping your back straight, your arms at your sides, and looking straight ahead while you run."
+],
+"numeRo": "Alergare pe bandă",
+"pasiRo": [
+"Apasă butonul de start; banda pornește încet. Stai pe marginile laterale cât pornește, apoi urcă pe bandă.",
+"Crește treptat viteza până la un ritm comod de jogging sau alergare, cu mișcări line și controlate.",
+"Păstrează postura: spatele drept, brațele pe lângă corp și privirea înainte."
 ]
 },
 {
@@ -1293,6 +1773,12 @@
 "Slowly lower the barbell towards your chest while keeping your elbows tucked in close to your body, ensuring your forearms remain vertical.",
 "Once the barbell is just above your chest, pause for a moment.",
 "Push the barbell back up to the starting position, focusing on using your triceps to push the weight up while keeping your elbows close…"
+],
+"numeRo": "Împins la piept cu priză îngustă",
+"pasiRo": [
+"Coboară încet bara spre piept, cu coatele lipite de corp și antebrațele verticale.",
+"Când bara ajunge chiar deasupra pieptului, fă o pauză.",
+"Împinge bara înapoi în poziția de start, folosind tricepșii, cu coatele aproape de corp."
 ]
 },
 {
@@ -1309,6 +1795,12 @@
 "Extend your arms in front of you to help maintain balance, and shift your weight onto the standing leg.",
 "Slowly lower your body by bending your standing leg at the knee, keeping your back straight and your knee over your foot.",
 "Go as low as you can while maintaining balance, ideally until your thigh is parallel with the ground, and keep the other leg extended…"
+],
+"numeRo": "Genuflexiune pe un picior",
+"pasiRo": [
+"Întinde brațele în față pentru echilibru și mută greutatea pe piciorul de sprijin.",
+"Coboară încet corpul îndoind genunchiul piciorului de sprijin, cu spatele drept și genunchiul deasupra piciorului.",
+"Coboară cât poți păstrând echilibrul, ideal până când coapsa e paralelă cu solul, cu celălalt picior întins în față."
 ]
 },
 {
@@ -1325,6 +1817,12 @@
 "Hold a dumbbell in each hand at shoulder level, with your palms facing forward and elbows bent at a 90-degree angle.",
 "Exhale as you press the dumbbells upward until your arms are fully extended, but make sure not to lock your elbows.",
 "Hold this position for a second, then slowly lower the dumbbells back to the starting position while inhaling."
+],
+"numeRo": "Presă cu gantere pe bancă, șezând",
+"pasiRo": [
+"Ține câte o ganteră în fiecare mână la nivelul umerilor, cu palmele înainte și coatele la 90 de grade.",
+"Expiră în timp ce împingi ganterele în sus până când brațele sunt întinse, fără să blochezi coatele.",
+"Menține o secundă, apoi coboară încet ganterele în poziția de start, inspirând."
 ]
 },
 {
@@ -1341,6 +1839,12 @@
 "Keep your back straight and parallel to the floor, allowing your right arm to hang down and fully extend.",
 "Pull the dumbbell straight up to the side of your chest, keeping your upper arm close to your side and keeping the torso still.",
 "Hold for a moment at the top of the movement, squeezing your back muscles."
+],
+"numeRo": "Ramat cu o mână",
+"pasiRo": [
+"Ține spatele drept și paralel cu podeaua, lăsând brațul drept să atârne complet întins.",
+"Trage gantera drept în sus, pe lângă piept, cu brațul aproape de corp și trunchiul nemișcat.",
+"Menține o clipă sus, strângând mușchii spatelui."
 ]
 },
 {
@@ -1357,6 +1861,12 @@
 "With your hands holding the handles, push the platform away using your heels and forefoot, fully extending your legs but being careful…",
 "Slowly lower the platform by bending your knees and hips until your thighs are approximately at a 90-degree angle with your shins.",
 "Push the platform back up to the starting position, focusing on using your quadriceps, hamstrings, and glutes to drive the movement."
+],
+"numeRo": "Presă picioare la 45 de grade",
+"pasiRo": [
+"Ținând mânerele, împinge platforma cu călcâiele și talpa, întinzând picioarele fără să blochezi genunchii.",
+"Coboară încet platforma îndoind genunchii și șoldurile până când coapsele formează aproximativ 90 de grade cu gambele.",
+"Împinge platforma înapoi în poziția de start, folosind cvadricepșii, ischiogambierii și fesierii."
 ]
 },
 {
@@ -1373,6 +1883,12 @@
 "While keeping your upper arm stationary, curl the right hand dumbbell across your body towards your left shoulder as you breathe out.…",
 "Hold the contracted position for a second as you squeeze the biceps.",
 "Slowly begin to bring the dumbbell back to the starting position as your breathe in."
+],
+"numeRo": "Flexii ciocan peste corp",
+"pasiRo": [
+"Cu brațul nemișcat, ridică gantera din mâna dreaptă peste corp, spre umărul stâng, în timp ce expiri.",
+"Menține contracția o secundă, strângând bicepșii.",
+"Coboară încet gantera în poziția de start în timp ce inspiri."
 ]
 },
 {
@@ -1389,6 +1905,12 @@
 "Hold onto the back of the chair with both hands for balance, ensuring your back is straight and your core is engaged.",
 "Slowly lift your heels as high as you can, pushing up onto the balls of your feet and contracting your calf muscles.",
 "Hold this position for a few seconds to feel the tension in your calves."
+],
+"numeRo": "Ridicări pe vârfuri de pe treaptă, cu sprijin pe scaun",
+"pasiRo": [
+"Ține-te cu ambele mâini de spătarul scaunului pentru echilibru, cu spatele drept și abdomenul încordat.",
+"Ridică încet călcâiele cât de sus poți, împingând în pingele picioarelor și contractând gambele.",
+"Menține câteva secunde ca să simți tensiunea în gambe."
 ]
 },
 {
@@ -1405,6 +1927,12 @@
 "Stand or sit upright with your feet shoulder-width apart, grab the ends of the band with each hand, and step back until there's tension…",
 "Start with your arms fully extended in front of you at shoulder height, palms facing down.",
 "Pull the band towards your face, while simultaneously separating your hands and squeezing your shoulder blades together, until your…"
+],
+"numeRo": "Face pull cu bandă elastică",
+"pasiRo": [
+"Stai drept, cu picioarele la lățimea umerilor, prinde capetele benzii și fă un pas înapoi până se întinde.",
+"Începe cu brațele complet întinse în față, la înălțimea umerilor, cu palmele în jos.",
+"Trage banda spre față, depărtând mâinile și strângând omoplații, până când mâinile ajung lângă urechi."
 ]
 },
 {
@@ -1421,6 +1949,12 @@
 "Keep your feet firmly planted on the ground and your back pressed against the bench for stability.",
 "Slowly press the dumbbells upwards until your arms are fully extended, but don't lock your elbows at the top of the movement.",
 "Pause for a moment at the top, then slowly lower the dumbbells back down to shoulder level."
+],
+"numeRo": "Presă umeri cu gantere, pe bancă",
+"pasiRo": [
+"Ține tălpile ferm pe sol și spatele lipit de bancă pentru stabilitate.",
+"Împinge încet ganterele în sus până când brațele sunt întinse, fără să blochezi coatele sus.",
+"Fă o pauză sus, apoi coboară încet ganterele la nivelul umerilor."
 ]
 },
 {
@@ -1437,6 +1971,12 @@
 "Shift your weight onto your right foot, then slowly lift your left leg behind you while extending your right arm in front of you,…",
 "Keep your back straight and your right knee slightly bent, as you hinge at the hips to lower your torso towards the ground, maintaining…",
 "Pause for a moment when your body forms a \"T\" shape, then slowly return to the starting position, keeping your movements controlled and…"
+],
+"numeRo": "Îndreptare pe un picior, fără greutăți",
+"pasiRo": [
+"Mută greutatea pe piciorul drept, apoi ridică încet piciorul stâng în spate în timp ce întinzi brațul drept în față.",
+"Ține spatele drept și genunchiul drept ușor îndoit, aplecându-te din șolduri spre sol, cu echilibrul păstrat.",
+"Fă o pauză când corpul formează un „T”, apoi revino încet în poziția de start, controlat."
 ]
 },
 {
@@ -1453,6 +1993,12 @@
 "Keep your core engaged and your back flat.",
 "Then, slowly lift your right foot off the ground and move it out to the side, tapping the toe on the floor.",
 "Bring your right foot back to the starting position and repeat the same movement with your left foot."
+],
+"numeRo": "Planșă cu atingeri laterale ale piciorului",
+"pasiRo": [
+"Ține abdomenul încordat și spatele drept.",
+"Apoi ridică încet piciorul drept de pe sol și du-l lateral, atingând podeaua cu vârful.",
+"Readu piciorul drept în poziția de start și repetă mișcarea cu piciorul stâng."
 ]
 },
 {
@@ -1469,6 +2015,12 @@
 "Curl the weights while contracting your biceps, keeping your elbows close to your body.",
 "Once the dumbbells reach shoulder height, rotate your wrists so that your palms are facing downwards.",
 "Lower the weights back down in this position, keeping your elbows stationary."
+],
+"numeRo": "Flexii Zottman",
+"pasiRo": [
+"Ridică greutățile contractând bicepșii, cu coatele aproape de corp.",
+"Când ganterele ajung la umeri, rotește încheieturile astfel încât palmele să fie orientate în jos.",
+"Coboară greutățile în această poziție, cu coatele nemișcate."
 ]
 },
 {
@@ -1485,6 +2037,12 @@
 "Take a big step forward with your right foot while keeping your left foot in place.",
 "Slowly lower your body until your front knee is bent at a 90-degree angle, ensuring your knee is directly above your ankle.",
 "Keep your weight in your heels as you push back up to the starting position."
+],
+"numeRo": "Fandări",
+"pasiRo": [
+"Fă un pas mare înainte cu piciorul drept, cu piciorul stâng pe loc.",
+"Coboară încet corpul până când genunchiul din față e îndoit la 90 de grade, direct deasupra gleznei.",
+"Ține greutatea pe călcâie în timp ce te împingi înapoi în poziția de start."
 ]
 },
 {
@@ -1501,6 +2059,12 @@
 "Keep your back straight and engage your core as you prepare to perform the exercise.",
 "Exhale as you push down on the handles, bringing your elbows to your knees in a crunching motion, ensuring your abs are doing the work…",
 "Hold the crunch position for a second, focusing on the contraction in your abs."
+],
+"numeRo": "Abdomene la aparat",
+"pasiRo": [
+"Ține spatele drept și încordează abdomenul înainte de exercițiu.",
+"Expiră în timp ce împingi mânerele în jos, aducând coatele spre genunchi, astfel încât abdomenul să facă efortul.",
+"Menține poziția o secundă, concentrându-te pe contracția abdomenului."
 ]
 },
 {
@@ -1517,6 +2081,12 @@
 "Grasp the handles of the lever seated row machine with both hands and sit upright, ensuring your back is straight and your chest is lifted.",
 "Pull the handles towards your torso while keeping your elbows close to your body and squeezing your shoulder blades together.",
 "Hold this position for a second to maximize the contraction in your back muscles."
+],
+"numeRo": "Ramat la aparat, șezând",
+"pasiRo": [
+"Prinde mânerele aparatului cu ambele mâini și stai drept, cu spatele drept și pieptul ridicat.",
+"Trage mânerele spre trunchi, cu coatele aproape de corp, strângând omoplații.",
+"Menține o secundă ca să contracți la maximum mușchii spatelui."
 ]
 },
 {
@@ -1533,6 +2103,12 @@
 "Bend forward slightly at the waist and bend your right elbow to a 90-degree angle, keeping your palm facing in and your upper arm close…",
 "Push the dumbbell back by extending your elbow and allow it to slowly return after a short pause.",
 "Keep your upper arm still throughout the movement and focus on using your triceps to push the weight, not your forearm and wrist."
+],
+"numeRo": "Kickback triceps",
+"pasiRo": [
+"Apleacă-te puțin din talie și îndoaie cotul drept la 90 de grade, cu palma spre interior și brațul lângă corp.",
+"Împinge gantera în spate întinzând cotul și las-o să revină încet după o scurtă pauză.",
+"Ține brațul nemișcat și folosește tricepșii pentru împingere, nu antebrațul sau încheietura."
 ]
 },
 {
@@ -1549,6 +2125,12 @@
 "Push through your heels and lift your hips off the ground while keeping your back straight, this is your starting position.",
 "Now, bring one knee up towards your chest, similar to a running motion, then return it to the starting position.",
 "Repeat this movement with the other knee, this completes one rep of the Mountain Climber."
+],
+"numeRo": "Mountain climber din punte",
+"pasiRo": [
+"Împinge prin călcâie și ridică șoldurile de pe sol, cu spatele drept; aceasta este poziția de start.",
+"Adu un genunchi spre piept, ca la alergare, apoi readu-l în poziția de start.",
+"Repetă cu celălalt genunchi; astfel ai făcut o repetare."
 ]
 },
 {
@@ -1565,6 +2147,12 @@
 "While holding the upper arm stationary, curl the right weight as you rotate the palm of the hands until they are facing forward.…",
 "Slowly begin to bring the dumbbell back to the original position as your breathe in.",
 "Repeat the movement with the left hand. This completes one repetition."
+],
+"numeRo": "Flexii biceps alternative cu gantere",
+"pasiRo": [
+"Cu brațul nemișcat, ridică gantera din dreapta rotind palma până este orientată înainte, în timp ce expiri.",
+"Coboară încet gantera în poziția inițială în timp ce inspiri.",
+"Repetă mișcarea cu mâna stângă. Astfel ai făcut o repetare."
 ]
 },
 {
@@ -1581,6 +2169,12 @@
 "Grasp the bar with an overhand grip, hands shoulder-width apart, and step back a few feet to create tension on the cable.",
 "Keep your feet shoulder-width apart, bend your knees slightly, and lean forward from your hips, keeping your back straight.",
 "Pull the bar towards your chest, keeping your elbows high and parallel to the floor, and squeezing your shoulder blades together."
+],
+"numeRo": "Ramat la cablu pentru deltoidul posterior, în picioare",
+"pasiRo": [
+"Prinde bara cu priză pronată, mâinile la lățimea umerilor, și fă câțiva pași înapoi ca să întinzi cablul.",
+"Picioarele la lățimea umerilor, genunchii ușor îndoiți, apleacă-te din șolduri cu spatele drept.",
+"Trage bara spre piept, cu coatele sus, paralele cu podeaua, strângând omoplații."
 ]
 },
 {
@@ -1597,6 +2191,12 @@
 "Keep your torso stationary and your elbow slightly bent, then lift the dumbbell to your side until your arm is parallel with the ground.",
 "Ensure your palm is facing the ground during the lifting motion and that you're lifting the weight with your shoulder muscles, not your arm.",
 "Hold this position for a second, then slowly lower the dumbbell back to the starting position."
+],
+"numeRo": "Ridicare laterală cu o mână",
+"pasiRo": [
+"Cu trunchiul nemișcat și cotul ușor îndoit, ridică gantera lateral până când brațul e paralel cu solul.",
+"Ține palma spre sol în timpul ridicării și ridică greutatea cu mușchii umărului, nu cu brațul.",
+"Menține o secundă, apoi coboară încet gantera în poziția de start."
 ]
 },
 {
@@ -1613,6 +2213,12 @@
 "Place your toes on the lower portion of the platform with your heels extending off, and adjust the pads so they fit snugly against your…",
 "Slowly raise your heels by pushing up on the balls of both feet, making sure to exhale as you perform this movement.",
 "Hold the contracted position briefly at the top before slowly lowering your heels back to the original position, inhaling as you do so."
+],
+"numeRo": "Ridicări pe vârfuri, șezând",
+"pasiRo": [
+"Pune vârfurile pe partea de jos a platformei, cu călcâiele în afară, și reglează pernele să stea fix pe coapse.",
+"Ridică încet călcâiele împingând în pingele picioarelor, expirând în timpul mișcării.",
+"Menține scurt contracția sus, apoi coboară încet călcâiele în poziția inițială, inspirând."
 ]
 },
 {
@@ -1629,6 +2235,12 @@
 "Extend one leg backward and place the top of your foot on the bench, keeping your other foot firmly planted on the ground in front of you.",
 "Lower your body by bending your front knee until your thigh is parallel to the ground, ensuring your knee doesn't go beyond your toes.",
 "Push back up to the starting position, using your front leg to drive the movement and keeping your core engaged throughout."
+],
+"numeRo": "Fandare cu piciorul din spate pe bancă",
+"pasiRo": [
+"Întinde un picior în spate și sprijină partea de sus a labei piciorului pe bancă, cu celălalt picior ferm pe sol, în față.",
+"Coboară corpul îndoind genunchiul din față până când coapsa e paralelă cu solul, fără ca genunchiul să treacă de vârfuri.",
+"Împinge-te înapoi în poziția de start cu piciorul din față, cu abdomenul încordat."
 ]
 },
 {
@@ -1645,6 +2257,12 @@
 "Hold the dumbbells at shoulder height with your palms facing forward, and your elbows bent at a 90-degree angle.",
 "Slowly extend your arms straight up towards the ceiling, making sure to keep your elbows stationary and close to your head.",
 "Hold this position for a moment, feeling the tension in your triceps."
+],
+"numeRo": "Extensii triceps cu gantere, pe bancă",
+"pasiRo": [
+"Ține ganterele la nivelul umerilor, cu palmele înainte și coatele îndoite la 90 de grade.",
+"Întinde încet brațele drept în sus, spre tavan, cu coatele nemișcate și aproape de cap.",
+"Menține o clipă, simțind tensiunea în tricepși."
 ]
 },
 {
@@ -1661,6 +2279,12 @@
 "Ensure your legs are hanging straight down and your feet are not touching the ground.",
 "Inhale deeply and as you exhale, slowly lift your legs straight out in front of you until they are parallel with the floor, keeping…",
 "Hold this position for a few seconds, engaging your core muscles."
+],
+"numeRo": "Ridicări de picioare întinse la scaunul roman",
+"pasiRo": [
+"Lasă picioarele să atârne drept în jos, fără să atingi solul cu tălpile.",
+"Inspiră adânc, iar în timp ce expiri ridică încet picioarele întinse în față până sunt paralele cu podeaua.",
+"Menține câteva secunde, cu abdomenul încordat."
 ]
 },
 {
@@ -1677,6 +2301,12 @@
 "Keep your body straight and bend at your waist while keeping your back flat, continue to lower your torso until you feel a mild stretch…",
 "Begin to raise your torso by extending through the hips with your back still kept straight, continue this movement until your body is…",
 "Hold this position for a few seconds, focusing on squeezing your glutes and hamstrings at the top of the movement."
+],
+"numeRo": "Hiperextensii la 45 de grade",
+"pasiRo": [
+"Ține corpul drept și apleacă-te din talie cu spatele drept, coborând trunchiul până simți o ușoară întindere.",
+"Ridică trunchiul împingând din șolduri, cu spatele drept, până când corpul ajunge în linie dreaptă.",
+"Menține câteva secunde, strângând fesierii și ischiogambierii sus."
 ]
 },
 {
@@ -1693,6 +2323,12 @@
 "Take a step back with your right foot, lowering your body into a lunge position. Your left knee should be directly above your left…",
 "Make sure your right heel is lifted and the toes are pressed into the floor.",
 "Push through your left foot to rise back up to the starting position, bringing your right foot forward to meet the left."
+],
+"numeRo": "Fandări înapoi",
+"pasiRo": [
+"Fă un pas înapoi cu piciorul drept, coborând în poziție de fandare. Genunchiul stâng rămâne direct deasupra gleznei stângi.",
+"Călcâiul drept este ridicat, iar vârfurile apasă în podea.",
+"Împinge în piciorul stâng ca să revii în poziția de start, aducând piciorul drept lângă cel stâng."
 ]
 },
 {
@@ -1709,6 +2345,12 @@
 "Grasp the handles of the lever with an overhand grip, your hands should be wider than shoulder-width apart.",
 "Pull the lever up towards your chest while keeping your elbows close to your body and squeeze your shoulder blades together at the top…",
 "Hold for a moment at the top of the movement, then slowly lower the lever back to the starting position, ensuring to maintain control…"
+],
+"numeRo": "Ramat T-bar la aparat, culcat",
+"pasiRo": [
+"Prinde mânerele pârghiei cu priză pronată, cu mâinile mai depărtate decât umerii.",
+"Trage pârghia spre piept, cu coatele aproape de corp, strângând omoplații sus.",
+"Menține o clipă sus, apoi coboară încet pârghia în poziția de start, controlat."
 ]
 },
 {
@@ -1725,6 +2367,12 @@
 "Lie face down on the bench, allowing your arms to hang straight down from your shoulders, palms facing each other.",
 "Keeping a slight bend in your elbows, raise the dumbbells out to the sides and up until they're level with your shoulders.",
 "Pause at the top of the movement, then slowly lower the dumbbells back to the starting position."
+],
+"numeRo": "Ridicări laterale pe bancă înclinată, cu fața în jos",
+"pasiRo": [
+"Întinde-te cu fața în jos pe bancă, cu brațele atârnând drept sub umeri și palmele față în față.",
+"Cu coatele ușor îndoite, ridică ganterele lateral și în sus până la nivelul umerilor.",
+"Fă o pauză sus, apoi coboară încet ganterele în poziția de start."
 ]
 },
 {
@@ -1741,6 +2389,12 @@
 "Bend your right knee and bring it towards your chest, grasping your shin with both hands.",
 "Gently pull the knee closer to your chest, extending your left leg out straight on the floor.",
 "Hold this position for a few seconds, feeling the stretch in your lower back and hip."
+],
+"numeRo": "Întindere lombară cu un genunchi la piept",
+"pasiRo": [
+"Îndoaie genunchiul drept și adu-l spre piept, prinzând gamba cu ambele mâini.",
+"Trage ușor genunchiul spre piept, cu piciorul stâng întins pe podea.",
+"Menține câteva secunde, simțind întinderea în zona lombară și în șold."
 ]
 },
 {
@@ -1757,6 +2411,12 @@
 "Place your forearms on your thighs with your wrists hanging over your knees, ensuring that your arms are stable.",
 "Slowly curl the dumbbells towards your biceps, contracting your forearm muscles as you lift.",
 "Hold the top position for a second, then slowly lower the dumbbells back down to the starting position."
+],
+"numeRo": "Flexii din încheietură",
+"pasiRo": [
+"Sprijină antebrațele pe coapse, cu încheieturile peste genunchi și brațele stabile.",
+"Ridică încet ganterele spre bicepși, contractând mușchii antebrațelor.",
+"Menține o secundă sus, apoi coboară încet ganterele în poziția de start."
 ]
 },
 {
@@ -1773,6 +2433,12 @@
 "Grasp the bar with your palms facing down, hands shoulder-width apart, and position your feet shoulder-width apart as well.",
 "Keep your elbows close to your body and bend them to create a 90-degree angle, this is your starting position.",
 "Push the bar down by extending your elbows and contracting your triceps at the bottom of the movement."
+],
+"numeRo": "Extensii triceps la cablu, cu bara",
+"pasiRo": [
+"Prinde bara cu palmele în jos, mâinile la lățimea umerilor, și picioarele tot la lățimea umerilor.",
+"Ține coatele lângă corp și îndoaie-le la 90 de grade; aceasta este poziția de start.",
+"Împinge bara în jos întinzând coatele și contractând tricepșii jos."
 ]
 },
 {
@@ -1789,6 +2455,12 @@
 "Rest your elbow on your thigh with your wrist just over your knee, allowing your hand to hang off the edge.",
 "Slowly lower the dumbbell as far as possible, bending your wrist and allowing it to fully extend.",
 "Curl the dumbbell back up towards the ceiling, flexing your wrist and using your forearm muscles to lift the weight."
+],
+"numeRo": "Flexii din încheietură, o mână",
+"pasiRo": [
+"Sprijină cotul pe coapsă, cu încheietura chiar peste genunchi și mâna atârnând peste margine.",
+"Coboară încet gantera cât poți, lăsând încheietura să se întindă complet.",
+"Ridică gantera spre tavan, flexând încheietura cu mușchii antebrațului."
 ]
 },
 {
@@ -1805,6 +2477,12 @@
 "Slowly lower your body towards the bench by bending your knees and pushing your hips back, as if you were about to sit down.",
 "When your buttocks touch the bench, pause for a moment, ensuring that your knees are in line with your feet and not extending past your…",
 "Push through your heels to stand back up straight, keeping your core engaged and your back straight throughout the movement."
+],
+"numeRo": "Genuflexiune la bancă",
+"pasiRo": [
+"Coboară încet spre bancă îndoind genunchii și împingând șoldurile în spate, ca și cum te-ai așeza.",
+"Când fesele ating banca, fă o pauză, cu genunchii în linie cu picioarele, fără să treacă de vârfuri.",
+"Împinge prin călcâie și ridică-te drept, cu abdomenul încordat și spatele drept."
 ]
 },
 {
@@ -1821,6 +2499,12 @@
 "Grasp the handles with a reverse grip (palms facing you), making sure your arms are fully extended and your shoulders are relaxed.",
 "Pull the handles towards your abdomen, keeping your elbows close to your body and squeezing your shoulder blades together at the end of…",
 "Hold the contraction for a second at the peak of the movement, then slowly return the handles to the starting position, fully extending…"
+],
+"numeRo": "Ramat sus, priză inversă, cu spatele drept",
+"pasiRo": [
+"Prinde mânerele cu priză inversă (palmele spre tine), cu brațele întinse și umerii relaxați.",
+"Trage mânerele spre abdomen, cu coatele aproape de corp, strângând omoplații la final.",
+"Menține contracția o secundă, apoi readu încet mânerele în poziția de start, întinzând brațele."
 ]
 },
 {
@@ -1837,6 +2521,12 @@
 "Prop your body up on your elbow, ensuring your elbow is directly under your shoulder.",
 "Tighten your core muscles and then raise your hips until your body is in a straight line from head to feet.",
 "Hold this position for as long as you can, maintaining a tight core and keeping your hips lifted."
+],
+"numeRo": "Planșă laterală",
+"pasiRo": [
+"Sprijină-te pe cot, cu cotul direct sub umăr.",
+"Încordează abdomenul și ridică șoldurile până când corpul e în linie dreaptă din cap până în picioare.",
+"Menține cât poți, cu abdomenul încordat și șoldurile ridicate."
 ]
 },
 {
@@ -1853,6 +2543,12 @@
 "Kneel down on the floor in front of the machine, grasping the rope with both hands and positioning your hands at the sides of your head.",
 "Keep your hips stationary, bend your waist and contract your abs to pull the arms down until your elbows are just past your knees.",
 "Hold this position for a moment, feeling the contraction in your abdominal muscles."
+],
+"numeRo": "Abdomene la cablu, din genunchi",
+"pasiRo": [
+"Îngenunchează în fața aparatului, prinde coarda cu ambele mâini și ține mâinile lângă cap.",
+"Cu șoldurile nemișcate, îndoaie-te din talie și contractă abdomenul, trăgând până când coatele trec puțin de genunchi.",
+"Menține o clipă, simțind contracția în abdomen."
 ]
 },
 {
@@ -1869,6 +2565,12 @@
 "Keep your torso stationary and lift the dumbbells to your side with a slight bend on your elbow and your hands slightly tilted forward…",
 "Continue to lift the weights until your arms are parallel to the floor, then pause for a moment at the top of the movement.",
 "Slowly lower the dumbbells back down to the starting position."
+],
+"numeRo": "Ridicări laterale cu gantere",
+"pasiRo": [
+"Cu trunchiul nemișcat, ridică ganterele lateral, cu coatele ușor îndoite și mâinile puțin înclinate înainte.",
+"Continuă până când brațele sunt paralele cu podeaua, apoi fă o pauză sus.",
+"Coboară încet ganterele în poziția de start."
 ]
 },
 {
@@ -1885,6 +2587,12 @@
 "Place your feet shoulder-width apart on the platform, keeping your toes pointed slightly outward.",
 "Slowly bend your knees and lower your body down as far as you can without compromising your posture, ensuring that your knees do not go…",
 "Push through your heels to straighten your legs and return to the starting position, making sure not to lock your knees at the top of…"
+],
+"numeRo": "Hack squat la aparat",
+"pasiRo": [
+"Pune picioarele pe platformă la lățimea umerilor, cu vârfurile ușor în afară.",
+"Îndoaie încet genunchii și coboară cât poți fără să îți strici postura, fără ca genunchii să treacă de vârfuri.",
+"Împinge prin călcâie ca să întinzi picioarele și să revii sus, fără să blochezi genunchii."
 ]
 },
 {
@@ -1901,6 +2609,12 @@
 "Bend your elbows to lower the dumbbell behind your head, keeping your upper arms stationary and close to your head.",
 "Make sure your elbows are at about a 90-degree angle at the bottom of the movement.",
 "Push the dumbbell back up to the starting position using your triceps to lift the weight."
+],
+"numeRo": "Extensii triceps cu ganteră, deasupra capului",
+"pasiRo": [
+"Îndoaie coatele și coboară gantera în spatele capului, cu brațele nemișcate și aproape de cap.",
+"Jos, coatele trebuie să fie la aproximativ 90 de grade.",
+"Împinge gantera înapoi în poziția de start folosind tricepșii."
 ]
 },
 {
@@ -1917,6 +2631,12 @@
 "Lie back on the incline bench with your feet flat on the ground, grab the bar with a wider than shoulder-width grip, and unhook the bar…",
 "Lower the bar to your chest level in a controlled manner, keeping your elbows at a 90-degree angle.",
 "Press the bar back up to the starting position, fully extending your arms but not locking your elbows, while maintaining control of the…"
+],
+"numeRo": "Împins înclinat la aparatul Smith",
+"pasiRo": [
+"Întinde-te pe banca înclinată, cu tălpile pe sol, prinde bara mai larg decât umerii și desprinde-o de pe suport.",
+"Coboară bara controlat până la nivelul pieptului, cu coatele la 90 de grade.",
+"Împinge bara înapoi sus, întinzând brațele fără să blochezi coatele, controlând greutatea."
 ]
 },
 {
@@ -1933,6 +2653,12 @@
 "Keep your chest up and your core engaged as you lower your body down into a lunge position, bending both knees to about a 90-degree…",
 "Push through your right heel to lift your body back up to the starting position, keeping your left foot on the bench or box.",
 "Repeat this movement for the desired number of repetitions, then switch legs and perform the same steps."
+],
+"numeRo": "Fandări bulgărești",
+"pasiRo": [
+"Cu pieptul sus și abdomenul încordat, coboară în fandare, îndoind ambii genunchi la aproximativ 90 de grade.",
+"Împinge prin călcâiul drept ca să revii în poziția de start, cu piciorul stâng pe bancă.",
+"Repetă de numărul dorit de ori, apoi schimbă piciorul și fă aceiași pași."
 ]
 },
 {
@@ -1949,6 +2675,12 @@
 "While keeping your elbows close to your torso, curl the weights while contracting your biceps as you breathe out. Only the forearms…",
 "Continue the movement until your biceps are fully contracted and the barbell is at shoulder level. Hold the contracted position for a…",
 "Slowly begin to bring the barbell back to the starting position as you breathe in."
+],
+"numeRo": "Flexii cu priză pronată",
+"pasiRo": [
+"Cu coatele lângă trunchi, ridică bara contractând bicepșii în timp ce expiri. Doar antebrațele se mișcă.",
+"Continuă până când bicepșii sunt complet contractați și bara ajunge la umeri. Menține contracția o clipă.",
+"Coboară încet bara în poziția de start în timp ce inspiri."
 ]
 },
 {
@@ -1965,6 +2697,12 @@
 "Slowly bend your knees and lower your body as if you're about to sit on a chair, keeping your chest upright and your knees over your toes.",
 "Continue lowering yourself until your thighs are parallel or almost parallel to the floor, this is the squat position.",
 "Pause for a moment in the squat position, then push through your heels to rise back up to the starting position."
+],
+"numeRo": "Genuflexiune",
+"pasiRo": [
+"Îndoaie încet genunchii și coboară ca și cum te-ai așeza pe un scaun, cu pieptul drept și genunchii deasupra vârfurilor.",
+"Coboară până când coapsele sunt paralele sau aproape paralele cu podeaua; aceasta este poziția de genuflexiune.",
+"Fă o pauză jos, apoi împinge prin călcâie ca să revii în poziția de start."
 ]
 },
 {
@@ -1981,6 +2719,12 @@
 "While keeping your upper arms stationary, curl the weights while contracting your biceps as you breathe out, only the forearms should move.",
 "Continue the movement until your biceps are fully contracted and the dumbbells are at shoulder level, hold the contracted position for…",
 "Slowly begin to bring the dumbbells back to starting position as your breathe in."
+],
+"numeRo": "Flexii biceps",
+"pasiRo": [
+"Cu brațele nemișcate, ridică greutățile contractând bicepșii în timp ce expiri; doar antebrațele se mișcă.",
+"Continuă până când bicepșii sunt complet contractați și ganterele ajung la umeri; menține contracția o clipă.",
+"Coboară încet ganterele în poziția de start în timp ce inspiri."
 ]
 },
 {
@@ -1997,6 +2741,12 @@
 "Slowly raise your legs to a 90-degree angle, keeping them straight and together.",
 "Once your legs reach the 90-degree angle, lift your hips off the floor while keeping your legs vertical.",
 "Hold this position for a few seconds, then slowly lower your hips back to the floor."
+],
+"numeRo": "Ridicări de picioare cu ridicarea șoldurilor",
+"pasiRo": [
+"Ridică încet picioarele până la 90 de grade, drepte și lipite.",
+"Când picioarele ajung la 90 de grade, ridică șoldurile de pe podea, cu picioarele verticale.",
+"Menține câteva secunde, apoi coboară încet șoldurile pe podea."
 ]
 },
 {
@@ -2013,6 +2763,12 @@
 "Kneel on the pad with your body facing down and hook your feet under the lever pad, ensuring your legs are fully stretched.",
 "Begin the exercise by curling your legs upwards, towards your glutes, while keeping the rest of your body stationary.",
 "Hold the peak position for a second, squeezing your hamstrings at the top of the movement."
+],
+"numeRo": "Flexii picioare la aparat, din genunchi",
+"pasiRo": [
+"Îngenunchează pe pernă cu fața în jos și prinde picioarele sub perna pârghiei, cu picioarele întinse.",
+"Îndoaie picioarele în sus, spre fesieri, cu restul corpului nemișcat.",
+"Menține o secundă sus, strângând ischiogambierii."
 ]
 },
 {
@@ -2029,6 +2785,12 @@
 "Keeping your knees slightly bent, bend at your hip, lowering your torso until it's almost parallel to the floor while keeping the…",
 "Pause for a moment in this position, ensuring that your back is straight and not rounded.",
 "Push your body back to the starting position, thrusting your hips forward and squeezing your glutes at the top of the movement."
+],
+"numeRo": "Îndreptări cu picioarele întinse",
+"pasiRo": [
+"Cu genunchii ușor îndoiți, apleacă-te din șold și coboară trunchiul până e aproape paralel cu podeaua, cu bara aproape de picioare.",
+"Fă o pauză în această poziție, cu spatele drept, nu rotunjit.",
+"Revino în poziția de start împingând șoldurile înainte și strângând fesierii sus."
 ]
 },
 {
@@ -2045,6 +2807,12 @@
 "Take a step forward with your right foot, lowering your body into a lunge position. Your right knee should be directly above your right…",
 "Push off with your right foot, bringing your left foot forward to step into the next lunge. This completes one rep.",
 "Repeat this motion, alternating legs as you move forward across the room."
+],
+"numeRo": "Fandări din mers",
+"pasiRo": [
+"Fă un pas înainte cu piciorul drept, coborând în fandare. Genunchiul drept rămâne direct deasupra gleznei drepte.",
+"Împinge în piciorul drept și adu piciorul stâng în față, în următoarea fandare. Astfel ai făcut o repetare.",
+"Repetă mișcarea, alternând picioarele, înaintând prin cameră."
 ]
 },
 {
@@ -2061,6 +2829,12 @@
 "Lean back slightly so your torso and thighs form a V shape, engaging your core to maintain balance.",
 "Twist your torso to the right, bringing the kettlebell to your right side, keeping your arms straight.",
 "Then, twist your torso to the left, bringing the kettlebell to your left side, again keeping your arms straight."
+],
+"numeRo": "Răsuciri rusești cu kettlebell",
+"pasiRo": [
+"Lasă-te puțin pe spate astfel încât trunchiul și coapsele să formeze un „V”, cu abdomenul încordat pentru echilibru.",
+"Răsucește trunchiul la dreapta, ducând kettlebell-ul în partea dreaptă, cu brațele drepte.",
+"Apoi răsucește-te la stânga, ducând kettlebell-ul în partea stângă, tot cu brațele drepte."
 ]
 },
 {
@@ -2077,6 +2851,12 @@
 "Lift both your legs and bend them at the knees, then bring one knee towards your chest while keeping the other leg straightened out,…",
 "As you bring your knee towards your chest, twist your torso so that the opposite elbow comes towards the raised knee, performing a crunch.",
 "Lower your raised knee and elbow while simultaneously lifting and twisting the opposite set, mimicking a pedaling motion."
+],
+"numeRo": "Abdomene bicicletă",
+"pasiRo": [
+"Ridică ambele picioare îndoite din genunchi, apoi adu un genunchi spre piept, cu celălalt picior întins.",
+"În timp ce aduci genunchiul spre piept, răsucește trunchiul astfel încât cotul opus să vină spre genunchiul ridicat.",
+"Coboară genunchiul și cotul și ridică-le simultan pe celelalte, ca într-o mișcare de pedalare."
 ]
 },
 {
@@ -2093,6 +2873,12 @@
 "With your core engaged, push upwards through your toes to raise your body upwards, making sure the movement is controlled and your body…",
 "Once you've reached the top of the movement, where your calves are fully contracted and the balls of your feet are supporting your…",
 "Slowly lower your body back down, allowing your heels to drop below the level of the platform or step to stretch your calf muscles."
+],
+"numeRo": "Ridicări pe vârfuri la aparatul Smith",
+"pasiRo": [
+"Cu abdomenul încordat, împinge prin vârfuri ca să ridici corpul, controlat și cu corpul drept.",
+"Sus, când gambele sunt complet contractate și pingele picioarelor susțin greutatea, menține o clipă.",
+"Coboară încet, lăsând călcâiele să treacă sub nivelul platformei ca să întinzi gambele."
 ]
 },
 {
@@ -2105,7 +2891,9 @@
 "video": "13851201-Lever-Seated-Squat-Calf-Raise-on-Leg-Press-Machine_Calves.mp4",
 "principali": "Gastrocnemius, Quadriceps",
 "secundari": "Gluteus Maximus, Hamstrings, Soleus",
-"pasi": []
+"pasi": [],
+"numeRo": "Ridicări pe vârfuri la presa de picioare",
+"pasiRo": []
 },
 {
 "id": "one-arm-revers-wrist-curl",
@@ -2121,6 +2909,12 @@
 "Place your left forearm on your left thigh, with your wrist and the dumbbell hanging over the edge of your knee, palm facing down.",
 "Slowly curl the dumbbell up by flexing your wrist, keeping your forearm pressed against your thigh for stability.",
 "Once your wrist is fully flexed, hold the position for a moment to maximize the contraction in the forearm muscles."
+],
+"numeRo": "Flexii inverse din încheietură, o mână",
+"pasiRo": [
+"Sprijină antebrațul stâng pe coapsa stângă, cu încheietura și gantera peste marginea genunchiului, palma în jos.",
+"Ridică încet gantera flexând încheietura, cu antebrațul lipit de coapsă pentru stabilitate.",
+"Când încheietura e complet flexată, menține o clipă ca să contracți la maximum antebrațul."
 ]
 },
 {
@@ -2137,6 +2931,12 @@
 "Keep your elbows close to your torso, and ensure your palms are facing upwards.",
 "Slowly curl the weights while keeping the upper arms stationary, continue to lift the weights until your biceps are fully contracted…",
 "Hold the contracted position for a brief moment as you squeeze your biceps."
+],
+"numeRo": "Flexii spider inverse cu gantere",
+"pasiRo": [
+"Ține coatele lângă trunchi și palmele orientate în sus.",
+"Ridică încet greutățile cu brațele nemișcate, până când bicepșii sunt complet contractați.",
+"Menține contracția un moment, strângând bicepșii."
 ]
 },
 {
@@ -2153,6 +2953,12 @@
 "Stand facing the cable machine with your feet hip-width apart, hold onto the machine for support and slightly bend your knees.",
 "Keep your core engaged and kick your right leg back and up, keeping your knee straight, until your foot is higher than your hip.",
 "Hold this position for a second, making sure to squeeze your glutes at the top of the movement."
+],
+"numeRo": "Kickback la cablu pentru fesieri",
+"pasiRo": [
+"Stai cu fața la aparat, picioarele la lățimea șoldurilor, ține-te de aparat și îndoaie ușor genunchii.",
+"Cu abdomenul încordat, împinge piciorul drept în spate și în sus, cu genunchiul drept, până când piciorul trece de nivelul șoldului.",
+"Menține o secundă, strângând fesierii sus."
 ]
 },
 {
@@ -2169,6 +2975,12 @@
 "Stand behind the preacher bench and lean over it, ensuring that your armpits are snugly resting at the top of the bench and your arms…",
 "Grab the EZ barbell with an underhand grip (palms facing upward) and make sure your hands are shoulder-width apart.",
 "Curl the barbell upwards towards your chest while keeping your elbows stationary, pause at the top for a moment to squeeze your biceps."
+],
+"numeRo": "Flexii spider cu bara EZ",
+"pasiRo": [
+"Stai în spatele pupitrului și apleacă-te peste el, cu axilele sprijinite pe marginea de sus și brațele atârnând.",
+"Prinde bara EZ cu priză supinată (palmele în sus), cu mâinile la lățimea umerilor.",
+"Ridică bara spre piept cu coatele nemișcate și fă o pauză sus ca să strângi bicepșii."
 ]
 },
 {
@@ -2185,6 +2997,12 @@
 "Quickly drop into a squat position and place your hands on the floor in front of you.",
 "Kick or step your feet back into a plank position, while keeping your arms extended.",
 "Immediately return your feet to the squat position."
+],
+"numeRo": "Burpee",
+"pasiRo": [
+"Coboară rapid în genuflexiune și pune mâinile pe podea în fața ta.",
+"Sari sau pășește cu picioarele înapoi în poziția de planșă, cu brațele întinse.",
+"Readu imediat picioarele în poziția de genuflexiune."
 ]
 },
 {
@@ -2201,6 +3019,12 @@
 "Step forward with your right foot, bending at the knee and hip, until your right knee is at a 90-degree angle and your left knee is…",
 "Push off with your right foot, bringing your left foot forward into the next lunge position, bending at the knee and hip as before.",
 "Repeat this walking lunge motion, alternating legs for each step, for the desired number of reps or distance."
+],
+"numeRo": "Fandări din mers cu gantere",
+"pasiRo": [
+"Pășește înainte cu piciorul drept, îndoind genunchiul și șoldul, până când genunchiul drept e la 90 de grade și cel stâng aproape de sol.",
+"Împinge în piciorul drept și adu piciorul stâng înainte în următoarea fandare, îndoind la fel genunchiul și șoldul.",
+"Repetă fandarea din mers, alternând picioarele, pentru numărul dorit de repetări sau distanța dorită."
 ]
 },
 {
@@ -2217,6 +3041,12 @@
 "Take a big step forward with your right foot, keeping your left foot in place.",
 "Lower your body into a lunge position, bending both knees to 90 degrees, while keeping your torso upright and your core engaged.",
 "As you lunge, extend your arms straight out in front of you at shoulder height, holding the dumbbells steady."
+],
+"numeRo": "Fandări cu greutate și brațele întinse",
+"pasiRo": [
+"Fă un pas mare înainte cu piciorul drept, cu piciorul stâng pe loc.",
+"Coboară în fandare, îndoind ambii genunchi la 90 de grade, cu trunchiul drept și abdomenul încordat.",
+"În timpul fandării, întinde brațele drept în față la înălțimea umerilor, ținând ganterele nemișcate."
 ]
 },
 {
@@ -2233,6 +3063,12 @@
 "Slowly raise your heels off the ground, putting your weight onto the balls of both feet.",
 "Ensure your abdominal muscles are engaged and your back is straight as you rise to your tiptoes.",
 "Pause for a moment at the top of the movement, feeling the contraction in your calf muscles."
+],
+"numeRo": "Ridicări pe vârfuri, în picioare",
+"pasiRo": [
+"Ridică încet călcâiele de pe sol, cu greutatea pe pingele ambelor picioare.",
+"Ține abdomenul încordat și spatele drept în timp ce te ridici pe vârfuri.",
+"Fă o pauză sus, simțind contracția în gambe."
 ]
 },
 {
@@ -2249,6 +3085,12 @@
 "Select the \"Quick Start\" or \"Manual\" mode on the treadmill's control panel, then gradually increase the speed to a comfortable walking pace.",
 "Keep your back straight, your head up, and let your arms swing naturally at your sides as you walk.",
 "Pay attention to your steps, ensuring not to step too close to the front or back of the treadmill to avoid tripping or falling."
+],
+"numeRo": "Mers pe bandă",
+"pasiRo": [
+"Alege modul „Quick Start” sau „Manual” de pe panoul benzii, apoi crește treptat viteza până la un ritm comod de mers.",
+"Ține spatele drept, capul sus și lasă brațele să se balanseze natural pe lângă corp.",
+"Fii atent la pași: nu călca prea aproape de partea din față sau din spate a benzii, ca să nu te împiedici."
 ]
 },
 {
@@ -2265,6 +3107,12 @@
 "Keeping your back straight and your core engaged, bend at the waist, pushing your hips back and lowering your torso until it is nearly…",
 "Make sure your knees are slightly bent but stable, and your head is in a neutral position in line with your spine.",
 "Pause for a moment at the bottom of the movement, then slowly raise your torso back to the starting position, using your hamstrings and…"
+],
+"numeRo": "Good morning",
+"pasiRo": [
+"Cu spatele drept și abdomenul încordat, apleacă-te din talie, împingând șoldurile în spate și coborând trunchiul până e aproape paralel cu podeaua.",
+"Genunchii sunt ușor îndoiți, dar stabili, iar capul în poziție neutră, în linie cu coloana.",
+"Fă o pauză jos, apoi ridică încet trunchiul în poziția de start, folosind ischiogambierii și fesierii."
 ]
 },
 {
@@ -2281,6 +3129,12 @@
 "Slowly raise your heels off the ground until you're standing on your tiptoes.",
 "Hold this position for a moment, ensuring that the contraction is felt in your calves.",
 "Gradually lower your heels back to the ground to complete one repetition."
+],
+"numeRo": "Ridicări pe vârfuri fără greutăți",
+"pasiRo": [
+"Ridică încet călcâiele de pe sol până stai pe vârfuri.",
+"Menține o clipă, simțind contracția în gambe.",
+"Coboară treptat călcâiele pe sol; astfel ai făcut o repetare."
 ]
 },
 {
@@ -2297,6 +3151,12 @@
 "Grab the handlebars and start moving your legs in a forward motion, as if you are walking or running, ensuring that your movements are…",
 "Engage your upper body by pushing and pulling the handlebars in sync with your leg movements, this will help to increase the intensity…",
 "Maintain a straight posture, keeping your core engaged and your back straight throughout the exercise."
+],
+"numeRo": "Bicicletă eliptică",
+"pasiRo": [
+"Prinde mânerele și mișcă picioarele înainte, ca la mers sau alergare, cu mișcări line și controlate.",
+"Folosește și partea de sus a corpului, împingând și trăgând mânerele în ritmul picioarelor, ca să crești intensitatea.",
+"Păstrează postura dreaptă, cu abdomenul încordat și spatele drept pe tot parcursul exercițiului."
 ]
 },
 {
@@ -2313,6 +3173,12 @@
 "Bend your knees and hips to lower your body and grasp the barbell with an overhand grip, hands just beyond shoulder-width apart.",
 "Keeping your chest up and back straight, push through your heels to lift the barbell off the ground, straightening your legs and hips…",
 "Pause for a moment at the top, ensuring your shoulders are back and your core is tight."
+],
+"numeRo": "Îndreptări sumo",
+"pasiRo": [
+"Îndoaie genunchii și șoldurile și prinde bara cu priză pronată, cu mâinile puțin mai larg decât umerii.",
+"Cu pieptul sus și spatele drept, împinge prin călcâie și ridică bara de pe sol, îndreptând picioarele și șoldurile.",
+"Fă o pauză sus, cu umerii trași înapoi și abdomenul încordat."
 ]
 },
 {
@@ -2329,6 +3195,12 @@
 "Keep your back straight, bend at your hips and knees, and lower your torso until it is almost parallel to the floor, letting the…",
 "Make sure to keep the dumbbells close to your body during the movement and your core engaged.",
 "Push your hips forward and straighten your knees to return to the starting position, keeping the dumbbells close to your body as you rise."
+],
+"numeRo": "Îndreptări românești cu gantere",
+"pasiRo": [
+"Cu spatele drept, îndoaie șoldurile și genunchii și coboară trunchiul până e aproape paralel cu podeaua, lăsând ganterele să coboare.",
+"Ține ganterele aproape de corp în timpul mișcării și abdomenul încordat.",
+"Împinge șoldurile înainte și îndreaptă genunchii ca să revii, cu ganterele aproape de corp."
 ]
 },
 {
@@ -2345,6 +3217,12 @@
 "Lift your legs off the ground about 6 inches, keeping them straight and parallel to each other.",
 "Begin to move one leg up while the other moves down, alternating them in a 'fluttering' motion.",
 "Keep your abdominal muscles engaged throughout the exercise and try to keep your lower back flat on the ground."
+],
+"numeRo": "Forfecuțe (flutter kicks)",
+"pasiRo": [
+"Ridică picioarele de pe sol cam 15 cm, drepte și paralele.",
+"Mișcă un picior în sus și celălalt în jos, alternându-le ca într-o mișcare de forfecare.",
+"Ține abdomenul încordat tot timpul și zona lombară lipită de sol."
 ]
 },
 {
@@ -2361,6 +3239,12 @@
 "Step up onto the bench with your right foot, pressing through your right heel as you lift your left foot to meet your right so you are…",
 "Maintain your balance, keep your body upright and ensure your core is engaged.",
 "Slowly lower your left foot back down to the ground, followed by your right foot, returning to your original standing position."
+],
+"numeRo": "Urcări pe bancă (step-up)",
+"pasiRo": [
+"Urcă pe bancă cu piciorul drept, împingând prin călcâiul drept, și adu piciorul stâng lângă cel drept.",
+"Păstrează echilibrul, cu corpul drept și abdomenul încordat.",
+"Coboară încet piciorul stâng pe sol, apoi pe cel drept, revenind în poziția inițială."
 ]
 },
 {
@@ -2377,6 +3261,12 @@
 "Set the incline level on the treadmill to a level that is challenging but manageable for you. A good starting point for beginners is an…",
 "Press the start button on the treadmill and begin walking at a slow pace to warm up, gradually increasing your speed as your body…",
 "Maintain a proper posture while walking, keeping your back straight and your gaze forward, and avoid leaning into the incline."
+],
+"numeRo": "Mers pe bandă înclinată",
+"pasiRo": [
+"Setează înclinarea benzii la un nivel solicitant, dar ușor de controlat. Pentru începători, un punct de plecare bun este 3–5%.",
+"Apasă start și începe să mergi încet ca încălzire, crescând treptat viteza pe măsură ce corpul se încălzește.",
+"Păstrează postura corectă: spatele drept, privirea înainte, fără să te apleci spre pantă."
 ]
 },
 {
@@ -2393,6 +3283,12 @@
 "Once you're seated, place your feet onto the pedals and hold onto the handles of the bike, maintaining a relaxed grip.",
 "Set your desired resistance level on the bike's monitor, starting with a lower level if you're a beginner and gradually increasing the…",
 "Begin pedaling at a steady pace, keeping your back straight and your abs engaged, ensuring that you are breathing normally."
+],
+"numeRo": "Bicicletă staționară",
+"pasiRo": [
+"După ce te-ai așezat, pune picioarele pe pedale și ține-te relaxat de ghidon.",
+"Setează rezistența dorită pe monitor; dacă ești începător, pornește cu un nivel mic și crește-l treptat.",
+"Pedalează într-un ritm constant, cu spatele drept și abdomenul încordat, respirând normal."
 ]
 },
 {
@@ -2409,6 +3305,12 @@
 "Grab the rope with both hands, palms facing each other, and stand up straight with your elbows close to your body; this is your…",
 "Slowly curl your hands towards your shoulders, keeping your palms facing each other and ensuring that only your forearms are moving,…",
 "Hold the contracted position for a second as you squeeze your biceps."
+],
+"numeRo": "Flexii ciocan la cablu",
+"pasiRo": [
+"Prinde coarda cu ambele mâini, palmele față în față, și stai drept cu coatele lângă corp; aceasta este poziția de start.",
+"Ridică încet mâinile spre umeri, cu palmele față în față și doar antebrațele mișcându-se.",
+"Menține contracția o secundă, strângând bicepșii."
 ]
 },
 {
@@ -2425,6 +3327,12 @@
 "Bend at your hips and knees, grasp the kettlebell with both hands, keeping your arms straight and your back flat.",
 "Swing the kettlebell between your legs by pushing your hips back while keeping your chest up.",
 "Quickly stand up and thrust your hips forward, using this momentum to swing the kettlebell up to chest height."
+],
+"numeRo": "Swing cu kettlebell",
+"pasiRo": [
+"Îndoaie șoldurile și genunchii și prinde kettlebell-ul cu ambele mâini, cu brațele drepte și spatele drept.",
+"Balansează kettlebell-ul printre picioare împingând șoldurile în spate, cu pieptul sus.",
+"Ridică-te rapid și împinge șoldurile înainte, folosind elanul ca să ridici kettlebell-ul până la piept."
 ]
 },
 {
@@ -2441,6 +3349,12 @@
 "Adjust the pad and the backrest so that your knees are at a 90-degree angle, ensuring your back is flat against the backrest and your…",
 "Grasp the handles on either side of the machine for stability, then slowly extend your legs until they are straight out in front of…",
 "Hold this position for a moment, feeling the tension in your quadriceps."
+],
+"numeRo": "Extensii picioare la aparat, șezând",
+"pasiRo": [
+"Reglează perna și spătarul astfel încât genunchii să fie la 90 de grade, cu spatele lipit de spătar.",
+"Prinde mânerele de pe lateral, apoi întinde încet picioarele până sunt drepte în fața ta.",
+"Menține o clipă, simțind tensiunea în cvadricepși."
 ]
 },
 {
@@ -2457,6 +3371,12 @@
 "Slowly lift your legs off the ground, keeping them straight and together, until they form a 90-degree angle with your body.",
 "Hold this position for a few seconds, keeping your core engaged and your lower back pressed into the floor to avoid straining.",
 "Lower your legs back down in a controlled manner, making sure not to let your feet touch the ground."
+],
+"numeRo": "Ridicare și menținere picioare, culcat",
+"pasiRo": [
+"Ridică încet picioarele de pe sol, drepte și lipite, până formează 90 de grade cu corpul.",
+"Menține câteva secunde, cu abdomenul încordat și zona lombară lipită de podea.",
+"Coboară picioarele controlat, fără să atingi solul cu tălpile."
 ]
 },
 {
@@ -2473,6 +3393,12 @@
 "Adjust the safety bars and select the appropriate weight you wish to lift, ensuring your legs are at a 90-degree angle and your toes…",
 "Push the platform away using your heels and the balls of your feet, extending your legs fully but without locking your knees.",
 "Slowly lower the weight back to the starting position, allowing your calves to stretch under the load."
+],
+"numeRo": "Împins cu gambele la presa de 45°",
+"pasiRo": [
+"Reglează opritoarele de siguranță și alege greutatea, cu picioarele la 90 de grade și vârfurile pe marginea platformei.",
+"Împinge platforma cu călcâiele și pingele picioarelor, întinzând picioarele fără să blochezi genunchii.",
+"Coboară încet greutatea în poziția de start, lăsând gambele să se întindă sub sarcină."
 ]
 },
 {
@@ -2489,6 +3415,12 @@
 "Roll the bar so that it is directly above your hips, and lean back against the bench so that your shoulder blades are near the top of it.",
 "Begin the movement by driving through your feet, extending your hips vertically through the bar, and ensure your weight is supported by…",
 "Extend as far as possible, then reverse the motion to return to the starting position."
+],
+"numeRo": "Hip thrust cu bara",
+"pasiRo": [
+"Rulează bara până ajunge direct deasupra șoldurilor și sprijină-te cu spatele de bancă, cu omoplații lângă marginea ei.",
+"Împinge prin tălpi și ridică șoldurile vertical, cu greutatea susținută de omoplați și de picioare.",
+"Ridică cât de mult poți, apoi inversează mișcarea ca să revii în poziția de start."
 ]
 },
 {
@@ -2505,6 +3437,12 @@
 "Begin the movement by pushing your hips back and bending your knees, while simultaneously rising onto the balls of your feet. Keep your…",
 "Lower your body as far as you can, ideally until your thighs are parallel to the floor, while keeping your heels off the ground. Your…",
 "Hold the bottom position for a second, then push through the balls of your feet to rise back up to the starting position, keeping your…"
+],
+"numeRo": "Sissy squat",
+"pasiRo": [
+"Împinge șoldurile în spate și îndoaie genunchii, ridicându-te în același timp pe pingele picioarelor. Ține trunchiul drept.",
+"Coboară cât poți, ideal până când coapsele sunt paralele cu podeaua, cu călcâiele ridicate.",
+"Menține o secundă jos, apoi împinge prin pingele picioarelor ca să revii în poziția de start."
 ]
 },
 {
@@ -2521,6 +3459,12 @@
 "Now, while holding your upper arm stationary, exhale and curl the weights while contracting your biceps. Continue to raise the weights…",
 "Hold the contracted position for a brief moment as you squeeze your biceps.",
 "Then inhale and slowly begin to lower the dumbbells back to the starting position."
+],
+"numeRo": "Flexii biceps cu priză pronată",
+"pasiRo": [
+"Cu brațul nemișcat, expiră și ridică greutățile contractând bicepșii, până ajung la nivelul umerilor.",
+"Menține contracția un moment, strângând bicepșii.",
+"Apoi inspiră și coboară încet ganterele în poziția de start."
 ]
 },
 {
@@ -2537,6 +3481,12 @@
 "In one swift motion, jump your feet out to the sides and raise your arms above your head.",
 "Quickly reverse the movement, jumping back to your starting position with your feet together and arms at your sides.",
 "Repeat this action continuously for a set amount of time or repetitions."
+],
+"numeRo": "Jumping jacks",
+"pasiRo": [
+"Dintr-o singură mișcare, sari depărtând picioarele și ridică brațele deasupra capului.",
+"Inversează rapid mișcarea, sărind înapoi cu picioarele lipite și brațele pe lângă corp.",
+"Repetă continuu pentru un timp sau un număr de repetări stabilit."
 ]
 },
 {
@@ -2553,6 +3503,12 @@
 "Grasp the handlebars with an overhand grip, keeping your arms fully extended and your back straight.",
 "Initiate the rowing motion by pushing back with your legs first, then lean back slightly and pull the handlebars towards your chest,…",
 "Return to the starting position by extending your arms, leaning forward from the hips and bending your knees to slide the seat forward."
+],
+"numeRo": "Canotaj (aparat)",
+"pasiRo": [
+"Prinde mânerul cu priză pronată, cu brațele întinse și spatele drept.",
+"Începe mișcarea împingând întâi cu picioarele, apoi lasă-te puțin pe spate și trage mânerul spre piept.",
+"Revino întinzând brațele, aplecându-te din șolduri și îndoind genunchii ca să aluneci înainte cu scaunul."
 ]
 },
 {
@@ -2569,6 +3525,12 @@
 "Hold a dumbbell between your feet, ensuring it is secure so it doesn't slip out during the exercise.",
 "Slowly curl your legs up towards your buttocks, keeping your hips pressed into the bench and only moving your knees.",
 "Pause at the top of the movement, squeezing your hamstrings, then slowly lower the dumbbell back to the starting position."
+],
+"numeRo": "Flexii picioare cu ganteră, culcat",
+"pasiRo": [
+"Ține o ganteră între tălpi, bine prinsă, ca să nu alunece în timpul exercițiului.",
+"Îndoaie încet picioarele spre fese, cu șoldurile lipite de bancă, mișcând doar genunchii.",
+"Fă o pauză sus, strângând ischiogambierii, apoi coboară încet gantera în poziția de start."
 ]
 },
 {
@@ -2585,6 +3547,12 @@
 "Position yourself in the leg press machine with your back and head resting comfortably against the padded support, and place the balls…",
 "Push through the balls of your feet to extend your legs and lift the weight, making sure your heels are raised as high as you can, this…",
 "Slowly lower your heels below the level of the platform to feel a stretch in your calves."
+],
+"numeRo": "Împins cu gambele la presa de picioare",
+"pasiRo": [
+"Așază-te în aparat cu spatele și capul sprijinite comod și pune pingele picioarelor pe marginea de jos a platformei.",
+"Împinge prin pingele picioarelor ca să ridici greutatea, ridicând călcâiele cât de sus poți.",
+"Coboară încet călcâiele sub nivelul platformei ca să simți întinderea în gambe."
 ]
 },
 {
@@ -2601,6 +3569,12 @@
 "Lift your right foot off the ground and draw your right knee towards your chest, keeping your toes off the ground.",
 "Return your right foot back to the starting position.",
 "Now, repeat the same movement with your left foot, bringing your left knee towards your chest and then returning it back to the…"
+],
+"numeRo": "Mountain climber",
+"pasiRo": [
+"Ridică piciorul drept de pe sol și adu genunchiul drept spre piept, fără să atingi solul cu vârful.",
+"Readu piciorul drept în poziția de start.",
+"Repetă aceeași mișcare cu piciorul stâng, aducând genunchiul spre piept și apoi înapoi."
 ]
 },
 {
@@ -2617,6 +3591,12 @@
 "Place your hands gently on either side of your head for support, but ensure you're not using them to assist in the movement.",
 "Keeping your neck in alignment with your spine, slowly lower your head back as far as is comfortable.",
 "Then, using the muscles at the front of your neck, slowly lift your head to bring your chin towards your chest."
+],
+"numeRo": "Flexii ale gâtului, culcat",
+"pasiRo": [
+"Pune ușor mâinile de o parte și de alta a capului pentru sprijin, fără să le folosești ca să ajuți mișcarea.",
+"Cu gâtul în linie cu coloana, lasă încet capul pe spate cât îți este comod.",
+"Apoi, folosind mușchii din fața gâtului, ridică încet capul aducând bărbia spre piept."
 ]
 },
 {
@@ -2633,6 +3613,12 @@
 "Start by holding the handles of the jump rope at waist height, with your elbows close to your body and your wrists slightly above your…",
 "Begin to swing the rope over your head, using your wrists and forearms to generate the motion rather than your entire arms.",
 "As the rope approaches your feet, jump off the ground using both feet at the same time, just high enough to allow the rope to pass…"
+],
+"numeRo": "Sărituri cu coarda",
+"pasiRo": [
+"Ține mânerele corzii la nivelul taliei, cu coatele lângă corp și încheieturile puțin deasupra lor.",
+"Rotește coarda peste cap, folosind încheieturile și antebrațele, nu brațele întregi.",
+"Când coarda se apropie de picioare, sari de pe sol cu ambele picioare, doar cât să treacă pe dedesubt."
 ]
 },
 {
@@ -2649,6 +3635,12 @@
 "Position your forearms on your thighs with your wrists hanging over the edge of your knees.",
 "Slowly lower the weights as far as possible, flexing your wrists to allow the dumbbells to roll out of your palms down to your fingers.",
 "Curl your wrists upward, lifting the weights as high as possible while keeping your forearms pressed against your thighs."
+],
+"numeRo": "Flexii din încheietură peste bancă",
+"pasiRo": [
+"Sprijină antebrațele pe coapse, cu încheieturile peste marginea genunchilor.",
+"Coboară încet greutățile cât poți, lăsând ganterele să se rostogolească din palme spre degete.",
+"Flexează încheieturile în sus, ridicând greutățile cât poți, cu antebrațele lipite de coapse."
 ]
 },
 {
@@ -2665,6 +3657,12 @@
 "Lift your left foot off the ground so you're balancing on your right foot.",
 "Slowly raise your right heel off the ground as high as possible, keeping your core tight and your right knee slightly bent.",
 "Pause at the top of the movement, then slowly lower your heel back down to the ground."
+],
+"numeRo": "Ridicări pe vârf cu ganteră, un picior",
+"pasiRo": [
+"Ridică piciorul stâng de pe sol, astfel încât să te echilibrezi pe piciorul drept.",
+"Ridică încet călcâiul drept cât de sus poți, cu abdomenul încordat și genunchiul drept ușor îndoit.",
+"Fă o pauză sus, apoi coboară încet călcâiul pe sol."
 ]
 },
 {
@@ -2681,6 +3679,12 @@
 "Place your feet shoulder-width apart and position your toes straight ahead or slightly outwards.",
 "Slowly raise your heels off the floor by pushing down through the balls of both feet while exhaling, ensuring your abdominal muscles…",
 "Pause for a moment when your calves are fully contracted and you're balancing on the balls of your feet."
+],
+"numeRo": "Ridicări pe vârfuri cu gantere, în picioare",
+"pasiRo": [
+"Pune picioarele la lățimea umerilor, cu vârfurile drept înainte sau ușor în afară.",
+"Ridică încet călcâiele împingând în pingele picioarelor în timp ce expiri, cu abdomenul încordat.",
+"Fă o pauză când gambele sunt complet contractate și stai în echilibru pe pingele picioarelor."
 ]
 },
 {
@@ -2697,6 +3701,12 @@
 "Set your desired workout settings on the machine's console, such as time, resistance level, and incline, if available.",
 "Begin the exercise by pushing the pedals in a smooth, gliding motion, making sure to keep your back straight and your core engaged.",
 "As you move your legs, also push and pull the handles with your arms, alternating as you would when naturally walking or running."
+],
+"numeRo": "Mers pe bicicleta eliptică",
+"pasiRo": [
+"Setează pe consola aparatului antrenamentul dorit: timpul, rezistența și înclinarea, dacă există.",
+"Începe exercițiul împingând pedalele într-o mișcare lină, cu spatele drept și abdomenul încordat.",
+"În timp ce miști picioarele, împinge și trage și de mânere, alternând ca la mersul sau alergarea naturală."
 ]
 },
 {
@@ -2713,6 +3723,12 @@
 "Bend your knees and place your feet flat on the floor, hip-width apart.",
 "Slowly lift one leg and extend it straight up towards the ceiling, keeping your other foot flat on the floor.",
 "With control, slowly lower your extended leg back down towards the floor without touching it."
+],
+"numeRo": "Ridicări de picior întins, culcat",
+"pasiRo": [
+"Îndoaie genunchii și pune tălpile pe podea, la lățimea șoldurilor.",
+"Ridică încet un picior și întinde-l drept spre tavan, cu celălalt picior pe podea.",
+"Coboară controlat piciorul întins spre podea, fără să o atingi."
 ]
 },
 {
@@ -2729,6 +3745,12 @@
 "Keep your back straight and hold the dumbbells firmly to ensure they don't slip off your knees.",
 "Slowly raise your heels off the floor by pushing down on the balls of both feet, making sure to keep the dumbbells steady.",
 "Pause for a moment when your calves are as high as they can go, then slowly lower your heels back to the starting position."
+],
+"numeRo": "Ridicări pe vârfuri cu gantere, șezând",
+"pasiRo": [
+"Ține spatele drept și ganterele bine pe genunchi, ca să nu alunece.",
+"Ridică încet călcâiele împingând în pingele picioarelor, cu ganterele stabile.",
+"Fă o pauză când călcâiele sunt cât mai sus, apoi coboară-le încet în poziția de start."
 ]
 },
 {
@@ -2745,6 +3767,12 @@
 "Hold onto the handles of the machine for stability, and push off the platform using your toes and the balls of your feet, ensuring your…",
 "Extend your calves and push your body upwards until you're standing on your tiptoes, keeping your core tight and your back straight.",
 "Hold this position for a few seconds to maximize muscle contraction in the calves."
+],
+"numeRo": "Ridicări pe vârfuri la aparat rotativ",
+"pasiRo": [
+"Ține-te de mânerele aparatului pentru stabilitate și împinge în platformă cu vârfurile și pingele picioarelor.",
+"Întinde gambele și împinge corpul în sus până stai pe vârfuri, cu abdomenul încordat și spatele drept.",
+"Menține câteva secunde ca să contracți la maximum gambele."
 ]
 },
 {
@@ -2761,6 +3789,12 @@
 "Keep your feet hip-width apart, your back straight, and your elbows close to your body.",
 "Slowly curl your wrists upward, lifting the barbell by flexing your wrists while keeping the rest of your arm stationary.",
 "Hold the position at the top of the movement for a second, making sure to squeeze your forearm muscles."
+],
+"numeRo": "Flexii din încheietură cu bara la spate, în picioare",
+"pasiRo": [
+"Ține picioarele la lățimea șoldurilor, spatele drept și coatele aproape de corp.",
+"Flexează încet încheieturile în sus, ridicând bara doar din încheieturi, cu restul brațului nemișcat.",
+"Menține o secundă sus, strângând mușchii antebrațelor."
 ]
 },
 {
@@ -2777,6 +3811,12 @@
 "Choose a comfortable pace to start your run, it should be a pace that allows you to speak full sentences without gasping for breath.",
 "Maintain a good posture during your run, keep your back straight, your shoulders relaxed, and your gaze forward.",
 "As you run, land softly on your heel and roll forward to push off on your toes, this is the most efficient and safe running technique."
+],
+"numeRo": "Alergare",
+"pasiRo": [
+"Alege un ritm comod la început, unul la care poți vorbi în propoziții întregi fără să gâfâi.",
+"Păstrează o postură bună: spatele drept, umerii relaxați și privirea înainte.",
+"Calcă ușor pe călcâi și rulează spre vârf ca să te împingi; este tehnica cea mai eficientă și mai sigură."
 ]
 },
 {
@@ -2793,6 +3833,12 @@
 "Slowly tilt your head to the right, aiming to bring your ear as close to your shoulder as possible, but be sure not to lift your…",
 "Hold this position for about 15 to 30 seconds, feeling a gentle stretch along the left side of your neck.",
 "Slowly lift your head back to the upright position, then repeat the process, this time tilting your head to the left and holding for…"
+],
+"numeRo": "Întindere laterală a gâtului",
+"pasiRo": [
+"Înclină încet capul spre dreapta, încercând să aduci urechea cât mai aproape de umăr, fără să ridici umărul.",
+"Menține cam 15–30 de secunde, simțind o întindere ușoară pe partea stângă a gâtului.",
+"Readu încet capul drept, apoi repetă înclinând capul spre stânga și menținând la fel."
 ]
 },
 {
@@ -2809,6 +3855,12 @@
 "Rest your forearm on your thigh, letting the dumbbell hang over the edge of your knee.",
 "Slowly raise the dumbbell as high as possible, bending at the wrist and keeping the rest of your arm still.",
 "Pause at the top of the movement for a moment, then slowly lower the weight back down to the starting position."
+],
+"numeRo": "Flexii inverse din încheietură cu ganteră, o mână",
+"pasiRo": [
+"Sprijină antebrațul pe coapsă, lăsând gantera să atârne peste marginea genunchiului.",
+"Ridică încet gantera cât de sus poți, îndoind din încheietură, cu restul brațului nemișcat.",
+"Fă o pauză sus, apoi coboară încet greutatea în poziția de start."
 ]
 },
 {
@@ -2825,6 +3877,12 @@
 "Shift your weight onto one foot and lift the other foot off the ground, balancing yourself.",
 "Slowly rise up onto the toes of your standing foot, lifting your heel as high as possible to engage your calf muscle.",
 "Hold this position for a moment, ensuring your core is engaged and your body is balanced."
+],
+"numeRo": "Ridicări pe vârf pe sol, un picior",
+"pasiRo": [
+"Mută greutatea pe un picior și ridică celălalt de pe sol, păstrând echilibrul.",
+"Ridică-te încet pe vârful piciorului de sprijin, cu călcâiul cât mai sus, ca să lucreze gamba.",
+"Menține o clipă, cu abdomenul încordat și corpul în echilibru."
 ]
 },
 {
@@ -2841,6 +3899,12 @@
 "Rest your forearms on your thighs, allowing your wrists to hang over the edge of your knees.",
 "Slowly lower the barbell as far as possible, keeping the movement controlled and your hands firm.",
 "Then, curl the barbell upwards using your wrists as far as you can, keeping the rest of your arm stationary."
+],
+"numeRo": "Flexii inverse din încheietură peste bancă",
+"pasiRo": [
+"Sprijină antebrațele pe coapse, lăsând încheieturile să atârne peste marginea genunchilor.",
+"Coboară încet bara cât poți, controlat, cu mâinile ferme pe bară.",
+"Apoi ridică bara din încheieturi cât de mult poți, cu restul brațului nemișcat."
 ]
 },
 {
@@ -2857,6 +3921,12 @@
 "As you keep the elbows close to the torso, curl the weights while contracting the biceps as you breathe out; only the forearms should move.",
 "Continue the movement until your biceps are fully contracted and the bar is at shoulder level.",
 "Hold the contracted position for a moment as you squeeze the biceps."
+],
+"numeRo": "Flexii cu bara EZ, priză pronată",
+"pasiRo": [
+"Cu coatele lângă trunchi, ridică greutatea contractând bicepșii în timp ce expiri; doar antebrațele se mișcă.",
+"Continuă până când bicepșii sunt complet contractați și bara ajunge la umeri.",
+"Menține contracția o clipă, strângând bicepșii."
 ]
 },
 {
@@ -2873,6 +3943,12 @@
 "While keeping your palms facing your torso, lift the right dumbbell to the front of your shoulder in a semi-circular motion until your…",
 "Hold the contracted position for a second as you squeeze the biceps.",
 "Lower the dumbbell back down slowly to the starting position as you simultaneously lift the left dumbbell."
+],
+"numeRo": "Flexii ciocan peste corp, cu gantere",
+"pasiRo": [
+"Cu palmele spre trunchi, ridică gantera dreaptă în fața umărului, într-un semicerc, până la nivelul umărului.",
+"Menține contracția o secundă, strângând bicepșii.",
+"Coboară încet gantera în poziția de start în timp ce ridici gantera stângă."
 ]
 },
 {
@@ -2889,6 +3965,12 @@
 "Lift your right knee as high as possible and simultaneously swing your left arm forward as if you were running.",
 "Jump off your left foot, propelling yourself forward, while your right knee is still in the air.",
 "Land softly on your left foot and immediately repeat the motion, this time lifting your left knee and swinging your right arm."
+],
+"numeRo": "Skipping cu genunchii sus",
+"pasiRo": [
+"Ridică genunchiul drept cât de sus poți și balansează în același timp brațul stâng înainte, ca la alergare.",
+"Sari de pe piciorul stâng, împingându-te înainte, cu genunchiul drept încă ridicat.",
+"Aterizează ușor pe piciorul stâng și repetă imediat, de data asta cu genunchiul stâng și brațul drept."
 ]
 },
 {
@@ -2905,6 +3987,12 @@
 "Keeping your legs straight or slightly bent, slowly bend at your hips and lower the barbell towards the ground, keeping it as close to…",
 "Lower the barbell until you feel a stretch in your hamstrings, but make sure to keep your back straight and not rounded.",
 "Pause for a moment, then slowly raise your body and the barbell back to the starting position, pushing your hips forward and squeezing…"
+],
+"numeRo": "Îndreptări cu bara, picioare întinse",
+"pasiRo": [
+"Cu picioarele drepte sau ușor îndoite, apleacă-te încet din șolduri și coboară bara spre sol, cât mai aproape de picioare.",
+"Coboară până simți întinderea în ischiogambieri, cu spatele drept, nu rotunjit.",
+"Fă o pauză, apoi ridică încet corpul și bara în poziția de start, împingând șoldurile înainte."
 ]
 },
 {
@@ -2921,6 +4009,12 @@
 "Slowly lower your chin towards your chest, keeping your shoulders and back still, until you feel a gentle stretch at the back of your neck.",
 "Hold this position for about 20 to 30 seconds, breathing deeply and relaxing into the stretch.",
 "Slowly lift your head back up to the starting position."
+],
+"numeRo": "Întinderea gâtului prin flexie înainte",
+"pasiRo": [
+"Coboară încet bărbia spre piept, cu umerii și spatele nemișcate, până simți o întindere ușoară în ceafă.",
+"Menține cam 20–30 de secunde, respirând adânc și relaxându-te.",
+"Ridică încet capul înapoi în poziția de start."
 ]
 },
 {
@@ -2937,6 +4031,12 @@
 "Lower your body into a squat position, keeping your back straight, and swing the dumbbell between your legs.",
 "Push through your heels to stand back up, using the momentum to swing the dumbbell up to chest height.",
 "Allow the weight to fall back down, using that momentum to guide you back into the squat position."
+],
+"numeRo": "Swing cu ganteră",
+"pasiRo": [
+"Coboară în genuflexiune cu spatele drept și balansează gantera printre picioare.",
+"Împinge prin călcâie ca să te ridici, folosind elanul ca să ridici gantera până la piept.",
+"Lasă greutatea să coboare și folosește elanul ca să revii în genuflexiune."
 ]
 },
 {
@@ -2953,6 +4053,12 @@
 "Position one leg under the lever pad, with the pad resting just above your ankle; the other leg should be placed beside the machine.",
 "Hold onto the side handles of the machine for support, keeping your torso flat against the backrest.",
 "Slowly curl your leg up as far as possible, ensuring that the rest of your body remains stationary during this movement."
+],
+"numeRo": "Flexii picior la aparat, șezând, un picior",
+"pasiRo": [
+"Pune un picior sub perna pârghiei, chiar deasupra gleznei; celălalt picior stă lângă aparat.",
+"Ține-te de mânerele laterale, cu trunchiul lipit de spătar.",
+"Îndoaie încet piciorul cât de mult poți, cu restul corpului nemișcat."
 ]
 },
 {
@@ -2969,6 +4075,12 @@
 "Keep your back straight and slowly lean forward from your hips towards the foot of your extended leg, aiming to grasp it with your hand.",
 "Hold the stretch for about 20 to 30 seconds, making sure to breathe deeply and relax into the stretch.",
 "Release the stretch and sit up straight again."
+],
+"numeRo": "Întinderea ischiogambierilor, șezând, un picior",
+"pasiRo": [
+"Cu spatele drept, apleacă-te încet din șolduri spre laba piciorului întins, încercând să o prinzi cu mâna.",
+"Menține întinderea cam 20–30 de secunde, respirând adânc și relaxându-te.",
+"Eliberează întinderea și îndreaptă-te din nou."
 ]
 },
 {
@@ -2985,6 +4097,12 @@
 "Slowly tilt your head towards your right shoulder, aiming to touch it with your ear, but stop when you feel a stretch on the left side…",
 "Hold this position for about 15 to 30 seconds, breathing deeply and relaxing into the stretch.",
 "Slowly lift your head back to the center, and then repeat the process on the left side, tilting your head towards your left shoulder."
+],
+"numeRo": "Întinderea laterală a gâtului",
+"pasiRo": [
+"Înclină încet capul spre umărul drept, încercând să îl atingi cu urechea, dar oprește-te când simți întinderea pe partea stângă.",
+"Menține cam 15–30 de secunde, respirând adânc și relaxându-te.",
+"Readu încet capul la centru, apoi repetă pe partea stângă, înclinând capul spre umărul stâng."
 ]
 },
 {
@@ -3001,6 +4119,12 @@
 "Slowly tilt your head back until you're looking at the ceiling, making sure to keep your spine straight and your shoulders relaxed.",
 "Hold this position for a few seconds, feeling the stretch in the front part of your neck.",
 "Slowly return your head to the neutral position, looking straight ahead."
+],
+"numeRo": "Extensia gâtului, șezând",
+"pasiRo": [
+"Lasă încet capul pe spate până privești tavanul, cu coloana dreaptă și umerii relaxați.",
+"Menține câteva secunde, simțind întinderea în partea din față a gâtului.",
+"Readu încet capul în poziția neutră, privind drept înainte."
 ]
 },
 {
@@ -3017,6 +4141,12 @@
 "Bend your knees and bring them towards your chest, keeping your feet together and your lower back pressed against the bench.",
 "Slowly lower the dumbbells towards your thighs, keeping your arms straight and your palms facing inward.",
 "Once the dumbbells reach your thighs, pause for a moment, then lift them back up to the starting position using your hip and thigh muscles."
+],
+"numeRo": "Ridicări de picioare cu gantere, culcat",
+"pasiRo": [
+"Îndoaie genunchii și adu-i spre piept, cu tălpile lipite și zona lombară pe bancă.",
+"Coboară încet ganterele spre coapse, cu brațele drepte și palmele spre interior.",
+"Când ganterele ajung la coapse, fă o pauză, apoi ridică-le înapoi folosind mușchii șoldului și ai coapsei."
 ]
 },
 {
@@ -3033,6 +4163,12 @@
 "Keep your torso flat on the bench as you secure your legs under the lever.",
 "Curl your legs up as far as possible without lifting the upper legs from the pad, ensuring that you exhale during this movement.",
 "Once you hit the fully contracted position, hold it for a second as you squeeze your hamstrings."
+],
+"numeRo": "Flexii picioare",
+"pasiRo": [
+"Ține trunchiul lipit de bancă și fixează picioarele sub pârghie.",
+"Îndoaie picioarele cât de mult poți fără să ridici coapsele de pe pernă, expirând în timpul mișcării.",
+"Când ajungi la contracția maximă, menține o secundă, strângând ischiogambierii."
 ]
 },
 {
@@ -3049,6 +4185,12 @@
 "Slowly bend at the waist while keeping your back straight, your head up, and your knees slightly bent.",
 "Continue bending forward as far as you can without compromising your form, or until your torso is parallel to the floor.",
 "Hold this position for a moment, then slowly return to the starting position by extending through your hips and waist."
+],
+"numeRo": "Good morning cu bara",
+"pasiRo": [
+"Apleacă-te încet din talie, cu spatele drept, capul sus și genunchii ușor îndoiți.",
+"Continuă să te apleci cât poți fără să îți strici forma, sau până când trunchiul e paralel cu podeaua.",
+"Menține o clipă, apoi revino încet în poziția de start, îndreptând șoldurile și talia."
 ]
 },
 {
@@ -3065,6 +4207,12 @@
 "Carefully position one leg under the lever pad and the other leg should be bent and rested on the side.",
 "Keep your torso flat on the bench as you securely grip the side handles of the machine.",
 "Curl your working leg up as far as possible without lifting the upper leg from the pad, ensuring the tension is on your hamstring muscle."
+],
+"numeRo": "Flexii picior la aparat, culcat, un picior",
+"pasiRo": [
+"Pune cu grijă un picior sub perna pârghiei; celălalt picior stă îndoit, sprijinit pe lateral.",
+"Ține trunchiul lipit de bancă și prinde ferm mânerele laterale ale aparatului.",
+"Îndoaie piciorul de lucru cât poți fără să ridici coapsa de pe pernă, cu tensiunea pe ischiogambieri."
 ]
 }
 ]

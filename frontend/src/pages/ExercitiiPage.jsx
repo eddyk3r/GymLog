@@ -4,10 +4,12 @@ import ExercitiuList from "../components/ExercitiuList.jsx";
 import ExercitiuForm from "../components/ExercitiuForm.jsx";
 import GrupeBar from "../components/GrupeBar.jsx";
 import { NUMAR_PE_GRUPA } from "../data/catalog.js";
+import { useLimba } from "../i18n/limba.js";
 import {
   createExercitiu,
   deleteExercitiu,
   fetchExercitii,
+  noteazaInIstoric,
   updateExercitiu,
 } from "../api.js";
 import styles from "./ExercitiiPage.module.css";
@@ -20,9 +22,10 @@ function linkGrupa(grupa) {
 // Pagina principală: jurnalul (lista de pe server), adăugarea manuală
 // și scurtăturile către catalog, pe grupe musculare.
 export default function ExercitiiPage() {
+  const { t, mesajEroare } = useLimba();
   const [exercitii, setExercitii] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
+  const [error, setError] = useState(null); // obiectul Error; mesajul se scrie în limba curentă
 
   // Rulează o singură dată, după prima randare
   useEffect(() => {
@@ -33,7 +36,7 @@ export default function ExercitiiPage() {
         const data = await fetchExercitii();
         if (!ignore) setExercitii(data);
       } catch (err) {
-        if (!ignore) setError(err.message);
+        if (!ignore) setError(err);
       } finally {
         if (!ignore) setLoading(false);
       }
@@ -57,8 +60,9 @@ export default function ExercitiiPage() {
     try {
       const actualizat = await updateExercitiu(id, { facut: !ex.facut });
       setExercitii((prev) => prev.map((e) => (e.id === id ? actualizat : e)));
+      if (actualizat.facut) noteazaInIstoric(actualizat); // pentru statistici
     } catch (err) {
-      setError(err.message);
+      setError(err);
     }
   }
 
@@ -67,7 +71,7 @@ export default function ExercitiiPage() {
       await deleteExercitiu(id);
       setExercitii((prev) => prev.filter((e) => e.id !== id));
     } catch (err) {
-      setError(err.message);
+      setError(err);
     }
   }
 
@@ -86,37 +90,33 @@ export default function ExercitiiPage() {
         <h1>
           Gym<span>Log</span>
         </h1>
-        <p>Jurnalul tău de antrenamente, organizat pe exerciții și intensitate.</p>
+        <p>{t("hero.tagline")}</p>
         <Link to="/catalog" className={`btn ${styles.cta}`}>
-          Alege din catalog →
+          {t("hero.cta")}
         </Link>
       </section>
 
       <div className="wrap">
         <section className={styles.grupe}>
-          <h2 className={styles.titluGrupe}>Alege grupa musculară</h2>
+          <h2 className={styles.titluGrupe}>{t("grupe.titlu")}</h2>
           <GrupeBar numar={NUMAR_PE_GRUPA} linkTo={linkGrupa} />
         </section>
 
         <div className={styles.grid}>
           <section className="panel">
-            <h2>Adaugă manual</h2>
-            <p className={styles.hint}>
-              Nu găsești exercițiul în catalog? Scrie-l aici.
-            </p>
+            <h2>{t("manual.titlu")}</h2>
+            <p className={styles.hint}>{t("manual.hint")}</p>
             <ExercitiuForm onAdd={handleAdd} />
           </section>
 
           <section className="panel">
-            <h2>Exercițiile mele</h2>
+            <h2>{t("lista.titlu")}</h2>
             <div className={styles.summary}>
-              <span>
-                {exercitii.length} exerciții, dintre care {deFacut} de făcut
-              </span>
+              <span>{t("lista.sumar", exercitii.length, deFacut)}</span>
               <span
                 className={styles.progress}
                 role="progressbar"
-                aria-label="Exerciții făcute"
+                aria-label={t("lista.progres")}
                 aria-valuenow={procent}
                 aria-valuemin={0}
                 aria-valuemax={100}
@@ -126,12 +126,12 @@ export default function ExercitiiPage() {
             </div>
             {loading && (
               <p className="info" data-testid="loading">
-                Se încarcă exercițiile...
+                {t("lista.loading")}
               </p>
             )}
             {error && (
               <p className="error" data-testid="error">
-                {error}
+                {mesajEroare(error)}
               </p>
             )}
             {!loading && (
@@ -143,7 +143,7 @@ export default function ExercitiiPage() {
             )}
             {!loading && !error && exercitii.length === 0 && (
               <p className={styles.hint}>
-                Începe din <Link to="/catalog">catalogul de exerciții</Link>.
+                {t("lista.incepe")} <Link to="/catalog">{t("lista.incepeLink")}</Link>.
               </p>
             )}
           </section>

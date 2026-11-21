@@ -5,11 +5,14 @@ import { BrowserRouter } from "react-router-dom";
 // au prioritate față de cele globale, la aceeași specificitate.
 import "./index.css";
 import App from "./App.jsx";
+import LimbaProvider from "./i18n/LimbaProvider.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <BrowserRouter>
-      <App />
+      <LimbaProvider>
+        <App />
+      </LimbaProvider>
     </BrowserRouter>
   </StrictMode>
 );

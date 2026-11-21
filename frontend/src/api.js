@@ -8,7 +8,9 @@ async function request(path, options = {}) {
     headers: { "Content-Type": "application/json", ...options.headers },
   });
   if (!res.ok) {
-    throw new Error(`Eroare server: ${res.status}`);
+    const err = new Error(`Eroare server: ${res.status}`);
+    err.status = res.status; // interfața construiește mesajul în limba aleasă
+    throw err;
   }
   // 204 No Content nu are corp
   return res.status === 204 ? null : res.json();
@@ -39,4 +41,34 @@ export function updateExercitiu(id, changes) {
 
 export function deleteExercitiu(id) {
   return request(`/exercitii/${id}`, { method: "DELETE" });
+}
+
+// Istoricul: o intrare pentru fiecare exercițiu terminat, cu data.
+// Din el se calculează statisticile și harta musculară.
+export function fetchIstoric() {
+  return request("/istoric");
+}
+
+export function createIstoric(intrare) {
+  return request("/istoric", {
+    method: "POST",
+    body: JSON.stringify(intrare),
+  });
+}
+
+// Când un exercițiu din jurnal devine „făcut”, se notează în istoric.
+// O eroare aici nu oprește bifarea: istoricul este doar pentru statistici.
+export async function noteazaInIstoric(exercitiu, serii = null) {
+  try {
+    await createIstoric({
+      exercitiuId: exercitiu.id,
+      catalogId: exercitiu.catalogId ?? null,
+      exercitiu: exercitiu.exercitiu,
+      grupa: exercitiu.grupa,
+      serii,
+      data: new Date().toISOString(),
+    });
+  } catch {
+    // fără istoric, statisticile nu includ acest exercițiu
+  }
 }

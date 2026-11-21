@@ -1,35 +1,31 @@
 import { Link } from "react-router-dom";
 import { CATALOG } from "../data/catalog.js";
+import { useLimba } from "../i18n/limba.js";
 import styles from "./DesprePage.module.css";
 
 // Pagina de prezentare a aplicației
 export default function DesprePage() {
+  const { t } = useLimba();
+
   return (
     <div className="wrap">
       <section className={`panel ${styles.despre}`}>
-        <h2>Despre GymLog</h2>
-        <p>
-          GymLog este un jurnal de antrenamente construit pas cu pas, pe parcursul
-          semestrului, în cadrul proiectului de Tehnologii Web (UNSTPB, FIIR).
-        </p>
+        <h2>{t("despre.titlu")}</h2>
+        <p>{t("despre.p1")}</p>
         <ul className={styles.lista}>
           <li>
-            <Link to="/catalog">Catalogul</Link> are {CATALOG.length} de exerciții,
-            pe grupe musculare, fiecare cu video tutorial și detalii.
+            <Link to="/catalog">{t("despre.l1a")}</Link>
+            {t("despre.l1b", CATALOG.length)}
           </li>
           <li>
-            Din catalog, un exercițiu se adaugă în <Link to="/">jurnal</Link> cu un click;
-            exercițiile care lipsesc se pot scrie de mână.
+            {t("despre.l2a")}
+            <Link to="/">{t("despre.l2link")}</Link>
+            {t("despre.l2b")}
           </li>
-          <li>Fiecare exercițiu din jurnal are pagina lui, cu toate detaliile.</li>
+          <li>{t("despre.l3")}</li>
         </ul>
-        <p className={styles.stack}>
-          Stack: React, Vite, React Router, CSS Modules, json-server.
-        </p>
-        <p className="info">
-          Imaginile și video-urile exercițiilor sunt preluate de pe lyfta.app, doar în
-          scop didactic.
-        </p>
+        <p className={styles.stack}>{t("despre.stack")}</p>
+        <p className="info">{t("despre.sursa")}</p>
       </section>
     </div>
   );

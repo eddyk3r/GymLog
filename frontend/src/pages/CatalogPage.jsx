@@ -3,8 +3,8 @@ import { useLocation, useNavigate, useSearchParams } from "react-router-dom";
 import CatalogCard from "../components/CatalogCard.jsx";
 import ExercitiuModal from "../components/ExercitiuModal.jsx";
 import GrupeBar from "../components/GrupeBar.jsx";
-import { ETICHETE_GRUPE } from "../constants.js";
 import { CATALOG, NUMAR_PE_GRUPA, gasesteInCatalog } from "../data/catalog.js";
+import { useLimba } from "../i18n/limba.js";
 import { createExercitiu, fetchExercitii } from "../api.js";
 import styles from "./CatalogPage.module.css";
 
@@ -12,6 +12,7 @@ import styles from "./CatalogPage.module.css";
 // Filtrele și exercițiul deschis stau în adresă (?grupa=piept&q=press&ex=bench-press),
 // deci butoanele Înapoi / Înainte și un link trimis cuiva păstrează ce se vede.
 export default function CatalogPage() {
+  const { t, numeGrupa, numeEx, mesajEroare } = useLimba();
   const [params, setParams] = useSearchParams();
   const navigate = useNavigate();
   const location = useLocation();
@@ -23,7 +24,7 @@ export default function CatalogPage() {
   // Jurnalul de pe server: ca să știm ce e deja adăugat
   const [jurnal, setJurnal] = useState([]);
   const [eroare, setEroare] = useState(null);
-  const [mesaj, setMesaj] = useState("");
+  const [adaugat, setAdaugat] = useState(null); // exercițiul pentru mesajul „Adăugat”
 
   useEffect(() => {
     let ignore = false;
@@ -32,7 +33,7 @@ export default function CatalogPage() {
         if (!ignore) setJurnal(data);
       })
       .catch((err) => {
-        if (!ignore) setEroare(err.message);
+        if (!ignore) setEroare(err);
       });
     return () => {
       ignore = true;
@@ -41,21 +42,24 @@ export default function CatalogPage() {
 
   // Mesajul „Adăugat” dispare singur după câteva secunde
   useEffect(() => {
-    if (!mesaj) return undefined;
-    const t = setTimeout(() => setMesaj(""), 2600);
-    return () => clearTimeout(t);
-  }, [mesaj]);
+    if (!adaugat) return undefined;
+    const timer = setTimeout(() => setAdaugat(null), 2600);
+    return () => clearTimeout(timer);
+  }, [adaugat]);
 
   // catalogId -> id-ul din jurnal
   const inJurnal = new Map(
     jurnal.filter((e) => e.catalogId).map((e) => [e.catalogId, e.id])
   );
 
+  // căutarea găsește exercițiul după numele în engleză sau în română
   const cautare = q.trim().toLowerCase();
   const rezultate = CATALOG.filter(
     (e) =>
       (grupa === "" || e.grupa === grupa) &&
-      (cautare === "" || e.nume.toLowerCase().includes(cautare))
+      (cautare === "" ||
+        e.nume.toLowerCase().includes(cautare) ||
+        e.numeRo.toLowerCase().includes(cautare))
   );
 
   // Schimbă un parametru din adresă și îi păstrează pe ceilalți
@@ -80,7 +84,8 @@ export default function CatalogPage() {
     else schimba("ex", "", { replace: true });
   }
 
-  // Întâi serverul, apoi state-ul (ca în pagina Jurnal)
+  // Întâi serverul, apoi state-ul (ca în pagina Jurnal).
+  // În db.json se salvează numele în engleză; afișarea îl traduce prin catalogId.
   async function handleAdauga(ex, intensitate = "medie") {
     const creat = await createExercitiu({
       exercitiu: ex.nume,
@@ -91,7 +96,7 @@ export default function CatalogPage() {
     });
     setJurnal((prev) => [...prev, creat]);
     setEroare(null);
-    setMesaj(`${ex.nume} a fost adăugat în jurnal.`);
+    setAdaugat(ex);
   }
 
   // Pentru butonul de pe card: eroarea se afișează sus, în pagină
@@ -99,11 +104,11 @@ export default function CatalogPage() {
     try {
       await handleAdauga(ex);
     } catch (err) {
-      setEroare(err.message);
+      setEroare(err);
     }
   }
 
-  const titlu = grupa ? ETICHETE_GRUPE[grupa] : "Toate exercițiile";
+  const titlu = grupa ? numeGrupa(grupa) : t("cat.toate");
 
   return (
     <div className="wrap">
@@ -112,10 +117,10 @@ export default function CatalogPage() {
           <span className={styles.lupa} aria-hidden="true">⌕</span>
           <input
             type="search"
-            placeholder={grupa ? `Caută în ${titlu}...` : "Caută un exercițiu..."}
+            placeholder={grupa ? t("cat.cautaIn", titlu) : t("cat.cauta")}
             value={q}
             onChange={(e) => schimba("q", e.target.value, { replace: true })}
-            aria-label="Caută un exercițiu"
+            aria-label={t("cat.cauta")}
           />
         </label>
         <GrupeBar activa={grupa} numar={NUMAR_PE_GRUPA} onAlege={handleGrupa} />
@@ -125,17 +130,13 @@ export default function CatalogPage() {
         <h1 className={styles.titlu}>
           {titlu} <span>{rezultate.length}</span>
         </h1>
-        <p className="info">Apasă pe un exercițiu pentru video și detalii.</p>
+        <p className="info">{t("cat.hint")}</p>
       </div>
 
-      {eroare && (
-        <p className="error">
-          Jurnalul nu poate fi accesat ({eroare}). Rulează <code>npm run api</code>?
-        </p>
-      )}
+      {eroare && <p className="error">{t("cat.eroareJurnal", mesajEroare(eroare))}</p>}
 
       {rezultate.length === 0 ? (
-        <p className="empty">Niciun exercițiu găsit.</p>
+        <p className="empty">{t("cat.niciunul")}</p>
       ) : (
         <ul className={styles.grid}>
           {rezultate.map((ex) => (
@@ -160,9 +161,9 @@ export default function CatalogPage() {
         />
       )}
 
-      {mesaj && (
+      {adaugat && (
         <p className={styles.toast} role="status">
-          ✓ {mesaj}
+          ✓ {t("cat.adaugat", numeEx(adaugat))}
         </p>
       )}
     </div>

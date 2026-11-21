@@ -1,7 +1,7 @@
 # AI log: Stage 8 (routing and detail page)
 
 ## Conversations
-- [Stage 8: routing and detail page](LINK-ul conversației tale)
+- [Stage 8: routing and detail page](https://claude.ai/share/162a5c5f-43bc-464f-b948-93ae35a36e73)
 
 ## Tool used
 Claude (Anthropic), with access to my project folder.

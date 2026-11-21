@@ -59,14 +59,53 @@
   gap: 12px;
   min-width: 0;
 }
-.main input[type="checkbox"] {
-  flex: none;
-  width: 20px;
-  height: 20px;
+.card { cursor: pointer; user-select: none; }
+
+/* checkbox-ul invizibil, întins peste tot cardul */
+.toggle {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
   margin: 0;
   padding: 0;
-  accent-color: var(--accent);
+  opacity: 0;
   cursor: pointer;
+}
+/* focusul de la tastatură se vede pe card */
+.card:has(.toggle:focus-visible) {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* titlul (link) și butonul de ștergere stau deasupra checkbox-ului */
+.title,
+.delete {
+  position: relative;
+  z-index: 2;
+}
+
+/* semnul de bifare, desenat (cerc gol / cerc plin cu ✓) */
+.mark {
+  flex: none;
+  width: 28px;
+  height: 28px;
+  display: grid;
+  place-items: center;
+  border: 2px solid var(--muted);
+  border-radius: 50%;
+  color: transparent;
+  font-weight: 900;
+  transition: background 0.2s, border-color 0.2s, color 0.2s, transform 0.2s;
+}
+.card:hover .mark { border-color: var(--accent); color: var(--accent); }
+.done .mark,
+.done:hover .mark {
+  background: var(--accent);
+  border-color: var(--text);
+  color: var(--on-accent);
+  animation: bifat 0.3s ease-out;
 }
 
 /* imaginea din catalog sau iconița grupei */
@@ -121,6 +160,9 @@
 }
 .done .thumb { opacity: 0.55; filter: grayscale(1); }
 
+@keyframes bifat {
+  50% { transform: scale(1.3); }
+}
 @keyframes rise {
   from { opacity: 0; transform: translateY(18px); }
   to { opacity: 1; transform: translateY(0); }

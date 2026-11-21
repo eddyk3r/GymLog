@@ -1,18 +1,19 @@
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import { fetchExercitiu, updateExercitiu } from "../api.js";
-import { ETICHETE_GRUPE, ETICHETE_INTENSITATE } from "../constants.js";
+import { fetchExercitiu, noteazaInIstoric, updateExercitiu } from "../api.js";
 import { catalogPentru } from "../data/catalog.js";
+import { useLimba } from "../i18n/limba.js";
 import ExercitiuDetalii from "../components/ExercitiuDetalii.jsx";
 import styles from "./ExercitiuDetaliuPage.module.css";
 
 // Pagina unui exercițiu din jurnal: /exercitii/3
 export default function ExercitiuDetaliuPage() {
+  const { t, numeGrupa, numeEx, mesajEroare } = useLimba();
   const { id } = useParams(); // text din URL, de exemplu "3"
   const [exercitiu, setExercitiu] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [eroareBifare, setEroareBifare] = useState("");
+  const [eroareBifare, setEroareBifare] = useState(null);
 
   // Se reîncarcă dacă se schimbă id-ul din adresă
   useEffect(() => {
@@ -26,7 +27,7 @@ export default function ExercitiuDetaliuPage() {
         }
       })
       .catch((err) => {
-        if (!ignore) setError(err.message);
+        if (!ignore) setError(err);
       })
       .finally(() => {
         if (!ignore) setLoading(false);
@@ -43,9 +44,10 @@ export default function ExercitiuDetaliuPage() {
         facut: !exercitiu.facut,
       });
       setExercitiu(actualizat);
-      setEroareBifare("");
+      setEroareBifare(null);
+      if (actualizat.facut) noteazaInIstoric(actualizat); // pentru statistici
     } catch (err) {
-      setEroareBifare(err.message);
+      setEroareBifare(err);
     }
   }
 
@@ -53,7 +55,7 @@ export default function ExercitiuDetaliuPage() {
     return (
       <div className="wrap">
         <p className={`info ${styles.loading}`} data-testid="loading">
-          Se încarcă exercițiul...
+          {t("dp.loading")}
         </p>
       </div>
     );
@@ -64,10 +66,10 @@ export default function ExercitiuDetaliuPage() {
       <div className="wrap">
         <section className={`panel ${styles.detail}`}>
           <p className="error" data-testid="error">
-            Exercițiul nu a putut fi încărcat: {error}
+            {t("dp.eroare", mesajEroare(error))}
           </p>
           <Link to="/" className="back">
-            Înapoi la jurnal
+            {t("dp.inapoi")}
           </Link>
         </section>
       </div>
@@ -75,12 +77,14 @@ export default function ExercitiuDetaliuPage() {
   }
 
   const dinCatalog = catalogPentru(exercitiu);
+  // același nume ca în cardul din listă
+  const nume = dinCatalog ? numeEx(dinCatalog) : exercitiu.exercitiu;
 
   return (
     <div className="wrap">
       <section className={`panel ${styles.detail}`} data-testid="detail">
         <Link to="/" className="back">
-          Înapoi la jurnal
+          {t("dp.inapoi")}
         </Link>
 
         <div className={styles.titleRow}>
@@ -88,37 +92,37 @@ export default function ExercitiuDetaliuPage() {
             className={exercitiu.facut ? styles.done : undefined}
             data-testid="detail-title"
           >
-            {exercitiu.exercitiu}
+            {nume}
           </h2>
           <button type="button" className="mini" onClick={handleToggle}>
-            {exercitiu.facut ? "↺ Marchează de făcut" : "✓ Marchează făcut"}
+            {exercitiu.facut ? t("dp.deFacutBtn") : t("dp.facutBtn")}
           </button>
         </div>
-        {eroareBifare && <p className="error">{eroareBifare}</p>}
+        {eroareBifare && <p className="error">{mesajEroare(eroareBifare)}</p>}
 
         <dl className={styles.fields}>
           <div>
-            <dt>Grupa</dt>
-            <dd>{ETICHETE_GRUPE[exercitiu.grupa] ?? exercitiu.grupa}</dd>
+            <dt>{t("dp.grupa")}</dt>
+            <dd>{numeGrupa(exercitiu.grupa)}</dd>
           </div>
           <div>
-            <dt>Intensitate</dt>
+            <dt>{t("dp.intensitate")}</dt>
             <dd>
               <span className={`badge badge-${exercitiu.intensitate}`}>
-                {ETICHETE_INTENSITATE[exercitiu.intensitate]}
+                {t(`int.${exercitiu.intensitate}`)}
               </span>
             </dd>
           </div>
           <div>
-            <dt>Status</dt>
-            <dd>{exercitiu.facut ? "Făcut" : "De făcut"}</dd>
+            <dt>{t("dp.status")}</dt>
+            <dd>{exercitiu.facut ? t("dp.facut") : t("dp.deFacut")}</dd>
           </div>
           <div>
-            <dt>Sursă</dt>
-            <dd>{exercitiu.catalogId ? "Catalog" : "Adăugat manual"}</dd>
+            <dt>{t("dp.sursa")}</dt>
+            <dd>{exercitiu.catalogId ? t("dp.catalog") : t("dp.manual")}</dd>
           </div>
           <div>
-            <dt>ID</dt>
+            <dt>{t("dp.id")}</dt>
             <dd>{exercitiu.id}</dd>
           </div>
         </dl>
@@ -127,9 +131,9 @@ export default function ExercitiuDetaliuPage() {
           <ExercitiuDetalii ex={dinCatalog} />
         ) : (
           <p className={styles.fara}>
-            Pentru acest exercițiu nu există video în catalog.{" "}
+            {t("dp.faraVideo")}{" "}
             <Link to={`/catalog?grupa=${exercitiu.grupa}`}>
-              Vezi exercițiile pentru {ETICHETE_GRUPE[exercitiu.grupa] ?? "această grupă"}
+              {t("dp.veziGrupa", numeGrupa(exercitiu.grupa))}
             </Link>
           </p>
         )}

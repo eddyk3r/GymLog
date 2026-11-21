@@ -1,15 +1,13 @@
-import {
-  ECHIPAMENT,
-  ETICHETE_GRUPE,
-  PARTI_CORP,
-  iconGrupa,
-  traduce,
-} from "../constants.js";
+import { iconGrupa } from "../constants.js";
+import { useLimba } from "../i18n/limba.js";
 import styles from "./ExercitiuDetalii.module.css";
 
 // Video-ul tutorial și detaliile unui exercițiu din catalog.
 // Folosit în fereastra din pagina Exerciții și în pagina de detaliu.
 export default function ExercitiuDetalii({ ex }) {
+  const { t, limba, numeGrupa, pasiEx, echipament, partiCorp, muschi } = useLimba();
+  const pasi = pasiEx(ex);
+
   return (
     <div className={styles.detalii}>
       <div className={styles.media}>
@@ -25,36 +23,36 @@ export default function ExercitiuDetalii({ ex }) {
           loop
           playsInline
         >
-          Browserul tău nu poate reda video-ul.
+          {t("det.faraVideo")}
         </video>
       </div>
 
       <div className={styles.info}>
         <figure className={styles.harta}>
-          <img src={iconGrupa(ex.grupa)} alt={`Grupa ${ETICHETE_GRUPE[ex.grupa]}`} />
-          <figcaption>{ETICHETE_GRUPE[ex.grupa]}</figcaption>
+          <img src={iconGrupa(ex.grupa)} alt={t("det.harta", numeGrupa(ex.grupa))} />
+          <figcaption>{numeGrupa(ex.grupa)}</figcaption>
         </figure>
 
         <div>
-          <h3 className={styles.subtitlu}>Detalii exercițiu</h3>
+          <h3 className={styles.subtitlu}>{t("det.titlu")}</h3>
           <dl className={styles.fields}>
-            <dt>Parte a corpului</dt>
-            <dd>{traduce(ex.partiCorp, PARTI_CORP)}</dd>
-            <dt>Echipament</dt>
-            <dd>{traduce(ex.echipament, ECHIPAMENT)}</dd>
-            <dt>Mușchi principali</dt>
-            <dd>{ex.principali || "—"}</dd>
-            <dt>Mușchi secundari</dt>
-            <dd>{ex.secundari || "—"}</dd>
+            <dt>{t("det.parte")}</dt>
+            <dd>{partiCorp(ex.partiCorp)}</dd>
+            <dt>{t("det.echipament")}</dt>
+            <dd>{echipament(ex.echipament)}</dd>
+            <dt>{t("det.principali")}</dt>
+            <dd>{ex.principali ? muschi(ex.principali) : "—"}</dd>
+            <dt>{t("det.secundari")}</dt>
+            <dd>{ex.secundari ? muschi(ex.secundari) : "—"}</dd>
           </dl>
         </div>
       </div>
 
-      {ex.pasi.length > 0 && (
+      {pasi.length > 0 && (
         <div className={styles.pasi}>
-          <h3 className={styles.subtitlu}>Cum se execută</h3>
-          <ol lang="en">
-            {ex.pasi.map((p) => (
+          <h3 className={styles.subtitlu}>{t("det.cum")}</h3>
+          <ol lang={limba}>
+            {pasi.map((p) => (
               <li key={p}>{p}</li>
             ))}
           </ol>

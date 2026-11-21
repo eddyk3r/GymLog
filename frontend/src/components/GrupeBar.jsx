@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { GRUPE, iconGrupa } from "../constants.js";
+import { useLimba } from "../i18n/limba.js";
 import styles from "./GrupeBar.module.css";
 
 // Iconița pentru „Toate”: patru pătrate
@@ -18,35 +19,34 @@ function IconToate() {
 //  - cu linkTo: fiecare grupă este un link (pagina Jurnal -> pagina Exerciții)
 //  - cu onAlege: fiecare grupă este un buton de filtrare (pagina Exerciții)
 export default function GrupeBar({ activa = "", numar = {}, linkTo, onAlege }) {
-  const elemente = [{ value: "", label: "Toate" }, ...GRUPE];
+  const { t, numeGrupa } = useLimba();
+  const elemente = ["", ...GRUPE];
   const total = Object.values(numar).reduce((s, n) => s + n, 0);
 
   return (
     <ul className={styles.bar}>
       {elemente.map((g) => {
         // în modul cu linkuri nu există o grupă aleasă
-        const aleasa = !linkTo && g.value === activa;
+        const aleasa = !linkTo && g === activa;
         const clasa = aleasa ? `${styles.grupa} ${styles.active}` : styles.grupa;
         const continut = (
           <>
-            {g.value === "" ? (
+            {g === "" ? (
               <IconToate />
             ) : (
-              <img src={iconGrupa(g.value)} alt="" className={styles.icon} />
+              <img src={iconGrupa(g)} alt="" className={styles.icon} />
             )}
-            <span className={styles.label}>{g.label}</span>
+            <span className={styles.label}>{g === "" ? t("grupa.toate") : numeGrupa(g)}</span>
             {total > 0 && (
-              <span className={styles.count}>
-                {g.value === "" ? total : numar[g.value] ?? 0}
-              </span>
+              <span className={styles.count}>{g === "" ? total : numar[g] ?? 0}</span>
             )}
           </>
         );
 
         return (
-          <li key={g.value || "toate"}>
+          <li key={g || "toate"}>
             {linkTo ? (
-              <Link to={linkTo(g.value)} className={clasa}>
+              <Link to={linkTo(g)} className={clasa}>
                 {continut}
               </Link>
             ) : (
@@ -54,7 +54,7 @@ export default function GrupeBar({ activa = "", numar = {}, linkTo, onAlege }) {
                 type="button"
                 className={clasa}
                 aria-pressed={aleasa}
-                onClick={() => onAlege(g.value)}
+                onClick={() => onAlege(g)}
               >
                 {continut}
               </button>
