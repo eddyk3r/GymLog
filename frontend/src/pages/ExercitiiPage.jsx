@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import ExercitiuList from "../components/ExercitiuList.jsx";
 import ExercitiuForm from "../components/ExercitiuForm.jsx";
 import GrupeBar from "../components/GrupeBar.jsx";
-import { NUMAR_PE_GRUPA } from "../data/catalog.js";
+import { NUMAR_PE_GRUPA, catalogPentru } from "../data/catalog.js";
 import { useLimba } from "../i18n/limba.js";
 import {
   createExercitiu,
@@ -22,10 +22,11 @@ function linkGrupa(grupa) {
 // Pagina principală: jurnalul (lista de pe server), adăugarea manuală
 // și scurtăturile către catalog, pe grupe musculare.
 export default function ExercitiiPage() {
-  const { t, mesajEroare } = useLimba();
+  const { t, numeEx, mesajEroare } = useLimba();
   const [exercitii, setExercitii] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null); // obiectul Error; mesajul se scrie în limba curentă
+  const [sters, setSters] = useState(null); // { ex, index }: ultimul exercițiu șters, pentru „Anulează”
 
   // Rulează o singură dată, după prima randare
   useEffect(() => {
@@ -66,14 +67,37 @@ export default function ExercitiiPage() {
     }
   }
 
+  // Ștergerea se face imediat pe server; 6 secunde poți apăsa „Anulează”
   async function handleDelete(id) {
+    const index = exercitii.findIndex((e) => e.id === id);
+    const ex = exercitii[index];
     try {
       await deleteExercitiu(id);
       setExercitii((prev) => prev.filter((e) => e.id !== id));
+      setSters({ ex, index });
     } catch (err) {
       setError(err);
     }
   }
+
+  // „Anulează”: exercițiul se recreează pe server cu aceleași date (și același id)
+  async function handleAnuleaza() {
+    const { ex, index } = sters;
+    setSters(null);
+    try {
+      const refacut = await createExercitiu(ex);
+      setExercitii((prev) => [...prev.slice(0, index), refacut, ...prev.slice(index)]);
+    } catch (err) {
+      setError(err);
+    }
+  }
+
+  // Mesajul cu „Anulează” dispare singur după 6 secunde
+  useEffect(() => {
+    if (!sters) return undefined;
+    const timer = setTimeout(() => setSters(null), 6000);
+    return () => clearTimeout(timer);
+  }, [sters]);
 
   // Valori derivate: se recalculează la fiecare randare
   const deFacut = exercitii.filter((e) => !e.facut).length;
@@ -149,6 +173,29 @@ export default function ExercitiiPage() {
           </section>
         </div>
       </div>
+
+      {sters && (
+        <div className={styles.toast} role="status" key={sters.ex.id}>
+          <span>
+            {t(
+              "undo.sters",
+              catalogPentru(sters.ex) ? numeEx(catalogPentru(sters.ex)) : sters.ex.exercitiu
+            )}
+          </span>
+          <button type="button" className="mini" onClick={handleAnuleaza}>
+            ↶ {t("undo.anuleaza")}
+          </button>
+          <button
+            type="button"
+            className={styles.toastX}
+            onClick={() => setSters(null)}
+            aria-label={t("modal.inchide")}
+          >
+            ✕
+          </button>
+          <span className={styles.toastTimp} aria-hidden="true" />
+        </div>
+      )}
     </>
   );
 }

@@ -206,6 +206,61 @@
   font-size: 1.6rem;
   letter-spacing: 0.05em;
 }
+/* setul curent: kg × repetări */
+.setForm { display: flex; flex-direction: column; gap: 10px; }
+.campuri { display: flex; align-items: flex-end; gap: 10px; }
+.campuri label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.campuri input {
+  width: 120px;
+  padding: 8px 10px;
+  border: 2px solid var(--text);
+  font-family: var(--font-display);
+  font-size: 2rem;
+  text-align: center;
+}
+.ori {
+  padding-bottom: 10px;
+  color: var(--accent);
+  font-family: var(--font-display);
+  font-size: 2rem;
+}
+.repere {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 16px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+.repere strong { color: var(--text); }
+.repere:empty { display: none; }
+.seturiFacute {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: set;
+}
+.seturiFacute li {
+  padding: 2px 8px;
+  border: 2px solid var(--accent);
+  border-radius: 3px;
+  font-size: 0.8rem;
+  font-weight: 800;
+  counter-increment: set;
+}
+.seturiFacute li::before { content: counter(set) " · "; color: var(--accent); }
+
 .gata { margin-top: 6px; padding: 18px; font-size: 1.4rem; }
 .mici { display: flex; gap: 10px; flex-wrap: wrap; }
 .mici button { background: var(--card); color: var(--text); }
@@ -253,7 +308,7 @@
 }
 .rezumat {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 12px;
   margin: 20px 0;
 }
@@ -285,8 +340,27 @@
   display: grid;
   gap: 6px;
 }
-.terminate li { padding: 6px 10px; border-left: 4px solid var(--accent); background: var(--bg); font-weight: 700; }
+.terminate li {
+  display: flex;
+  flex-direction: column;
+  padding: 6px 10px;
+  border-left: 4px solid var(--accent);
+  background: var(--bg);
+  font-weight: 700;
+}
 .terminate small { color: var(--muted); font-weight: 600; }
+.record {
+  margin-left: 8px;
+  padding: 1px 8px;
+  border-radius: 3px;
+  background: var(--accent);
+  color: var(--on-accent);
+  font-size: 0.72rem;
+  font-style: normal;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  animation: glowRecord 1.6s ease-in-out infinite;
+}
 
 /* confetti */
 .confetti { position: absolute; inset: 0; pointer-events: none; }
@@ -303,6 +377,9 @@
 .c1 { background: var(--text); }
 .c2 { background: var(--medie); }
 
+@keyframes glowRecord {
+  50% { box-shadow: 0 0 10px rgba(255, 77, 0, 0.7); }
+}
 @keyframes deschide {
   from { opacity: 0; transform: translateY(-6px); }
 }
@@ -321,4 +398,5 @@
   .setup > :nth-child(2) { position: static; }
   .bara { flex-wrap: wrap; }
   .progres { flex-basis: 100%; order: 3; }
+  .rezumat { grid-template-columns: 1fr 1fr; }
 }

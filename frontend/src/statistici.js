@@ -82,3 +82,60 @@ export function numarPeGrupa(istoric, azi, zile = 30) {
     return acc;
   }, {});
 }
+
+// ---------- Seturi: kilograme și repetări ----------
+
+// Aceeași „identitate” pentru un exercițiu din jurnal și pentru intrările lui din istoric:
+// cele din catalog după catalogId, cele scrise de mână după nume.
+export function cheieExercitiu(e) {
+  return e.catalogId ? `cat:${e.catalogId}` : `man:${e.exercitiu.trim().toLowerCase()}`;
+}
+
+// 1RM estimat (formula Epley): cât ai putea ridica o singură dată
+export function unuRM(kg, rep) {
+  if (!kg || !rep) return 0;
+  return rep === 1 ? kg : kg * (1 + rep / 30);
+}
+
+// Scorul unui set, ca seturile să poată fi comparate: 1RM estimat sau, fără greutate, repetările
+export function scorSet(s) {
+  if (!s) return 0;
+  return unuRM(s.kg, s.rep) || s.rep / 1000;
+}
+
+// Cel mai bun set dintr-o listă: după 1RM estimat; la exerciții fără greutate, după repetări
+export function celMaiBunSet(seturi) {
+  const valide = (seturi ?? []).filter((s) => s.rep > 0);
+  if (valide.length === 0) return null;
+  return valide.reduce((best, s) => (scorSet(s) > scorSet(best) ? s : best));
+}
+
+// Sesiunile cu seturi ale unui exercițiu, de la cea mai veche la cea mai nouă
+export function sesiuniExercitiu(istoric, cheie) {
+  return istoric
+    .filter((i) => cheieExercitiu(i) === cheie && i.seturi?.length)
+    .sort((a, b) => a.data.localeCompare(b.data));
+}
+
+// Ultimul set notat pentru un exercițiu (pentru completarea automată a câmpurilor)
+export function ultimulSet(istoric, cheie) {
+  const sesiuni = sesiuniExercitiu(istoric, cheie);
+  const ultima = sesiuni[sesiuni.length - 1];
+  return ultima ? ultima.seturi[ultima.seturi.length - 1] : null;
+}
+
+// Recordul personal de până acum (cel mai bun set din toate sesiunile)
+export function recordPersonal(istoric, cheie) {
+  return celMaiBunSet(sesiuniExercitiu(istoric, cheie).flatMap((s) => s.seturi));
+}
+
+// Volumul unei sesiuni: suma kg × repetări
+export function volum(seturi) {
+  return (seturi ?? []).reduce((s, x) => s + (x.kg || 0) * (x.rep || 0), 0);
+}
+
+// „60 kg × 10” sau, fără greutate, „× 12”
+export function textSet(s) {
+  if (!s) return "";
+  return s.kg ? `${s.kg} kg × ${s.rep}` : `× ${s.rep}`;
+}

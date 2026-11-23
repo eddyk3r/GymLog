@@ -1,0 +1,169 @@
+.progres {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 26px;
+}
+.titlu {
+  margin: 0;
+  padding-bottom: 6px;
+  border-bottom: 2px solid var(--border);
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.formTitlu {
+  margin: 0 0 8px;
+  color: var(--muted);
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+/* formularul de seturi */
+.form {
+  padding: 14px 16px;
+  border: 2px dashed var(--accent);
+  border-radius: 6px;
+  background: var(--accent-soft);
+}
+.seturi {
+  margin: 0 0 12px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.seturi li { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.nr {
+  width: 28px;
+  height: 28px;
+  display: grid;
+  place-items: center;
+  background: var(--accent);
+  color: var(--on-accent);
+  font-family: var(--font-display);
+  transform: skewX(-10deg);
+}
+.seturi input {
+  width: 86px;
+  padding: 6px 8px;
+  border-color: var(--text);
+  background: var(--card);
+  font-weight: 800;
+  text-align: center;
+}
+.unit {
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.sterge { margin-left: auto; background: var(--card); color: var(--text); }
+.butoane { display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
+.secundar { background: var(--card); color: var(--text); }
+
+.gol {
+  margin: 0;
+  padding: 14px;
+  border: 2px dashed var(--border);
+  border-radius: 6px;
+  color: var(--muted);
+  text-align: center;
+}
+
+/* cifrele */
+.cifre {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 10px;
+}
+.cifre div {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 12px;
+  border: 2px solid var(--text);
+  border-radius: 4px;
+  box-shadow: 3px 3px 0 var(--accent);
+}
+.cifre span {
+  color: var(--muted);
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.cifre strong {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
+/* comutatorul de metrică, deasupra graficului */
+.graficHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.graficHead .formTitlu { margin: 0; }
+.metrici {
+  display: inline-flex;
+  border: 2px solid var(--text);
+  border-radius: 4px;
+  overflow: hidden;
+}
+.metrica {
+  padding: 4px 10px;
+  border: none;
+  border-radius: 0;
+  background: var(--card);
+  color: var(--text);
+  font-size: 0.85rem;
+  box-shadow: none;
+}
+.metrica + .metrica { border-left: 2px solid var(--text); }
+.metrica::after { display: none; }
+.metrica:hover,
+.metrica:active { background: var(--accent-soft); color: var(--text); transform: none; box-shadow: none; }
+.metricaActiva,
+.metricaActiva:hover { background: var(--accent); color: var(--on-accent); }
+
+/* sesiunile */
+.sesiuni {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.sesiuni li {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px dashed var(--border);
+}
+.data {
+  min-width: 110px;
+  font-size: 0.8rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.chips { display: flex; flex-wrap: wrap; gap: 6px; flex: 1; }
+.chips span {
+  padding: 2px 8px;
+  border: 2px solid var(--border);
+  border-radius: 3px;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+.volum { color: var(--muted); font-size: 0.78rem; font-weight: 700; }

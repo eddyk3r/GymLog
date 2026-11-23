@@ -5,7 +5,16 @@ import TitluPagina from "../components/TitluPagina.jsx";
 import { iconGrupa } from "../constants.js";
 import { catalogPentru } from "../data/catalog.js";
 import { useLimba } from "../i18n/limba.js";
-import { fetchExercitii, noteazaInIstoric, updateExercitiu } from "../api.js";
+import { fetchExercitii, fetchIstoric, noteazaInIstoric, updateExercitiu } from "../api.js";
+import {
+  celMaiBunSet,
+  cheieExercitiu,
+  recordPersonal,
+  scorSet,
+  textSet,
+  ultimulSet,
+  volum,
+} from "../statistici.js";
 import { bip, pornesteSunetul } from "../sunet.js";
 import styles from "./AntrenamentPage.module.css";
 
@@ -52,16 +61,22 @@ export default function AntrenamentPage() {
   const [acum, setAcum] = useState(0);
   const [pauzaPana, setPauzaPana] = useState(0);
   const [pauzaTotal, setPauzaTotal] = useState(0);
-  const [terminate, setTerminate] = useState([]); // { ex, serii }
+  const [terminate, setTerminate] = useState([]); // { ex, seturi, record }
+  const [istoric, setIstoric] = useState([]); // pentru ultima greutate și recorduri
+  const [seturiCurente, setSeturiCurente] = useState([]); // seturile exercițiului curent
+  const [kg, setKg] = useState("");
+  const [rep, setRep] = useState("");
   const [eroareSalvare, setEroareSalvare] = useState(null);
   const ultimulBip = useRef(null);
 
   useEffect(() => {
     let ignore = false;
-    fetchExercitii()
-      .then((data) => {
+    // istoricul e opțional: fără el, câmpurile pornesc goale
+    Promise.all([fetchExercitii(), fetchIstoric().catch(() => [])])
+      .then(([data, ist]) => {
         if (ignore) return;
         setJurnal(data);
+        setIstoric(ist);
         setAlese(data.filter((e) => !e.facut).map((e) => e.id)); // implicit: ce e de făcut
       })
       .catch((err) => {
@@ -129,12 +144,22 @@ export default function AntrenamentPage() {
     setAlese((prev) => (prev.includes(id) ? prev.filter((x) => x !== id) : [...prev, id]));
   }
 
+  // Completează câmpurile kg / repetări cu ultimul set notat pentru acest exercițiu
+  function precompleteaza(ex) {
+    const ultim = ultimulSet(istoric, cheieExercitiu(ex));
+    setKg(ultim?.kg ? String(ultim.kg) : "");
+    setRep(ultim?.rep ? String(ultim.rep) : "");
+    setSeturiCurente([]);
+  }
+
   function handleStart() {
     pornesteSunetul();
     const now = Date.now();
-    setLista(jurnal.filter((e) => alese.includes(e.id)));
+    const deFacut = jurnal.filter((e) => alese.includes(e.id));
+    setLista(deFacut);
     setIdx(0);
     setSeria(1);
+    precompleteaza(deFacut[0]);
     setTerminate([]);
     setEroareSalvare(null);
     setStart(now);
@@ -151,7 +176,29 @@ export default function AntrenamentPage() {
     setFaza("pauza");
   }
 
+  // Salvează pe server: exercițiul devine „făcut” și seturile intră în istoric
+  async function salveaza(ex, seturi) {
+    try {
+      if (!ex.facut) await updateExercitiu(ex.id, { facut: true });
+      const intrare = await noteazaInIstoric(ex, { seturi });
+      if (intrare) setIstoric((prev) => [...prev, intrare]);
+    } catch (err) {
+      setEroareSalvare(err);
+    }
+  }
+
+  // Exercițiu terminat (complet sau oprit mai devreme): îl salvăm și verificăm recordul
+  function finalizeaza(ex, seturi) {
+    const inainte = recordPersonal(istoric, cheieExercitiu(ex));
+    const azi = celMaiBunSet(seturi);
+    const record = Boolean(inainte && azi && scorSet(azi) > scorSet(inainte));
+    setTerminate((prev) => [...prev, { ex, seturi, record }]);
+    salveaza(ex, seturi);
+  }
+
+  // Butonul „Încheie antrenamentul”: seturile deja făcute nu se pierd
   function termina() {
+    if (seturiCurente.length > 0) finalizeaza(lista[idx], seturiCurente);
     setSfarsit(Date.now());
     setFaza("final");
   }
@@ -161,32 +208,31 @@ export default function AntrenamentPage() {
     if (idx + 1 < lista.length) {
       setIdx(idx + 1);
       setSeria(1);
+      precompleteaza(lista[idx + 1]);
       if (cuPauza) intraInPauza();
     } else {
-      termina();
+      setSeturiCurente([]);
+      setSfarsit(Date.now());
+      setFaza("final");
     }
   }
 
-  // Salvează pe server: exercițiul devine „făcut” și se notează în istoric
-  async function salveaza(ex) {
-    try {
-      if (!ex.facut) await updateExercitiu(ex.id, { facut: true });
-      await noteazaInIstoric(ex, serii);
-    } catch (err) {
-      setEroareSalvare(err);
-    }
-  }
-
-  function handleSerieGata() {
+  // „Am terminat seria”: setul (kg × repetări) se notează, apoi pauză sau exercițiul următor
+  function handleSerieGata(e) {
+    e.preventDefault();
     bip(660, 100);
+    const set = {
+      kg: Math.max(0, Number(kg.replace(",", ".")) || 0),
+      rep: Math.max(0, Math.round(Number(rep) || 0)),
+    };
+    const seturi = [...seturiCurente, set];
     if (seria < serii) {
+      setSeturiCurente(seturi);
       setSeria(seria + 1);
       intraInPauza();
       return;
     }
-    const ex = lista[idx];
-    setTerminate((prev) => [...prev, { ex, serii }]);
-    salveaza(ex);
+    finalizeaza(lista[idx], seturi);
     urmatorul(true);
   }
 
@@ -324,7 +370,8 @@ export default function AntrenamentPage() {
 
   // ---------- Ecranul final ----------
   if (faza === "final") {
-    const totalSerii = terminate.reduce((s, x) => s + x.serii, 0);
+    const totalSerii = terminate.reduce((s, x) => s + x.seturi.length, 0);
+    const volumTotal = terminate.reduce((s, x) => s + volum(x.seturi), 0);
     return (
       <div className="wrap">
         <section className={`panel ${styles.final}`}>
@@ -354,13 +401,21 @@ export default function AntrenamentPage() {
               <strong>{totalSerii}</strong>
               <span>{t("ant.seriiTotal")}</span>
             </div>
+            <div>
+              <strong>{Math.round(volumTotal).toLocaleString()}</strong>
+              <span>{t("ant.volum")}</span>
+            </div>
           </div>
 
           {terminate.length > 0 && (
             <ul className={styles.terminate}>
-              {terminate.map(({ ex, serii: s }) => (
+              {terminate.map(({ ex, seturi, record }) => (
                 <li key={ex.id}>
-                  ✓ {numeAfisat(ex)} <small>· {t("stat.serii", s)}</small>
+                  <span>
+                    ✓ {numeAfisat(ex)}
+                    {record && <em className={styles.record}>🏆 {t("ant.recordNou")}</em>}
+                  </span>
+                  <small>{seturi.map(textSet).join(" · ")}</small>
                 </li>
               ))}
             </ul>
@@ -385,6 +440,8 @@ export default function AntrenamentPage() {
   const c = catalogPentru(ex);
   const progres = ((idx + (seria - 1) / serii) / lista.length) * 100;
   const ramas = Math.max(0, (pauzaPana - acum) / 1000);
+  const ultimaData = ultimulSet(istoric, cheieExercitiu(ex));
+  const record = recordPersonal(istoric, cheieExercitiu(ex));
 
   return (
     <div className="wrap">
@@ -405,6 +462,11 @@ export default function AntrenamentPage() {
           <p className={styles.urmeaza}>
             {t("ant.urmeaza")}: <strong>{numeAfisat(ex)}</strong> · {t("ant.seria", seria, serii)}
           </p>
+          {seturiCurente.length > 0 && (
+            <p className={styles.urmeaza}>
+              {t("ant.setAnterior")}: <strong>{textSet(seturiCurente[seturiCurente.length - 1])}</strong>
+            </p>
+          )}
           <div className={styles.actiuni}>
             <button
               type="button"
@@ -458,9 +520,58 @@ export default function AntrenamentPage() {
             </div>
             <p className={styles.seriaText}>{t("ant.seria", seria, serii)}</p>
 
-            <button type="button" className={styles.gata} onClick={handleSerieGata} autoFocus>
-              {seria < serii ? t("ant.gataSeria") : t("ant.gataEx")}
-            </button>
+            {/* setul curent: greutate × repetări (Enter = am terminat seria) */}
+            <form className={styles.setForm} onSubmit={handleSerieGata}>
+              <div className={styles.campuri}>
+                <label>
+                  <span>kg</span>
+                  <input
+                    type="number"
+                    inputMode="decimal"
+                    min="0"
+                    step="0.5"
+                    value={kg}
+                    onChange={(e) => setKg(e.target.value)}
+                    placeholder="0"
+                  />
+                </label>
+                <span className={styles.ori} aria-hidden="true">×</span>
+                <label>
+                  <span>{t("ant.repetari")}</span>
+                  <input
+                    type="number"
+                    inputMode="numeric"
+                    min="0"
+                    step="1"
+                    value={rep}
+                    onChange={(e) => setRep(e.target.value)}
+                    placeholder="0"
+                  />
+                </label>
+              </div>
+              <p className={styles.repere}>
+                {ultimaData && (
+                  <span>
+                    {t("ant.ultimaData")}: <strong>{textSet(ultimaData)}</strong>
+                  </span>
+                )}
+                {record && (
+                  <span>
+                    🏆 {t("ant.record")}: <strong>{textSet(record)}</strong>
+                  </span>
+                )}
+              </p>
+              {seturiCurente.length > 0 && (
+                <ol className={styles.seturiFacute}>
+                  {seturiCurente.map((st, i) => (
+                    <li key={i}>{textSet(st)}</li>
+                  ))}
+                </ol>
+              )}
+              <button type="submit" className={styles.gata}>
+                {seria < serii ? t("ant.gataSeria") : t("ant.gataEx")}
+              </button>
+            </form>
 
             <div className={styles.mici}>
               <button type="button" className="mini" onClick={() => urmatorul(false)}>

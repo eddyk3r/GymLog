@@ -56,19 +56,26 @@ export function createIstoric(intrare) {
   });
 }
 
+// Intrarea de istoric pentru un exercițiu terminat.
+// seturi: [{ kg, rep }, ...] (opțional); serii = câte seturi au fost.
+export function intrareIstoric(exercitiu, { serii = null, seturi = null } = {}) {
+  return {
+    exercitiuId: exercitiu.id,
+    catalogId: exercitiu.catalogId ?? null,
+    exercitiu: exercitiu.exercitiu,
+    grupa: exercitiu.grupa,
+    serii: seturi ? seturi.length : serii,
+    ...(seturi ? { seturi } : {}),
+    data: new Date().toISOString(),
+  };
+}
+
 // Când un exercițiu din jurnal devine „făcut”, se notează în istoric.
 // O eroare aici nu oprește bifarea: istoricul este doar pentru statistici.
-export async function noteazaInIstoric(exercitiu, serii = null) {
+export async function noteazaInIstoric(exercitiu, detalii) {
   try {
-    await createIstoric({
-      exercitiuId: exercitiu.id,
-      catalogId: exercitiu.catalogId ?? null,
-      exercitiu: exercitiu.exercitiu,
-      grupa: exercitiu.grupa,
-      serii,
-      data: new Date().toISOString(),
-    });
+    return await createIstoric(intrareIstoric(exercitiu, detalii));
   } catch {
-    // fără istoric, statisticile nu includ acest exercițiu
+    return null; // fără istoric, statisticile nu includ acest exercițiu
   }
 }

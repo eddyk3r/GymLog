@@ -4,6 +4,7 @@ import { fetchExercitiu, noteazaInIstoric, updateExercitiu } from "../api.js";
 import { catalogPentru } from "../data/catalog.js";
 import { useLimba } from "../i18n/limba.js";
 import ExercitiuDetalii from "../components/ExercitiuDetalii.jsx";
+import ProgresExercitiu from "../components/ProgresExercitiu.jsx";
 import styles from "./ExercitiuDetaliuPage.module.css";
 
 // Pagina unui exercițiu din jurnal: /exercitii/3
@@ -46,6 +47,16 @@ export default function ExercitiuDetaliuPage() {
       setExercitiu(actualizat);
       setEroareBifare(null);
       if (actualizat.facut) noteazaInIstoric(actualizat); // pentru statistici
+    } catch (err) {
+      setEroareBifare(err);
+    }
+  }
+
+  // După ce notezi seturi, exercițiul devine „făcut” (istoricul l-a primit deja)
+  async function handleNotat() {
+    if (exercitiu.facut) return;
+    try {
+      setExercitiu(await updateExercitiu(exercitiu.id, { facut: true }));
     } catch (err) {
       setEroareBifare(err);
     }
@@ -126,6 +137,8 @@ export default function ExercitiuDetaliuPage() {
             <dd>{exercitiu.id}</dd>
           </div>
         </dl>
+
+        <ProgresExercitiu exercitiu={exercitiu} onNotat={handleNotat} />
 
         {dinCatalog ? (
           <ExercitiuDetalii ex={dinCatalog} />

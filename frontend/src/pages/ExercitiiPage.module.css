@@ -106,6 +106,56 @@
   transition: width 0.5s ease;
 }
 
+/* mesajul de jos, cu „Anulează” */
+.toast {
+  position: fixed;
+  left: 50%;
+  bottom: 24px;
+  z-index: 30;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  max-width: calc(100% - 24px);
+  padding: 12px 14px 14px 18px;
+  overflow: hidden;
+  border: 2px solid var(--text);
+  border-radius: 4px;
+  background: var(--hero-bg);
+  color: var(--hero-text);
+  font-weight: 700;
+  box-shadow: 5px 5px 0 var(--accent);
+  transform: translateX(-50%);
+  animation: urca 0.3s ease-out;
+}
+.toast :global(.mini) { box-shadow: none; }
+.toastX {
+  padding: 2px 6px;
+  border: none;
+  background: transparent;
+  color: var(--hero-muted);
+  font-family: inherit;
+  font-size: 1rem;
+  box-shadow: none;
+}
+.toastX::after { display: none; }
+.toastX:hover { background: transparent; color: var(--hero-text); transform: none; box-shadow: none; }
+/* bara care arată cât timp mai poți anula */
+.toastTimp {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 4px;
+  width: 100%;
+  background: var(--accent);
+  transform-origin: left;
+  animation: scade 6s linear forwards;
+}
+
+@keyframes urca {
+  from { opacity: 0; transform: translate(-50%, 20px); }
+  to { opacity: 1; transform: translate(-50%, 0); }
+}
+@keyframes scade { to { transform: scaleX(0); } }
 @keyframes drift { to { background-position: 0 0, 22px 0, 0 0; } }
 @keyframes slam {
   from { opacity: 0; transform: scale(1.45); letter-spacing: 0.3em; }
