@@ -38,6 +38,8 @@ export function useLimba() {
     partiCorp: (text) => (ro ? traduceLista(text, PARTI_CORP_RO) : text),
     muschi: (text) => (ro ? traduceLista(text, MUSCHI_RO) : text),
     // mesajul unei erori aruncate de api.js
-    mesajEroare: (err) => (err.status ? t("err.server", err.status) : t("err.retea")),
+    // dacă serverul a trimis { error: "..." }, se afișează mesajul lui
+    mesajEroare: (err) =>
+      err.status ? err.serverMessage || t("err.server", err.status) : t("err.retea"),
   };
 }

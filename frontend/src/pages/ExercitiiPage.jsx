@@ -80,7 +80,8 @@ export default function ExercitiiPage() {
     }
   }
 
-  // „Anulează”: exercițiul se recreează pe server cu aceleași date (și același id)
+  // „Anulează”: exercițiul se recreează pe server cu aceleași date;
+  // id-ul trimis este ignorat (lista albă din validation.js), serverul dă unul nou
   async function handleAnuleaza() {
     const { ex, index } = sters;
     setSters(null);

@@ -151,6 +151,50 @@ npm run dev    # terminal 2, http://localhost:5173
 ```
 Try `/exercitii/1`, `/exercitii/999`, `/catalog?grupa=spate` and an invented address like `/ceva`.
 
+## Stage 9: own backend
+json-server is gone. The API is an Express server in `backend/`, with REST
+routes, server side validation and CORS. Data is still kept in memory and
+resets on restart (stage 10 moves it to MariaDB).
+
+- **Project:** `backend/` next to `frontend/`, with its own `package.json` (`"type": "module"`, Express 5, `cors`), `npm start` and `npm run dev` (`node --watch`, restarts on every save). `.gitignore` keeps `node_modules` and `.env` out; `.env.example` documents `PORT=3001` and `CORS_ORIGIN=http://localhost:5173`.
+- **app.js separate from server.js:** `src/app.js` builds the app (middleware, routes, 404, error handler) without opening a port; `src/server.js` only calls `app.listen`.
+- **Middleware order:** `cors()` with the allowed origin from `CORS_ORIGIN`, `express.json()`, the routes, the 404 route for unknown addresses and, last, the central error handler (four parameters). A body that is not valid JSON gets 400, a bug in the server code gets 500 with "Eroare internă". `GET /health` answers `{ "status": "ok" }`.
+- **Routes for the journal** (`src/routes/exercitii.js`, the resource from `tw.json`): `GET /exercitii`, `GET /exercitii/:id`, `POST /exercitii` (201, the id is given by the server), `PATCH /exercitii/:id` (partial change, e.g. `{ "facut": true }`), `DELETE /exercitii/:id` (204, no body). `gasesteIndex` checks the id (400 "Id invalid") and that the entry exists (404 "Exercițiul nu există") in one place. The server starts with the 7 entries that were in `db.json`.
+- **Routes for the history** (`src/routes/istoric.js`): `GET /istoric` and `POST /istoric`, used by the stats, the body map and the progress chart. It starts empty, so only what you log yourself is counted.
+- **Validation on the server** (`src/validation.js`): `exercitiu` is required, trimmed, max 60 characters (the same limit as the form); `grupa` and `intensitate` must be one of the fixed values, which are the same as in `frontend/src/constants.js`; `facut` must be true or false (default false); `catalogId` is text or null. History entries are checked too (`grupa`, `exercitiuId`, `serii`, `seturi` with `kg >= 0` and whole `rep > 0`, a valid date). Only known fields are kept (allow list), so an `id` or any other field sent by the client is ignored. Every error has the same shape: `{ "error": "..." }`.
+- **Frontend:** almost unchanged, thanks to `api.js`. The only change is in `request`: on an error it reads `{ error }` from the response, and the page shows the server message (for example "Exercițiul nu există" on `/exercitii/999`) instead of "Eroare server: 404". The "is the API running?" hint now points to the backend, and "Undo" after a delete recreates the exercise with a new id given by the server.
+- **json-server removed:** `frontend/db.json`, the `api` script and the `json-server` package are deleted from `frontend/`; `npm install` updated `package-lock.json`.
+
+### Testing with curl
+With the backend running (Git Bash, WSL or the VS Code REST Client on Windows; PowerShell treats quotes differently):
+```
+curl -s -w '  -> %{http_code}\n' http://localhost:3001/exercitii
+
+curl -s -w '  -> %{http_code}\n' -X POST http://localhost:3001/exercitii \
+  -H "Content-Type: application/json" \
+  -d '{"exercitiu":"Din curl","facut":false,"intensitate":"medie","grupa":"piept"}'
+
+curl -s -w '  -> %{http_code}\n' -X PATCH http://localhost:3001/exercitii/8 \
+  -H "Content-Type: application/json" -d '{"facut":true}'
+
+curl -s -w '  -> %{http_code}\n' -X POST http://localhost:3001/exercitii \
+  -H "Content-Type: application/json" -d '{"exercitiu":""}'
+
+curl -s -w '  -> %{http_code}\n' http://localhost:3001/exercitii/999
+curl -s -w '  -> %{http_code}\n' -X DELETE http://localhost:3001/exercitii/8
+```
+Expected: 200, 201 (with `id` 8), 200, 400 with `{ "error": "..." }`, 404 with `{ "error": "Exercițiul nu există" }`, 204.
+
+To see a CORS error, open the app at http://127.0.0.1:5173 instead of http://localhost:5173: the requests are blocked and the console shows that `Access-Control-Allow-Origin` is `http://localhost:5173`. The fix is on the server, through `CORS_ORIGIN`.
+
+## How to run
+Two terminals:
+```
+cd backend && npm install && npm run dev          # terminal 1, port 3001
+cd frontend && npm install && npm run dev         # terminal 2, port 5173
+```
+Then open http://localhost:5173. Check the API alone at http://localhost:3001/health.
+
 ## AI usage
 AI was used as a learning and coding assistant. See `ai-log/` for the log of each stage.
 
@@ -163,7 +207,8 @@ AI was used as a learning and coding assistant. See `ai-log/` for the log of eac
 - [x] Stage 6: data from a mock API
 - [x] Stage 7: form and validation
 - [x] Stage 8: routing and detail page
-- [ ] Stage 9: own backend with Express
+- [x] Stage 9: own backend with Express
+- [ ] Stage 10: MariaDB and full CRUD
 
 ## Stage 3 checklist
 

@@ -85,7 +85,7 @@ export default function CatalogPage() {
   }
 
   // Întâi serverul, apoi state-ul (ca în pagina Jurnal).
-  // În db.json se salvează numele în engleză; afișarea îl traduce prin catalogId.
+  // Pe server se salvează numele în engleză; afișarea îl traduce prin catalogId.
   async function handleAdauga(ex, intensitate = "medie") {
     const creat = await createExercitiu({
       exercitiu: ex.nume,

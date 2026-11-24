@@ -8,8 +8,11 @@ async function request(path, options = {}) {
     headers: { "Content-Type": "application/json", ...options.headers },
   });
   if (!res.ok) {
-    const err = new Error(`Eroare server: ${res.status}`);
-    err.status = res.status; // interfața construiește mesajul în limba aleasă
+    // API-ul propriu (backend/, Express) răspunde cu { error: "..." }
+    const body = await res.json().catch(() => ({}));
+    const err = new Error(body.error || `Eroare server: ${res.status}`);
+    err.status = res.status;
+    err.serverMessage = body.error ?? null; // mesajul trimis de server, dacă există
     throw err;
   }
   // 204 No Content nu are corp

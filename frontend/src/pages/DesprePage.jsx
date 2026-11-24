@@ -19,7 +19,7 @@ const VALORI = [
   { icon: "🧠", cheie: "tehnica" },
 ];
 
-const STACK = ["React", "Vite", "React Router", "CSS Modules", "json-server"];
+const STACK = ["React", "Vite", "React Router", "CSS Modules", "Node.js", "Express"];
 
 // Pagina de prezentare: povestea, misiunea și valorile aplicației
 export default function DesprePage() {

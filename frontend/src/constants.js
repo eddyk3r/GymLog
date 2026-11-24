@@ -1,4 +1,4 @@
-// Valorile fixe, într-un singur loc. Valorile trebuie să fie exact cele din db.json.
+// Valorile fixe, într-un singur loc. Valorile trebuie să fie exact cele din backend/src/validation.js.
 // Etichetele lor (în română și engleză) sunt în i18n/texte.js.
 
 // Grupele musculare, în ordinea din bara de categorii

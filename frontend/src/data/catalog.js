@@ -1,6 +1,6 @@
 // Catalogul de exerciții preadăugate (imagini și video de pe lyfta.app).
 // Este o listă fixă, de referință: nu se modifică din aplicație, deci nu stă pe server.
-// Pe server (db.json) stă doar jurnalul utilizatorului; un element din jurnal
+// Pe server (backend/) stă doar jurnalul utilizatorului; un element din jurnal
 // adăugat din catalog păstrează legătura prin câmpul catalogId.
 import date from "./catalog.json";
 
